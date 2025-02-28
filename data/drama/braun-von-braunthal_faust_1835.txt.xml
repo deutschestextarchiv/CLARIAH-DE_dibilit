@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1835</date>
                   <date type="firstPublication" subtype="i5">1835</date>
                   <date type="firstPublication" subtype="gerdracor">1835</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1802"
-                        notAfter="1835"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1802" notAfter="1835"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2893e375">Erstdruck: Leipzig (Brockhaus) 1835.</note>
@@ -177,133 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="kern" sex="MALE">
-                  <persName>Kern</persName>
-               </person>
-               <person xml:id="weinhold" sex="MALE">
-                  <persName>Weinhold</persName>
-               </person>
-               <person xml:id="zunder" sex="MALE">
-                  <persName>Zunder</persName>
-               </person>
-               <person xml:id="annchen" sex="FEMALE">
-                  <persName>Annchen</persName>
-               </person>
-               <person xml:id="wirth" sex="MALE">
-                  <persName>Wirth</persName>
-               </person>
-               <person xml:id="wagner" sex="MALE">
-                  <persName>Wagner</persName>
-               </person>
-               <person xml:id="nase" sex="MALE">
-                  <persName>Nase</persName>
-               </person>
-               <person xml:id="murrner" sex="MALE">
-                  <persName>Murrner</persName>
-               </person>
-               <personGrp xml:id="die_buerger_1-2" sex="UNKNOWN">
-                  <name>Die Bürger (I/2)</name>
-                  <name type="variant">Geschrei der Bürger</name>
-               </personGrp>
-               <personGrp xml:id="die_buerger_1-5" sex="UNKNOWN">
-                  <name>Die Bürger (I/5)</name>
-                  <name type="variant">Mehre Bürger</name>
-                  <name type="variant">Andere</name>
-               </personGrp>
-               <personGrp xml:id="studenten" sex="MALE">
-                  <name>Studenten</name>
-                  <name type="variant">Geschrei der Studenten</name>
-                  <name type="variant">Alle Studenten</name>
-               </personGrp>
-               <person xml:id="fausts_vater" sex="MALE">
-                  <persName>Fausts Vater</persName>
-               </person>
-               <person xml:id="faust" sex="MALE">
-                  <persName>Faust</persName>
-               </person>
-               <person xml:id="schatten" sex="UNKNOWN">
-                  <persName>Schatten</persName>
-               </person>
-               <person xml:id="mephistopheles" sex="MALE">
-                  <persName>Mephistopheles</persName>
-                  <persName type="variant">Aus der Ferne</persName>
-               </person>
-               <personGrp xml:id="unsichtbarer_chor" sex="UNKNOWN">
-                  <name>Unsichtbarer Chor</name>
-               </personGrp>
-               <person xml:id="zwitsch" sex="MALE">
-                  <persName>Zwitsch</persName>
-               </person>
-               <person xml:id="cosmo" sex="MALE">
-                  <persName>Cosmo</persName>
-               </person>
-               <person xml:id="robert" sex="MALE">
-                  <persName>Graf Robert</persName>
-               </person>
-               <person xml:id="bianca" sex="FEMALE">
-                  <persName>Bianca</persName>
-               </person>
-               <personGrp xml:id="die_zofen" sex="FEMALE">
-                  <name>Die Zofen</name>
-                  <name type="variant">Chor der Zofen</name>
-                  <name type="variant">Zofen</name>
-               </personGrp>
-               <personGrp xml:id="die_diener" sex="MALE">
-                  <name>Die Diener</name>
-                  <name type="variant">Chor der Diener</name>
-               </personGrp>
-               <personGrp xml:id="die_damen" sex="FEMALE">
-                  <name>Die Damen</name>
-                  <name type="variant">Chor der Damen</name>
-                  <name type="variant">Geschrei der Frauen</name>
-               </personGrp>
-               <personGrp xml:id="die_herren" sex="MALE">
-                  <name>Die Herren</name>
-                  <name type="variant">Chor der Herren</name>
-                  <name type="variant">Geschrei der Männer</name>
-               </personGrp>
-               <person xml:id="crabe" sex="MALE">
-                  <persName>Crabe</persName>
-               </person>
-               <person xml:id="dujour" sex="MALE">
-                  <persName>Dujour</persName>
-               </person>
-               <person xml:id="le_doigt" sex="MALE">
-                  <persName>Le Doigt</persName>
-               </person>
-               <person xml:id="appeau" sex="MALE">
-                  <persName>Appeau</persName>
-               </person>
-               <personGrp xml:id="alle_maskenball" sex="UNKNOWN">
-                  <name>Alle (Maskenball)</name>
-                  <name type="variant">Einige</name>
-               </personGrp>
-               <person xml:id="anselmo" sex="MALE">
-                  <persName>Pater Anselmo</persName>
-               </person>
-               <person xml:id="der_kaiser" sex="MALE">
-                  <persName>Kaiser Karl der Fünfte</persName>
-               </person>
-               <person xml:id="rosa" sex="FEMALE">
-                  <persName>Rosa</persName>
-               </person>
-               <person xml:id="juanito" sex="MALE">
-                  <persName>Juanito</persName>
-               </person>
-               <person xml:id="eine_stimme_aus_der_hoehe" sex="UNKNOWN">
-                  <persName>Eine Stimme aus der Höhe</persName>
-               </person>
-               <person xml:id="eine_stimme_aus_der_tiefe" sex="UNKNOWN">
-                  <persName>Eine Stimme aus der Tiefe</persName>
-               </person>
-               <personGrp xml:id="chor_der_moenche" sex="MALE">
-                  <name>Chor der Mönche</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/116428384">
+                        <forename>Karl Johann</forename>
+                        <surname>Braun von Braunthal</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

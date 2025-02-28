@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,10 +170,7 @@
                   <date type="firstPublication" subtype="zeno">1855</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1855</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1813"
-                        notAfter="1855"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1813" notAfter="1855"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1388e359">Erstdruck: Wien (K. Ueberreuter) 1855. Uraufführung am 25.3.1852 in München.</note>
@@ -196,109 +190,20 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="theobald" sex="MALE">
-                  <persName>Theobald</persName>
-               </person>
-               <person xml:id="agnes" sex="FEMALE">
-                  <persName>Agnes</persName>
-               </person>
-               <person xml:id="knippeldollinger" sex="MALE">
-                  <persName>Knippeldollinger</persName>
-               </person>
-               <person xml:id="barbara" sex="FEMALE">
-                  <persName>Barbara</persName>
-               </person>
-               <person xml:id="caspar_bernauer" sex="MALE">
-                  <persName>Caspar Bernauer</persName>
-               </person>
-               <person xml:id="albrecht" sex="MALE">
-                  <persName>Albrecht</persName>
-               </person>
-               <person xml:id="buergermeister" sex="MALE">
-                  <persName>Bürgermeister</persName>
-                  <persName type="variant">Bürgermeister Nördlinger</persName>
-               </person>
-               <person xml:id="nothhafft_von_wernberg" sex="MALE">
-                  <persName>Nothhafft von Wernberg</persName>
-               </person>
-               <person xml:id="frauenhoven" sex="MALE">
-                  <persName>Rolf von Frauenhoven</persName>
-               </person>
-               <person xml:id="toerring" sex="MALE">
-                  <persName>Törring</persName>
-               </person>
-               <person xml:id="ein_knappe" sex="MALE">
-                  <persName>Ein Knappe</persName>
-               </person>
-               <person xml:id="martha" sex="FEMALE">
-                  <persName>Martha</persName>
-               </person>
-               <person xml:id="ernst" sex="MALE">
-                  <persName>Ernst</persName>
-               </person>
-               <person xml:id="stachus" sex="MALE">
-                  <persName>Stachus</persName>
-               </person>
-               <person xml:id="preising" sex="MALE">
-                  <persName>Preising</persName>
-                  <persName type="variant">Der Kanzler Preising</persName>
-               </person>
-               <person xml:id="kastellan" sex="MALE">
-                  <persName>Kastellan</persName>
-               </person>
-               <person xml:id="marschall_von_pappenheim" sex="MALE">
-                  <persName>Marschall von Pappenheim</persName>
-                  <persName type="variant">Marschall</persName>
-                  <persName type="variant">Pappenheim</persName>
-               </person>
-               <person xml:id="pienzenau" sex="MALE">
-                  <persName>Pienzenau</persName>
-                  <persName type="variant">Wolfram von Pienzenau</persName>
-               </person>
-               <person xml:id="otto_von_bern" sex="MALE">
-                  <persName>Otto von Bern</persName>
-               </person>
-               <person xml:id="ignaz_von_seyboltstorff" sex="MALE">
-                  <persName>Ignaz von Seyboltstorff</persName>
-               </person>
-               <person xml:id="schildknapp" sex="MALE">
-                  <persName>Ein Schildknapp</persName>
-               </person>
-               <person xml:id="hans_von_laeubelfing" sex="MALE">
-                  <persName>Hans von Läubelfing</persName>
-               </person>
-               <person xml:id="der_kastellan" sex="MALE">
-                  <persName>Der Kastellan</persName>
-               </person>
-               <personGrp xml:id="die_knechte" sex="MALE">
-                  <name>Die Knechte</name>
-               </personGrp>
-               <personGrp xml:id="die_reisigen" sex="MALE">
-                  <name>Die Reisigen</name>
-               </personGrp>
-               <person xml:id="emeran_nusperger_zu_kalmperg" sex="MALE">
-                  <persName>Emeran Nusperger zu Kalmperg</persName>
-               </person>
-               <person xml:id="ein_haescher" sex="MALE">
-                  <persName>Ein Häscher</persName>
-               </person>
-               <personGrp xml:id="einige_andere_alle_stimmen" sex="UNKNOWN">
-                  <name>Einige/Andere/Alle/Stimmen</name>
-               </personGrp>
-               <person xml:id="der_herold" sex="MALE">
-                  <persName>Der Herold</persName>
-               </person>
-               <personGrp xml:id="die_ritter" sex="MALE">
-                  <name>Die Ritter</name>
-               </personGrp>
-               <person xml:id="der_legat" sex="MALE">
-                  <persName>Der Legat</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118547445">
+                        <forename>Friedrich</forename>
+                        <surname>Hebbel</surname>
+                     </persName></person><person sex="m" role="editor"><persName>
+                        <forename>Gerhard</forename>
+                        <surname>Fricke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Werner</forename>
+                        <surname>Keller</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

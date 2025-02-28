@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,74 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="frau_ermischer" sex="FEMALE">
-                  <persName>Frau Ermischer</persName>
-               </person>
-               <person xml:id="maari" sex="FEMALE">
-                  <persName>Maari</persName>
-               </person>
-               <person xml:id="ermischer" sex="MALE">
-                  <persName>Ermischer</persName>
-               </person>
-               <person xml:id="ulbrich" sex="MALE">
-                  <persName>Ulbrich</persName>
-               </person>
-               <person xml:id="seifert" sex="MALE">
-                  <persName>Seifert</persName>
-               </person>
-               <person xml:id="weigel" sex="MALE">
-                  <persName>Gendarm Weigel</persName>
-               </person>
-               <person xml:id="neubert" sex="MALE">
-                  <persName>Neubert</persName>
-               </person>
-               <person xml:id="frau_neubert" sex="FEMALE">
-                  <persName>Frau Neubert</persName>
-               </person>
-               <person xml:id="neumerkel" sex="MALE">
-                  <persName>Neumerkel</persName>
-               </person>
-               <person xml:id="heinerle" sex="MALE">
-                  <persName>Heinerle</persName>
-               </person>
-               <person xml:id="fraenzel" sex="FEMALE">
-                  <persName>Fränzel</persName>
-               </person>
-               <person xml:id="liesel" sex="FEMALE">
-                  <persName>Liesel</persName>
-               </person>
-               <person xml:id="frau_schoenherr" sex="FEMALE">
-                  <persName>Frau Schönherr</persName>
-               </person>
-               <person xml:id="gertrud" sex="FEMALE">
-                  <persName>Gertrud</persName>
-               </person>
-               <person xml:id="schoenherr" sex="MALE">
-                  <persName>Meister Schönherr</persName>
-               </person>
-               <person xml:id="frau_ulbrich" sex="FEMALE">
-                  <persName>Frau Ulbrich</persName>
-               </person>
-               <person xml:id="frau_seifert" sex="FEMALE">
-                  <persName>Frau Seifert</persName>
-               </person>
-               <personGrp xml:id="die_waldarbeiter" sex="MALE">
-                  <name>Die Waldarbeiter</name>
-               </personGrp>
-               <person xml:id="ein_bauer" sex="MALE">
-                  <persName>Ein Bauer</persName>
-               </person>
-               <personGrp xml:id="die_schnitzler_schnitzlersleute" sex="MALE">
-                  <name>Die Schnitzler/Schnitzlersleute</name>
-               </personGrp>
-               <personGrp xml:id="die_bauern" sex="MALE">
-                  <name>Die Bauern</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="editor" sex="m"><persName ref="http://d-nb.info/gnd/120568691">
+                        <forename>Roy C. (Chadwell)</forename>
+                        <surname>Cowen</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

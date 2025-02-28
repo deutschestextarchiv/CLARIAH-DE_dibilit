@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1775</date>
                   <date type="firstPublication" subtype="i5">1775</date>
                   <date type="firstPublication" subtype="gerdracor">1775</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1748"
-                        notAfter="1775"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1748" notAfter="1775"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2039e288">Erstdruck anonym: Prag (Joseph Emanuel Diesbach) 1775.</note>
@@ -177,62 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="wagner" sex="MALE">
-                  <persName>Wagner</persName>
-               </person>
-               <person xml:id="theodor" sex="MALE">
-                  <persName>Theodor</persName>
-               </person>
-               <person xml:id="elisabeth" sex="FEMALE">
-                  <persName>Elisabeth</persName>
-               </person>
-               <person xml:id="donnerschlag" sex="MALE">
-                  <persName>Donnerschlag</persName>
-               </person>
-               <person xml:id="spuraus" sex="MALE">
-                  <persName>Spuraus</persName>
-               </person>
-               <person xml:id="emilie" sex="FEMALE">
-                  <persName>Emilie</persName>
-               </person>
-               <person xml:id="faust" sex="MALE">
-                  <persName>Faust</persName>
-               </person>
-               <person xml:id="ithuriel" sex="MALE">
-                  <persName>Ithuriel</persName>
-               </person>
-               <person xml:id="helena" sex="FEMALE">
-                  <persName>Helena</persName>
-               </person>
-               <person xml:id="mephistopheles" sex="MALE">
-                  <persName>Mephistopheles</persName>
-               </person>
-               <person xml:id="friedreich" sex="MALE">
-                  <persName>Friedreich</persName>
-               </person>
-               <person xml:id="silbergeitz" sex="MALE">
-                  <persName>Silbergeitz</persName>
-               </person>
-               <person xml:id="schoenheitlieb" sex="FEMALE">
-                  <persName>Schönheitlieb</persName>
-               </person>
-               <person xml:id="raufgern" sex="MALE">
-                  <persName>Raufgern</persName>
-               </person>
-               <person xml:id="sorgenvoll" sex="MALE">
-                  <persName>Sorgenvoll</persName>
-               </person>
-               <person xml:id="waisenplag" sex="MALE">
-                  <persName>Waisenplag</persName>
-               </person>
-               <personGrp xml:id="chor_3-4" sex="UNKNOWN">
-                  <name>Chor (III/4)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/119497921">
+                        <forename>Paul</forename>
+                        <surname>Weidmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

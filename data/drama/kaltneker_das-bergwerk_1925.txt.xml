@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -159,10 +156,7 @@
                   <date type="firstPublication" subtype="zeno">1921</date>
                   <date type="firstPublication" subtype="i5">1921</date>
                   <date type="firstPublication" subtype="gerdracor">1921</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1895"
-                        notAfter="1919"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1895" notAfter="1919"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d275e419">Erstdruck: Wien (Donau Verlag), 1921.</note>
@@ -182,186 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="ein_weib_1a" sex="FEMALE">
-                  <persName>Ein Weib</persName>
-               </person>
-               <person xml:id="mann_1a" sex="MALE">
-                  <persName>Mann</persName>
-               </person>
-               <person xml:id="ingenieur" sex="MALE">
-                  <persName>Ingenieur</persName>
-               </person>
-               <personGrp xml:id="stimmen_aufschrei_vereinzelte_ausbruch_alle_die_menge_rufe"
-                          sex="UNKNOWN">
-                  <name>Stimmen/Aufschrei/Aufschrei aller/Vereinzelte/Ausbruch/Alle/Aufheulen der
-              Menge/Die Menge/Rufe/Entsetzte Rufe/Aufschrei der Menge (I. Akt)</name>
-               </personGrp>
-               <person xml:id="einer_1b" sex="MALE">
-                  <persName>Einer</persName>
-               </person>
-               <person xml:id="eine_irrsinnige_weiberstimme_1b" sex="FEMALE">
-                  <persName>Eine irrsinnige Weiberstimme</persName>
-               </person>
-               <person xml:id="maennerstimme_1c" sex="MALE">
-                  <persName>Männerstimme</persName>
-               </person>
-               <person xml:id="eine_andere_1d" sex="MALE">
-                  <persName>Eine andere</persName>
-               </person>
-               <person xml:id="regierungsvertreter" sex="MALE">
-                  <persName>Regierungsvertreter</persName>
-               </person>
-               <person xml:id="schachtaufseher" sex="MALE">
-                  <persName>Schachtaufseher/Aufseher</persName>
-               </person>
-               <person xml:id="ein_mann_1e" sex="MALE">
-                  <persName>Ein Mann</persName>
-               </person>
-               <person xml:id="anderer_1f" sex="MALE">
-                  <persName>Anderer</persName>
-               </person>
-               <person xml:id="weib_1c" sex="FEMALE">
-                  <persName>Weib</persName>
-               </person>
-               <person xml:id="ein_mann_1g" sex="MALE">
-                  <persName>Ein Mann</persName>
-               </person>
-               <person xml:id="ein_mann_1h" sex="MALE">
-                  <persName>Ein Mann</persName>
-               </person>
-               <personGrp xml:id="maenner_stimmen_von_hinten" sex="MALE">
-                  <name>Männer/Stimmen von hinten</name>
-               </personGrp>
-               <person xml:id="oberaufseher" sex="MALE">
-                  <persName>Oberaufseher</persName>
-               </person>
-               <person xml:id="reporter" sex="MALE">
-                  <persName>Reporter</persName>
-               </person>
-               <person xml:id="das_kniende_weib_1d" sex="FEMALE">
-                  <persName>Das kniende Weib</persName>
-                  <persName type="variant">Weib</persName>
-               </person>
-               <person xml:id="mann_1i" sex="MALE">
-                  <persName>Mann</persName>
-               </person>
-               <person xml:id="junges_weib_1e" sex="FEMALE">
-                  <persName>Junges Weib</persName>
-               </person>
-               <person xml:id="ein_anderes_1f" sex="FEMALE">
-                  <persName>Ein Anderes</persName>
-               </person>
-               <person xml:id="ein_alter_1j" sex="MALE">
-                  <persName>Ein Alter</persName>
-               </person>
-               <person xml:id="anderer_1k" sex="MALE">
-                  <persName>Anderer</persName>
-               </person>
-               <personGrp xml:id="weiber" sex="FEMALE">
-                  <name>Weiber</name>
-               </personGrp>
-               <person xml:id="ein_maedchen" sex="FEMALE">
-                  <persName>Ein Mädchen</persName>
-               </person>
-               <person xml:id="eine_ganz_hohe_schrille_stimme" sex="UNKNOWN">
-                  <persName>Eine ganz hohe, schrille Stimme</persName>
-               </person>
-               <person xml:id="ein_aelterer_bergmann" sex="MALE">
-                  <persName>Ein älterer Bergmann</persName>
-                  <persName type="variant">Der Bergmann</persName>
-               </person>
-               <person xml:id="ein_weib_1g" sex="FEMALE">
-                  <persName>Ein Weib</persName>
-                  <persName type="variant">Das Weib</persName>
-               </person>
-               <person xml:id="der_sterbende" sex="MALE">
-                  <persName>Der Sterbende</persName>
-               </person>
-               <person xml:id="ein_mann_1l" sex="MALE">
-                  <persName>Ein Mann</persName>
-               </person>
-               <person xml:id="ein_weib_1h" sex="FEMALE">
-                  <persName>Ein Weib</persName>
-               </person>
-               <person xml:id="vierter_bergmann" sex="MALE">
-                  <persName>Vierter Bergmann</persName>
-               </person>
-               <person xml:id="erster_bergmann_michael" sex="MALE">
-                  <persName>Erster Bergmann (Michael)</persName>
-               </person>
-               <person xml:id="zweiter_bergmann" sex="MALE">
-                  <persName>Zweiter Bergmann</persName>
-               </person>
-               <person xml:id="fuenfter_bergmann" sex="MALE">
-                  <persName>Fünfter Bergmann</persName>
-               </person>
-               <person xml:id="dritter_bergmann_martin" sex="MALE">
-                  <persName>Dritter Bergmann (Martin)</persName>
-               </person>
-               <person xml:id="hess" sex="MALE">
-                  <persName>Heß</persName>
-               </person>
-               <person xml:id="wanda" sex="FEMALE">
-                  <persName>Wanda</persName>
-               </person>
-               <person xml:id="hennig" sex="MALE">
-                  <persName>Hennig</persName>
-               </person>
-               <person xml:id="ruschnow" sex="MALE">
-                  <persName>Ruschnow</persName>
-               </person>
-               <person xml:id="tietze" sex="MALE">
-                  <persName>Tietze</persName>
-               </person>
-               <person xml:id="vogler" sex="MALE">
-                  <persName>Vogler</persName>
-               </person>
-               <person xml:id="fabius" sex="MALE">
-                  <persName>Fabius</persName>
-               </person>
-               <person xml:id="holsen" sex="MALE">
-                  <persName>Holsen</persName>
-               </person>
-               <person xml:id="ledovsky" sex="MALE">
-                  <persName>Ledovsky</persName>
-               </person>
-               <person xml:id="kaffka" sex="MALE">
-                  <persName>Kaffka</persName>
-               </person>
-               <person xml:id="timm" sex="MALE">
-                  <persName>Timm</persName>
-               </person>
-               <person xml:id="lersner" sex="MALE">
-                  <persName>Lersner</persName>
-               </person>
-               <personGrp xml:id="alle_einstimmig_stimmen_vereinzelte_rufe_sturm_der_entruestung_allgemeiner_aufschrei_fluestern"
-                          sex="UNKNOWN">
-                  <name>Alle/Einstimmig/Stimmen/Vereinzelte Rufe/Rufe/Sturm der Entrüstung/Allgemeiner
-              Aufschrei/Flüstern (II. Akt)</name>
-               </personGrp>
-               <person xml:id="anna" sex="FEMALE">
-                  <persName>Anna</persName>
-               </person>
-               <person xml:id="sinner" sex="MALE">
-                  <persName>Sinner</persName>
-               </person>
-               <person xml:id="schmidt" sex="MALE">
-                  <persName>Schmidt</persName>
-               </person>
-               <person xml:id="einer_3" sex="MALE">
-                  <persName>Einer</persName>
-               </person>
-               <person xml:id="streikleiter" sex="MALE">
-                  <persName>Ein Streikleiter</persName>
-               </person>
-               <personGrp xml:id="rufe_die_menge_vereinzelte_rufe" sex="UNKNOWN">
-                  <name>Rufe/Die Menge/Vereinzelte Rufe (III. Akt)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/11855963X">
+                        <forename>Hans</forename>
+                        <surname>Kaltneker</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Paul</forename>
+                        <surname>Zsolnay</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -158,10 +155,7 @@
                   <date type="firstPublication" subtype="clariah">1532</date>
                   <date type="firstPublication" subtype="zeno">1532</date>
                   <date type="firstPublication" subtype="i5">1564</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1494"
-                        notAfter="1553"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1494" notAfter="1553"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#BRabelais-Franco-d1e288">Erstdruck 1532–1564. 1. Buch Lyon 1532, 2. Buch Lyon 1534, 3. Buch Paris 1546, 11 Kap. des 4. Buchs Lyon 1548, 4. Buch Paris 1552, unvollst. Fass. d. 5. Buchs o.O. 1562, 5. Buch Lyon 1564. Hier in der Übers. v. Gottlob Regis.</note>
@@ -175,7 +169,13 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118597450">
+                        <forename>Franz</forename>
+                        <surname>Rabelais</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wilhelm</forename>
+                        <surname>Weigand</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

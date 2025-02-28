@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -159,10 +156,7 @@
                   <date type="firstPublication" subtype="zeno">1561</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1494"
-                        notAfter="1576"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1494" notAfter="1576"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2270e233">Erstdruck in [Werke, dritter Band:] »Sehr herrliche, schöne Tragedi ...« , zweiter Teil, Nürnberg (gedruckt bei Christoff Heußler), 1561; darin datiert: 01.01.1527.</note>
@@ -182,7 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118604597">
+                        <forename>Hans</forename>
+                        <surname>Sachs</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Adelbert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Keller</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

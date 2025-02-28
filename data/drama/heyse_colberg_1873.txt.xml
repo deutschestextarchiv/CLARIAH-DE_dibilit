@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1868</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1868</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1830"
-                        notAfter="1910"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1830" notAfter="1910"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1752e328">Erstdruck in »P. Heyse: Dramatische Dichtungen«, 5. Band, Berlin (Hertz), 1868. Uraufführung 1865 in Berlin.</note>
@@ -177,102 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="rose" sex="FEMALE">
-                  <persName>Rose</persName>
-               </person>
-               <person xml:id="bruennow" sex="MALE">
-                  <persName>Brünnow</persName>
-               </person>
-               <person xml:id="heinrich" sex="MALE">
-                  <persName>Heinrich</persName>
-               </person>
-               <person xml:id="mutter" sex="FEMALE">
-                  <persName>Mutter</persName>
-                  <persName type="variant">Die Mutter</persName>
-               </person>
-               <person xml:id="nettelbeck" sex="MALE">
-                  <persName>Nettelbeck</persName>
-               </person>
-               <person xml:id="arndt" sex="MALE">
-                  <persName>Arndt</persName>
-               </person>
-               <person xml:id="gefreiter" sex="MALE">
-                  <persName>Gefreiter</persName>
-               </person>
-               <person xml:id="wuerges" sex="MALE">
-                  <persName>Würges</persName>
-               </person>
-               <person xml:id="gneisenau" sex="MALE">
-                  <persName>Gneisenau</persName>
-               </person>
-               <person xml:id="kellermeister" sex="MALE">
-                  <persName>Kellermeister</persName>
-               </person>
-               <person xml:id="grueneberg" sex="MALE">
-                  <persName>Grüneberg</persName>
-               </person>
-               <person xml:id="schroeder" sex="MALE">
-                  <persName>Schröder</persName>
-               </person>
-               <person xml:id="geertz" sex="MALE">
-                  <persName>Geertz</persName>
-               </person>
-               <person xml:id="rector_zipfel" sex="MALE">
-                  <persName>Rector Zipfel</persName>
-               </person>
-               <personGrp xml:id="die_buerger_2-3_bis_2-6" sex="UNKNOWN">
-                  <name>Die Bürger (II/3–6)</name>
-               </personGrp>
-               <person xml:id="soldat" sex="MALE">
-                  <persName>Soldat</persName>
-               </person>
-               <person xml:id="erster_buerger" sex="MALE">
-                  <persName>Erster Bürger</persName>
-               </person>
-               <person xml:id="zweiter_buerger" sex="MALE">
-                  <persName>Zweiter Bürger</persName>
-               </person>
-               <person xml:id="dritter_buerger" sex="MALE">
-                  <persName>Dritter Bürger</persName>
-               </person>
-               <person xml:id="vierter_buerger" sex="MALE">
-                  <persName>Vierter Bürger</persName>
-               </person>
-               <personGrp xml:id="buerger_3-9" sex="UNKNOWN">
-                  <name>Bürger (III/9)</name>
-               </personGrp>
-               <person xml:id="weber" sex="MALE">
-                  <persName>Weber</persName>
-               </person>
-               <person xml:id="offizier_4-3" sex="MALE">
-                  <persName>Offizier (IV/3)</persName>
-               </person>
-               <person xml:id="steinmetz" sex="MALE">
-                  <persName>Steinmetz</persName>
-               </person>
-               <personGrp xml:id="die_andern" sex="UNKNOWN">
-                  <name>Die Andern</name>
-               </personGrp>
-               <person xml:id="offizier_5-9a" sex="MALE">
-                  <persName>Offizier (Lieutnant von Petersdorf)</persName>
-               </person>
-               <person xml:id="offizier_5-9b" sex="MALE">
-                  <persName>Offizier (von Hagen)</persName>
-               </person>
-               <person xml:id="erste_ordonnanz" sex="MALE">
-                  <persName>Erste Ordonnanz</persName>
-               </person>
-               <person xml:id="zweite_ordonnanz" sex="MALE">
-                  <persName>Zweite Ordonnanz</persName>
-               </person>
-               <person xml:id="dritte_ordonnanz" sex="MALE">
-                  <persName>Dritte Ordonnanz</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118550772">
+                        <forename>Paul</forename>
+                        <surname>Heyse</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

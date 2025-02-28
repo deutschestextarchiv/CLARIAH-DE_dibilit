@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,59 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="dominik" sex="MALE">
-                  <persName>Dominik</persName>
-               </person>
-               <personGrp xml:id="alle_1-1" sex="UNKNOWN">
-                  <name>Alle (I/1)</name>
-               </personGrp>
-               <person xml:id="ein_kraemer" sex="MALE">
-                  <persName>Ein Krämer</persName>
-                  <persName type="variant">Krämer</persName>
-               </person>
-               <person xml:id="frau_von_erbsenstein" sex="FEMALE">
-                  <persName>Frau von Erbsenstein</persName>
-               </person>
-               <person xml:id="nanett" sex="FEMALE">
-                  <persName>Nanett</persName>
-               </person>
-               <person xml:id="kauz" sex="MALE">
-                  <persName>Kauz</persName>
-               </person>
-               <person xml:id="schnoferl" sex="MALE">
-                  <persName>Schnoferl</persName>
-                  <persName type="variant">Er</persName>
-               </person>
-               <person xml:id="gigl" sex="MALE">
-                  <persName>Gigl</persName>
-               </person>
-               <person xml:id="thekla" sex="FEMALE">
-                  <persName>Thekla</persName>
-               </person>
-               <personGrp xml:id="chor_der_gesellschaft" sex="UNKNOWN">
-                  <name>Chor der Gesellschaft</name>
-               </personGrp>
-               <person xml:id="knoepfel" sex="MALE">
-                  <persName>Knöpfel</persName>
-               </person>
-               <person xml:id="madame_storch" sex="FEMALE">
-                  <persName>Madame Storch</persName>
-               </person>
-               <person xml:id="rosalie" sex="FEMALE">
-                  <persName>Rosalie</persName>
-                  <persName type="variant">Sie</persName>
-               </person>
-               <person xml:id="sabine" sex="FEMALE">
-                  <persName>Sabine</persName>
-               </person>
-               <person xml:id="peppi" sex="FEMALE">
-                  <persName>Peppi</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118587080">
+                        <forename>Johann</forename>
+                        <surname>Nestroy</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -180,116 +177,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="barjac" sex="MALE">
-                  <persName>Barjac</persName>
-               </person>
-               <person xml:id="epinay" sex="FEMALE">
-                  <persName>Marquise d'Epinay</persName>
-               </person>
-               <person xml:id="grimm" sex="MALE">
-                  <persName>Grimm</persName>
-               </person>
-               <person xml:id="holbach" sex="MALE">
-                  <persName>Baron von Holbach</persName>
-               </person>
-               <person xml:id="quinault" sex="FEMALE">
-                  <persName>Doris Quinault</persName>
-               </person>
-               <person xml:id="lambert" sex="MALE">
-                  <persName>Saint-Lambert</persName>
-               </person>
-               <person xml:id="boufflers" sex="FEMALE">
-                  <persName>Marquise de Boufflers</persName>
-               </person>
-               <personGrp xml:id="gesellschaft_alle_die_anderen" sex="UNKNOWN">
-                  <name>Gesellschaft/Alle/Alle Übrigen/Alles/Die Anderen (I/7–11)</name>
-               </personGrp>
-               <personGrp xml:id="diener_1-7" sex="MALE">
-                  <name>Diener (I/7)</name>
-               </personGrp>
-               <person xml:id="diderot" sex="MALE">
-                  <persName>Diderot</persName>
-               </person>
-               <person xml:id="narziss" sex="MALE">
-                  <persName>Narziß Rameau</persName>
-               </person>
-               <person xml:id="dubarry" sex="MALE">
-                  <persName>Graf Dubarry</persName>
-               </person>
-               <person xml:id="choiseul" sex="MALE">
-                  <persName>Herzog von Choiseul-d'Amboise</persName>
-               </person>
-               <person xml:id="lakai" sex="MALE">
-                  <persName>Lakai</persName>
-               </person>
-               <person xml:id="colette" sex="FEMALE">
-                  <persName>Colette</persName>
-               </person>
-               <person xml:id="terray" sex="MALE">
-                  <persName>Abbé Terray</persName>
-               </person>
-               <person xml:id="silhouette" sex="MALE">
-                  <persName>Marquis Silhouette</persName>
-               </person>
-               <person xml:id="maupeou" sex="MALE">
-                  <persName>Maupeou</persName>
-               </person>
-               <person xml:id="erster_kavalier" sex="MALE">
-                  <persName>Erster Kavalier</persName>
-               </person>
-               <person xml:id="zweiter_kavalier" sex="MALE">
-                  <persName>Zweiter Kavalier</persName>
-               </person>
-               <person xml:id="pompadour" sex="FEMALE">
-                  <persName>Marquise de Pompadour</persName>
-               </person>
-               <person xml:id="erster_page" sex="MALE">
-                  <persName>Erster Page</persName>
-               </person>
-               <person xml:id="zweiter_page" sex="MALE">
-                  <persName>Zweiter Page</persName>
-               </person>
-               <personGrp xml:id="sechs_hofdamen" sex="FEMALE">
-                  <name>Sechs Hofdamen</name>
-               </personGrp>
-               <personGrp xml:id="zwei_kammerdiener" sex="MALE">
-                  <name>Zwei Kammerdiener</name>
-               </personGrp>
-               <person xml:id="conti" sex="MALE">
-                  <persName>Conti</persName>
-               </person>
-               <person xml:id="wache" sex="MALE">
-                  <persName>Wache</persName>
-               </person>
-               <person xml:id="eine_dame" sex="FEMALE">
-                  <persName>Eine Dame</persName>
-               </person>
-               <person xml:id="koenigin" sex="FEMALE">
-                  <persName>Königin</persName>
-               </person>
-               <person xml:id="diener_4-1_und_4-2" sex="MALE">
-                  <persName>Diener (IV/1–2)</persName>
-               </person>
-               <person xml:id="stimme_gardist" sex="MALE">
-                  <persName>Stimme (Gardist)</persName>
-               </person>
-               <person xml:id="stimme_posten" sex="MALE">
-                  <persName>Stimme (Posten)</persName>
-               </person>
-               <personGrp xml:id="drei_hofdamen" sex="FEMALE">
-                  <name>Drei Hofdamen</name>
-               </personGrp>
-               <person xml:id="ein_kavalier" sex="MALE">
-                  <persName>Ein Kavalier</persName>
-               </person>
-               <personGrp xml:id="zwei_gardisten" sex="MALE">
-                  <name>Zwei Gardisten</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/119163454">
+                        <forename>Albert Emil</forename>
+                        <surname>Brachvogel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <roleName>Dr.</roleName>
+                        <forename>Herbert</forename>
+                        <surname>Hirschberg</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

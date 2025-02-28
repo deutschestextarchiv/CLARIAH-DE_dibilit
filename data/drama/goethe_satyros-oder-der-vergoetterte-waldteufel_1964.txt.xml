@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -185,59 +182,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="einsiedler" sex="MALE">
-                  <persName>Einsiedler</persName>
-               </person>
-               <person xml:id="satyros" sex="MALE">
-                  <persName>Satyros</persName>
-               </person>
-               <person xml:id="arsinoe" sex="FEMALE">
-                  <persName>Arsinoe</persName>
-               </person>
-               <person xml:id="psyche" sex="FEMALE">
-                  <persName>Psyche</persName>
-               </person>
-               <person xml:id="hermes" sex="MALE">
-                  <persName>Hermes</persName>
-               </person>
-               <person xml:id="einer_aus_dem_volk_3" sex="MALE">
-                  <persName>Einer aus dem Volk (III)</persName>
-               </person>
-               <person xml:id="ein_anderer_3" sex="MALE">
-                  <persName>Ein Anderer (III)</persName>
-               </person>
-               <personGrp xml:id="das_volk" sex="MALE">
-                  <name>Das Volk</name>
-               </personGrp>
-               <person xml:id="einer_4a" sex="MALE">
-                  <persName>Einer (IV)</persName>
-               </person>
-               <person xml:id="ein_andrer_4" sex="MALE">
-                  <persName>Ein Andrer (IV)</persName>
-               </person>
-               <person xml:id="einer_4b" sex="MALE">
-                  <persName>Einer (IV)</persName>
-               </person>
-               <person xml:id="einer_4c" sex="MALE">
-                  <persName>Einer (IV)</persName>
-               </person>
-               <person xml:id="eudora" sex="FEMALE">
-                  <persName>Eudora</persName>
-               </person>
-               <person xml:id="einer_des_volks_5" sex="MALE">
-                  <persName>Einer des Volks (V)</persName>
-               </person>
-               <person xml:id="ein_andrer_5" sex="MALE">
-                  <persName>Ein Andrer (V)</persName>
-               </person>
-               <person xml:id="ein_dritter_5" sex="MALE">
-                  <persName>Ein Dritter (V)</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118540238">
+                        <forename>Johann Wolfgang</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Goethe</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Siegfried</forename>
+                        <surname>Seidel</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -157,10 +154,7 @@
                   <date type="firstPublication" subtype="zeno">1554</date>
                   <date type="firstPublication" subtype="i5">1554</date>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1457"
-                        notAfter="1521"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1457" notAfter="1521"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3460e231">Erstdruck verloren, Nachdruck: Straßburg (Johann Winckel), 1554. Uraufführung 1512, Münsterschule, Straßburg.</note>
@@ -180,7 +174,13 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118514474">
+                        <forename>Sebastian</forename>
+                        <surname>Brant</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hans-Gert</forename>
+                        <surname>Roloff</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

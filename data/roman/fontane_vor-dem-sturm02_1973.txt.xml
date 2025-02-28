@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -175,10 +172,7 @@
                   <date type="firstPublication" subtype="clariah">1878</date>
                   <date type="firstPublication" subtype="zeno">1878</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1862"
-                        notAfter="1878"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1862" notAfter="1878"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#BFontane-Theodor-d1e44197">Entstanden zwischen 1862 und 1878, Erstdruck (gekürzt) in: Daheim (Leipzig), 14. Jg. Januar- September 1878, erste Buchausgabe: Berlin (W. Hertz) 1878.</note>
@@ -192,7 +186,22 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118534262">
+                        <forename>Theodor</forename>
+                        <surname>Fontane</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Peter</forename>
+                        <surname>Goldammer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Gotthard</forename>
+                        <surname>Erler</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Anita</forename>
+                        <surname>Golz</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Jürgen</forename>
+                        <surname>Jahn</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

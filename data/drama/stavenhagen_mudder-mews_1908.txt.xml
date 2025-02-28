@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,36 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="hugo" sex="MALE">
-                  <persName>Hugo</persName>
-               </person>
-               <person xml:id="elsabe" sex="FEMALE">
-                  <persName>Elsabe</persName>
-               </person>
-               <person xml:id="willem" sex="MALE">
-                  <persName>Willem</persName>
-               </person>
-               <person xml:id="luett-hein" sex="MALE">
-                  <persName>Lütt-Hein</persName>
-                  <persName type="variant">Hein</persName>
-               </person>
-               <person xml:id="mudder" sex="FEMALE">
-                  <persName>Mudder</persName>
-               </person>
-               <person xml:id="lisbeth" sex="FEMALE">
-                  <persName>Lisbeth</persName>
-               </person>
-               <personGrp xml:id="kinder" sex="UNKNOWN">
-                  <name>Kinder</name>
-               </personGrp>
-               <person xml:id="junge" sex="MALE">
-                  <persName>Junge</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118752901">
+                        <forename>Fritz</forename>
+                        <surname>Stavenhagen</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

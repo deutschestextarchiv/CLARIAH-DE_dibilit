@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -151,10 +148,7 @@
                   <date type="firstPublication" subtype="clariah">1840</date>
                   <date type="firstPublication" subtype="zeno">1840</date>
                   <date type="firstPublication" subtype="i5">1841</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1805"
-                        notAfter="1840"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1805" notAfter="1840"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Hahn-Hahn-Ida-G-d1e515">Erstdruck: Berlin (Alexander Duncker) [1840, vordatiert auf] 1841.</note>
@@ -168,7 +162,11 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/118544918">
+                        <forename>Ida</forename>
+                        <roleName>Gräfin</roleName>
+                        <surname>Hahn-Hahn</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

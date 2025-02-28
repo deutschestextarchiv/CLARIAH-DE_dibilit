@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -158,10 +155,7 @@
                   <date type="firstPublication" subtype="clariah">1846</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1963</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1801"
-                        notAfter="1851"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1801" notAfter="1851"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d317e278">Komponiert von Albert Lortzing. Uraufführung am 30.05.1846, Theater an der Wien, Wien.</note>
@@ -181,49 +175,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="die_gesellen" sex="MALE">
-                  <name>Die Gesellen</name>
-                  <name type="variant">Gesellen</name>
-               </personGrp>
-               <person xml:id="graf" sex="MALE">
-                  <persName>Graf</persName>
-               </person>
-               <person xml:id="georg" sex="MALE">
-                  <persName>Georg</persName>
-               </person>
-               <person xml:id="ein_geselle" sex="MALE">
-                  <persName>Ein Geselle</persName>
-                  <persName type="variant">Geselle</persName>
-               </person>
-               <person xml:id="stadinger" sex="MALE">
-                  <persName>Stadinger</persName>
-               </person>
-               <person xml:id="brenner" sex="MALE">
-                  <persName>Brenner</persName>
-               </person>
-               <person xml:id="adelhof" sex="MALE">
-                  <persName>Adelhof</persName>
-               </person>
-               <person xml:id="irmentraut" sex="FEMALE">
-                  <persName>Irmentraut</persName>
-               </person>
-               <person xml:id="marie" sex="FEMALE">
-                  <persName>Marie</persName>
-               </person>
-               <personGrp xml:id="chor_alle_die_andern_2-12_bis_2-15" sex="UNKNOWN">
-                  <name>Chor/Alle/Die Andern (II/12–15)</name>
-               </personGrp>
-               <personGrp xml:id="einige_maenner" sex="MALE">
-                  <name>Einige Männer</name>
-               </personGrp>
-               <personGrp xml:id="alle_alle_uebrigen_3-11" sex="UNKNOWN">
-                  <name>Alle/Alle Übrigen (III/11)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118574469">
+                        <forename>Albert</forename>
+                        <surname>Lortzing</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wilhelm</forename>
+                        <surname>Zentner</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -151,10 +148,7 @@
                   <date type="firstPublication" subtype="zeno">1748</date>
                   <date type="firstPublication" subtype="i5">1748</date>
                   <date type="firstPublication" subtype="gerdracor">1748</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1723"
-                        notAfter="1748"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1723" notAfter="1748"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1612e261">Erstdruck in: »Schauspiele, welche von der Schönemannschen Schaubühne aufgeführt werden«, zweiter Band, Braunschweig und Leipzig, 1748. Früheste nachweisbare Aufführung am 21.07.1747, Schönemannsche Truppe, Hamburg.</note>
@@ -174,41 +168,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="herrmann" sex="MALE">
-                  <persName>Herrmann</persName>
-               </person>
-               <person xml:id="caroline" sex="FEMALE">
-                  <persName>Caroline</persName>
-               </person>
-               <person xml:id="arnold" sex="MALE">
-                  <persName>Arnold</persName>
-               </person>
-               <person xml:id="der_graf" sex="MALE">
-                  <persName>Der Graf</persName>
-               </person>
-               <person xml:id="valentin" sex="MALE">
-                  <persName>Valentin</persName>
-               </person>
-               <person xml:id="die_graefinn" sex="FEMALE">
-                  <persName>Die Gräfinn</persName>
-               </person>
-               <person xml:id="chrysander" sex="MALE">
-                  <persName>Chrysander</persName>
-               </person>
-               <person xml:id="johann" sex="MALE">
-                  <persName>Johann</persName>
-               </person>
-               <person xml:id="valer" sex="MALE">
-                  <persName>Valer</persName>
-               </person>
-               <person xml:id="fraeulein_christinchen" sex="FEMALE">
-                  <persName>Fräulein Christinchen</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118778080">
+                        <forename>Johann Christian</forename>
+                        <surname>Krüger</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

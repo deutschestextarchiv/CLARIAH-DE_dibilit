@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -197,10 +194,7 @@
                   <date type="firstPublication" subtype="zeno">1755</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1755</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1729"
-                        notAfter="1781"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1729" notAfter="1781"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2795e311">Erstdruck in: Schriften, Berlin (Voss) 1755. Uraufführung am 10.7.1755 in Frankfurt/Oder.</note>
@@ -220,44 +214,33 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="sir_william" sex="MALE">
-                  <persName>Sir William</persName>
-               </person>
-               <person xml:id="waitwell" sex="MALE">
-                  <persName>Waitwell</persName>
-               </person>
-               <person xml:id="der_wirt" sex="MALE">
-                  <persName>Der Wirt</persName>
-               </person>
-               <person xml:id="mellefont" sex="MALE">
-                  <persName>Mellefont</persName>
-               </person>
-               <person xml:id="norton" sex="MALE">
-                  <persName>Norton</persName>
-               </person>
-               <person xml:id="betty" sex="FEMALE">
-                  <persName>Betty</persName>
-               </person>
-               <person xml:id="sara" sex="FEMALE">
-                  <persName>Sara</persName>
-               </person>
-               <person xml:id="marwood" sex="FEMALE">
-                  <persName>Marwood</persName>
-               </person>
-               <person xml:id="hannah" sex="FEMALE">
-                  <persName>Hannah</persName>
-               </person>
-               <person xml:id="der_bediente" sex="MALE">
-                  <persName>Der Bediente</persName>
-               </person>
-               <person xml:id="arabella" sex="FEMALE">
-                  <persName>Arabella</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

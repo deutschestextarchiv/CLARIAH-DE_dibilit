@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -180,53 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="graefin" sex="FEMALE">
-                  <persName>Gräfin Franziska von Hohenheim</persName>
-               </person>
-               <person xml:id="generalin" sex="FEMALE">
-                  <persName>Generalin Rieger</persName>
-               </person>
-               <person xml:id="laura" sex="FEMALE">
-                  <persName>Laura</persName>
-               </person>
-               <person xml:id="hauptmann" sex="MALE">
-                  <persName>Hauptmann</persName>
-               </person>
-               <person xml:id="rieger" sex="MALE">
-                  <persName>General Rieger</persName>
-               </person>
-               <person xml:id="herzog" sex="MALE">
-                  <persName>Herzog</persName>
-               </person>
-               <person xml:id="bleistift" sex="MALE">
-                  <persName>Bleistift</persName>
-               </person>
-               <person xml:id="koch" sex="MALE">
-                  <persName>Koch</persName>
-               </person>
-               <person xml:id="schiller" sex="MALE">
-                  <persName>Schiller</persName>
-               </person>
-               <person xml:id="scharpstein" sex="MALE">
-                  <persName>Scharpstein</persName>
-               </person>
-               <person xml:id="hover" sex="MALE">
-                  <persName>Hover</persName>
-               </person>
-               <person xml:id="pfeiffer" sex="MALE">
-                  <persName>Pfeiffer</persName>
-               </person>
-               <person xml:id="peters" sex="MALE">
-                  <persName>Peters</persName>
-               </person>
-               <person xml:id="nette" sex="MALE">
-                  <persName>Nette</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118570080">
+                        <forename>Heinrich</forename>
+                        <surname>Laube</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Heinrich Hubert</forename>
+                        <surname>Houben</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

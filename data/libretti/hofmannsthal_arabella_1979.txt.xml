@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -168,10 +165,7 @@
                   <date type="firstPublication" subtype="clariah">1928</date>
                   <date type="firstPublication" subtype="zeno">1928</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1927"
-                        notAfter="1929"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1927" notAfter="1929"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d23e315">Entstanden 1927–1929. Erstdruck aus dem Nachlaß: Berlin (Adolph Fürstner) 1928.</note>
@@ -191,69 +185,18 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="kartenaufschlaegerin" sex="FEMALE">
-                  <persName>Kartenaufschlägerin</persName>
-               </person>
-               <person xml:id="adelaide" sex="FEMALE">
-                  <persName>Adelaide</persName>
-               </person>
-               <person xml:id="zdenka" sex="FEMALE">
-                  <persName>Zdenka</persName>
-                  <persName type="variant">Zdenkas Stimme</persName>
-               </person>
-               <person xml:id="matteo" sex="MALE">
-                  <persName>Matteo</persName>
-               </person>
-               <person xml:id="arabella" sex="FEMALE">
-                  <persName>Arabella</persName>
-               </person>
-               <person xml:id="elemer" sex="MALE">
-                  <persName>Elemer</persName>
-               </person>
-               <person xml:id="waldner" sex="MALE">
-                  <persName>Waldner</persName>
-               </person>
-               <person xml:id="zimmerkellner" sex="MALE">
-                  <persName>Zimmerkellner</persName>
-               </person>
-               <person xml:id="mandryka" sex="MALE">
-                  <persName>Mandryka</persName>
-               </person>
-               <person xml:id="welko" sex="MALE">
-                  <persName>Welko</persName>
-               </person>
-               <person xml:id="lamoral" sex="MALE">
-                  <persName>Lamoral</persName>
-               </person>
-               <person xml:id="dominik" sex="MALE">
-                  <persName>Dominik</persName>
-               </person>
-               <person xml:id="die_fiakermilli" sex="FEMALE">
-                  <persName>Die Fiakermilli</persName>
-                  <persName type="variant">Milli</persName>
-                  <persName type="variant">Fiaker-Milli</persName>
-               </person>
-               <personGrp xml:id="fiaker" sex="MALE">
-                  <name>Fiaker</name>
-               </personGrp>
-               <person xml:id="piccolo" sex="MALE">
-                  <persName>Piccolo</persName>
-               </person>
-               <personGrp xml:id="die_gaeste" sex="UNKNOWN">
-                  <name>Die Gäste</name>
-               </personGrp>
-               <person xml:id="einer_der_spieler" sex="MALE">
-                  <persName>Einer der Spieler</persName>
-               </person>
-               <personGrp xml:id="die_drei_spieler" sex="MALE">
-                  <name>Die drei Spieler</name>
-                  <name type="variant">Die Spieler</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118552759">
+                        <forename>Hugo</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Hofmannsthal</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Bernd</forename>
+                        <surname>Schoeller</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Rudolf</forename>
+                        <surname>Hirsch</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

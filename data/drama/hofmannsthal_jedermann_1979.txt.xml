@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -169,10 +166,7 @@
                   <date type="firstPublication" subtype="zeno">1911</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1911</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1903"
-                        notAfter="1911"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1903" notAfter="1911"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2760e408">Entstanden April 1903–September 1911. Erstdruck: Berlin (S. Fischer) 1911. Uraufführung am 1.12.1911 in Berlin (Zirkus Schumann).</note>
@@ -192,152 +186,18 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="spielansager" sex="MALE">
-                  <persName>Spielansager</persName>
-               </person>
-               <person xml:id="gott_der_herr" sex="MALE">
-                  <persName>Gott der Herr</persName>
-                  <persName type="variant">Gott</persName>
-               </person>
-               <person xml:id="tod" sex="UNKNOWN">
-                  <persName>Tod</persName>
-               </person>
-               <person xml:id="jedermann" sex="MALE">
-                  <persName>Jedermann</persName>
-               </person>
-               <person xml:id="koch" sex="MALE">
-                  <persName>Koch</persName>
-               </person>
-               <person xml:id="gesell" sex="MALE">
-                  <persName>Gesell</persName>
-               </person>
-               <person xml:id="armer_nachbar" sex="MALE">
-                  <persName>Armer Nachbar</persName>
-               </person>
-               <person xml:id="schuldknecht" sex="MALE">
-                  <persName>Schuldknecht</persName>
-               </person>
-               <person xml:id="schuldknechts_weib" sex="FEMALE">
-                  <persName>Schuldknechts Weib</persName>
-               </person>
-               <person xml:id="jedermanns_mutter" sex="FEMALE">
-                  <persName>Jedermanns Mutter</persName>
-               </person>
-               <person xml:id="buhlschaft" sex="FEMALE">
-                  <persName>Buhlschaft</persName>
-               </person>
-               <person xml:id="vorsaenger" sex="MALE">
-                  <persName>Vorsänger</persName>
-               </person>
-               <person xml:id="alle" sex="UNKNOWN">
-                  <persName>Alle (Die Gäste)</persName>
-               </person>
-               <person xml:id="ein_fraeulein_a" sex="FEMALE">
-                  <persName>Ein Fräulein</persName>
-               </person>
-               <person xml:id="dicker_vetter" sex="MALE">
-                  <persName>Dicker Vetter</persName>
-                  <persName type="variant">Der dicke Vetter</persName>
-               </person>
-               <person xml:id="duenner_vetter" sex="MALE">
-                  <persName>Dünner Vetter</persName>
-                  <persName type="variant">Magerer Vetter</persName>
-                  <persName type="variant">Der dünne Vetter</persName>
-               </person>
-               <person xml:id="ein_gast_a" sex="MALE">
-                  <persName>Ein Gast</persName>
-               </person>
-               <person xml:id="ein_fraeulein_b" sex="FEMALE">
-                  <persName>Ein Fräulein</persName>
-               </person>
-               <person xml:id="ein_gast_b" sex="MALE">
-                  <persName>Ein Gast</persName>
-               </person>
-               <person xml:id="ein_fraeulein_c" sex="FEMALE">
-                  <persName>Ein Fräulein</persName>
-               </person>
-               <person xml:id="ein_anderes_fraeulein_d" sex="FEMALE">
-                  <persName>Ein anderes Fräulein</persName>
-                  <persName type="variant">Die Zweite</persName>
-               </person>
-               <person xml:id="ein_drittes_fraeulein_e" sex="FEMALE">
-                  <persName>Ein drittes Fräulein</persName>
-                  <persName type="variant">Die Dritte</persName>
-               </person>
-               <person xml:id="ein_gast_c" sex="MALE">
-                  <persName>Ein Gast</persName>
-               </person>
-               <person xml:id="ein_fraeulein_f" sex="FEMALE">
-                  <persName>Ein Fräulein</persName>
-                  <persName type="variant">Das eine Fräulein</persName>
-               </person>
-               <person xml:id="ein_anderes_fraeulein_g" sex="FEMALE">
-                  <persName>Ein anderes Fräulein</persName>
-                  <persName type="variant">Das andere Fräulein</persName>
-                  <persName type="variant">Das gleiche Fräulein</persName>
-               </person>
-               <person xml:id="ein_gast_d" sex="MALE">
-                  <persName>Ein Gast</persName>
-                  <persName type="variant">Der eine Gast</persName>
-               </person>
-               <person xml:id="ein_anderer_e" sex="MALE">
-                  <persName>Ein anderer</persName>
-               </person>
-               <person xml:id="ein_gast_f" sex="MALE">
-                  <persName>Ein Gast</persName>
-                  <persName type="variant">Der eine Gast</persName>
-               </person>
-               <person xml:id="ein_anderer_gast_g" sex="MALE">
-                  <persName>Ein anderer Gast</persName>
-               </person>
-               <person xml:id="ein_gast_h" sex="MALE">
-                  <persName>Ein Gast</persName>
-               </person>
-               <person xml:id="ein_anderer_i" sex="MALE">
-                  <persName>Ein anderer</persName>
-               </person>
-               <person xml:id="ein_fraeulein_h" sex="FEMALE">
-                  <persName>Ein Fräulein</persName>
-               </person>
-               <person xml:id="ein_anderer_j" sex="MALE">
-                  <persName>Ein anderer</persName>
-               </person>
-               <person xml:id="ein_gast_k" sex="MALE">
-                  <persName>Ein Gast</persName>
-               </person>
-               <person xml:id="ein_anderer_l" sex="MALE">
-                  <persName>Ein anderer</persName>
-               </person>
-               <personGrp xml:id="stimmen" sex="UNKNOWN">
-                  <name>Stimmen</name>
-               </personGrp>
-               <person xml:id="hausvogt" sex="MALE">
-                  <persName>Hausvogt</persName>
-               </person>
-               <person xml:id="knecht_a" sex="MALE">
-                  <persName>Knecht</persName>
-                  <persName type="variant">Erster Knecht</persName>
-               </person>
-               <person xml:id="mammon" sex="UNKNOWN">
-                  <persName>Mammon</persName>
-               </person>
-               <person xml:id="werke" sex="UNKNOWN">
-                  <persName>Werke</persName>
-               </person>
-               <person xml:id="glaube" sex="UNKNOWN">
-                  <persName>Glaube</persName>
-               </person>
-               <person xml:id="knecht_b" sex="MALE">
-                  <persName>Knecht</persName>
-               </person>
-               <person xml:id="teufel" sex="MALE">
-                  <persName>Teufel</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118552759">
+                        <forename>Hugo</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Hofmannsthal</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Bernd</forename>
+                        <surname>Schoeller</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Rudolf</forename>
+                        <surname>Hirsch</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

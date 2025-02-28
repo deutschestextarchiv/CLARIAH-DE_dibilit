@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno">1743</date>
                   <date type="firstPublication" subtype="i5">1743</date>
                   <date type="firstPublication" subtype="gerdracor">1743</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1723"
-                        notAfter="1743"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1723" notAfter="1743"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3362e261">Anonymer Erstdruck: Frankfurt am Main und Leipzig (Michaelis-Messe), 1743.</note>
@@ -176,38 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter</persName>
-               </person>
-               <person xml:id="cathrine" sex="FEMALE">
-                  <persName>Cathrine</persName>
-               </person>
-               <person xml:id="muffel" sex="MALE">
-                  <persName>Muffel</persName>
-               </person>
-               <person xml:id="tempelstolz" sex="MALE">
-                  <persName>Tempelstolz</persName>
-               </person>
-               <person xml:id="frau_von_birkenhayn" sex="FEMALE">
-                  <persName>Frau von Birkenhayn</persName>
-               </person>
-               <person xml:id="herr_von_roseneck" sex="MALE">
-                  <persName>Herr von Roseneck</persName>
-               </person>
-               <person xml:id="wilhelmine" sex="FEMALE">
-                  <persName>Fräulein Wilhelmine</persName>
-               </person>
-               <person xml:id="wahrmund" sex="MALE">
-                  <persName>Herr Wahrmund</persName>
-               </person>
-               <person xml:id="brigitte" sex="FEMALE">
-                  <persName>Brigitte</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118778080">
+                        <forename>Johann Christian</forename>
+                        <surname>Krüger</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

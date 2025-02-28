@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,44 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="johanna" sex="FEMALE">
-                  <persName>Johanna</persName>
-               </person>
-               <person xml:id="felix" sex="MALE">
-                  <persName>Felix</persName>
-               </person>
-               <person xml:id="sala" sex="MALE">
-                  <persName>Sala</persName>
-               </person>
-               <person xml:id="doktor_reumann" sex="MALE">
-                  <persName>Doktor Reumann</persName>
-               </person>
-               <person xml:id="frau_wegrat" sex="FEMALE">
-                  <persName>Frau Wegrat</persName>
-               </person>
-               <person xml:id="wegrat" sex="MALE">
-                  <persName>Professor Wegrat</persName>
-               </person>
-               <person xml:id="diener_bei_fichtner" sex="MALE">
-                  <persName>Diener bei Fichtner</persName>
-               </person>
-               <person xml:id="julian" sex="MALE">
-                  <persName>Julian</persName>
-               </person>
-               <person xml:id="irene" sex="FEMALE">
-                  <persName>Irene Herms</persName>
-               </person>
-               <person xml:id="stubenmaedchen" sex="FEMALE">
-                  <persName>Stubenmädchen</persName>
-               </person>
-               <person xml:id="diener_bei_sala" sex="MALE">
-                  <persName>Diener bei Sala</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118609807">
+                        <forename>Arthur</forename>
+                        <surname>Schnitzler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

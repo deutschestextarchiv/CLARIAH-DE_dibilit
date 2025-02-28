@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,86 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="heymon" sex="MALE">
-                  <persName>Heymon</persName>
-               </person>
-               <person xml:id="martin" sex="MALE">
-                  <persName>Martin</persName>
-               </person>
-               <person xml:id="konrad" sex="MALE">
-                  <persName>Konrad</persName>
-               </person>
-               <person xml:id="klaus" sex="MALE">
-                  <persName>Klaus</persName>
-               </person>
-               <person xml:id="ratgeber" sex="MALE">
-                  <persName>Ratgeber</persName>
-               </person>
-               <person xml:id="ein_ritter" sex="MALE">
-                  <persName>Ein Ritter</persName>
-               </person>
-               <person xml:id="agnes" sex="FEMALE">
-                  <persName>Agnes</persName>
-               </person>
-               <person xml:id="anne" sex="FEMALE">
-                  <persName>Anne</persName>
-               </person>
-               <person xml:id="anton" sex="MALE">
-                  <persName>Anton</persName>
-               </person>
-               <person xml:id="leopold" sex="MALE">
-                  <persName>Leopold</persName>
-               </person>
-               <person xml:id="simon" sex="MALE">
-                  <persName>Simon</persName>
-               </person>
-               <person xml:id="arzt" sex="MALE">
-                  <persName>Arzt</persName>
-               </person>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter</persName>
-               </person>
-               <person xml:id="knecht_1-3a" sex="MALE">
-                  <persName>Knecht (I/3)</persName>
-               </person>
-               <personGrp xml:id="knechte" sex="MALE">
-                  <name>Knechte</name>
-               </personGrp>
-               <person xml:id="ein_knecht_1-3b" sex="MALE">
-                  <persName>Ein Knecht (I/3)</persName>
-               </person>
-               <person xml:id="ein_knecht_1-3c" sex="MALE">
-                  <persName>Ein Knecht (I/3)</persName>
-               </person>
-               <person xml:id="brigitte" sex="FEMALE">
-                  <persName>Brigitte</persName>
-               </person>
-               <person xml:id="hans" sex="MALE">
-                  <persName>Hans</persName>
-               </person>
-               <person xml:id="kaspar" sex="MALE">
-                  <persName>Kaspar</persName>
-               </person>
-               <person xml:id="knecht_2-1" sex="MALE">
-                  <persName>Knecht (II/1)</persName>
-               </person>
-               <person xml:id="mechthilde" sex="FEMALE">
-                  <persName>Mechthilde</persName>
-               </person>
-               <personGrp xml:id="chor_3-1" sex="UNKNOWN">
-                  <name>Chor (III/1)</name>
-               </personGrp>
-               <personGrp xml:id="chor_3-2" sex="MALE">
-                  <name>Chor (III/2)</name>
-               </personGrp>
-               <person xml:id="reinhold" sex="MALE">
-                  <persName>Reinhold</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/12989432X">
+                        <forename>Ludwig</forename>
+                        <surname>Tieck</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

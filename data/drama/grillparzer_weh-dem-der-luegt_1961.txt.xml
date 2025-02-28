@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,65 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="leon" sex="MALE">
-                  <persName>Leon</persName>
-               </person>
-               <person xml:id="hausverwalter" sex="MALE">
-                  <persName>Hausverwalter</persName>
-               </person>
-               <person xml:id="gregor" sex="MALE">
-                  <persName>Gregor</persName>
-               </person>
-               <person xml:id="pilger" sex="MALE">
-                  <persName>Pilger</persName>
-               </person>
-               <person xml:id="kattwald" sex="MALE">
-                  <persName>Kattwald</persName>
-                  <persName type="variant">Kattwalds Stimme</persName>
-               </person>
-               <person xml:id="edrita" sex="FEMALE">
-                  <persName>Edrita</persName>
-                  <persName type="variant">Edritas Stimme</persName>
-               </person>
-               <person xml:id="galomir" sex="MALE">
-                  <persName>Galomir</persName>
-               </person>
-               <person xml:id="schaffer" sex="MALE">
-                  <persName>Schaffer</persName>
-                  <persName type="variant">Kattwalds Schaffer</persName>
-               </person>
-               <person xml:id="atalus" sex="MALE">
-                  <persName>Atalus</persName>
-               </person>
-               <person xml:id="faehrmann" sex="MALE">
-                  <persName>Fährmann</persName>
-               </person>
-               <person xml:id="knecht_des_faehrmanns" sex="MALE">
-                  <persName>Knecht (des Fährmanns)</persName>
-               </person>
-               <person xml:id="ein_krieger" sex="MALE">
-                  <persName>Ein Krieger</persName>
-                  <persName type="variant">Krieger</persName>
-               </person>
-               <person xml:id="zweiter_krieger" sex="MALE">
-                  <persName>Zweiter Krieger</persName>
-               </person>
-               <person xml:id="erster_knecht" sex="MALE">
-                  <persName>Erster Knecht</persName>
-                  <persName type="variant">Knecht Kattwalds</persName>
-                  <persName type="variant">Knecht</persName>
-               </person>
-               <person xml:id="zweiter_knecht" sex="MALE">
-                  <persName>Zweiter Knecht</persName>
-               </person>
-               <person xml:id="anfuehrer" sex="MALE">
-                  <persName>Anführer</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118542192">
+                        <forename>Franz</forename>
+                        <surname>Grillparzer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Peter</forename>
+                        <surname>Frank</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

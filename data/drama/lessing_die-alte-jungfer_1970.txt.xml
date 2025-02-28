@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -217,44 +214,33 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="herr_oronte" sex="MALE">
-                  <persName>Herr Oronte</persName>
-               </person>
-               <person xml:id="jungfer_ohldin" sex="FEMALE">
-                  <persName>Jungfer Ohldin</persName>
-               </person>
-               <person xml:id="frau_oronte" sex="FEMALE">
-                  <persName>Frau Oronte</persName>
-               </person>
-               <person xml:id="lisette" sex="FEMALE">
-                  <persName>Lisette</persName>
-               </person>
-               <person xml:id="lelio" sex="MALE">
-                  <persName>Lelio</persName>
-               </person>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter</persName>
-               </person>
-               <person xml:id="clitander" sex="MALE">
-                  <persName>Clitander</persName>
-               </person>
-               <person xml:id="herr_kraeusel" sex="MALE">
-                  <persName>Herr Kräusel</persName>
-               </person>
-               <person xml:id="der_schneider" sex="MALE">
-                  <persName>Der Schneider</persName>
-               </person>
-               <person xml:id="herr_rehfuss" sex="MALE">
-                  <persName>Herr Rehfuss</persName>
-               </person>
-               <person xml:id="von_schlag" sex="MALE">
-                  <persName>Herr von Schlag</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

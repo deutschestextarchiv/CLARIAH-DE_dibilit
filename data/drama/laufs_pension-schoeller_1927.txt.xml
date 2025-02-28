@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -165,10 +162,7 @@
                   <date type="firstPublication" subtype="zeno">1898</date>
                   <date type="firstPublication" subtype="i5">1898</date>
                   <date type="firstPublication" subtype="gerdracor">1890</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1858"
-                        notAfter="1901"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1858" notAfter="1901"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1297e296">Erstdruck: Berlin (Bloch), 1898.</note>
@@ -188,71 +182,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="kissling" sex="MALE">
-                  <persName>Kißling</persName>
-               </person>
-               <person xml:id="kellner_1-1" sex="MALE">
-                  <persName>Kellner (I/1)</persName>
-               </person>
-               <person xml:id="groeber" sex="MALE">
-                  <persName>Gröber</persName>
-               </person>
-               <person xml:id="jean" sex="MALE">
-                  <persName>Jean</persName>
-               </person>
-               <person xml:id="bernhardy" sex="MALE">
-                  <persName>Bernhardy</persName>
-               </person>
-               <person xml:id="josephine" sex="FEMALE">
-                  <persName>Josephine</persName>
-               </person>
-               <person xml:id="erster_gast_2-2" sex="MALE">
-                  <persName>Erster Gast (II/2)</persName>
-               </person>
-               <person xml:id="eugen" sex="MALE">
-                  <persName>Eugen</persName>
-               </person>
-               <person xml:id="ulrike" sex="FEMALE">
-                  <persName>Ulrike</persName>
-               </person>
-               <person xml:id="ida" sex="FEMALE">
-                  <persName>Ida</persName>
-               </person>
-               <person xml:id="franziska" sex="FEMALE">
-                  <persName>Franziska</persName>
-               </person>
-               <person xml:id="kellner_2-3" sex="MALE">
-                  <persName>Kellner (II/3)</persName>
-               </person>
-               <person xml:id="alfred" sex="MALE">
-                  <persName>Alfred</persName>
-               </person>
-               <person xml:id="klapproth" sex="MALE">
-                  <persName>Klapproth</persName>
-               </person>
-               <person xml:id="erster_gast_2-5" sex="MALE">
-                  <persName>Erster Gast (II/5)</persName>
-               </person>
-               <person xml:id="zweiter_gast" sex="MALE">
-                  <persName>Zweiter Gast</persName>
-               </person>
-               <person xml:id="blumenmaedchen" sex="FEMALE">
-                  <persName>Blumenmädchen</persName>
-               </person>
-               <person xml:id="schoeller" sex="MALE">
-                  <persName>Schöller</persName>
-               </person>
-               <person xml:id="amalie" sex="FEMALE">
-                  <persName>Amalie</persName>
-               </person>
-               <person xml:id="friederike" sex="FEMALE">
-                  <persName>Friederike</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/106290916">
+                        <forename>Carl</forename>
+                        <surname>Laufs</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

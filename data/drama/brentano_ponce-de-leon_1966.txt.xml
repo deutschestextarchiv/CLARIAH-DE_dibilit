@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -180,122 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="valeria" sex="FEMALE">
-                  <persName>Valeria</persName>
-               </person>
-               <person xml:id="ponce" sex="MALE">
-                  <persName>Ponce</persName>
-               </person>
-               <person xml:id="valerio" sex="MALE">
-                  <persName>Valerio</persName>
-               </person>
-               <person xml:id="sarmiento" sex="MALE">
-                  <persName>Sarmiento</persName>
-               </person>
-               <person xml:id="porporino" sex="MALE">
-                  <persName>Porporino</persName>
-               </person>
-               <person xml:id="diener_1-15_und_1-16" sex="MALE">
-                  <persName>Diener (I/15 und I/16)</persName>
-               </person>
-               <person xml:id="aquilar" sex="MALE">
-                  <persName>Aquilar</persName>
-               </person>
-               <person xml:id="anderer_diener_1-16" sex="MALE">
-                  <persName>Anderer Diener (I/16)</persName>
-               </person>
-               <person xml:id="dame" sex="FEMALE">
-                  <persName>Dame</persName>
-               </person>
-               <person xml:id="erster_diener_1-17" sex="MALE">
-                  <persName>Erster Diener (I/17)</persName>
-               </person>
-               <person xml:id="zweiter_diener_1-17" sex="MALE">
-                  <persName>Zweiter Diener (I/17)</persName>
-               </person>
-               <person xml:id="ein_diener_1-20" sex="MALE">
-                  <persName>Ein Diener (I/20)</persName>
-               </person>
-               <person xml:id="felix" sex="MALE">
-                  <persName>Felix</persName>
-               </person>
-               <person xml:id="erster_diener_2-1_und_2-3" sex="MALE">
-                  <persName>Erster Diener (II/1 und II/3)</persName>
-               </person>
-               <person xml:id="zweiter_diener_2-1" sex="MALE">
-                  <persName>Zweiter Diener (II/1)</persName>
-               </person>
-               <person xml:id="diener_2-14a_und_2-21" sex="MALE">
-                  <persName>Diener (II/14 und II/21)</persName>
-               </person>
-               <person xml:id="diener_2-14b" sex="MALE">
-                  <persName>Diener (II/14)</persName>
-               </person>
-               <person xml:id="juanna" sex="FEMALE">
-                  <persName>Juanna</persName>
-               </person>
-               <person xml:id="perez" sex="MALE">
-                  <persName>Perez</persName>
-               </person>
-               <person xml:id="melanie" sex="FEMALE">
-                  <persName>Melanie</persName>
-               </person>
-               <person xml:id="isidora" sex="FEMALE">
-                  <persName>Isidora</persName>
-               </person>
-               <person xml:id="isabella" sex="FEMALE">
-                  <persName>Isabella</persName>
-               </person>
-               <person xml:id="erster_diener_3-9" sex="MALE">
-                  <persName>Erster Diener (III/9)</persName>
-               </person>
-               <person xml:id="zweiter_diener_3-9" sex="MALE">
-                  <persName>Zweiter Diener (III/9)</persName>
-               </person>
-               <person xml:id="traeger" sex="MALE">
-                  <persName>Träger</persName>
-               </person>
-               <person xml:id="diener_4-7" sex="MALE">
-                  <persName>Diener (IV/7)</persName>
-               </person>
-               <person xml:id="lucilla" sex="FEMALE">
-                  <persName>Lucilla</persName>
-               </person>
-               <person xml:id="alonso" sex="MALE">
-                  <persName>Alonso</persName>
-               </person>
-               <person xml:id="diener_5-5" sex="MALE">
-                  <persName>Diener (V/5)</persName>
-               </person>
-               <person xml:id="der_alte_diener_5-8" sex="MALE">
-                  <persName>Der alte Diener (V/8)</persName>
-               </person>
-               <person xml:id="pfeifer" sex="MALE">
-                  <persName>Pfeifer</persName>
-               </person>
-               <person xml:id="diener_5-12" sex="MALE">
-                  <persName>Diener (V/12)</persName>
-               </person>
-               <person xml:id="geiger" sex="MALE">
-                  <persName>Geiger</persName>
-               </person>
-               <person xml:id="diener_5-15" sex="MALE">
-                  <persName>Diener (V/15)</persName>
-               </person>
-               <person xml:id="ritter" sex="MALE">
-                  <persName>Ritter</persName>
-               </person>
-               <person xml:id="zigeunerin" sex="FEMALE">
-                  <persName>Zigeunerin</persName>
-               </person>
-               <personGrp xml:id="viele_andere_alle_5-18_bis_5-20" sex="UNKNOWN">
-                  <name>Viele/Andere/Alle (V/18–20)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118515055">
+                        <forename>Clemens</forename>
+                        <surname>Brentano</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Friedhelm</forename>
+                        <surname>Kemp</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

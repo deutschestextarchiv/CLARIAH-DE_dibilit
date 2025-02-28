@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno">1877</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1877</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1877"
-                        notAfter="1882"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1877" notAfter="1882"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1080e352">Entstanden 1877–1882. Erstdruck der Dichtung: Mainz (B. Schott's Söhne) 1877. Uraufführung am 26.07.1882, Festspielhaus, Bayreuth.</note>
@@ -176,104 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="gurnemanz" sex="MALE">
-                  <persName>Gurnemanz</persName>
-               </person>
-               <person xml:id="zweiter_ritter" sex="MALE">
-                  <persName>Zweiter Ritter</persName>
-               </person>
-               <person xml:id="zweiter_knappe" sex="MALE">
-                  <persName>Zweiter Knappe</persName>
-               </person>
-               <person xml:id="erster_knappe" sex="MALE">
-                  <persName>Erster Knappe</persName>
-               </person>
-               <person xml:id="erster_ritter" sex="MALE">
-                  <persName>Erster Ritter</persName>
-               </person>
-               <person xml:id="kundry" sex="FEMALE">
-                  <persName>Kundry</persName>
-               </person>
-               <person xml:id="amfortas" sex="MALE">
-                  <persName>Amfortas</persName>
-               </person>
-               <person xml:id="dritter_knappe" sex="MALE">
-                  <persName>Dritter Knappe</persName>
-               </person>
-               <person xml:id="vierter_knappe" sex="MALE">
-                  <persName>Vierter Knappe</persName>
-               </person>
-               <personGrp xml:id="die_ritter" sex="MALE">
-                  <name>Die Ritter</name>
-                  <name type="variant">Ritter</name>
-                  <name type="variant">Alle Ritter</name>
-                  <name type="variant">Die Gralsritter</name>
-                  <name type="variant">Erster Zug</name>
-                  <name type="variant">Zweiter Zug</name>
-               </personGrp>
-               <personGrp xml:id="die_knappen" sex="MALE">
-                  <name>Die Knappen/Alle Knappen</name>
-                  <name type="variant">Knappen</name>
-               </personGrp>
-               <person xml:id="parsifal" sex="MALE">
-                  <persName>Parsifal</persName>
-               </person>
-               <personGrp xml:id="knaben" sex="MALE">
-                  <name>Knaben</name>
-                  <name type="variant">Knabenstimmen</name>
-                  <name type="variant">Stimmen aus der Höhe</name>
-                  <name type="variant">Jnaben aus der Höhe</name>
-                  <name type="variant">Aus der höchsten Höhe</name>
-               </personGrp>
-               <person xml:id="titurel" sex="MALE">
-                  <persName>Titurel</persName>
-               </person>
-               <personGrp xml:id="juenglinge" sex="MALE">
-                  <name>Jünglinge</name>
-                  <name type="variant">Mittlere Höhe</name>
-               </personGrp>
-               <person xml:id="eine_altstimme" sex="UNKNOWN">
-                  <persName>Eine Altstimme</persName>
-               </person>
-               <person xml:id="klingsor" sex="MALE">
-                  <persName>Klingsor</persName>
-               </person>
-               <personGrp xml:id="die_maedchen" sex="FEMALE">
-                  <name>Die Mädchen</name>
-                  <name type="variant">Mädchen</name>
-                  <name type="variant">Einzelne</name>
-                  <name type="variant">Andere</name>
-                  <name type="variant">Immer andere</name>
-                  <name type="variant">Alle Mädchen</name>
-                  <name type="variant">Die geschmückten Mädchen</name>
-                  <name type="variant">Die andern Mädchen</name>
-                  <name type="variant">Beide Chöre</name>
-                  <name type="variant">Erster Chor</name>
-                  <name type="variant">Zweite Gruppe</name>
-                  <name type="variant">Zweiter Chor</name>
-                  <name type="variant">Erste Gruppe</name>
-                  <name type="variant">Beide Gruppen und Chöre</name>
-               </personGrp>
-               <person xml:id="erstes_maedchen_der_zweiten_gruppe" sex="FEMALE">
-                  <persName>Erstes Mädchen der zweiten Gruppe</persName>
-               </person>
-               <person xml:id="erstes_maedchen_der_ersten_gruppe" sex="FEMALE">
-                  <persName>Erstes Mädchen der ersten Gruppe</persName>
-               </person>
-               <person xml:id="zweites_maedchen_der_ersten_gruppe" sex="FEMALE">
-                  <persName>Zweites Mädchen der ersten Gruppe</persName>
-               </person>
-               <person xml:id="zweites_maedchen_der_zweiten_gruppe" sex="FEMALE">
-                  <persName>Zweites Mädchen der zweiten Gruppe</persName>
-               </person>
-               <person xml:id="drittes_maedchen_der_ersten_gruppe" sex="FEMALE">
-                  <persName>Drittes Mädchen der ersten Gruppe</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118594117">
+                        <forename>Richard</forename>
+                        <surname>Wagner</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

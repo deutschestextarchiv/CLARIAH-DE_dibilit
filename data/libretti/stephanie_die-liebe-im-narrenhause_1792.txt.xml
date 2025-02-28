@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -165,10 +162,7 @@
                   <date type="firstPublication" subtype="clariah">1787</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1792</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1741"
-                        notAfter="1792"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1741" notAfter="1792"/>
                </publicationStmt>
                <seriesStmt>
                   <title level="s" type="main">Stephanie des Jüngern sämmtliche Singspiele</title>
@@ -194,44 +188,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="constanze" sex="FEMALE">
-                  <persName>Constanze</persName>
-               </person>
-               <person xml:id="claerchen" sex="FEMALE">
-                  <persName>Clärchen</persName>
-               </person>
-               <person xml:id="bast" sex="MALE">
-                  <persName>Bast</persName>
-               </person>
-               <person xml:id="erster_poet" sex="MALE">
-                  <persName>Erster Poet</persName>
-               </person>
-               <person xml:id="zweyter_poet" sex="MALE">
-                  <persName>Zweyter Poet</persName>
-               </person>
-               <person xml:id="nikolo" sex="MALE">
-                  <persName>Nikolo</persName>
-               </person>
-               <person xml:id="albert" sex="MALE">
-                  <persName>Albert</persName>
-               </person>
-               <person xml:id="truebe" sex="MALE">
-                  <persName>Trübe</persName>
-               </person>
-               <person xml:id="lukrezia" sex="FEMALE">
-                  <persName>Lukrezia</persName>
-               </person>
-               <person xml:id="virginia" sex="FEMALE">
-                  <persName>Virginia</persName>
-               </person>
-               <person xml:id="orpheus" sex="MALE">
-                  <persName>Orpheus</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/119545799">
+                        <forename>Johann Gottlieb</forename>
+                        <surname>Stephanie</surname>
+                     </persName></person><person role="author"><persName role="composer">
+                        <forename>Karl</forename>
+                        <surname>Ditters von Dittersdorf</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -161,10 +158,7 @@
                   <date type="firstPublication" subtype="zeno">1832</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1832</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1831"
-                        notAfter="1832"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1831" notAfter="1832"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1717e334">Entstanden 1831/1832. Erstdruck: Düsseldorf (J.E. Schaub), 1832.</note>
@@ -184,98 +178,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="luzifer" sex="MALE">
-                  <persName>Luzifer</persName>
-               </person>
-               <person xml:id="satan" sex="MALE">
-                  <persName>Satan</persName>
-               </person>
-               <person xml:id="placidus" sex="MALE">
-                  <persName>Placidus</persName>
-               </person>
-               <person xml:id="candida" sex="FEMALE">
-                  <persName>Candida</persName>
-                  <persName type="variant">Candidas Stimme</persName>
-               </person>
-               <personGrp xml:id="kirchengesang" sex="UNKNOWN">
-                  <name>Kirchengesang</name>
-               </personGrp>
-               <person xml:id="merlin" sex="MALE">
-                  <persName>Merlin</persName>
-                  <persName type="variant">Merlins Gesang</persName>
-               </person>
-               <person xml:id="kay" sex="MALE">
-                  <persName>Kay</persName>
-               </person>
-               <person xml:id="klingsor" sex="MALE">
-                  <persName>Klingsor</persName>
-               </person>
-               <person xml:id="zwerg" sex="MALE">
-                  <persName>Zwerg</persName>
-               </person>
-               <person xml:id="antinous" sex="MALE">
-                  <persName>Antinous</persName>
-               </person>
-               <personGrp xml:id="die_goetter" sex="UNKNOWN">
-                  <name>Die Götter</name>
-               </personGrp>
-               <personGrp xml:id="hamadryaden" sex="FEMALE">
-                  <name>Hamadryaden</name>
-               </personGrp>
-               <person xml:id="artus" sex="MALE">
-                  <persName>König Artus</persName>
-               </person>
-               <person xml:id="minstrel" sex="MALE">
-                  <persName>Minstrel</persName>
-               </person>
-               <person xml:id="der_seneschal" sex="MALE">
-                  <persName>Der Seneschal</persName>
-               </person>
-               <person xml:id="gawein" sex="MALE">
-                  <persName>Gawein</persName>
-               </person>
-               <person xml:id="gareis" sex="MALE">
-                  <persName>Gareis</persName>
-               </person>
-               <person xml:id="erek" sex="MALE">
-                  <persName>Erek</persName>
-               </person>
-               <personGrp xml:id="die_ritter_ruf_der_tafelrunde" sex="MALE">
-                  <name>Die Ritter/Ruf der Tafelrunde</name>
-                  <name type="variant">Andre</name>
-               </personGrp>
-               <person xml:id="ginevra" sex="FEMALE">
-                  <persName>Ginevra</persName>
-               </person>
-               <person xml:id="lanzelot" sex="MALE">
-                  <persName>Lanzelot</persName>
-               </person>
-               <person xml:id="niniana" sex="FEMALE">
-                  <persName>Niniana</persName>
-               </person>
-               <person xml:id="parzifal" sex="MALE">
-                  <persName>Parzifal</persName>
-               </person>
-               <person xml:id="lohengrin" sex="MALE">
-                  <persName>Lohengrin</persName>
-               </person>
-               <person xml:id="titurel" sex="MALE">
-                  <persName>Titurel</persName>
-               </person>
-               <person xml:id="ein_ritter_a" sex="MALE">
-                  <persName>Ein Ritter</persName>
-               </person>
-               <person xml:id="speisemeister" sex="MALE">
-                  <persName>Speisemeister</persName>
-               </person>
-               <person xml:id="ein_ritter_b" sex="MALE">
-                  <persName>Ein Ritter</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118555553">
+                        <forename>Karl</forename>
+                        <surname>Immermann</surname>
+                     </persName></person><person role="editor" sex="m"><persName ref="http://d-nb.info/gnd/118632590">
+                        <forename>Benno</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Wiese</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

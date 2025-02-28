@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -180,41 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="klara" sex="FEMALE">
-                  <persName>Klara</persName>
-               </person>
-               <person xml:id="else" sex="FEMALE">
-                  <persName>Else</persName>
-               </person>
-               <person xml:id="josef" sex="MALE">
-                  <persName>Josef</persName>
-               </person>
-               <person xml:id="die_aufseherin" sex="FEMALE">
-                  <persName>Die Aufseherin</persName>
-               </person>
-               <person xml:id="der_wachtmeister" sex="MALE">
-                  <persName>Der Wachtmeister</persName>
-               </person>
-               <person xml:id="der_gefaengnisdirektor" sex="MALE">
-                  <persName>Der Gefängnisdirektor</persName>
-               </person>
-               <person xml:id="ein_dienstmaedchen" sex="FEMALE">
-                  <persName>Ein Dienstmädchen</persName>
-               </person>
-               <person xml:id="lindekuh" sex="MALE">
-                  <persName>Lindekuh</persName>
-               </person>
-               <person xml:id="dr_schwarzkopf" sex="MALE">
-                  <persName>Dr. Schwarzkopf</persName>
-               </person>
-               <person xml:id="frau_oberst" sex="FEMALE">
-                  <persName>Frau Oberst</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118629867">
+                        <forename>Frank</forename>
+                        <surname>Wedekind</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Manfred</forename>
+                        <surname>Hahn</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

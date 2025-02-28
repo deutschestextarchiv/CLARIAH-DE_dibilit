@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,99 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="genia" sex="FEMALE">
-                  <persName>Frau Genia</persName>
-               </person>
-               <person xml:id="stubenmaedchen" sex="FEMALE">
-                  <persName>Stubenmädchen</persName>
-               </person>
-               <person xml:id="frau_wahl" sex="FEMALE">
-                  <persName>Frau Wahl</persName>
-               </person>
-               <person xml:id="erna" sex="FEMALE">
-                  <persName>Erna</persName>
-               </person>
-               <person xml:id="otto" sex="MALE">
-                  <persName>Otto</persName>
-                  <persName type="variant">Otto von Aigner</persName>
-               </person>
-               <person xml:id="mauer" sex="MALE">
-                  <persName>Doktor Mauer</persName>
-               </person>
-               <person xml:id="friedrich" sex="MALE">
-                  <persName>Friedrich Hofreiter</persName>
-               </person>
-               <person xml:id="paul" sex="MALE">
-                  <persName>Paul Kreindl</persName>
-               </person>
-               <personGrp xml:id="stimmen_vom_tennisplatz" sex="UNKNOWN">
-                  <name>Stimmen vom Tennisplatz</name>
-               </personGrp>
-               <person xml:id="adele" sex="FEMALE">
-                  <persName>Adele</persName>
-               </person>
-               <person xml:id="stanzides" sex="MALE">
-                  <persName>Stanzides</persName>
-               </person>
-               <person xml:id="natter" sex="MALE">
-                  <persName>Herr Natter</persName>
-               </person>
-               <person xml:id="frau_meinhold" sex="FEMALE">
-                  <persName>Frau Meinhold</persName>
-               </person>
-               <person xml:id="meyer" sex="MALE">
-                  <persName>Doktor Meyer</persName>
-               </person>
-               <person xml:id="rosenstock" sex="MALE">
-                  <persName>Rosenstock</persName>
-               </person>
-               <person xml:id="erster_tourist" sex="MALE">
-                  <persName>Erster Tourist</persName>
-               </person>
-               <person xml:id="zweiter_tourist" sex="MALE">
-                  <persName>Zweiter Tourist</persName>
-               </person>
-               <person xml:id="herr" sex="MALE">
-                  <persName>Herr</persName>
-               </person>
-               <person xml:id="serknitz" sex="MALE">
-                  <persName>Serknitz</persName>
-               </person>
-               <person xml:id="aigner" sex="MALE">
-                  <persName>Doktor von Aigner</persName>
-               </person>
-               <person xml:id="die_spanierin" sex="FEMALE">
-                  <persName>Die Spanierin</persName>
-               </person>
-               <person xml:id="rhon" sex="MALE">
-                  <persName>Albert Rhon</persName>
-               </person>
-               <person xml:id="eine_sehr_schoene_englaenderin" sex="FEMALE">
-                  <persName>Eine sehr schöne Engländerin</persName>
-               </person>
-               <person xml:id="penn" sex="MALE">
-                  <persName>Der Führer Penn</persName>
-               </person>
-               <person xml:id="gustl" sex="MALE">
-                  <persName>Gustl Wahl</persName>
-               </person>
-               <person xml:id="frau_rhon" sex="FEMALE">
-                  <persName>Frau Rhon</persName>
-               </person>
-               <person xml:id="ein_boy" sex="MALE">
-                  <persName>Ein Boy</persName>
-               </person>
-               <personGrp xml:id="kinder" sex="UNKNOWN">
-                  <name>Kinder</name>
-               </personGrp>
-               <person xml:id="kinderstimme_im_garten" sex="MALE">
-                  <persName>Kinderstimme im Garten (Percy)</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118609807">
+                        <forename>Arthur</forename>
+                        <surname>Schnitzler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,63 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="strephon" sex="MALE">
-                  <persName>Strephon</persName>
-               </person>
-               <person xml:id="arist" sex="MALE">
-                  <persName>Arist</persName>
-               </person>
-               <person xml:id="dorantino" sex="MALE">
-                  <persName>Dorantino</persName>
-               </person>
-               <person xml:id="strombolo" sex="MALE">
-                  <persName>Strombolo</persName>
-               </person>
-               <person xml:id="doria" sex="MALE">
-                  <persName>Doria</persName>
-               </person>
-               <person xml:id="mezzotinto" sex="MALE">
-                  <persName>Mezzotinto</persName>
-               </person>
-               <person xml:id="seraphine" sex="FEMALE">
-                  <persName>Seraphine</persName>
-               </person>
-               <person xml:id="alvarez" sex="MALE">
-                  <persName>Alvarez</persName>
-               </person>
-               <person xml:id="ninon" sex="MALE">
-                  <persName>Ninon</persName>
-               </person>
-               <person xml:id="maler" sex="MALE">
-                  <persName>Maler</persName>
-               </person>
-               <person xml:id="villiers" sex="MALE">
-                  <persName>Villiers</persName>
-               </person>
-               <person xml:id="riparo" sex="MALE">
-                  <persName>Riparo</persName>
-               </person>
-               <person xml:id="grammont" sex="MALE">
-                  <persName>Grammont</persName>
-               </person>
-               <person xml:id="la_fare" sex="MALE">
-                  <persName>La Fare</persName>
-               </person>
-               <person xml:id="die_marquisin_chateauneuf" sex="FEMALE">
-                  <persName>Die Marquisin Chateauneuf</persName>
-               </person>
-               <person xml:id="ein_bedienter" sex="MALE">
-                  <persName>Ein Bedienter</persName>
-                  <persName type="variant">Ein Bedienter aus dem Hause</persName>
-               </person>
-               <person xml:id="don_prado" sex="MALE">
-                  <persName>Don Prado</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118571656">
+                        <forename>Jakob Michael Reinhold</forename>
+                        <surname>Lenz</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Britta</forename>
+                        <surname>Titel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hellmut</forename>
+                        <surname>Haug</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

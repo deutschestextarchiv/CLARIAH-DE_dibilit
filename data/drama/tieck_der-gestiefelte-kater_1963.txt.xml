@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1797</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1797</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1773"
-                        notAfter="1853"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1773" notAfter="1853"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2354e396">Erstdruck in: Volksmärchen, hg. von Peter Leberecht [d.i. Tieck], Berlin (Nicolai) 1797. Uraufführung am 20.4.1844 in Berlin.</note>
@@ -183,159 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="fischer" sex="MALE">
-                  <persName>Fischer</persName>
-               </person>
-               <person xml:id="mueller" sex="MALE">
-                  <persName>Müller</persName>
-               </person>
-               <person xml:id="schlosser" sex="MALE">
-                  <persName>Schlosser</persName>
-               </person>
-               <person xml:id="leutner" sex="MALE">
-                  <persName>Leutner</persName>
-               </person>
-               <personGrp xml:id="stimmen" sex="UNKNOWN">
-                  <name>Stimmen</name>
-                  <name type="variant">Viele Stimmen</name>
-               </personGrp>
-               <person xml:id="boetticher" sex="MALE">
-                  <persName>Bötticher</persName>
-               </person>
-               <person xml:id="wiesener" sex="MALE">
-                  <persName>Wiesener</persName>
-               </person>
-               <personGrp xml:id="alle_prolog" sex="UNKNOWN">
-                  <name>Alle (Prolog)</name>
-               </personGrp>
-               <person xml:id="lampenputzer" sex="MALE">
-                  <persName>Lampenputzer</persName>
-               </person>
-               <person xml:id="dichter" sex="MALE">
-                  <persName>Dichter</persName>
-               </person>
-               <person xml:id="nachbar" sex="MALE">
-                  <persName>Nachbar</persName>
-               </person>
-               <person xml:id="stimme_von_der_galerie" sex="UNKNOWN">
-                  <persName>Stimme von der Galerie</persName>
-               </person>
-               <person xml:id="lorenz" sex="MALE">
-                  <persName>Lorenz</persName>
-               </person>
-               <person xml:id="barthel" sex="MALE">
-                  <persName>Barthel</persName>
-               </person>
-               <person xml:id="gottlieb" sex="MALE">
-                  <persName>Gottlieb</persName>
-               </person>
-               <person xml:id="hinze" sex="MALE">
-                  <persName>Hinze</persName>
-                  <persName type="variant">Hinze der Kater</persName>
-               </person>
-               <personGrp xml:id="die_kunstrichter" sex="MALE">
-                  <name>Die Kunstrichter</name>
-               </personGrp>
-               <person xml:id="schuhmacher" sex="MALE">
-                  <persName>Schuhmacher</persName>
-               </person>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>König</persName>
-               </person>
-               <person xml:id="prinzessin" sex="FEMALE">
-                  <persName>Prinzessin</persName>
-               </person>
-               <person xml:id="leander" sex="MALE">
-                  <persName>Leander</persName>
-               </person>
-               <person xml:id="kammerdiener" sex="MALE">
-                  <persName>Kammerdiener</persName>
-               </person>
-               <person xml:id="nathanael" sex="MALE">
-                  <persName>Nathanael</persName>
-               </person>
-               <person xml:id="wirt" sex="MALE">
-                  <persName>Wirt</persName>
-               </person>
-               <person xml:id="kunz" sex="MALE">
-                  <persName>Kunz</persName>
-               </person>
-               <person xml:id="michel" sex="MALE">
-                  <persName>Michel</persName>
-               </person>
-               <person xml:id="soldat" sex="MALE">
-                  <persName>Soldat</persName>
-               </person>
-               <person xml:id="erster_husar" sex="MALE">
-                  <persName>Erster Husar</persName>
-               </person>
-               <person xml:id="zweiter_husar" sex="MALE">
-                  <persName>Zweiter Husar</persName>
-               </person>
-               <person xml:id="er" sex="MALE">
-                  <persName>Er</persName>
-               </person>
-               <person xml:id="sie" sex="FEMALE">
-                  <persName>Sie</persName>
-               </person>
-               <person xml:id="koch" sex="MALE">
-                  <persName>Koch</persName>
-               </person>
-               <person xml:id="historiograph" sex="MALE">
-                  <persName>Historiograph</persName>
-               </person>
-               <person xml:id="ein_bedienter" sex="MALE">
-                  <persName>Ein Bedienter</persName>
-               </person>
-               <person xml:id="hanswurst" sex="MALE">
-                  <persName>Hanswurst</persName>
-               </person>
-               <person xml:id="ein_hofmann" sex="MALE">
-                  <persName>Ein Hofmann</persName>
-               </person>
-               <personGrp xml:id="das_parterre" sex="UNKNOWN">
-                  <name>Das Parterre</name>
-                  <name type="variant">Im Parterre</name>
-                  <name type="variant">Alle im Parterre</name>
-               </personGrp>
-               <personGrp xml:id="alle_2-4" sex="UNKNOWN">
-                  <name>Alle (II/4)</name>
-               </personGrp>
-               <personGrp xml:id="die_vierfuessigen" sex="UNKNOWN">
-                  <name>Die Vierfüßigen</name>
-               </personGrp>
-               <personGrp xml:id="die_voegel" sex="UNKNOWN">
-                  <name>Die Vögel</name>
-               </personGrp>
-               <person xml:id="besaenftiger" sex="MALE">
-                  <persName>Der Besänftiger</persName>
-               </person>
-               <person xml:id="maschinist" sex="MALE">
-                  <persName>Maschinist</persName>
-               </person>
-               <person xml:id="bauer" sex="MALE">
-                  <persName>Bauer</persName>
-               </person>
-               <person xml:id="popanz" sex="UNKNOWN">
-                  <persName>Popanz</persName>
-               </person>
-               <person xml:id="amtmann" sex="MALE">
-                  <persName>Amtmann</persName>
-               </person>
-               <personGrp xml:id="alle_epilog" sex="UNKNOWN">
-                  <name>Alle (Epilog)</name>
-               </personGrp>
-               <person xml:id="hinter_dem_vorhange" sex="UNKNOWN">
-                  <persName>Hinter dem Vorhange</persName>
-               </person>
-               <person xml:id="souffleur" sex="MALE">
-                  <persName>Souffleur</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/12989432X">
+                        <forename>Ludwig</forename>
+                        <surname>Tieck</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Marianne</forename>
+                        <surname>Thalmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

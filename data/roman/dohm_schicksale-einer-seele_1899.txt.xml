@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -149,10 +146,7 @@
                   <date type="firstPublication" subtype="clariah">1899</date>
                   <date type="firstPublication" subtype="zeno">1899</date>
                   <date type="firstPublication" subtype="i5">1899</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1831"
-                        notAfter="1899"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1831" notAfter="1899"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Dohm-Hedwig-d1e8105">Erster (aber als zweiter veröffentlichter) Teil der Trilogie »Drei Generationen«. Erstdruck: Berlin (S. Fischer) 1899.</note>
@@ -166,7 +160,10 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/11852643X">
+                        <forename>Hedwig</forename>
+                        <surname>Dohm</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

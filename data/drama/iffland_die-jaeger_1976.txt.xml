@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -159,10 +156,7 @@
                   <date type="firstPublication" subtype="zeno">1785</date>
                   <date type="firstPublication" subtype="i5">1785</date>
                   <date type="firstPublication" subtype="gerdracor">1785</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1759"
-                        notAfter="1814"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1759" notAfter="1814"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d604e301">Erstdruck: Berlin (Rottmann), 1785. Uraufführung am 09.03.1785, fürstliches Gesellschaftstheater, Meiningen.</note>
@@ -182,68 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="matthes" sex="MALE">
-                  <persName>Matthes</persName>
-               </person>
-               <person xml:id="rudolph" sex="MALE">
-                  <persName>Rudolph</persName>
-               </person>
-               <person xml:id="anton" sex="MALE">
-                  <persName>Anton</persName>
-               </person>
-               <person xml:id="oberfoersterin" sex="FEMALE">
-                  <persName>Oberförsterin</persName>
-               </person>
-               <person xml:id="oberfoerster" sex="MALE">
-                  <persName>Oberförster</persName>
-               </person>
-               <person xml:id="schulz" sex="MALE">
-                  <persName>Schulz</persName>
-               </person>
-               <person xml:id="friedrike" sex="FEMALE">
-                  <persName>Friedrike</persName>
-               </person>
-               <person xml:id="ein_bursche" sex="MALE">
-                  <persName>Ein Bursche</persName>
-               </person>
-               <person xml:id="kordelchen" sex="FEMALE">
-                  <persName>Kordelchen</persName>
-               </person>
-               <person xml:id="pastor" sex="MALE">
-                  <persName>Pastor</persName>
-               </person>
-               <person xml:id="wirtin" sex="FEMALE">
-                  <persName>Wirtin</persName>
-               </person>
-               <person xml:id="baerbel" sex="FEMALE">
-                  <persName>Bärbel</persName>
-               </person>
-               <person xml:id="gerichtsschreiber" sex="MALE">
-                  <persName>Gerichtsschreiber</persName>
-               </person>
-               <person xml:id="romann" sex="MALE">
-                  <persName>Romann</persName>
-               </person>
-               <person xml:id="kappe" sex="MALE">
-                  <persName>Kappe</persName>
-               </person>
-               <personGrp xml:id="die_bauern" sex="UNKNOWN">
-                  <name>Die Bauern</name>
-                  <name type="variant">Alle</name>
-                  <name type="variant">Einige</name>
-                  <name type="variant">Andre</name>
-               </personGrp>
-               <person xml:id="der_alte_bauer" sex="MALE">
-                  <persName>Der alte Bauer</persName>
-               </person>
-               <person xml:id="amtmann" sex="MALE">
-                  <persName>Amtmann</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118555324">
+                        <forename>August Wilhelm</forename>
+                        <surname>Iffland</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Jürg</forename>
+                        <surname>Mathes</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

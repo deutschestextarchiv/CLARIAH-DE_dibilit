@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -158,10 +155,7 @@
                   <date type="firstPublication" subtype="zeno">1658</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1647"
-                        notAfter="1650"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1647" notAfter="1650"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d135e231">Entstanden wahrscheinlich zwischen 1647 und 1650. Erstdruck: Breslau (Treschner), 1658.</note>
@@ -181,7 +175,13 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118543032">
+                        <forename>Andreas</forename>
+                        <surname>Gryphius</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hermann</forename>
+                        <surname>Palm</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

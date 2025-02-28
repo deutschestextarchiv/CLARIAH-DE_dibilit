@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,10 +183,7 @@
                   <date type="firstPublication" subtype="zeno">1811</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1811</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1803"
-                        notAfter="1805"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1803" notAfter="1805"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d23e308">Entstanden 1803–1805/06, Teildruck in: Phöbus (Dresden) 1. Jg., 1808, 3. Stück; Erstdruck: Berlin (Reimer) 1811. Uraufführung am 2.3.1808 in Weimar.</note>
@@ -209,50 +203,27 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="licht" sex="MALE">
-                  <persName>Licht</persName>
-               </person>
-               <person xml:id="adam" sex="MALE">
-                  <persName>Adam</persName>
-               </person>
-               <person xml:id="der_bediente" sex="MALE">
-                  <persName>Der Bediente</persName>
-               </person>
-               <person xml:id="erste_magd" sex="FEMALE">
-                  <persName>Erste Magd</persName>
-               </person>
-               <person xml:id="zweite_magd" sex="FEMALE">
-                  <persName>Zweite Magd</persName>
-               </person>
-               <person xml:id="walter" sex="MALE">
-                  <persName>Walter</persName>
-               </person>
-               <person xml:id="der_buettel" sex="MALE">
-                  <persName>Der Büttel</persName>
-               </person>
-               <person xml:id="frau_marthe" sex="FEMALE">
-                  <persName>Frau Marthe</persName>
-               </person>
-               <person xml:id="veit" sex="MALE">
-                  <persName>Veit</persName>
-               </person>
-               <person xml:id="ruprecht" sex="MALE">
-                  <persName>Ruprecht</persName>
-               </person>
-               <person xml:id="eve" sex="FEMALE">
-                  <persName>Eve</persName>
-               </person>
-               <person xml:id="frau_brigitte" sex="FEMALE">
-                  <persName>Frau Brigitte</persName>
-               </person>
-               <personGrp xml:id="mehrere" sex="UNKNOWN">
-                  <name>Mehrere</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118563076">
+                        <forename>Heinrich</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Kleist</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Siegfried</forename>
+                        <surname>Streller</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Peter</forename>
+                        <surname>Goldammer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Barthel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Anita</forename>
+                        <surname>Golz</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Rudolf</forename>
+                        <surname>Loch</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

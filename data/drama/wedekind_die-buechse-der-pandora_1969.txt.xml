@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1902</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1902</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1894"
-                        notAfter="1902"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1894" notAfter="1902"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2676e311">Entstanden 1894/1902, Erstdruck in: Die Insel (Berlin), 3. Jg., 1902, Heft 10. Uraufführung am 1.2.1904 in Nürnberg.</note>
@@ -183,80 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="der_normale_leser" sex="MALE">
-                  <persName>Der normale Leser</persName>
-               </person>
-               <person xml:id="der_ruehrige_verleger" sex="MALE">
-                  <persName>Der rührige Verleger</persName>
-               </person>
-               <person xml:id="der_verschaemte_autor" sex="MALE">
-                  <persName>Der verschämte Autor</persName>
-               </person>
-               <person xml:id="der_hohe_staatsanwalt" sex="MALE">
-                  <persName>Der hohe Staatsanwalt</persName>
-               </person>
-               <person xml:id="rodrigo" sex="MALE">
-                  <persName>Rodrigo</persName>
-               </person>
-               <person xml:id="die_geschwitz" sex="FEMALE">
-                  <persName>Die Geschwitz</persName>
-               </person>
-               <person xml:id="alwa" sex="MALE">
-                  <persName>Alwa</persName>
-               </person>
-               <person xml:id="schigolch" sex="MALE">
-                  <persName>Schigolch</persName>
-               </person>
-               <person xml:id="hugenberg" sex="MALE">
-                  <persName>Hugenberg</persName>
-               </person>
-               <person xml:id="lulu" sex="FEMALE">
-                  <persName>Lulu</persName>
-               </person>
-               <person xml:id="bianetta" sex="FEMALE">
-                  <persName>Bianetta</persName>
-               </person>
-               <person xml:id="magelone" sex="FEMALE">
-                  <persName>Magelone</persName>
-               </person>
-               <person xml:id="casti-piani" sex="MALE">
-                  <persName>Graf Casti-Piani</persName>
-               </person>
-               <person xml:id="kadidja" sex="FEMALE">
-                  <persName>Kadidja</persName>
-               </person>
-               <person xml:id="heilmann" sex="MALE">
-                  <persName>Journalist Heilmann</persName>
-               </person>
-               <person xml:id="puntschu" sex="MALE">
-                  <persName>Puntschu</persName>
-               </person>
-               <person xml:id="ludmilla_steinherz" sex="FEMALE">
-                  <persName>Ludmilla Steinherz</persName>
-               </person>
-               <person xml:id="bob" sex="MALE">
-                  <persName>Bob</persName>
-               </person>
-               <person xml:id="ein_polizeikommissaer" sex="MALE">
-                  <persName>Ein Polizeikommissär</persName>
-               </person>
-               <person xml:id="herr_hunidei" sex="MALE">
-                  <persName>Herr Hunidei</persName>
-               </person>
-               <person xml:id="kungu_poti" sex="MALE">
-                  <persName>Kungu Poti</persName>
-               </person>
-               <person xml:id="dr_hilti" sex="MALE">
-                  <persName>Dr. Hilti</persName>
-               </person>
-               <person xml:id="jack" sex="MALE">
-                  <persName>Jack</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118629867">
+                        <forename>Frank</forename>
+                        <surname>Wedekind</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Manfred</forename>
+                        <surname>Hahn</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

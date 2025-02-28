@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,80 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="hochroitzpointner" sex="MALE">
-                  <persName>Hochroitzpointner</persName>
-               </person>
-               <person xml:id="schwester" sex="FEMALE">
-                  <persName>Schwester Ludmilla</persName>
-               </person>
-               <person xml:id="oskar" sex="MALE">
-                  <persName>Oskar</persName>
-               </person>
-               <person xml:id="bernhardi" sex="MALE">
-                  <persName>Bernhardi</persName>
-               </person>
-               <person xml:id="kurt" sex="MALE">
-                  <persName>Kurt</persName>
-               </person>
-               <person xml:id="ebenwald" sex="MALE">
-                  <persName>Ebenwald</persName>
-               </person>
-               <person xml:id="tugendvetter" sex="MALE">
-                  <persName>Tugendvetter</persName>
-               </person>
-               <person xml:id="adler" sex="MALE">
-                  <persName>Adler</persName>
-               </person>
-               <person xml:id="cyprian" sex="MALE">
-                  <persName>Cyprian</persName>
-               </person>
-               <person xml:id="pfarrer" sex="MALE">
-                  <persName>Pfarrer</persName>
-               </person>
-               <person xml:id="diener_elisabethinum" sex="MALE">
-                  <persName>Ein Diener im Elisabethinum</persName>
-               </person>
-               <person xml:id="feuermann" sex="MALE">
-                  <persName>Feuermann</persName>
-               </person>
-               <person xml:id="filitz" sex="MALE">
-                  <persName>Filitz</persName>
-               </person>
-               <person xml:id="loewenstein" sex="MALE">
-                  <persName>Löwenstein</persName>
-               </person>
-               <person xml:id="flint" sex="MALE">
-                  <persName>Flint</persName>
-               </person>
-               <person xml:id="schreimann" sex="MALE">
-                  <persName>Schreimann</persName>
-               </person>
-               <person xml:id="pflugfelder" sex="MALE">
-                  <persName>Pflugfelder</persName>
-               </person>
-               <person xml:id="wenger" sex="MALE">
-                  <persName>Wenger</persName>
-               </person>
-               <person xml:id="goldenthal" sex="MALE">
-                  <persName>Goldenthal</persName>
-               </person>
-               <person xml:id="diener_bernhardi" sex="MALE">
-                  <persName>Ein Diener bei Bernhardi</persName>
-               </person>
-               <person xml:id="kulka" sex="MALE">
-                  <persName>Kulka</persName>
-               </person>
-               <person xml:id="hofrat" sex="MALE">
-                  <persName>Hofrat</persName>
-               </person>
-               <person xml:id="amtsdiener" sex="MALE">
-                  <persName>Ein Diener im Unterrichtsministerium</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118609807">
+                        <forename>Arthur</forename>
+                        <surname>Schnitzler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

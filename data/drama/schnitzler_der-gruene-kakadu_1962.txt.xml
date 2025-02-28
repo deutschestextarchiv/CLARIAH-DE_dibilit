@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,84 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="grasset" sex="MALE">
-                  <persName>Grasset</persName>
-               </person>
-               <person xml:id="wirt" sex="MALE">
-                  <persName>Wirt (Prospère)</persName>
-               </person>
-               <person xml:id="lebret" sex="MALE">
-                  <persName>Lebret</persName>
-               </person>
-               <person xml:id="kommissaer" sex="MALE">
-                  <persName>Kommissär</persName>
-               </person>
-               <person xml:id="grain" sex="MALE">
-                  <persName>Grain</persName>
-               </person>
-               <person xml:id="scaevola" sex="MALE">
-                  <persName>Scaevola</persName>
-               </person>
-               <person xml:id="jules" sex="MALE">
-                  <persName>Jules</persName>
-               </person>
-               <person xml:id="henri" sex="MALE">
-                  <persName>Henri</persName>
-               </person>
-               <person xml:id="leocadie" sex="FEMALE">
-                  <persName>Leocadie</persName>
-               </person>
-               <person xml:id="francois" sex="MALE">
-                  <persName>François</persName>
-               </person>
-               <person xml:id="albin" sex="MALE">
-                  <persName>Albin</persName>
-               </person>
-               <person xml:id="michette" sex="FEMALE">
-                  <persName>Michette</persName>
-               </person>
-               <person xml:id="flipotte" sex="FEMALE">
-                  <persName>Flipotte</persName>
-               </person>
-               <person xml:id="herzog" sex="MALE">
-                  <persName>Herzog</persName>
-               </person>
-               <person xml:id="guillaume" sex="MALE">
-                  <persName>Guillaume</persName>
-               </person>
-               <person xml:id="marquis" sex="MALE">
-                  <persName>Marquis von Lansac</persName>
-               </person>
-               <person xml:id="rollin" sex="MALE">
-                  <persName>Rollin</persName>
-               </person>
-               <person xml:id="severine" sex="FEMALE">
-                  <persName>Severine</persName>
-               </person>
-               <person xml:id="georgette" sex="FEMALE">
-                  <persName>Georgette</persName>
-               </person>
-               <person xml:id="balthasar" sex="MALE">
-                  <persName>Balthasar</persName>
-               </person>
-               <person xml:id="etienne" sex="MALE">
-                  <persName>Etienne</persName>
-               </person>
-               <person xml:id="maurice" sex="MALE">
-                  <persName>Maurice</persName>
-               </person>
-               <personGrp xml:id="die_schauspieler" sex="UNKNOWN">
-                  <name>Die Schauspieler</name>
-                  <name type="variant">Vom Tisch der Schauspieler</name>
-               </personGrp>
-               <personGrp xml:id="rufe_draussen_einige_andere_die_buerger" sex="UNKNOWN">
-                  <name>Rufe draußen/Rufe/Einige/Andere/Die Bürger</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118609807">
+                        <forename>Arthur</forename>
+                        <surname>Schnitzler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -179,74 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="leonce" sex="MALE">
-                  <persName>Leonce</persName>
-               </person>
-               <person xml:id="hofmeister" sex="MALE">
-                  <persName>Hofmeister</persName>
-               </person>
-               <person xml:id="valerio" sex="MALE">
-                  <persName>Valerio</persName>
-               </person>
-               <person xml:id="koenig_peter" sex="MALE">
-                  <persName>König Peter</persName>
-               </person>
-               <person xml:id="erster_kammerdiener" sex="MALE">
-                  <persName>Erster Kammerdiener</persName>
-               </person>
-               <person xml:id="zweiter_kammerdiener" sex="MALE">
-                  <persName>Zweiter Kammerdiener</persName>
-               </person>
-               <person xml:id="diener" sex="MALE">
-                  <persName>Diener</persName>
-               </person>
-               <person xml:id="praesident" sex="MALE">
-                  <persName>Präsident</persName>
-               </person>
-               <personGrp xml:id="der_ganze_staatsrat_im_chor" sex="UNKNOWN">
-                  <name>Der ganze Staatsrat im Chor</name>
-               </personGrp>
-               <person xml:id="rosetta" sex="FEMALE">
-                  <persName>Rosetta</persName>
-               </person>
-               <person xml:id="lena" sex="FEMALE">
-                  <persName>Lena</persName>
-               </person>
-               <person xml:id="gouvernante" sex="FEMALE">
-                  <persName>Gouvernante</persName>
-               </person>
-               <person xml:id="landrat" sex="MALE">
-                  <persName>Landrat</persName>
-               </person>
-               <person xml:id="schulmeister" sex="MALE">
-                  <persName>Schulmeister</persName>
-               </person>
-               <personGrp xml:id="die_bauern" sex="UNKNOWN">
-                  <name>Die Bauern</name>
-               </personGrp>
-               <person xml:id="zeremonienmeister" sex="MALE">
-                  <persName>Zeremonienmeister</persName>
-               </person>
-               <person xml:id="erster_bedienter" sex="MALE">
-                  <persName>Erster Bedienter</persName>
-               </person>
-               <person xml:id="zweiter_bedienter" sex="MALE">
-                  <persName>Zweiter Bedienter</persName>
-               </person>
-               <person xml:id="dritter_bedienter" sex="MALE">
-                  <persName>Dritter Bedienter</persName>
-               </person>
-               <person xml:id="vierter_diener" sex="MALE">
-                  <persName>Vierter Diener</persName>
-               </person>
-               <person xml:id="hofprediger" sex="MALE">
-                  <persName>Hofprediger</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118516906">
+                        <forename>Georg</forename>
+                        <surname>Büchner</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Fritz</forename>
+                        <surname>Bergemann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

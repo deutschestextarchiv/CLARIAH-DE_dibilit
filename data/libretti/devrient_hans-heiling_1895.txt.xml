@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -170,10 +167,7 @@
                   <date type="firstPublication" subtype="clariah"/>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1895</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1801"
-                        notAfter="1877"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1801" notAfter="1877"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d30e308">Komponiert von Heinrich Marschner. Uraufführung am 24.05.1833, Königliches Opernhaus, Berlin.</note>
@@ -193,66 +187,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="chor_der_erdgeister" sex="UNKNOWN">
-                  <name>Chor der Erdgeister</name>
-                  <name type="variant">Ergeister</name>
-                  <name type="variant">Die Geister</name>
-                  <name type="variant">Geister</name>
-               </personGrp>
-               <person xml:id="heiling" sex="MALE">
-                  <persName>Heiling</persName>
-               </person>
-               <person xml:id="koenigin" sex="FEMALE">
-                  <persName>Königin</persName>
-               </person>
-               <person xml:id="gertrud" sex="FEMALE">
-                  <persName>Gertrud</persName>
-               </person>
-               <person xml:id="anna" sex="FEMALE">
-                  <persName>Anna</persName>
-               </person>
-               <personGrp xml:id="bauernchor_bauern" sex="MALE">
-                  <name>Bauernchor/Bauern/Die Bauern</name>
-               </personGrp>
-               <person xml:id="ein_bursche" sex="MALE">
-                  <persName>Ein Bursche</persName>
-               </person>
-               <person xml:id="niklas" sex="MALE">
-                  <persName>Niklas</persName>
-               </person>
-               <person xml:id="stephan" sex="MALE">
-                  <persName>Stephan</persName>
-               </person>
-               <personGrp xml:id="die_andern" sex="MALE">
-                  <name>Die Andern</name>
-               </personGrp>
-               <person xml:id="konrad" sex="MALE">
-                  <persName>Konrad</persName>
-               </person>
-               <personGrp xml:id="chor_1-7" sex="UNKNOWN">
-                  <name>Chor (I/7)</name>
-               </personGrp>
-               <personGrp xml:id="alle_1-8" sex="UNKNOWN">
-                  <name>Alle (I/8)</name>
-               </personGrp>
-               <personGrp xml:id="die_jaeger" sex="MALE">
-                  <name>Die Jäger</name>
-               </personGrp>
-               <personGrp xml:id="baeuerinnen" sex="FEMALE">
-                  <name>Bäuerinnen</name>
-               </personGrp>
-               <personGrp xml:id="alle_chor_der_hochzeitsleute" sex="UNKNOWN">
-                  <name>Alle/Chor der Hochzeitsleute</name>
-                  <name type="variant">Hochzeitsleute</name>
-               </personGrp>
-               <personGrp xml:id="die_brautjungfern" sex="FEMALE">
-                  <name>Die Brautjungfern</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118525042">
+                        <forename>Philipp Eduard</forename>
+                        <surname>Devrient</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/11878210X">
+                        <forename>Heinrich</forename>
+                        <surname>Marschner</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Carl Friedrich</forename>
+                        <surname>Wittmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

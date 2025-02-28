@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -150,10 +147,7 @@
                   <date type="firstPublication" subtype="clariah">1582</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1575</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1570"
-                        notAfter="1575"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1570" notAfter="1575"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Tasso-Torquato-d1e245">Entstanden 1570–1575. Erstdruck einer unvollständigen und nicht autorisierten Fassung unter dem Titel »Il Goffredo«: Venedig 1580. Erstdruck der autorisierten Version: Ferrara 1582. Eine erweiterte Ausgabe erschien im gleichen Jahr. Hier in der Übers. v. J.D. Gries.</note>
@@ -167,7 +161,10 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118620916">
+                        <forename>Torquato</forename>
+                        <surname>Tasso</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

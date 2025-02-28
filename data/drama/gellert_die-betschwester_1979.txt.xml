@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1745</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1745</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1715"
-                        notAfter="1769"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1715" notAfter="1769"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2851e255">Erstdruck in: »Neue Beyträge zum Vergnügen des Verstandes und Witzes« (Bremer Beiträge), zweiter Band, Leipzig und Bremen (Nathanel Saurmann), 1745. Früheste nachweisbare Aufführungen 1745 durch die Truppe der Neuberin.</note>
@@ -183,26 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="lorchen" sex="FEMALE">
-                  <persName>Lorchen</persName>
-               </person>
-               <person xml:id="ferdinand" sex="MALE">
-                  <persName>Ferdinand</persName>
-               </person>
-               <person xml:id="frau_richardin" sex="FEMALE">
-                  <persName>Frau Richardin</persName>
-               </person>
-               <person xml:id="simon" sex="MALE">
-                  <persName>Simon</persName>
-               </person>
-               <person xml:id="christianchen" sex="FEMALE">
-                  <persName>Christianchen</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118538322">
+                        <forename>Christian Fürchtegott</forename>
+                        <surname>Gellert</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Gottfried</forename>
+                        <surname>Honnefelder</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1901</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1901</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1867"
-                        notAfter="1901"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1867" notAfter="1901"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d387e277">Erstdruck: München (Langen) 1901. Uraufführung am 24.8.1901 in München, Residenztheater.</note>
@@ -177,53 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="bezirksamtmann" sex="MALE">
-                  <persName>Bezirksamtmann</persName>
-               </person>
-               <person xml:id="frau_bezirksamtmann" sex="FEMALE">
-                  <persName>Frau Bezirksamtmann</persName>
-               </person>
-               <person xml:id="babette" sex="FEMALE">
-                  <persName>Babette</persName>
-               </person>
-               <person xml:id="assessor" sex="MALE">
-                  <persName>Assessor</persName>
-               </person>
-               <person xml:id="lampl" sex="MALE">
-                  <persName>Lampl</persName>
-               </person>
-               <person xml:id="sedlmaier" sex="MALE">
-                  <persName>Sedlmaier</persName>
-               </person>
-               <person xml:id="hahnrieder" sex="MALE">
-                  <persName>Hahnrieder</persName>
-               </person>
-               <person xml:id="haeberlein" sex="MALE">
-                  <persName>Häberlein</persName>
-               </person>
-               <person xml:id="grubhofer" sex="MALE">
-                  <persName>Grubhofer</persName>
-               </person>
-               <person xml:id="merkl" sex="MALE">
-                  <persName>Merkl</persName>
-               </person>
-               <person xml:id="peter_neusigl" sex="MALE">
-                  <persName>Peter Neusigl</persName>
-               </person>
-               <person xml:id="frau_neusigl" sex="FEMALE">
-                  <persName>Frau Neusigl</persName>
-               </person>
-               <person xml:id="anna" sex="FEMALE">
-                  <persName>Anna</persName>
-               </person>
-               <person xml:id="regierungsdirektor_steinbeissel" sex="MALE">
-                  <persName>Regierungsdirektor Steinbeißel</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118622072">
+                        <forename>Ludwig</forename>
+                        <surname>Thoma</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

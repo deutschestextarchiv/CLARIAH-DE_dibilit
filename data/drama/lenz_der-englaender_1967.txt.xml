@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,45 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="robert" sex="MALE">
-                  <persName>Robert</persName>
-               </person>
-               <person xml:id="prinzessin" sex="FEMALE">
-                  <persName>Prinzessin</persName>
-                  <persName type="variant">Armida</persName>
-               </person>
-               <personGrp xml:id="runde" sex="MALE">
-                  <name>Runde</name>
-               </personGrp>
-               <person xml:id="major" sex="MALE">
-                  <persName>Major</persName>
-               </person>
-               <person xml:id="lord_hot" sex="MALE">
-                  <persName>Lord Hot</persName>
-               </person>
-               <person xml:id="lord_hamilton" sex="MALE">
-                  <persName>Lord Hamilton</persName>
-               </person>
-               <person xml:id="williams" sex="MALE">
-                  <persName>Williams</persName>
-               </person>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter</persName>
-               </person>
-               <person xml:id="tognina" sex="FEMALE">
-                  <persName>Tognina</persName>
-               </person>
-               <person xml:id="wundarzt" sex="MALE">
-                  <persName>Wundarzt</persName>
-               </person>
-               <person xml:id="beichtvater" sex="MALE">
-                  <persName>Beichtvater</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118571656">
+                        <forename>Jakob Michael Reinhold</forename>
+                        <surname>Lenz</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Britta</forename>
+                        <surname>Titel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hellmut</forename>
+                        <surname>Haug</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

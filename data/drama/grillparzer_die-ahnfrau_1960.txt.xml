@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,41 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="der_graf" sex="MALE">
-                  <persName>Der Graf</persName>
-               </person>
-               <person xml:id="bertha" sex="FEMALE">
-                  <persName>Bertha</persName>
-               </person>
-               <person xml:id="ahnfrau_gestalt" sex="FEMALE">
-                  <persName>Die Ahnfrau (Die Gestalt)</persName>
-               </person>
-               <person xml:id="guenther" sex="MALE">
-                  <persName>Günther</persName>
-               </person>
-               <person xml:id="jaromir" sex="MALE">
-                  <persName>Jaromir</persName>
-               </person>
-               <person xml:id="hauptmann" sex="MALE">
-                  <persName>Hauptmann</persName>
-               </person>
-               <person xml:id="walter" sex="MALE">
-                  <persName>Walter</persName>
-               </person>
-               <person xml:id="soldat" sex="MALE">
-                  <persName>Ein Soldat</persName>
-               </person>
-               <person xml:id="boleslav" sex="MALE">
-                  <persName>Boleslav</persName>
-               </person>
-               <personGrp xml:id="chor_gesang" sex="UNKNOWN">
-                  <name>Chor/Gesang</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118542192">
+                        <forename>Franz</forename>
+                        <surname>Grillparzer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Peter</forename>
+                        <surname>Frank</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

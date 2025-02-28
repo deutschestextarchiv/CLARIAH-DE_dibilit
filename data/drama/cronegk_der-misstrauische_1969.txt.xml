@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -167,10 +164,7 @@
                   <date type="firstPublication" subtype="zeno">1760</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1760</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1731"
-                        notAfter="1758"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1731" notAfter="1758"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d471e270">Erstdruck in: »J. F. v. Cronegk: Schriften«, Bd. 1, herausgegeben von Johann Peter Zu, Ansbach (Jacob Christoph Posch), 1760. Uraufführung [?] 1766, Hamburg.</note>
@@ -190,32 +184,18 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="orgon" sex="MALE">
-                  <persName>Herr Orgon</persName>
-               </person>
-               <person xml:id="philipp" sex="MALE">
-                  <persName>Philipp</persName>
-               </person>
-               <person xml:id="lisette" sex="FEMALE">
-                  <persName>Lisette</persName>
-               </person>
-               <person xml:id="timant" sex="MALE">
-                  <persName>Timant</persName>
-               </person>
-               <person xml:id="damon" sex="MALE">
-                  <persName>Damon</persName>
-               </person>
-               <person xml:id="geronte" sex="MALE">
-                  <persName>Herr Geronte</persName>
-               </person>
-               <person xml:id="climene" sex="FEMALE">
-                  <persName>Climene</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/11852285X">
+                        <forename>Johann Friedrich</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Cronegk</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Helmut</forename>
+                        <surname>Arntzen</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pestalozzi</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

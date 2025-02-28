@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -149,10 +146,7 @@
                   <date type="firstPublication" subtype="clariah">1879</date>
                   <date type="firstPublication" subtype="zeno">1879</date>
                   <date type="firstPublication" subtype="i5">1893</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1840"
-                        notAfter="1902"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1840" notAfter="1902"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Zola-Emile-d1e257">Neunter Band des Zyklus »Les Rougon-Macquart«, 20 Bde, Paris 1871–1893. Erstdruck des Romans in: Le Voltaire, 16.10.1879–5.2.1880. Erste Buchausgabe des Romans: Paris (Charpentier) 1880. Hier in der Übers. v. Arnim Schwarz.</note>
@@ -166,7 +160,10 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118637223">
+                        <forename>Emile</forename>
+                        <surname>Zola</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

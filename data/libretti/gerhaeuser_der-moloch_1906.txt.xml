@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -167,10 +164,7 @@
                   <date type="firstPublication" subtype="clariah">1906</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1906</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1868"
-                        notAfter="1906"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1868" notAfter="1906"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d114e321">Komponiert von Max von Schillings. Uraufführung am 08.12.1906, Königlich-Sächsisches Opernhaus (Semperoper), Dresden.</note>
@@ -190,78 +184,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="maenner" sex="MALE">
-                  <name>Männer</name>
-               </personGrp>
-               <personGrp xml:id="frauen" sex="FEMALE">
-                  <name>Frauen</name>
-               </personGrp>
-               <personGrp xml:id="einzelne" sex="UNKNOWN">
-                  <name>Einzelne</name>
-               </personGrp>
-               <personGrp xml:id="andere" sex="UNKNOWN">
-                  <name>Andere</name>
-               </personGrp>
-               <person xml:id="hiram" sex="MALE">
-                  <persName>Hiram</persName>
-               </person>
-               <personGrp xml:id="volk" sex="UNKNOWN">
-                  <name>Volk</name>
-               </personGrp>
-               <person xml:id="wolf" sex="MALE">
-                  <persName>Wolf</persName>
-               </person>
-               <person xml:id="teut" sex="MALE">
-                  <persName>Teut</persName>
-               </person>
-               <personGrp xml:id="alle_1-4" sex="UNKNOWN">
-                  <name>Alle (I/4)</name>
-               </personGrp>
-               <person xml:id="theoda" sex="FEMALE">
-                  <persName>Theoda</persName>
-               </person>
-               <person xml:id="velleda" sex="FEMALE">
-                  <persName>Velleda</persName>
-               </person>
-               <personGrp xml:id="einzelne_maenner" sex="MALE">
-                  <name>Einzelne Männer</name>
-               </personGrp>
-               <personGrp xml:id="krieger" sex="MALE">
-                  <name>Krieger</name>
-               </personGrp>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>König</persName>
-               </person>
-               <personGrp xml:id="alles_2-3" sex="UNKNOWN">
-                  <name>Alles (II/3)</name>
-               </personGrp>
-               <personGrp xml:id="alle_3-1" sex="UNKNOWN">
-                  <name>Alle (III/1)</name>
-               </personGrp>
-               <person xml:id="ein_junger_krieger" sex="MALE">
-                  <persName>Ein junger Krieger</persName>
-               </person>
-               <personGrp xml:id="molochpriester" sex="MALE">
-                  <name>Molochpriester</name>
-                  <name type="variant">Priester</name>
-               </personGrp>
-               <person xml:id="ein_krieger" sex="MALE">
-                  <persName>Ein Krieger</persName>
-               </person>
-               <person xml:id="ein_anderer" sex="MALE">
-                  <persName>Ein anderer</persName>
-               </person>
-               <person xml:id="eine_stimme" sex="UNKNOWN">
-                  <persName>Eine Stimme</persName>
-               </person>
-               <personGrp xml:id="alle_3-7" sex="UNKNOWN">
-                  <name>Alle (III/7)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/11656640X">
+                        <forename>Emil</forename>
+                        <surname>Gerhäuser</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/186784287">
+                        <forename>Max</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schilling</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

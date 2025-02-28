@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -194,62 +191,20 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="assad" sex="MALE">
-                  <persName>Assad</persName>
-               </person>
-               <person xml:id="hakam" sex="MALE">
-                  <persName>Hakam</persName>
-               </person>
-               <person xml:id="irad" sex="MALE">
-                  <persName>Irad</persName>
-               </person>
-               <person xml:id="der_aufseher" sex="MALE">
-                  <persName>Der Aufseher</persName>
-               </person>
-               <person xml:id="der_vezier" sex="MALE">
-                  <persName>Der Vezier</persName>
-               </person>
-               <person xml:id="soliman" sex="MALE">
-                  <persName>Soliman</persName>
-               </person>
-               <personGrp xml:id="volk" sex="UNKNOWN">
-                  <name>Volk</name>
-               </personGrp>
-               <person xml:id="khalf" sex="MALE">
-                  <persName>Khalf</persName>
-               </person>
-               <person xml:id="der_kadi" sex="MALE">
-                  <persName>Der Kadi</persName>
-               </person>
-               <person xml:id="rustan" sex="MALE">
-                  <persName>Rustan</persName>
-               </person>
-               <person xml:id="eine_stimme" sex="MALE">
-                  <persName>Eine Stimme</persName>
-               </person>
-               <person xml:id="fatime" sex="FEMALE">
-                  <persName>Fatime</persName>
-               </person>
-               <person xml:id="selim" sex="MALE">
-                  <persName>Selim</persName>
-               </person>
-               <person xml:id="der_kalif" sex="MALE">
-                  <persName>Der Kalif</persName>
-               </person>
-               <person xml:id="der_bote" sex="MALE">
-                  <persName>Der Bote</persName>
-               </person>
-               <person xml:id="babeck" sex="MALE">
-                  <persName>Babeck</persName>
-               </person>
-               <person xml:id="omar" sex="MALE">
-                  <persName>Omar</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118547445">
+                        <forename>Friedrich</forename>
+                        <surname>Hebbel</surname>
+                     </persName></person><person sex="m" role="editor"><persName>
+                        <forename>Gerhard</forename>
+                        <surname>Fricke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Werner</forename>
+                        <surname>Keller</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

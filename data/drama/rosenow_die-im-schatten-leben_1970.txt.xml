@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -176,52 +173,7 @@
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="hannchen" sex="FEMALE">
-                  <persName>Hannchen</persName>
-               </person>
-               <person xml:id="mutter_lueckel" sex="FEMALE">
-                  <persName>Mutter Lückel</persName>
-               </person>
-               <person xml:id="der_alte_schniermann" sex="MALE">
-                  <persName>Der alte Schniermann</persName>
-               </person>
-               <person xml:id="pittjupp" sex="MALE">
-                  <persName>Pittjupp</persName>
-               </person>
-               <person xml:id="jan_biggen" sex="MALE">
-                  <persName>Jan Biggen</persName>
-               </person>
-               <person xml:id="trina" sex="FEMALE">
-                  <persName>Trina</persName>
-               </person>
-               <person xml:id="liesa" sex="FEMALE">
-                  <persName>Liesa</persName>
-               </person>
-               <person xml:id="koerting" sex="MALE">
-                  <persName>Diakonus Körting</persName>
-               </person>
-               <person xml:id="langenscheidt" sex="MALE">
-                  <persName>Langenscheidt</persName>
-               </person>
-               <person xml:id="vonderscheer" sex="MALE">
-                  <persName>Vonderscheer</persName>
-               </person>
-               <person xml:id="wittbraeuke" sex="MALE">
-                  <persName>Wittbräuke</persName>
-               </person>
-               <person xml:id="hinnaeck" sex="MALE">
-                  <persName>Hinnäck</persName>
-               </person>
-               <person xml:id="anngret" sex="FEMALE">
-                  <persName>Anngret</persName>
-               </person>
-               <person xml:id="kloenne" sex="MALE">
-                  <persName>Klönne</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno">1889</date>
                   <date type="firstPublication" subtype="i5">1889</date>
                   <date type="firstPublication" subtype="gerdracor">1889</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1837"
-                        notAfter="1896"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1837" notAfter="1896"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2200e353">Erstdruck: Stuttgart (Cotta), 1889.</note>
@@ -176,121 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="zoe" sex="FEMALE">
-                  <persName>Zoe</persName>
-               </person>
-               <person xml:id="die_frau" sex="FEMALE">
-                  <persName>Die Frau</persName>
-                  <persName type="variant">Frau</persName>
-               </person>
-               <person xml:id="der_blinde" sex="MALE">
-                  <persName>Der Blinde</persName>
-                  <persName type="variant">Blinder</persName>
-               </person>
-               <person xml:id="pausanias" sex="MALE">
-                  <persName>Pausanias</persName>
-               </person>
-               <person xml:id="der_greis" sex="MALE">
-                  <persName>Der Greis</persName>
-                  <persName type="variant">Greis</persName>
-               </person>
-               <personGrp xml:id="stimmen" sex="UNKNOWN">
-                  <name>Stimmen (I/3)</name>
-               </personGrp>
-               <person xml:id="apelles" sex="MALE">
-                  <persName>Apelles</persName>
-               </person>
-               <person xml:id="longinus" sex="MALE">
-                  <persName>Longinus</persName>
-               </person>
-               <person xml:id="aurelius" sex="MALE">
-                  <persName>Aurelius</persName>
-                  <persName type="variant">Aurelius Wahballath</persName>
-               </person>
-               <person xml:id="septimius" sex="MALE">
-                  <persName>Septimius</persName>
-                  <persName type="variant">Septimius Malku</persName>
-               </person>
-               <person xml:id="bolana" sex="FEMALE">
-                  <persName>Bolana</persName>
-               </person>
-               <person xml:id="sklavin" sex="FEMALE">
-                  <persName>Sklavin</persName>
-               </person>
-               <person xml:id="timolaos" sex="MALE">
-                  <persName>Timolaos</persName>
-               </person>
-               <person xml:id="saturninus" sex="MALE">
-                  <persName>Saturninus</persName>
-               </person>
-               <personGrp xml:id="volk_alle_1-7" sex="UNKNOWN">
-                  <name>Volk/Alle (I/7)</name>
-               </personGrp>
-               <person xml:id="erster_buerger" sex="MALE">
-                  <persName>Erster Bürger</persName>
-               </person>
-               <person xml:id="zweiter_buerger" sex="MALE">
-                  <persName>Zweiter Bürger</persName>
-               </person>
-               <personGrp xml:id="volk_1-9" sex="UNKNOWN">
-                  <name>Volk (I/9)</name>
-               </personGrp>
-               <person xml:id="phoebe" sex="FEMALE">
-                  <persName>Phöbe</persName>
-               </person>
-               <person xml:id="sklave" sex="MALE">
-                  <persName>Sklave</persName>
-               </person>
-               <person xml:id="jamlichus" sex="MALE">
-                  <persName>Jamlichus</persName>
-               </person>
-               <person xml:id="herennianos" sex="MALE">
-                  <persName>Herennianos</persName>
-               </person>
-               <person xml:id="persida" sex="FEMALE">
-                  <persName>Persida</persName>
-               </person>
-               <person xml:id="tryphena" sex="FEMALE">
-                  <persName>Tryphena</persName>
-               </person>
-               <person xml:id="jarchai" sex="MALE">
-                  <persName>Jarchai</persName>
-               </person>
-               <personGrp xml:id="volk_3-6" sex="UNKNOWN">
-                  <name>Volk (III/6)</name>
-               </personGrp>
-               <person xml:id="ein_buerger" sex="MALE">
-                  <persName>Ein Bürger (III/6)</persName>
-               </person>
-               <person xml:id="nymphas" sex="MALE">
-                  <persName>Nymphas</persName>
-               </person>
-               <person xml:id="zabbaeos" sex="MALE">
-                  <persName>Zabbäos</persName>
-               </person>
-               <person xml:id="stimme" sex="UNKNOWN">
-                  <persName>Stimme (IV/6–8)</persName>
-               </person>
-               <person xml:id="agrippa" sex="MALE">
-                  <persName>Agrippa</persName>
-               </person>
-               <person xml:id="maeonios" sex="MALE">
-                  <persName>Mäonios</persName>
-               </person>
-               <person xml:id="seleukos" sex="MALE">
-                  <persName>Seleukos</persName>
-               </person>
-               <personGrp xml:id="alle_5-2" sex="MALE">
-                  <name>Alle (V/2)</name>
-               </personGrp>
-               <person xml:id="zenobia" sex="FEMALE">
-                  <persName>Zenobia</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118807250">
+                        <forename>Adolf</forename>
+                        <surname>Wilbrandt</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

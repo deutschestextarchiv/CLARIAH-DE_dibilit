@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,91 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="chor" sex="UNKNOWN">
-                  <persName>Chor</persName>
-               </person>
-               <person xml:id="holofernes" sex="MALE">
-                  <persName>Holofernes</persName>
-               </person>
-               <person xml:id="idun" sex="MALE">
-                  <persName>Idun</persName>
-               </person>
-               <person xml:id="chalkol" sex="MALE">
-                  <persName>Chalkol</persName>
-               </person>
-               <person xml:id="zepho" sex="MALE">
-                  <persName>Zepho</persName>
-               </person>
-               <person xml:id="oberpriester" sex="MALE">
-                  <persName>Oberpriester</persName>
-               </person>
-               <person xml:id="herold" sex="MALE">
-                  <persName>Herold</persName>
-               </person>
-               <person xml:id="priester" sex="MALE">
-                  <persName>Priester</persName>
-               </person>
-               <person xml:id="achior" sex="MALE">
-                  <persName>Achior</persName>
-               </person>
-               <person xml:id="der_gesandte" sex="MALE">
-                  <persName>Der Gesandte</persName>
-               </person>
-               <person xml:id="ammon" sex="MALE">
-                  <persName>Ammon</persName>
-               </person>
-               <person xml:id="hosea" sex="MALE">
-                  <persName>Hosea</persName>
-               </person>
-               <person xml:id="assad" sex="MALE">
-                  <persName>Assad</persName>
-               </person>
-               <person xml:id="jojakim" sex="MALE">
-                  <persName>Jojakim</persName>
-               </person>
-               <person xml:id="joab" sex="MALE">
-                  <persName>Joab</persName>
-                  <persName type="variant">Judith (Joab)</persName>
-               </person>
-               <person xml:id="sara" sex="FEMALE">
-                  <persName>Sara</persName>
-               </person>
-               <person xml:id="rachel" sex="FEMALE">
-                  <persName>Rachel</persName>
-               </person>
-               <person xml:id="nazael" sex="MALE">
-                  <persName>Nazael</persName>
-               </person>
-               <person xml:id="ben" sex="MALE">
-                  <persName>Ben</persName>
-               </person>
-               <person xml:id="nabal" sex="MALE">
-                  <persName>Nabal</persName>
-               </person>
-               <person xml:id="volk_alle" sex="UNKNOWN">
-                  <persName>Volk / Alle</persName>
-                  <persName type="variant">Mehrere aus dem Volk(e)</persName>
-               </person>
-               <person xml:id="daniel" sex="MALE">
-                  <persName>Daniel</persName>
-               </person>
-               <person xml:id="nathan" sex="MALE">
-                  <persName>Nathan</persName>
-               </person>
-               <person xml:id="heman" sex="MALE">
-                  <persName>Heman</persName>
-               </person>
-               <person xml:id="mirza" sex="FEMALE">
-                  <persName>Mirza</persName>
-               </person>
-               <person xml:id="stimmen" sex="UNKNOWN">
-                  <persName>Stimmen</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118587080">
+                        <forename>Johann</forename>
+                        <surname>Nestroy</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

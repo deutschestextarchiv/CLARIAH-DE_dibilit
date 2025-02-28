@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -161,10 +158,7 @@
                   <date type="firstPublication" subtype="zeno">1790</date>
                   <date type="firstPublication" subtype="i5">1790</date>
                   <date type="firstPublication" subtype="gerdracor">1790</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1761"
-                        notAfter="1819"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1761" notAfter="1819"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2445e280">Erstdruck: Berlin (Christian Friedrich Himburg), 1790.</note>
@@ -184,47 +178,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter</persName>
-               </person>
-               <person xml:id="unbekannter" sex="MALE">
-                  <persName>Ein Unbekannter</persName>
-               </person>
-               <person xml:id="franz" sex="MALE">
-                  <persName>Franz</persName>
-               </person>
-               <person xml:id="greis" sex="MALE">
-                  <persName>Ein Greis</persName>
-               </person>
-               <person xml:id="eulalia" sex="FEMALE">
-                  <persName>Eulalia</persName>
-               </person>
-               <person xml:id="bittermann" sex="MALE">
-                  <persName>Bittermann</persName>
-               </person>
-               <person xml:id="der_major" sex="MALE">
-                  <persName>Major von der Horst</persName>
-               </person>
-               <person xml:id="der_graf" sex="MALE">
-                  <persName>Der Graf</persName>
-               </person>
-               <person xml:id="graefin" sex="FEMALE">
-                  <persName>Die Gräfin</persName>
-               </person>
-               <person xml:id="lotte" sex="FEMALE">
-                  <persName>Lotte</persName>
-               </person>
-               <person xml:id="wilhelm" sex="MALE">
-                  <persName>Wilhelm</persName>
-               </person>
-               <person xml:id="malchen" sex="FEMALE">
-                  <persName>Malchen</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118565796">
+                        <forename>August</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Kotzebue</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Jürg</forename>
+                        <surname>Mathes</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

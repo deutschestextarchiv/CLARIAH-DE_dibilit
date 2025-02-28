@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -152,10 +149,7 @@
                   <date type="firstPublication" subtype="zeno">1911</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1911</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1909"
-                        notAfter="1910"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1909" notAfter="1910"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2242e394">Entstanden 1909–1910. Erstdruck: Berlin (S. Fischer), 1911. Uraufführung am 11.11.1911, Schauspielhaus, Hamburg.</note>
@@ -175,143 +169,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="eulenspiegel" sex="MALE">
-                  <persName>Eulenspiegel</persName>
-                  <persName type="variant">Tyll Eulenspiegel</persName>
-                  <persName type="variant">Stimme Eulenspiegels</persName>
-               </person>
-               <personGrp xml:id="gesang" sex="UNKNOWN">
-                  <name>Vierstimmiger Gesang mit Lautenspiel</name>
-               </personGrp>
-               <person xml:id="michel" sex="MALE">
-                  <persName>Michel Michael</persName>
-               </person>
-               <person xml:id="lise_lied" sex="FEMALE">
-                  <persName>Lise Lied</persName>
-                  <persName type="variant">Lise</persName>
-               </person>
-               <person xml:id="der_rote_karl" sex="MALE">
-                  <persName>Der rote Karl</persName>
-                  <persName type="variant">Stimme des roten Karls</persName>
-               </person>
-               <person xml:id="der_schwarze_karl" sex="MALE">
-                  <persName>Der schwarze Karl</persName>
-               </person>
-               <person xml:id="der_rotbart" sex="MALE">
-                  <persName>Der Kaiser Rotbart</persName>
-                  <persName type="variant">Stimme des Rotbarts</persName>
-               </person>
-               <person xml:id="eckart" sex="MALE">
-                  <persName>Der getreue Eckart</persName>
-                  <persName type="variant">Stimme Eckarts</persName>
-               </person>
-               <person xml:id="der_landrat" sex="MALE">
-                  <persName>Der Landrat</persName>
-               </person>
-               <personGrp xml:id="chorgesang_mit_musik" sex="UNKNOWN">
-                  <name>Chorgesang mit Musik</name>
-               </personGrp>
-               <person xml:id="der_bergrat" sex="MALE">
-                  <persName>Der Bergrat</persName>
-               </person>
-               <person xml:id="der_buergermeister" sex="MALE">
-                  <persName>Der Bürgermeister</persName>
-               </person>
-               <person xml:id="die_buergermeisterin" sex="FEMALE">
-                  <persName>Die Frau Bürgermeisterin</persName>
-               </person>
-               <person xml:id="der_pastor" sex="MALE">
-                  <persName>Der Pastor</persName>
-               </person>
-               <person xml:id="der_kaplan" sex="MALE">
-                  <persName>Der Kaplan</persName>
-               </person>
-               <personGrp xml:id="alle_2ter_aufzug" sex="UNKNOWN">
-                  <name>Alle/Alle durcheinander (II. Aufzug)</name>
-               </personGrp>
-               <personGrp xml:id="sprechgesang" sex="UNKNOWN">
-                  <name>Sprechgesang (auch Kinderstimmen)</name>
-               </personGrp>
-               <person xml:id="der_oberheizer" sex="MALE">
-                  <persName>Der Oberheizer</persName>
-               </person>
-               <personGrp xml:id="die_kobolde" sex="MALE">
-                  <name>Die Kobolde</name>
-                  <name type="variant">Etliche Bengel in Koboldtracht</name>
-                  <name type="variant">Kobolde</name>
-               </personGrp>
-               <person xml:id="frau_venus" sex="FEMALE">
-                  <persName>Frau Venus</persName>
-               </person>
-               <personGrp xml:id="die_landraete" sex="MALE">
-                  <name>Die Landräte</name>
-                  <name type="variant">Chor der Landräte</name>
-               </personGrp>
-               <personGrp xml:id="die_kaplane" sex="MALE">
-                  <name>Die Kaplane</name>
-                  <name type="variant">Chor der Kaplane</name>
-               </personGrp>
-               <personGrp xml:id="die_pastoren" sex="MALE">
-                  <name>Die Pastoren</name>
-                  <name type="variant">Chor der Pastoren</name>
-               </personGrp>
-               <personGrp xml:id="die_buergermeister" sex="MALE">
-                  <name>Die Bürgermeister</name>
-                  <name type="variant">Chor der Bürgermeister</name>
-               </personGrp>
-               <personGrp xml:id="die_heizer" sex="MALE">
-                  <name>Die Heizer</name>
-                  <name type="variant">Dumpfe Stimmen im Hintergrund</name>
-                  <name type="variant">Alle drei Heizer</name>
-                  <name type="variant">Chor der Heizer</name>
-                  <name type="variant">Die drei Heizer</name>
-                  <name type="variant">Die ganze Bande</name>
-               </personGrp>
-               <personGrp xml:id="bergknappen-bergleute" sex="MALE">
-                  <name>Die Bergknappen/Die Bergleute</name>
-                  <name type="variant">Ein Zug maskierter Bergknappen</name>
-                  <name type="variant">Chor der Bergleute</name>
-                  <name type="variant">Die ganze Bande</name>
-                  <name type="variant">Einige Bergknappen</name>
-               </personGrp>
-               <person xml:id="ein_bergmann" sex="MALE">
-                  <persName>Ein Bergmann</persName>
-               </person>
-               <person xml:id="erster_kobold" sex="MALE">
-                  <persName>Erster Kobold</persName>
-                  <persName type="variant">Erster</persName>
-               </person>
-               <person xml:id="zweiter_kobold" sex="MALE">
-                  <persName>Zweiter Kobold</persName>
-                  <persName type="variant">Zweiter</persName>
-               </person>
-               <person xml:id="dritter_kobold" sex="MALE">
-                  <persName>Dritter Kobold</persName>
-                  <persName type="variant">Dritter</persName>
-               </person>
-               <person xml:id="eine_dame" sex="FEMALE">
-                  <persName>Eine Dame</persName>
-               </person>
-               <personGrp xml:id="die_herren" sex="MALE">
-                  <name>Die Herren</name>
-                  <name type="variant">Chor der Herren</name>
-                  <name type="variant">Einige Herren</name>
-               </personGrp>
-               <personGrp xml:id="die_damen" sex="FEMALE">
-                  <name>Die Damen</name>
-                  <name type="variant">Chor der Damen</name>
-               </personGrp>
-               <personGrp xml:id="die_polizisten" sex="MALE">
-                  <name>Die Polizisten</name>
-               </personGrp>
-               <personGrp xml:id="immer_mehr_stimmen" sex="UNKNOWN">
-                  <name>Immer mehr Stimmen von draußen her</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118679236">
+                        <forename>Richard</forename>
+                        <surname>Dehmel</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

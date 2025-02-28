@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -155,10 +152,7 @@
                   <date type="firstPublication" subtype="clariah">1882</date>
                   <date type="firstPublication" subtype="zeno">1882</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1814"
-                        notAfter="1894"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1814" notAfter="1894"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Paoli-Betty-d1e39888">Erstdruck in: Presse, Wien, 1882, Nr. 179.</note>
@@ -172,7 +166,13 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/10692981X">
+                        <forename>Betty</forename>
+                        <surname>Paoli</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Helene</forename>
+                        <surname>Bettelheim-Gabillon</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

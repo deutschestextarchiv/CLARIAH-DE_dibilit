@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -149,10 +146,7 @@
                   <date type="firstPublication" subtype="clariah">1875</date>
                   <date type="firstPublication" subtype="zeno">1875</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1821"
-                        notAfter="1875"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1821" notAfter="1875"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Buechner-Luise-d1e20057">Die Vorlesungen wurden seit 1870 in dem von Luise Büchner mitbegründeten Alice-Lyceum gehalten. Erstdruck: Leipzig (Theodor Thomas) 1875. Das ausführliche Inhaltsverzeichnis des Originaldrucks wurde aufgelöst und den einzelnen Vorlesungen vorangestellt.</note>
@@ -166,7 +160,10 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/117052744">
+                        <forename>Luise</forename>
+                        <surname>Büchner</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

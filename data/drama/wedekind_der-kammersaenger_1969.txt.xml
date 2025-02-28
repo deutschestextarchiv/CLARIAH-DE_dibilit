@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -180,33 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="der_hoteldiener" sex="MALE">
-                  <persName>Der Hoteldiener</persName>
-                  <persName type="variant">Der Bediente</persName>
-               </person>
-               <person xml:id="der_liftjunge" sex="MALE">
-                  <persName>Der Liftjunge</persName>
-               </person>
-               <person xml:id="gerardo" sex="MALE">
-                  <persName>Gerardo</persName>
-               </person>
-               <person xml:id="miss_coeurne" sex="FEMALE">
-                  <persName>Miss Cœurne</persName>
-               </person>
-               <person xml:id="duehring" sex="MALE">
-                  <persName>Dühring</persName>
-               </person>
-               <person xml:id="helene" sex="FEMALE">
-                  <persName>Helene</persName>
-               </person>
-               <person xml:id="mueller" sex="MALE">
-                  <persName>Müller</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118629867">
+                        <forename>Frank</forename>
+                        <surname>Wedekind</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Manfred</forename>
+                        <surname>Hahn</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

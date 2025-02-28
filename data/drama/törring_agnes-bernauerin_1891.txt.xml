@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -176,93 +173,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="albrecht" sex="MALE">
-                  <persName>Albrecht</persName>
-               </person>
-               <person xml:id="hans_zenger" sex="MALE">
-                  <persName>Hans Zenger</persName>
-               </person>
-               <person xml:id="percifal_zenger" sex="MALE">
-                  <persName>Percifal Zenger</persName>
-               </person>
-               <person xml:id="agnes" sex="FEMALE">
-                  <persName>Agnes</persName>
-               </person>
-               <person xml:id="emershofen" sex="MALE">
-                  <persName>Emershofen</persName>
-               </person>
-               <person xml:id="preisinger" sex="MALE">
-                  <persName>Preisinger</persName>
-               </person>
-               <person xml:id="ernst" sex="MALE">
-                  <persName>Ernst</persName>
-               </person>
-               <person xml:id="sandizeller" sex="MALE">
-                  <persName>Sandizeller</persName>
-               </person>
-               <person xml:id="tuchsenhauser" sex="MALE">
-                  <persName>Tuchsenhauser</persName>
-               </person>
-               <person xml:id="pienzenauer" sex="MALE">
-                  <persName>Pienzenauer</persName>
-               </person>
-               <person xml:id="tore" sex="MALE">
-                  <persName>Tore</persName>
-               </person>
-               <person xml:id="maxelrainer" sex="MALE">
-                  <persName>Maxelrainer</persName>
-               </person>
-               <person xml:id="gundelfing" sex="MALE">
-                  <persName>Gundelfing</persName>
-               </person>
-               <person xml:id="seibelstorfer" sex="MALE">
-                  <persName>Seibelstorfer</persName>
-               </person>
-               <person xml:id="vicedom" sex="MALE">
-                  <persName>Der Vicedom zu Straubing</persName>
-               </person>
-               <person xml:id="wache" sex="MALE">
-                  <persName>Wache</persName>
-               </person>
-               <person xml:id="erster_marschall" sex="MALE">
-                  <persName>Erster Marschall</persName>
-               </person>
-               <person xml:id="zweiter_marschall" sex="MALE">
-                  <persName>Zweiter Marschall</persName>
-               </person>
-               <personGrp xml:id="die_ritter" sex="MALE">
-                  <name>Die Ritter</name>
-                  <name type="variant">Viele Ritter</name>
-               </personGrp>
-               <personGrp xml:id="wachen" sex="MALE">
-                  <name>Wachen</name>
-               </personGrp>
-               <personGrp xml:id="knechte" sex="MALE">
-                  <name>Knechte</name>
-               </personGrp>
-               <person xml:id="thorringer" sex="MALE">
-                  <persName>Thorringer</persName>
-               </person>
-               <personGrp xml:id="frauen" sex="FEMALE">
-                  <name>Frauen</name>
-               </personGrp>
-               <person xml:id="waffenknecht" sex="MALE">
-                  <persName>Waffenknecht</persName>
-               </person>
-               <person xml:id="buergermeister" sex="MALE">
-                  <persName>Bürgermeister</persName>
-               </person>
-               <person xml:id="zweiter_buergermeister" sex="MALE">
-                  <persName>Zweiter Bürgermeister</persName>
-               </person>
-               <person xml:id="oberrichter" sex="MALE">
-                  <persName>Oberrichter</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="editor" sex="m"><persName ref="http://d-nb.info/gnd/116524278">
+                        <roleName>Dr.</roleName>
+                        <forename>Adolf</forename>
+                        <surname>Hauffen</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

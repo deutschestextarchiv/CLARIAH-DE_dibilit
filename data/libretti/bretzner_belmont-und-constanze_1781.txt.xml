@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -164,10 +161,7 @@
                   <date type="firstPublication" subtype="clariah"/>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1781</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1746"
-                        notAfter="1781"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1746" notAfter="1781"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d247e277">Komponiert von Johann André. Uraufführung am 26.05.1781, Döbbelins Theater, Berlin.</note>
@@ -187,45 +181,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="belmonte" sex="MALE">
-                  <persName>Belmonte</persName>
-               </person>
-               <person xml:id="osmin" sex="MALE">
-                  <persName>Osmin</persName>
-               </person>
-               <person xml:id="pedrillo" sex="MALE">
-                  <persName>Pedrillo</persName>
-               </person>
-               <personGrp xml:id="chor" sex="MALE">
-                  <name>Chor (Janitscharen)</name>
-               </personGrp>
-               <person xml:id="eine_oder_zwo_stimmen" sex="MALE">
-                  <persName>Eine oder zwo Stimmen</persName>
-               </person>
-               <person xml:id="selim" sex="MALE">
-                  <persName>Selim</persName>
-               </person>
-               <person xml:id="constanze" sex="FEMALE">
-                  <persName>Constanze</persName>
-                  <persName type="variant">Konstanze</persName>
-               </person>
-               <person xml:id="blonde" sex="FEMALE">
-                  <persName>Blonde</persName>
-               </person>
-               <person xml:id="klaas" sex="MALE">
-                  <persName>Klaas</persName>
-               </person>
-               <personGrp xml:id="wache" sex="MALE">
-                  <name>Wache</name>
-               </personGrp>
-               <person xml:id="einer_von_der_wache" sex="MALE">
-                  <persName>Einer von der Wache</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/115849238">
+                        <forename>Christoph Friedrich</forename>
+                        <surname>Bretzner</surname>
+                     </persName></person><person role="author"><persName role="composer">
+                        <forename>Johann</forename>
+                        <surname>André</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

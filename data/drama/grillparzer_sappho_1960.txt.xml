@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,44 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="rhamnes" sex="MALE">
-                  <persName>Rhamnes</persName>
-               </person>
-               <person xml:id="melitta" sex="FEMALE">
-                  <persName>Melitta</persName>
-               </person>
-               <person xml:id="geschrei-volk" sex="UNKNOWN">
-                  <persName>Geschrei/Volk</persName>
-               </person>
-               <person xml:id="sappho" sex="FEMALE">
-                  <persName>Sappho</persName>
-               </person>
-               <person xml:id="einer_aus_dem_volke" sex="MALE">
-                  <persName>Einer aus dem Volke</persName>
-               </person>
-               <person xml:id="phaon" sex="MALE">
-                  <persName>Phaon</persName>
-               </person>
-               <person xml:id="eucharis" sex="FEMALE">
-                  <persName>Eucharis</persName>
-               </person>
-               <person xml:id="maedchen" sex="FEMALE">
-                  <persName>Mädchen</persName>
-               </person>
-               <person xml:id="ruf_von_drinnen" sex="UNKNOWN">
-                  <persName>Ruf von drinnen</persName>
-                  <persName type="variant">Man ruft von innen</persName>
-                  <persName type="variant">Man ruft drinnen</persName>
-               </person>
-               <person xml:id="ein_landmann" sex="MALE">
-                  <persName>Ein Landmann</persName>
-                  <persName xml:id="landmann">Landmann</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118542192">
+                        <forename>Franz</forename>
+                        <surname>Grillparzer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Peter</forename>
+                        <surname>Frank</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

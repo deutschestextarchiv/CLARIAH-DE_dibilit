@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -217,44 +214,33 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="theophan" sex="MALE">
-                  <persName>Theophan</persName>
-               </person>
-               <person xml:id="adrast" sex="MALE">
-                  <persName>Adrast</persName>
-               </person>
-               <person xml:id="lisidor" sex="MALE">
-                  <persName>Lisidor</persName>
-               </person>
-               <person xml:id="johann" sex="MALE">
-                  <persName>Johann</persName>
-               </person>
-               <person xml:id="lisette" sex="FEMALE">
-                  <persName>Lisette</persName>
-               </person>
-               <person xml:id="henriette" sex="FEMALE">
-                  <persName>Henriette</persName>
-               </person>
-               <person xml:id="juliane" sex="FEMALE">
-                  <persName>Juliane</persName>
-               </person>
-               <person xml:id="martin" sex="MALE">
-                  <persName>Martin</persName>
-               </person>
-               <person xml:id="araspe" sex="MALE">
-                  <persName>Araspe</persName>
-               </person>
-               <person xml:id="der_wechsler" sex="MALE">
-                  <persName>Der Wechsler</persName>
-               </person>
-               <person xml:id="frau_philane" sex="FEMALE">
-                  <persName>Frau Philane</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

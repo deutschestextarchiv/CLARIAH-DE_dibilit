@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1866</date>
                   <date type="firstPublication" subtype="i5">1830</date>
                   <date type="firstPublication" subtype="gerdracor">1866</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1800"
-                        notAfter="1863"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1800" notAfter="1863"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3180e317">Erstdruck in: Gesammelte dramatische Werke, 9. Band, Leipzig (Philipp Reclam jun.) [1866]. Uraufführung: Wien, Theater an der Wien, 6. März 1830.</note>
@@ -177,90 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="herrmann" sex="MALE">
-                  <persName>Herrmann</persName>
-               </person>
-               <personGrp xml:id="chor_der_schmiede" sex="MALE">
-                  <name>Chor der Schmiede</name>
-                  <name type="variant">Die Schmiede</name>
-               </personGrp>
-               <person xml:id="suse" sex="FEMALE">
-                  <persName>Suse</persName>
-               </person>
-               <personGrp xml:id="die_gesellen" sex="MALE">
-                  <name>Die Gesellen</name>
-               </personGrp>
-               <person xml:id="hanns" sex="MALE">
-                  <persName>Hanns</persName>
-               </person>
-               <person xml:id="altgesell" sex="MALE">
-                  <persName>Altgesell</persName>
-               </person>
-               <person xml:id="gertrud" sex="FEMALE">
-                  <persName>Gertrud</persName>
-               </person>
-               <person xml:id="else" sex="FEMALE">
-                  <persName>Else</persName>
-               </person>
-               <personGrp xml:id="chor_hinter_der_scene" sex="UNKNOWN">
-                  <name>Chor hinter der Scene</name>
-               </personGrp>
-               <person xml:id="die_alte" sex="FEMALE">
-                  <persName>Die Alte</persName>
-               </person>
-               <person xml:id="friedel" sex="MALE">
-                  <persName>Friedel</persName>
-               </person>
-               <person xml:id="martin" sex="MALE">
-                  <persName>Martin</persName>
-               </person>
-               <person xml:id="christel" sex="FEMALE">
-                  <persName>Christel</persName>
-               </person>
-               <person xml:id="daemon" sex="UNKNOWN">
-                  <persName>Dämon</persName>
-               </person>
-               <personGrp xml:id="mehrere_bauersleute" sex="UNKNOWN">
-                  <name>Mehrere Bauersleute</name>
-               </personGrp>
-               <person xml:id="erstes_weib" sex="FEMALE">
-                  <persName>Erstes Weib</persName>
-               </person>
-               <person xml:id="zweites_weib" sex="FEMALE">
-                  <persName>Zweites Weib</persName>
-               </person>
-               <person xml:id="erster_bauer" sex="MALE">
-                  <persName>Erster Bauer</persName>
-               </person>
-               <person xml:id="ohles" sex="MALE">
-                  <persName>Ohles</persName>
-               </person>
-               <person xml:id="steffens" sex="MALE">
-                  <persName>Steffens</persName>
-               </person>
-               <person xml:id="graf" sex="MALE">
-                  <persName>Graf</persName>
-               </person>
-               <person xml:id="herzog" sex="MALE">
-                  <persName>Herzog</persName>
-               </person>
-               <person xml:id="herzogin" sex="FEMALE">
-                  <persName>Herzogin</persName>
-               </person>
-               <personGrp xml:id="alle_3-6" sex="UNKNOWN">
-                  <name>Alle (III/6)</name>
-               </personGrp>
-               <person xml:id="gertrud-else" sex="FEMALE">
-                  <persName>Gertrud-Else</persName>
-               </person>
-               <person xml:id="rudolph" sex="MALE">
-                  <persName>Rudolph</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/118658875">
+                        <forename>Charlotte</forename>
+                        <surname>Birch-Pfeiffer</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

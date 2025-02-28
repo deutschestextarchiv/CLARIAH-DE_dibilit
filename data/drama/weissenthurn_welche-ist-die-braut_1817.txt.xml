@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="zeno">1817</date>
                   <date type="firstPublication" subtype="i5">1817</date>
                   <date type="firstPublication" subtype="gerdracor">1817</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1772"
-                        notAfter="1817"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1772" notAfter="1817"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d751e305">Nach »Cendrillon« (romantische Oper in drei Akten von Etienne, Musik von Isnouard). Erstdruck in: Neue Schauspiele, 2. Bd., Wien (Kaulfuß und Armbruster) 1817. Uraufführung am 25.01.1813, Burgtehater, Wien.</note>
@@ -179,75 +173,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="baroninn" sex="FEMALE">
-                  <persName>Baroninn</persName>
-               </person>
-               <person xml:id="babette" sex="FEMALE">
-                  <persName>Babette</persName>
-               </person>
-               <person xml:id="bluemlein" sex="MALE">
-                  <persName>Blümlein</persName>
-               </person>
-               <person xml:id="bedienter" sex="MALE">
-                  <persName>Bedienter</persName>
-               </person>
-               <person xml:id="wolf" sex="MALE">
-                  <persName>Wolf</persName>
-               </person>
-               <person xml:id="nina" sex="FEMALE">
-                  <persName>Nina</persName>
-               </person>
-               <person xml:id="emy" sex="FEMALE">
-                  <persName>Emy</persName>
-               </person>
-               <person xml:id="marie" sex="FEMALE">
-                  <persName>Marie</persName>
-               </person>
-               <person xml:id="waldberg" sex="MALE">
-                  <persName>Waldberg</persName>
-               </person>
-               <person xml:id="gruenau" sex="MALE">
-                  <persName>Grünau</persName>
-               </person>
-               <person xml:id="frau_von_lichtberg" sex="FEMALE">
-                  <persName>Frau von Lichtberg</persName>
-               </person>
-               <person xml:id="fraeulein_grinzberg" sex="FEMALE">
-                  <persName>Fräulein Grinzberg</persName>
-               </person>
-               <person xml:id="fraeulein_impfen" sex="FEMALE">
-                  <persName>Fräulein Impfen</persName>
-               </person>
-               <personGrp xml:id="alle_alles_3-1_bis_3-4" sex="UNKNOWN">
-                  <name>Alle/Alles (III/1–4)</name>
-               </personGrp>
-               <person xml:id="frau_von_dorn" sex="FEMALE">
-                  <persName>Frau von Dorn</persName>
-               </person>
-               <person xml:id="raethinn_sommer" sex="FEMALE">
-                  <persName>Räthinn Sommer</persName>
-               </person>
-               <person xml:id="herr_von_hacken" sex="MALE">
-                  <persName>Herr von Hacken</persName>
-               </person>
-               <person xml:id="herr_von_dorn" sex="MALE">
-                  <persName>Herr von Dorn</persName>
-               </person>
-               <person xml:id="baroninn_duerrer" sex="FEMALE">
-                  <persName>Baroninn Dürrer</persName>
-               </person>
-               <person xml:id="herr_von_traufbach" sex="MALE">
-                  <persName>Herr von Traufbach</persName>
-                  <persName type="variant">Traufbach</persName>
-               </person>
-               <person xml:id="gertraude" sex="FEMALE">
-                  <persName>Gertraude</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/116752505">
+                        <forename>Johanna Franul</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Weißenthurn</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

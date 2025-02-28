@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,10 +174,7 @@
                   <date type="firstPublication" subtype="clariah">1875</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1925</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1842"
-                        notAfter="1911"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1842" notAfter="1911"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d135e305">Komponiert von Hermann Goetz. Uraufführung am 11.10.1874, Hof- und Nationaltheater, Mannheim.</note>
@@ -200,69 +194,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="lucentio" sex="MALE">
-                  <persName>Lucentio</persName>
-               </person>
-               <personGrp xml:id="chor_1-1" sex="UNKNOWN">
-                  <name>Chor (I/1)</name>
-               </personGrp>
-               <person xml:id="baptista" sex="MALE">
-                  <persName>Baptista</persName>
-               </person>
-               <person xml:id="katharine" sex="FEMALE">
-                  <persName>Katharine</persName>
-               </person>
-               <personGrp xml:id="nachbarinnen" sex="FEMALE">
-                  <name>Nachbarinnen</name>
-               </personGrp>
-               <person xml:id="bianca" sex="FEMALE">
-                  <persName>Bianca</persName>
-               </person>
-               <person xml:id="hortensio" sex="MALE">
-                  <persName>Hortensio</persName>
-               </person>
-               <person xml:id="petruchio" sex="MALE">
-                  <persName>Petruchio</persName>
-               </person>
-               <person xml:id="grumio" sex="MALE">
-                  <persName>Grumio</persName>
-               </person>
-               <personGrp xml:id="chor_hinter_der_szene_2-3" sex="UNKNOWN">
-                  <name>Chor hinter der Szene (II/3)</name>
-               </personGrp>
-               <personGrp xml:id="chor_3-1" sex="UNKNOWN">
-                  <name>Chor (III/1)</name>
-               </personGrp>
-               <personGrp xml:id="chor_3-5" sex="UNKNOWN">
-                  <name>Chor (III/5)</name>
-               </personGrp>
-               <person xml:id="haushofmeister" sex="MALE">
-                  <persName>Haushofmeister</persName>
-               </person>
-               <person xml:id="haushaelterin" sex="FEMALE">
-                  <persName>Haushälterin</persName>
-               </person>
-               <personGrp xml:id="chor_alle_3-6" sex="UNKNOWN">
-                  <name>Chor/Alle (III/6)</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_diener_4-1" sex="MALE">
-                  <name>Chor der Diener (IV/1)</name>
-                  <name type="variant">Diener</name>
-               </personGrp>
-               <person xml:id="schneider" sex="MALE">
-                  <persName>Schneider</persName>
-               </person>
-               <person xml:id="hortensios_frau" sex="FEMALE">
-                  <persName>Hortensios Frau</persName>
-               </person>
-               <personGrp xml:id="chor_4-6" sex="UNKNOWN">
-                  <name>Chor (IV/6)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118632302">
+                        <forename>Joseph Viktor</forename>
+                        <surname>Widmann</surname>
+                     </persName></person><person role="author"><persName role="composer">
+                        <forename>Hermann</forename>
+                        <surname>Goetz</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

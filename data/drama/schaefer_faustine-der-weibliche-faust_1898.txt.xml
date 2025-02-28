@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,128 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="dichter" sex="MALE">
-                  <persName>Dichter</persName>
-               </person>
-               <person xml:id="direktor" sex="MALE">
-                  <persName>Direktor</persName>
-               </person>
-               <person xml:id="schauspieler" sex="MALE">
-                  <persName>Schauspieler</persName>
-               </person>
-               <person xml:id="bombax" sex="UNKNOWN">
-                  <persName>Bombax</persName>
-               </person>
-               <person xml:id="praktinski" sex="MALE">
-                  <persName>Praktinski</persName>
-               </person>
-               <person xml:id="asafoetida" sex="UNKNOWN">
-                  <persName>Asafötida</persName>
-               </person>
-               <person xml:id="suffimentum" sex="UNKNOWN">
-                  <persName>Suffimentum</persName>
-               </person>
-               <person xml:id="rhamphastus" sex="UNKNOWN">
-                  <persName>Rhamphastus</persName>
-               </person>
-               <person xml:id="lepidanthos" sex="UNKNOWN">
-                  <persName>Lepidanthos</persName>
-               </person>
-               <person xml:id="ventriculus" sex="UNKNOWN">
-                  <persName>Ventriculus</persName>
-               </person>
-               <person xml:id="faustine" sex="FEMALE">
-                  <persName>Faustine</persName>
-               </person>
-               <person xml:id="der_lebenstrieb" sex="UNKNOWN">
-                  <persName>Der Lebenstrieb</persName>
-               </person>
-               <person xml:id="die_unabaenderlichkeit" sex="UNKNOWN">
-                  <persName>Die Unabänderlichkeit</persName>
-               </person>
-               <person xml:id="schabholz" sex="MALE">
-                  <persName>Schabholz</persName>
-               </person>
-               <person xml:id="waisenkinder" sex="UNKNOWN">
-                  <persName>Waisenkinder</persName>
-               </person>
-               <person xml:id="irma" sex="FEMALE">
-                  <persName>Irma</persName>
-               </person>
-               <person xml:id="erste_dame" sex="FEMALE">
-                  <persName>Erste Dame</persName>
-               </person>
-               <person xml:id="zweite_dame" sex="FEMALE">
-                  <persName>Zweite Dame</persName>
-               </person>
-               <person xml:id="dritte_dame" sex="FEMALE">
-                  <persName>Dritte Dame</persName>
-               </person>
-               <person xml:id="erster_offizier" sex="MALE">
-                  <persName>Erster Offizier</persName>
-               </person>
-               <person xml:id="zweiter_offizier" sex="MALE">
-                  <persName>Zweiter Offizier</persName>
-               </person>
-               <person xml:id="dritter_offizier" sex="MALE">
-                  <persName>Dritter Offizier</persName>
-               </person>
-               <person xml:id="schalk" sex="MALE">
-                  <persName>Schalk</persName>
-               </person>
-               <person xml:id="die_maurergesellen" sex="MALE">
-                  <persName>Die Maurergesellen</persName>
-               </person>
-               <person xml:id="ronober" sex="MALE">
-                  <persName>Ronober</persName>
-               </person>
-               <person xml:id="musarion" sex="MALE">
-                  <persName>Musarion</persName>
-               </person>
-               <person xml:id="fuchs" sex="MALE">
-                  <persName>Fuchs</persName>
-               </person>
-               <person xml:id="fuehriana" sex="FEMALE">
-                  <persName>Führiana</persName>
-               </person>
-               <person xml:id="klettina" sex="FEMALE">
-                  <persName>Klettina</persName>
-               </person>
-               <person xml:id="magrona" sex="FEMALE">
-                  <persName>Magrona</persName>
-               </person>
-               <person xml:id="sattilka" sex="FEMALE">
-                  <persName>Sattilka</persName>
-               </person>
-               <person xml:id="der_erste_muellerbursche" sex="MALE">
-                  <persName>Der erste Müllerbursche</persName>
-               </person>
-               <person xml:id="der_zweite_muellerbursche" sex="MALE">
-                  <persName>Der zweite Müllerbursche</persName>
-               </person>
-               <person xml:id="der_dritte_muellerbursche" sex="MALE">
-                  <persName>Der dritte Müllerbursche</persName>
-               </person>
-               <person xml:id="der_mueller" sex="MALE">
-                  <persName>Der Müller</persName>
-               </person>
-               <person xml:id="innocentia" sex="FEMALE">
-                  <persName>Innocentia</persName>
-               </person>
-               <person xml:id="hertha" sex="FEMALE">
-                  <persName>Hertha</persName>
-               </person>
-               <person xml:id="melancholia" sex="FEMALE">
-                  <persName>Melancholia</persName>
-               </person>
-               <person xml:id="elektra" sex="FEMALE">
-                  <persName>Elektra</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/117099309">
+                        <forename>Wilhelm</forename>
+                        <surname>Schäfer</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

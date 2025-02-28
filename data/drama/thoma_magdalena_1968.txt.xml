@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1912</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1912</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1867"
-                        notAfter="1912"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1867" notAfter="1912"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1878e274">Erstdruck: München (Langen) 1912. Uraufführung am 12.10.1912 in Berlin, Kleines Theater.</note>
@@ -177,50 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="mariann" sex="FEMALE">
-                  <persName>Mariann</persName>
-               </person>
-               <person xml:id="thomas" sex="MALE">
-                  <persName>Thomas</persName>
-               </person>
-               <person xml:id="koeckenberger" sex="MALE">
-                  <persName>Köckenberger</persName>
-               </person>
-               <person xml:id="gendarm" sex="MALE">
-                  <persName>Gendarm</persName>
-               </person>
-               <person xml:id="leni" sex="FEMALE">
-                  <persName>Leni</persName>
-               </person>
-               <person xml:id="lenz" sex="MALE">
-                  <persName>Lenz</persName>
-               </person>
-               <person xml:id="buergermeister" sex="MALE">
-                  <persName>Bürgermeister</persName>
-               </person>
-               <person xml:id="barbara" sex="FEMALE">
-                  <persName>Barbara</persName>
-               </person>
-               <person xml:id="plank" sex="MALE">
-                  <persName>Plank</persName>
-               </person>
-               <person xml:id="scheck" sex="MALE">
-                  <persName>Scheck</persName>
-               </person>
-               <person xml:id="einer_von_den_burschen" sex="MALE">
-                  <persName>Einer von den Burschen</persName>
-               </person>
-               <person xml:id="lechner" sex="MALE">
-                  <persName>Lechner</persName>
-               </person>
-               <personGrp xml:id="viele_stimmen" sex="UNKNOWN">
-                  <name>Viele Stimmen</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118622072">
+                        <forename>Ludwig</forename>
+                        <surname>Thoma</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

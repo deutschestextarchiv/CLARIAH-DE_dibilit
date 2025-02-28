@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="zeno">1830</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1830</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1788"
-                        notAfter="1857"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1788" notAfter="1857"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1164e413">Erstdruck: Königsberg (Hartung), 1830. Uraufführung am 27.2.1831 zur Eröffnung des Landtages, Stadttheater, Königsberg.</note>
@@ -179,179 +173,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="zenger" sex="MALE">
-                  <persName>Zenger</persName>
-               </person>
-               <person xml:id="walther_von_merheim" sex="MALE">
-                  <persName>Walther von Merheim</persName>
-               </person>
-               <person xml:id="kuechmeister" sex="MALE">
-                  <persName>Küchmeister</persName>
-                  <persName type="variant">Stimme</persName>
-               </person>
-               <person xml:id="rode" sex="MALE">
-                  <persName>Heinrich von Rode</persName>
-               </person>
-               <person xml:id="rominta" sex="FEMALE">
-                  <persName>Rominta</persName>
-               </person>
-               <person xml:id="jolante" sex="FEMALE">
-                  <persName>Jolante</persName>
-               </person>
-               <person xml:id="wirsberg" sex="MALE">
-                  <persName>Georg von Wirsberg</persName>
-               </person>
-               <person xml:id="erster_soldat_1-2" sex="MALE">
-                  <persName>Erster Soldat (I/2)</persName>
-               </person>
-               <person xml:id="zweiter_soldat_1-2" sex="MALE">
-                  <persName>Zweiter Soldat (I/2)</persName>
-               </person>
-               <person xml:id="hermann_gans" sex="MALE">
-                  <persName>Hermann Gans</persName>
-               </person>
-               <person xml:id="graf_von_kyburg" sex="MALE">
-                  <persName>Graf von Kyburg</persName>
-               </person>
-               <person xml:id="schoenfeld" sex="MALE">
-                  <persName>Johann von Schönfeld</persName>
-               </person>
-               <person xml:id="graf_schwarzburg" sex="MALE">
-                  <persName>Graf von Schwarzburg</persName>
-               </person>
-               <person xml:id="bauer_1-2" sex="MALE">
-                  <persName>Bauer (I/2)</persName>
-               </person>
-               <person xml:id="ritter_1-2" sex="MALE">
-                  <persName>Ritter (I/2)</persName>
-               </person>
-               <person xml:id="heinrich_von_plauen" sex="MALE">
-                  <persName>Heinrich von Plauen</persName>
-               </person>
-               <person xml:id="ein_hauptmann_1-2" sex="MALE">
-                  <persName>Ein Hauptmann (I/2)</persName>
-               </person>
-               <personGrp xml:id="gesang_1-2" sex="MALE">
-                  <name>Gesang (I/2)</name>
-               </personGrp>
-               <person xml:id="soldat_2-1" sex="MALE">
-                  <persName>Soldat (II/1)</persName>
-               </person>
-               <person xml:id="baysen" sex="MALE">
-                  <persName>Hanns von Baysen</persName>
-               </person>
-               <personGrp xml:id="mehrere_soeldner" sex="MALE">
-                  <name>Mehrere Söldner</name>
-                  <name type="variant">Söldner</name>
-                  <name type="variant">Die Söldner</name>
-               </personGrp>
-               <person xml:id="czervany" sex="MALE">
-                  <persName>Czervany</persName>
-               </person>
-               <person xml:id="langschenkel" sex="MALE">
-                  <persName>Langschenkel</persName>
-               </person>
-               <person xml:id="burgemeister" sex="MALE">
-                  <persName>Der Burgemeister von Marienburg</persName>
-               </person>
-               <person xml:id="ein_ritter_2-1" sex="MALE">
-                  <persName>Ein Ritter (II/1)</persName>
-               </person>
-               <person xml:id="herold" sex="MALE">
-                  <persName>Herold</persName>
-               </person>
-               <person xml:id="wuttke" sex="MALE">
-                  <persName>Wuttke</persName>
-               </person>
-               <person xml:id="kuntz" sex="MALE">
-                  <persName>Kuntz</persName>
-               </person>
-               <person xml:id="kinthenau" sex="MALE">
-                  <persName>Friedrich von Kinthenau</persName>
-               </person>
-               <person xml:id="polkau" sex="MALE">
-                  <persName>Hanns von Polkau</persName>
-               </person>
-               <person xml:id="hauptmann_2-4" sex="MALE">
-                  <persName>Hauptmann (II/4)</persName>
-               </person>
-               <person xml:id="erster_soldat_2-4" sex="MALE">
-                  <persName>Erster Soldat (II/4)</persName>
-               </person>
-               <person xml:id="zweiter_soldat_2-4" sex="MALE">
-                  <persName>Zweiter Soldat (II/4)</persName>
-               </person>
-               <person xml:id="schaeven" sex="MALE">
-                  <persName>Schäven</persName>
-               </person>
-               <person xml:id="hohenkirch" sex="MALE">
-                  <persName>Jost von Hohenkirch</persName>
-               </person>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>König</persName>
-               </person>
-               <person xml:id="graf_sayn" sex="MALE">
-                  <persName>Graf von Sayn</persName>
-               </person>
-               <person xml:id="gertrud" sex="FEMALE">
-                  <persName>Gertrud</persName>
-               </person>
-               <person xml:id="elsbeth" sex="FEMALE">
-                  <persName>Elsbeth</persName>
-               </person>
-               <person xml:id="dietrich" sex="MALE">
-                  <persName>Dietrich</persName>
-               </person>
-               <person xml:id="renys" sex="MALE">
-                  <persName>Nikolaus von Renys</persName>
-               </person>
-               <person xml:id="burgwart" sex="MALE">
-                  <persName>Burgwart</persName>
-               </person>
-               <person xml:id="ein_diener_4-1" sex="MALE">
-                  <persName>Ein Diener (IV/1)</persName>
-               </person>
-               <person xml:id="erste_stimme" sex="FEMALE">
-                  <persName>Erste Stimme</persName>
-               </person>
-               <person xml:id="zweite_stimme" sex="FEMALE">
-                  <persName>Zweite Stimme</persName>
-               </person>
-               <person xml:id="ein_diener_4-3" sex="MALE">
-                  <persName>Ein Diener (IV/3)</persName>
-               </person>
-               <person xml:id="erster_diener_4-4" sex="MALE">
-                  <persName>Erster Diener (IV/4)</persName>
-               </person>
-               <person xml:id="zweiter_diener_4-4" sex="MALE">
-                  <persName>Zweiter Diener (IV/4)</persName>
-               </person>
-               <person xml:id="dritter_diener_4-4" sex="MALE">
-                  <persName>Dritter Diener (IV/4)</persName>
-               </person>
-               <person xml:id="erster_reisiger" sex="MALE">
-                  <persName>Erster Reisiger</persName>
-               </person>
-               <person xml:id="zweiter_reisiger" sex="MALE">
-                  <persName>Zweiter Reisiger</persName>
-               </person>
-               <person xml:id="erster_bauer_5-3" sex="MALE">
-                  <persName>Erster Bauer (V/3)</persName>
-               </person>
-               <person xml:id="zweiter_bauer_5-3" sex="MALE">
-                  <persName>Zweiter Bauer (V/3)</persName>
-               </person>
-               <personGrp xml:id="mehrere_bauern" sex="MALE">
-                  <name>Mehrere Bauern</name>
-               </personGrp>
-               <person xml:id="schlosswart" sex="MALE">
-                  <persName>Schlosswart</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118529390">
+                        <forename>Joseph</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Eichendorff</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

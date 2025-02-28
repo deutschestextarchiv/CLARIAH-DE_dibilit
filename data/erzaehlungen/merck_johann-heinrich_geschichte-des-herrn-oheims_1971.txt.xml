@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -152,10 +149,7 @@
                   <date type="firstPublication" subtype="clariah">1778</date>
                   <date type="firstPublication" subtype="zeno">1778</date>
                   <date type="firstPublication" subtype="i5">1778</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1741"
-                        notAfter="1791"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1741" notAfter="1791"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Merck-Johann-He-d1e1465">Erstdruck in: Der Teutsche Merkur (Weimar), Heft 1–4, 1778.</note>
@@ -169,7 +163,10 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="editor" sex="m"><persName ref="http://d-nb.info/gnd/116995742">
+                        <forename>Heinz</forename>
+                        <surname>Nicolai</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

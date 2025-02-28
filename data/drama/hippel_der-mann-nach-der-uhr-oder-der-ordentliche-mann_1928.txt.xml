@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -161,10 +158,7 @@
                   <date type="firstPublication" subtype="zeno">1765</date>
                   <date type="firstPublication" subtype="i5">1765</date>
                   <date type="firstPublication" subtype="gerdracor">1765</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1741"
-                        notAfter="1796"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1741" notAfter="1796"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d233e266">Erstdruck: Königsberg (Kanter), 1765. Uraufführung vermutlich Januar/Februar 1765 durch die Schuchsche Gruppe in Königsberg.</note>
@@ -184,31 +178,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="orbil" sex="MALE">
-                  <persName>Orbil</persName>
-                  <persName type="variant">Herr Orbil</persName>
-               </person>
-               <person xml:id="wilhelmine" sex="FEMALE">
-                  <persName>Wilhelmine</persName>
-                  <persName type="variant">Wilhelmina</persName>
-               </person>
-               <person xml:id="lisette" sex="FEMALE">
-                  <persName>Lisette</persName>
-               </person>
-               <person xml:id="johann" sex="MALE">
-                  <persName>Johann</persName>
-               </person>
-               <person xml:id="valer" sex="MALE">
-                  <persName>Valer</persName>
-               </person>
-               <person xml:id="der_magister" sex="MALE">
-                  <persName>Der Magister</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/11855137X">
+                        <forename>Gottlieb Theodor</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Hippel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Erich</forename>
+                        <surname>Jenisch</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

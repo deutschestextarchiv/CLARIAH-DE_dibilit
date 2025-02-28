@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -157,10 +154,7 @@
                   <date type="firstPublication" subtype="zeno">1768</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1768</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1737"
-                        notAfter="1768"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1737" notAfter="1768"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3033e242">Erstdruck: Hamburg und Bremen (J. H. Cramer) 1768 (anonym). Uraufführung am 22.6.1769 in Berlin.</note>
@@ -180,23 +174,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="anselmo" sex="MALE">
-                  <persName>Anselmo</persName>
-               </person>
-               <person xml:id="ugolino" sex="MALE">
-                  <persName>Ugolino</persName>
-               </person>
-               <person xml:id="gaddo" sex="MALE">
-                  <persName>Gaddo</persName>
-               </person>
-               <person xml:id="francesco" sex="MALE">
-                  <persName>Francesco</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="editor" sex="m"><persName ref="http://d-nb.info/gnd/116995742">
+                        <forename>Heinz</forename>
+                        <surname>Nicolai</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

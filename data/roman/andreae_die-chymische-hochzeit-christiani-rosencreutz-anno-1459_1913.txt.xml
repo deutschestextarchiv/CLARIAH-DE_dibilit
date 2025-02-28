@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -149,10 +146,7 @@
                   <date type="firstPublication" subtype="clariah">1616</date>
                   <date type="firstPublication" subtype="zeno">1616</date>
                   <date type="firstPublication" subtype="i5">1616</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1586"
-                        notAfter="1616"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1586" notAfter="1616"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Andreae-Johann--d1e241">Erstdruck: Straßburg (Zetzner) 1616.</note>
@@ -166,7 +160,10 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118502883">
+                        <forename>Johann Valentin</forename>
+                        <surname>Andreae</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

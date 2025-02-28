@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1813</date>
                   <date type="firstPublication" subtype="i5">1813</date>
                   <date type="firstPublication" subtype="gerdracor">1813</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1775"
-                        notAfter="1820"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1775" notAfter="1820"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3446e306">Erstdruck: Wien (Jos. Tendler), 1813. Uraufführung am 20.02.1813, Theater in der Leopoldstadt, Wien.</note>
@@ -177,80 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="ganymed" sex="MALE">
-                  <persName>Ganymed</persName>
-               </person>
-               <person xml:id="jupiter" sex="MALE">
-                  <persName>Jupiter</persName>
-               </person>
-               <person xml:id="apollo" sex="MALE">
-                  <persName>Apollo</persName>
-               </person>
-               <person xml:id="minerva" sex="FEMALE">
-                  <persName>Minerva</persName>
-               </person>
-               <person xml:id="amor" sex="MALE">
-                  <persName>Amor</persName>
-               </person>
-               <person xml:id="venus" sex="FEMALE">
-                  <persName>Venus</persName>
-               </person>
-               <person xml:id="juno" sex="FEMALE">
-                  <persName>Juno</persName>
-               </person>
-               <personGrp xml:id="chor_alle" sex="UNKNOWN">
-                  <name>Chor/Alle</name>
-               </personGrp>
-               <person xml:id="euridice" sex="FEMALE">
-                  <persName>Euridice</persName>
-               </person>
-               <person xml:id="pluto" sex="MALE">
-                  <persName>Pluto</persName>
-               </person>
-               <person xml:id="proserpina" sex="FEMALE">
-                  <persName>Proserpina</persName>
-               </person>
-               <person xml:id="chor_der_verdammten" sex="UNKNOWN">
-                  <persName>Chor der Verdammten</persName>
-               </person>
-               <person xml:id="orpheus" sex="MALE">
-                  <persName>Orpheus</persName>
-               </person>
-               <person xml:id="cerberus" sex="MALE">
-                  <persName>Cerberus</persName>
-               </person>
-               <personGrp xml:id="danaiden" sex="FEMALE">
-                  <name>Danaiden</name>
-               </personGrp>
-               <person xml:id="tantalus" sex="MALE">
-                  <persName>Tantalus</persName>
-               </person>
-               <person xml:id="sisiphus" sex="MALE">
-                  <persName>Sisiphus</persName>
-               </person>
-               <person xml:id="prometheus" sex="MALE">
-                  <persName>Prometheus</persName>
-               </person>
-               <person xml:id="merkur" sex="MALE">
-                  <persName>Merkur</persName>
-               </person>
-               <personGrp xml:id="die_drey_furien" sex="FEMALE">
-                  <name>Die drey Furien</name>
-               </personGrp>
-               <personGrp xml:id="die_grazien" sex="FEMALE">
-                  <name>Die Grazien</name>
-               </personGrp>
-               <person xml:id="vulkan" sex="MALE">
-                  <persName>Vulkan</persName>
-               </person>
-               <person xml:id="mars" sex="MALE">
-                  <persName>Mars</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/119323915">
+                        <forename>Carl</forename>
+                        <surname>Meisl</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

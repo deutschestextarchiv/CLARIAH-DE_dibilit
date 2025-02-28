@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -158,10 +155,7 @@
                   <date type="firstPublication" subtype="zeno">1594</date>
                   <date type="firstPublication" subtype="i5">1594</date>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1546"
-                        notAfter="1613"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1546" notAfter="1613"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1563e233">Erstdruck: Wolffenbüttel, 1594.</note>
@@ -181,7 +175,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118709887">
+                        <forename>Heinrich</forename>
+                        <surname>Julius</surname>
+                        <roleName>Herzog von Braunschweig</roleName>
+                     </persName></person><person role="editor"><persName>
+                        <roleName>Dr.</roleName>
+                        <forename>Wilhelm Ludwig</forename>
+                        <surname>Holland</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -164,10 +161,7 @@
                   <date type="firstPublication" subtype="clariah">1730</date>
                   <date type="firstPublication" subtype="zeno">1730</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1700"
-                        notAfter="1730"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1700" notAfter="1730"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#BGottsched-Johan-d1e172468">Entstehungszeit zwischen 1724–1729 während der Leipzig Lehrjahre. Erstdruck: Leipzig (Bernhard Christoph Breitkopf) 1730.</note>
@@ -181,7 +175,16 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118541013">
+                        <forename>Johann Christoph</forename>
+                        <surname>Gottsched</surname>
+                     </persName></person><person role="editor" sex="m"><persName ref="http://d-nb.info/gnd/130194573">
+                        <forename>Joachim</forename>
+                        <surname>Birke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>P. M.</forename>
+                        <surname>Mitchell</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

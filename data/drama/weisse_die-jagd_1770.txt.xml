@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -165,10 +162,7 @@
                   <date type="firstPublication" subtype="zeno">1770</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1770</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1726"
-                        notAfter="1770"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1726" notAfter="1770"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3397e301">Erstdruck: Leipzig (Dyckische Buchhandlung), 1770. Komposition von Johann Adam Hiller. Uraufführung am 29.01.1770, Großherzogliches Hofheater, Weimar.</note>
@@ -188,64 +182,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="roeschen" sex="FEMALE">
-                  <persName>Röschen</persName>
-                  <persName type="variant">Röse</persName>
-               </person>
-               <person xml:id="marthe" sex="FEMALE">
-                  <persName>Marthe</persName>
-               </person>
-               <person xml:id="michel" sex="MALE">
-                  <persName>Michel</persName>
-               </person>
-               <person xml:id="toeffel" sex="MALE">
-                  <persName>Töffel</persName>
-               </person>
-               <person xml:id="hannchen" sex="FEMALE">
-                  <persName>Hannchen</persName>
-               </person>
-               <personGrp xml:id="alle_1-9_bis_1-11" sex="UNKNOWN">
-                  <name>Alle (I/9–11)</name>
-               </personGrp>
-               <person xml:id="guerge" sex="MALE">
-                  <persName>Gürge</persName>
-               </person>
-               <person xml:id="quaas" sex="MALE">
-                  <persName>Quaas</persName>
-               </person>
-               <person xml:id="christel" sex="MALE">
-                  <persName>Christel</persName>
-               </person>
-               <person xml:id="der_koenig" sex="MALE">
-                  <persName>Der König</persName>
-               </person>
-               <person xml:id="der_erste_wilddieb" sex="MALE">
-                  <persName>Der erste Wilddieb</persName>
-               </person>
-               <person xml:id="der_zweyte_wilddieb" sex="MALE">
-                  <persName>Der zweyte Wilddieb</persName>
-               </person>
-               <personGrp xml:id="chor_alle_3-9" sex="UNKNOWN">
-                  <name>Chor/Alle (III/9)</name>
-               </personGrp>
-               <person xml:id="graf_von_schmetterling" sex="MALE">
-                  <persName>Graf von Schmetterling</persName>
-               </person>
-               <person xml:id="von_treuwerth" sex="MALE">
-                  <persName>von Treuwerth</persName>
-               </person>
-               <personGrp xml:id="alle_bauren" sex="UNKNOWN">
-                  <name>Alle Bauren (III/12)</name>
-               </personGrp>
-               <personGrp xml:id="chor_3-14" sex="UNKNOWN">
-                  <name>Chor (III/14)</name>
-                  <name type="variant">Der ganze Chor</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118630563">
+                        <forename>Christian Felix</forename>
+                        <surname>Weiße</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/118551124">
+                        <forename>Johann Adam</forename>
+                        <surname>Hiller</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

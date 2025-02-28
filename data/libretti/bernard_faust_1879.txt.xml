@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -164,10 +161,7 @@
                   <date type="firstPublication" subtype="clariah">1822</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1781"
-                        notAfter="1850"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1781" notAfter="1850"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d16e320">Komponiert von Louis Spohr. Uraufführung am 01.09.1816, Altstädtisches Theater (heute: Tyltheater), Prag.</note>
@@ -187,82 +181,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="faust" sex="MALE">
-                  <persName>Faust</persName>
-               </person>
-               <person xml:id="mephistopheles" sex="MALE">
-                  <persName>Mephistopheles</persName>
-                  <persName type="variant">Mephisto</persName>
-               </person>
-               <person xml:id="wagner" sex="MALE">
-                  <persName>Wagner</persName>
-               </person>
-               <person xml:id="kaylinger" sex="MALE">
-                  <persName>Kaylinger</persName>
-               </person>
-               <person xml:id="moor" sex="MALE">
-                  <persName>Moor</persName>
-               </person>
-               <person xml:id="roeschen" sex="FEMALE">
-                  <persName>Röschen</persName>
-               </person>
-               <person xml:id="franz" sex="MALE">
-                  <persName>Franz</persName>
-               </person>
-               <personGrp xml:id="chor" sex="UNKNOWN">
-                  <name>Chor</name>
-                  <name type="variant">Ganzer Chor</name>
-               </personGrp>
-               <person xml:id="kunigunde" sex="FEMALE">
-                  <persName>Kunigunde</persName>
-               </person>
-               <person xml:id="gulf" sex="MALE">
-                  <persName>Gulf</persName>
-               </person>
-               <person xml:id="hugo" sex="MALE">
-                  <persName>Hugo</persName>
-               </person>
-               <person xml:id="knappe" sex="MALE">
-                  <persName>Knappe</persName>
-               </person>
-               <person xml:id="kunigundens_dienerin" sex="FEMALE">
-                  <persName>Kunigundens Dienerin</persName>
-               </person>
-               <personGrp xml:id="hugos_begleiter" sex="MALE">
-                  <name>Begleiter von Hugo</name>
-                  <name type="variant">Chor der Begleiter Hugo's</name>
-                  <name type="variant">Hugo's Begleiter</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_geister" sex="UNKNOWN">
-                  <name>Chor der Geister</name>
-                  <name type="variant">Geister</name>
-               </personGrp>
-               <person xml:id="eine_hexe" sex="FEMALE">
-                  <persName>Eine Hexe</persName>
-               </person>
-               <person xml:id="sycorax" sex="FEMALE">
-                  <persName>Sycorax</persName>
-               </person>
-               <personGrp xml:id="hexen" sex="FEMALE">
-                  <name>Hexen</name>
-               </personGrp>
-               <personGrp xml:id="drei_hexen" sex="FEMALE">
-                  <name>Drei Hexen</name>
-               </personGrp>
-               <personGrp xml:id="hochzeitsgaeste" sex="UNKNOWN">
-                  <name>Hochzeitsgäste</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_maenner" sex="MALE">
-                  <name>Chor der Männer</name>
-               </personGrp>
-               <person xml:id="wohlhaldt" sex="MALE">
-                  <persName>Wohlhaldt</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/116136812">
+                        <forename>Joseph Carl</forename>
+                        <surname>Bernard</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/118616366">
+                        <forename>Louis</forename>
+                        <surname>Spohr</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

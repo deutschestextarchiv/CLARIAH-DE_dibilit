@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -179,41 +176,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="bilau" sex="MALE">
-                  <persName>Bilau</persName>
-               </person>
-               <person xml:id="grundmann" sex="MALE">
-                  <persName>Grundmann</persName>
-               </person>
-               <person xml:id="ferdinand" sex="MALE">
-                  <persName>Ferdinand</persName>
-               </person>
-               <person xml:id="langers" sex="MALE">
-                  <persName>Langers</persName>
-               </person>
-               <person xml:id="rosalie" sex="FEMALE">
-                  <persName>Rosalie</persName>
-               </person>
-               <person xml:id="julie" sex="FEMALE">
-                  <persName>Julie</persName>
-               </person>
-               <person xml:id="raethin" sex="FEMALE">
-                  <persName>Räthin</persName>
-               </person>
-               <person xml:id="bedienter" sex="MALE">
-                  <persName>Bedienter</persName>
-               </person>
-               <person xml:id="kaethe" sex="FEMALE">
-                  <persName>Käthe</persName>
-               </person>
-               <person xml:id="hans" sex="MALE">
-                  <persName>Hans</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/116752505">
+                        <forename>Johanna Franul</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Weißenthurn</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

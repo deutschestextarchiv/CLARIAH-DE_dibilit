@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1801</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1801</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1799"
-                        notAfter="1800"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1799" notAfter="1800"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d443e300">Entstanden 1799–1800, Erstdruck: Tübingen (Cotta) 1801. Uraufführung am 14.6.1800 in Weimar.</note>
@@ -177,73 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="kennedy" sex="FEMALE">
-                  <persName>Kennedy</persName>
-               </person>
-               <person xml:id="paulet" sex="MALE">
-                  <persName>Paulet</persName>
-               </person>
-               <person xml:id="maria" sex="FEMALE">
-                  <persName>Maria</persName>
-               </person>
-               <person xml:id="mortimer" sex="MALE">
-                  <persName>Mortimer</persName>
-               </person>
-               <person xml:id="burleigh" sex="MALE">
-                  <persName>Burleigh</persName>
-               </person>
-               <person xml:id="davison" sex="MALE">
-                  <persName>Davison</persName>
-               </person>
-               <person xml:id="kent" sex="MALE">
-                  <persName>Kent</persName>
-               </person>
-               <person xml:id="elisabeth" sex="FEMALE">
-                  <persName>Elisabeth</persName>
-                  <persName type="variant">Königin</persName>
-               </person>
-               <person xml:id="aubespine" sex="MALE">
-                  <persName>Aubespine</persName>
-               </person>
-               <person xml:id="bellievre" sex="MALE">
-                  <persName>Bellievre</persName>
-               </person>
-               <person xml:id="shrewsbury" sex="MALE">
-                  <persName>Shrewsbury</persName>
-                  <persName type="variant">Talbot</persName>
-               </person>
-               <person xml:id="leicester" sex="MALE">
-                  <persName>Leicester</persName>
-               </person>
-               <person xml:id="okelly" sex="MALE">
-                  <persName>Okelly</persName>
-               </person>
-               <person xml:id="offizier" sex="MALE">
-                  <persName>Offizier</persName>
-               </person>
-               <person xml:id="page" sex="MALE">
-                  <persName>Page</persName>
-               </person>
-               <person xml:id="melvil" sex="MALE">
-                  <persName>Melvil</persName>
-               </person>
-               <person xml:id="kurl" sex="FEMALE">
-                  <persName>Kurl</persName>
-               </person>
-               <person xml:id="burgoyn" sex="MALE">
-                  <persName>Burgoyn</persName>
-               </person>
-               <person xml:id="zweite_kammerfrau" sex="FEMALE">
-                  <persName>Zweite Kammerfrau</persName>
-               </person>
-               <personGrp xml:id="die_kammerfrauen" sex="FEMALE">
-                  <name>Die Kammerfrauen</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118607626">
+                        <forename>Friedrich</forename>
+                        <surname>Schiller</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

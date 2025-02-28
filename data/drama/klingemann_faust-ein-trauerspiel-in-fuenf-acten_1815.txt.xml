@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1815</date>
                   <date type="firstPublication" subtype="i5">1815</date>
                   <date type="firstPublication" subtype="gerdracor">1815</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1777"
-                        notAfter="1815"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1777" notAfter="1815"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3005e311">Erstdruck: Leipzig und Altenburg (F. A. Brockhaus) 1815.</note>
@@ -177,77 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="diether" sex="MALE">
-                  <persName>Diether</persName>
-               </person>
-               <person xml:id="kaethe" sex="FEMALE">
-                  <persName>Käthe</persName>
-               </person>
-               <person xml:id="wagner" sex="MALE">
-                  <persName>Wagner</persName>
-               </person>
-               <person xml:id="faust" sex="MALE">
-                  <persName>Faust</persName>
-                  <persName type="variant">Fausts Stimme</persName>
-               </person>
-               <personGrp xml:id="choralartiger_gesang" sex="UNKNOWN">
-                  <name>Choralartiger Gesang</name>
-                  <name type="variant">Gesang</name>
-               </personGrp>
-               <person xml:id="der_fremde" sex="MALE">
-                  <persName>Der Fremde</persName>
-                  <persName type="variant">Fremder</persName>
-               </person>
-               <person xml:id="dumpfe_stimme" sex="UNKNOWN">
-                  <persName>Dumpfe Stimme</persName>
-                  <persName type="variant">Stimme</persName>
-               </person>
-               <personGrp xml:id="studenten" sex="MALE">
-                  <name>Studenten</name>
-                  <name type="variant">Studentenchor</name>
-               </personGrp>
-               <person xml:id="erster_student" sex="MALE">
-                  <persName>Erster Student</persName>
-               </person>
-               <person xml:id="zweiter_student" sex="MALE">
-                  <persName>Zweiter Student</persName>
-               </person>
-               <person xml:id="dritter_student" sex="MALE">
-                  <persName>Dritter Student</persName>
-               </person>
-               <person xml:id="helene" sex="FEMALE">
-                  <persName>Helene</persName>
-                  <persName type="variant">Helenens Stimme</persName>
-               </person>
-               <person xml:id="erster_leichentraeger" sex="MALE">
-                  <persName>Erster Leichenträger</persName>
-               </person>
-               <person xml:id="zweiter_leichentraeger" sex="MALE">
-                  <persName>Zweiter Leichenträger</persName>
-               </person>
-               <person xml:id="anfuehrer" sex="MALE">
-                  <persName>Anführer</persName>
-               </person>
-               <person xml:id="erste_maske" sex="MALE">
-                  <persName>Erste Maske</persName>
-               </person>
-               <person xml:id="zweite_maske" sex="MALE">
-                  <persName>Zweite Maske</persName>
-               </person>
-               <person xml:id="dritte_maske" sex="MALE">
-                  <persName>Dritte Maske</persName>
-               </person>
-               <person xml:id="stimme_heftig_von_aussen" sex="UNKNOWN">
-                  <persName>Stimme (heftig von außen)</persName>
-               </person>
-               <personGrp xml:id="gerichtsdiener" sex="MALE">
-                  <name>Gerichtsdiener</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118563300">
+                        <forename>August</forename>
+                        <surname>Klingemann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1900</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1900</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1898"
-                        notAfter="1900"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1898" notAfter="1900"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1598e311">Entstanden 1898/1900, Erstdruck unter dem Titel »Münchner Scenen. Nach dem Leben aufgezeichnet« in: Die Insel (Berlin), 1. Jg., 1900, Heft 7-9. Uraufführung am 11.10.1901 in Berlin.</note>
@@ -183,80 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="molly" sex="FEMALE">
-                  <persName>Molly Griesinger</persName>
-               </person>
-               <person xml:id="von_keith" sex="MALE">
-                  <persName>von Keith</persName>
-               </person>
-               <person xml:id="hermann" sex="MALE">
-                  <persName>Hermann Casimir</persName>
-               </person>
-               <person xml:id="anna" sex="FEMALE">
-                  <persName>Anna</persName>
-               </person>
-               <person xml:id="sascha" sex="MALE">
-                  <persName>Sascha</persName>
-               </person>
-               <person xml:id="scholz" sex="MALE">
-                  <persName>Scholz</persName>
-               </person>
-               <person xml:id="saranieff" sex="MALE">
-                  <persName>Saranieff</persName>
-               </person>
-               <person xml:id="raspe" sex="MALE">
-                  <persName>Raspe</persName>
-               </person>
-               <person xml:id="casimir" sex="MALE">
-                  <persName>Konsul Casimir</persName>
-               </person>
-               <person xml:id="ostermeier" sex="MALE">
-                  <persName>Ostermeier</persName>
-               </person>
-               <person xml:id="krenzl" sex="MALE">
-                  <persName>Krenzl</persName>
-               </person>
-               <person xml:id="grandauer" sex="MALE">
-                  <persName>Grandauer</persName>
-               </person>
-               <person xml:id="sommersberg" sex="MALE">
-                  <persName>Sommersberg</persName>
-               </person>
-               <person xml:id="simba" sex="FEMALE">
-                  <persName>Simba</persName>
-               </person>
-               <person xml:id="frau_ostermeier" sex="FEMALE">
-                  <persName>Frau Ostermeier</persName>
-               </person>
-               <person xml:id="frau_krenzl" sex="FEMALE">
-                  <persName>Frau Krenzl</persName>
-               </person>
-               <person xml:id="freifrau_von_rosenkron" sex="FEMALE">
-                  <persName>Freifrau von Rosenkron</persName>
-               </person>
-               <person xml:id="freifrau_von_totleben" sex="FEMALE">
-                  <persName>Freifrau von Totleben</persName>
-               </person>
-               <person xml:id="zamrjaki" sex="MALE">
-                  <persName>Zamrjaki</persName>
-               </person>
-               <person xml:id="ernst_scholz" sex="MALE">
-                  <persName>Ernst Scholz</persName>
-               </person>
-               <person xml:id="ein_metzgerknecht" sex="MALE">
-                  <persName>Ein Metzgerknecht</persName>
-               </person>
-               <person xml:id="ein_packtraeger" sex="MALE">
-                  <persName>Ein Packträger</persName>
-               </person>
-               <person xml:id="ein_baeckerweib" sex="FEMALE">
-                  <persName>Ein Bäckerweib</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118629867">
+                        <forename>Frank</forename>
+                        <surname>Wedekind</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Manfred</forename>
+                        <surname>Hahn</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

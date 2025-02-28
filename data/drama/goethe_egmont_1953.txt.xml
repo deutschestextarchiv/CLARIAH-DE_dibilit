@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="zeno">1788</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1788</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1775"
-                        notAfter="1787"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1775" notAfter="1787"/>
                </publicationStmt>
                <seriesStmt>
                   <title level="s" type="main">Goethes Werke</title>
@@ -185,104 +179,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="soest" sex="MALE">
-                  <persName>Soest</persName>
-               </person>
-               <person xml:id="jetter" sex="MALE">
-                  <persName>Jetter</persName>
-               </person>
-               <person xml:id="buyck" sex="MALE">
-                  <persName>Buyck</persName>
-               </person>
-               <personGrp xml:id="alle_1-1" sex="UNKNOWN">
-                  <name>Alle (I/1)</name>
-               </personGrp>
-               <person xml:id="ruysum" sex="MALE">
-                  <persName>Ruysum</persName>
-               </person>
-               <person xml:id="regentin" sex="FEMALE">
-                  <persName>Regentin</persName>
-               </person>
-               <person xml:id="machiavell" sex="MALE">
-                  <persName>Machiavell</persName>
-               </person>
-               <person xml:id="klare_klaerchen" sex="FEMALE">
-                  <persName>Klare/Klärchen</persName>
-               </person>
-               <person xml:id="brackenburg" sex="MALE">
-                  <persName>Brackenburg</persName>
-               </person>
-               <person xml:id="mutter" sex="FEMALE">
-                  <persName>Mutter</persName>
-               </person>
-               <person xml:id="zimmermeister" sex="MALE">
-                  <persName>Zimmermeister</persName>
-               </person>
-               <person xml:id="seifensieder" sex="MALE">
-                  <persName>Seifensieder</persName>
-               </person>
-               <person xml:id="vansen" sex="MALE">
-                  <persName>Vansen</persName>
-               </person>
-               <personGrp xml:id="einige_andere_mehrere_das_volk_andere" sex="UNKNOWN">
-                  <name>Einige Andere/Mehrere/Das Volk/Andere (II/1)</name>
-               </personGrp>
-               <person xml:id="ein_buerger_a" sex="MALE">
-                  <persName>Ein Bürger</persName>
-               </person>
-               <person xml:id="anderer_buerger_a" sex="MALE">
-                  <persName>Anderer Bürger</persName>
-               </person>
-               <person xml:id="ein_buerger_b" sex="MALE">
-                  <persName>Ein Bürger</persName>
-               </person>
-               <person xml:id="ein_anderer_b" sex="MALE">
-                  <persName>Ein Anderer</persName>
-               </person>
-               <person xml:id="ein_buerger_c" sex="MALE">
-                  <persName>Ein Bürger</persName>
-               </person>
-               <person xml:id="ein_anderer_c" sex="MALE">
-                  <persName>Ein Anderer</persName>
-               </person>
-               <person xml:id="ein_anderer_d" sex="MALE">
-                  <persName>Ein Anderer</persName>
-               </person>
-               <person xml:id="buerger_d" sex="MALE">
-                  <persName>Bürger</persName>
-               </person>
-               <person xml:id="ein_anderer_e" sex="MALE">
-                  <persName>Ein Anderer</persName>
-               </person>
-               <person xml:id="ein_anderer_f" sex="MALE">
-                  <persName>Ein Anderer</persName>
-               </person>
-               <person xml:id="egmont" sex="MALE">
-                  <persName>Egmont</persName>
-               </person>
-               <person xml:id="sekretaer" sex="MALE">
-                  <persName>Sekretär</persName>
-               </person>
-               <person xml:id="oranien" sex="MALE">
-                  <persName>Oranien</persName>
-               </person>
-               <person xml:id="silva" sex="MALE">
-                  <persName>Silva</persName>
-               </person>
-               <person xml:id="gomez" sex="MALE">
-                  <persName>Gomez</persName>
-               </person>
-               <person xml:id="ferdinand" sex="MALE">
-                  <persName>Ferdinand</persName>
-               </person>
-               <person xml:id="alba" sex="MALE">
-                  <persName>Alba</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118540238">
+                        <forename>Johann Wolfgang</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Goethe</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

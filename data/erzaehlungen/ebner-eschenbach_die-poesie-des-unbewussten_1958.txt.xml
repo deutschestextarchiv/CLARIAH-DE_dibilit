@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -158,10 +155,7 @@
                   <date type="firstPublication" subtype="clariah">1881</date>
                   <date type="firstPublication" subtype="zeno">1881</date>
                   <date type="firstPublication" subtype="i5">1883</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1830"
-                        notAfter="1916"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1830" notAfter="1916"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Ebner-Eschenbach-d1e24363">Erstdruck in: Deutsche Rundschau, Berlin, 29. Bd., 1881; erste Buchausgabe in: Dorf- und Schloßgeschichten, Berlin (Gebrüder Paetel) 1883.</note>
@@ -175,7 +169,14 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/118528661">
+                        <forename>Marie</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Ebner-Eschenbach</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Johannes</forename>
+                        <surname>Klein</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

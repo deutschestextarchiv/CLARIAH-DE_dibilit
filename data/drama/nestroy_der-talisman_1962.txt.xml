@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,102 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="die_maedchen" sex="FEMALE">
-                  <persName>Die Mädchen</persName>
-               </person>
-               <person xml:id="die_bauernbursche" sex="MALE">
-                  <persName>Die Bauernbursche</persName>
-                  <persName type="variant">Die Bursche</persName>
-               </person>
-               <person xml:id="christoph" sex="MALE">
-                  <persName>Christoph</persName>
-               </person>
-               <person xml:id="hanns" sex="MALE">
-                  <persName>Hanns</persName>
-               </person>
-               <person xml:id="hannerl" sex="FEMALE">
-                  <persName>Hannerl</persName>
-               </person>
-               <person xml:id="salome" sex="FEMALE">
-                  <persName>Salome</persName>
-               </person>
-               <person xml:id="seppel" sex="MALE">
-                  <persName>Seppel</persName>
-               </person>
-               <person xml:id="alle_1-2" sex="UNKNOWN">
-                  <persName>Alle (I/2)</persName>
-               </person>
-               <person xml:id="flora" sex="FEMALE">
-                  <persName>Flora</persName>
-               </person>
-               <person xml:id="plutzerkern" sex="MALE">
-                  <persName>Plutzerkern</persName>
-               </person>
-               <person xml:id="titus" sex="MALE">
-                  <persName>Titus</persName>
-               </person>
-               <person xml:id="marquis" sex="MALE">
-                  <persName>Marquis</persName>
-               </person>
-               <person xml:id="constantia" sex="FEMALE">
-                  <persName>Constantia</persName>
-               </person>
-               <person xml:id="erster_knecht_1-22" sex="MALE">
-                  <persName>Erster Knecht (I/22)</persName>
-               </person>
-               <person xml:id="die_knechte_1-23" sex="MALE">
-                  <persName>Die Knechte (I/23)</persName>
-               </person>
-               <person xml:id="chor_1-23" sex="UNKNOWN">
-                  <persName>Chor (I/23)</persName>
-               </person>
-               <person xml:id="chor_2-1" sex="UNKNOWN">
-                  <persName>Chor (II/1)</persName>
-               </person>
-               <person xml:id="erster_knecht_2-1" sex="MALE">
-                  <persName>Erster Knecht (II/1)</persName>
-               </person>
-               <person xml:id="alle_2-1" sex="UNKNOWN">
-                  <persName>Alle (II/1)</persName>
-               </person>
-               <person xml:id="die_knechte_2-1_und_2-2" sex="MALE">
-                  <persName>Die Knechte (II/1 und II/2)</persName>
-               </person>
-               <person xml:id="frau_von_cypressenburg" sex="FEMALE">
-                  <persName>Frau von Cypressenburg</persName>
-               </person>
-               <person xml:id="emma" sex="FEMALE">
-                  <persName>Emma</persName>
-               </person>
-               <person xml:id="chor_2-23" sex="UNKNOWN">
-                  <persName>Chor (II/23)</persName>
-               </person>
-               <person xml:id="alle_2-24_bis_2-27" sex="UNKNOWN">
-                  <persName>Alle (II/24 bis II/27)</persName>
-               </person>
-               <person xml:id="herr_von_platt" sex="MALE">
-                  <persName>Herr von Platt</persName>
-               </person>
-               <person xml:id="chor_der_gesellschaft" sex="UNKNOWN">
-                  <persName>Chor der Gesellschaft</persName>
-               </person>
-               <person xml:id="georg" sex="MALE">
-                  <persName>Georg</persName>
-               </person>
-               <person xml:id="spund" sex="MALE">
-                  <persName>Spund</persName>
-               </person>
-               <person xml:id="konrad" sex="MALE">
-                  <persName>Konrad</persName>
-               </person>
-               <person xml:id="notarius" sex="MALE">
-                  <persName>Notarius</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118587080">
+                        <forename>Johann</forename>
+                        <surname>Nestroy</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,83 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="faust" sex="MALE">
-                  <persName>Faust</persName>
-               </person>
-               <person xml:id="wagner" sex="MALE">
-                  <persName>Wagner</persName>
-               </person>
-               <person xml:id="mariane" sex="FEMALE">
-                  <persName>Mariane</persName>
-               </person>
-               <person xml:id="xaver" sex="MALE">
-                  <persName>Xaver</persName>
-               </person>
-               <person xml:id="lisette" sex="FEMALE">
-                  <persName>Lisette</persName>
-               </person>
-               <person xml:id="theodora" sex="FEMALE">
-                  <persName>Theodora</persName>
-               </person>
-               <person xml:id="moritz" sex="MALE">
-                  <persName>Moritz</persName>
-               </person>
-               <person xml:id="rochus" sex="MALE">
-                  <persName>Rochus</persName>
-               </person>
-               <person xml:id="paulina" sex="FEMALE">
-                  <persName>Paulina</persName>
-               </person>
-               <person xml:id="satan" sex="MALE">
-                  <persName>Satan</persName>
-               </person>
-               <person xml:id="herold" sex="MALE">
-                  <persName>Der Herold</persName>
-               </person>
-               <person xml:id="magog" sex="MALE">
-                  <persName>Magog</persName>
-               </person>
-               <person xml:id="belial" sex="MALE">
-                  <persName>Belial</persName>
-               </person>
-               <person xml:id="sebub" sex="MALE">
-                  <persName>Sebub</persName>
-               </person>
-               <person xml:id="abdon" sex="MALE">
-                  <persName>Abdon</persName>
-               </person>
-               <personGrp xml:id="die_satane" sex="MALE">
-                  <name>Die Satane</name>
-               </personGrp>
-               <person xml:id="melech" sex="MALE">
-                  <persName>Melech</persName>
-               </person>
-               <person xml:id="gog" sex="MALE">
-                  <persName>Gog</persName>
-               </person>
-               <person xml:id="dragon" sex="MALE">
-                  <persName>Dragon</persName>
-               </person>
-               <person xml:id="stup" sex="MALE">
-                  <persName>Stup</persName>
-               </person>
-               <person xml:id="banquier" sex="MALE">
-                  <persName>Banquier</persName>
-               </person>
-               <person xml:id="rudolph" sex="MALE">
-                  <persName>Rudolph</persName>
-               </person>
-               <person xml:id="ein_bedienter" sex="MALE">
-                  <persName>Ein Bedienter</persName>
-               </person>
-               <person xml:id="ein_jude" sex="MALE">
-                  <persName>Ein Jude</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/116121009">
+                        <forename>Karl Friedrich</forename>
+                        <surname>Benkowitz</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

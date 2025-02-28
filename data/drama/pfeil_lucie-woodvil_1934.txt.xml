@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -162,10 +159,7 @@
                   <date type="firstPublication" subtype="zeno">1756</date>
                   <date type="firstPublication" subtype="i5">1756</date>
                   <date type="firstPublication" subtype="gerdracor">1756</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1732"
-                        notAfter="1800"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1732" notAfter="1800"/>
                </publicationStmt>
                <seriesStmt>
                   <title level="s" type="main">Die Anfänge des bürgerlichen Trauerspiels in den fünfziger Jahren</title>
@@ -191,35 +185,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="willhelm" sex="MALE">
-                  <persName>Willhelm</persName>
-               </person>
-               <person xml:id="robert" sex="MALE">
-                  <persName>Robert</persName>
-               </person>
-               <person xml:id="lucie" sex="FEMALE">
-                  <persName>Lucie</persName>
-               </person>
-               <person xml:id="betty" sex="FEMALE">
-                  <persName>Betty</persName>
-               </person>
-               <person xml:id="karl" sex="MALE">
-                  <persName>Karl</persName>
-               </person>
-               <person xml:id="amalie" sex="FEMALE">
-                  <persName>Amalie</persName>
-               </person>
-               <person xml:id="jakob" sex="MALE">
-                  <persName>Jakob</persName>
-               </person>
-               <person xml:id="der_bediente" sex="MALE">
-                  <persName>Der Bediente</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/115546456">
+                        <forename>Johann Gottlob Benjamin</forename>
+                        <surname>Pfeil</surname>
+                     </persName></person><person role="editor"><persName>
+                        <roleName>Dr.</roleName>
+                        <forename>F.</forename>
+                        <surname>Brüggemann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

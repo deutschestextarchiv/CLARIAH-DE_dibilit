@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -164,10 +161,7 @@
                   <date type="firstPublication" subtype="clariah">1821</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1881</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1798"
-                        notAfter="1881"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1798" notAfter="1881"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d149e321">Komponiert von Franz Schubert. Uraufführung am 24.06.1854, Großherzogliches Hofheater, Weimar.</note>
@@ -187,76 +181,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="chor_der_landleute" sex="UNKNOWN">
-                  <name>Chor der Landleute</name>
-                  <name type="variant">Chor</name>
-               </personGrp>
-               <person xml:id="edwiga" sex="FEMALE">
-                  <persName>Edwiga</persName>
-               </person>
-               <person xml:id="guisto" sex="MALE">
-                  <persName>Guisto</persName>
-               </person>
-               <person xml:id="troila" sex="MALE">
-                  <persName>Troila</persName>
-               </person>
-               <person xml:id="alfonso" sex="MALE">
-                  <persName>Alfonso</persName>
-               </person>
-               <personGrp xml:id="chor_der_maenner" sex="MALE">
-                  <name>Chor der Männer</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_frauen" sex="FEMALE">
-                  <name>Chor der Frauen</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_maedchen" sex="FEMALE">
-                  <name>Chor der Mädchen</name>
-               </personGrp>
-               <person xml:id="estrella" sex="FEMALE">
-                  <persName>Estrella</persName>
-               </person>
-               <person xml:id="mauregato" sex="MALE">
-                  <persName>Mauregato</persName>
-               </person>
-               <personGrp xml:id="chor_des_gefolges" sex="MALE">
-                  <name>Chor des Gefolges</name>
-                  <name type="variant">Chor</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_krieger" sex="MALE">
-                  <name>Chor der Krieger</name>
-                  <name type="variant">Krieger</name>
-                  <name type="variant">Chor</name>
-                  <name type="variant">Erster Chor</name>
-                  <name type="variant">Zweiter Chor</name>
-                  <name type="variant">Beide Chöre</name>
-               </personGrp>
-               <personGrp xml:id="chor_des_volkes" sex="UNKNOWN">
-                  <name>Chor des Volkes</name>
-                  <name type="variant">Chor des versammelten Volkes</name>
-                  <name type="variant">Volk</name>
-               </personGrp>
-               <person xml:id="adolfo" sex="MALE">
-                  <persName>Adolfo</persName>
-               </person>
-               <personGrp xml:id="chor_des_hofstaates" sex="UNKNOWN">
-                  <name>Chor des Hofstaates</name>
-                  <name type="variant">Hofstaat</name>
-               </personGrp>
-               <person xml:id="greis" sex="MALE">
-                  <persName>Greis</persName>
-               </person>
-               <personGrp xml:id="die_begleiter" sex="MALE">
-                  <name>Die Begleiter</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_jaeger" sex="MALE">
-                  <name>Chor der Jäger</name>
-                  <name type="variant">Jägerchor</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/116849436">
+                        <forename>Franz Adolf Friedrich</forename>
+                        <surname>Schober</surname>
+                     </persName></person><person role="author"><persName role="composer">
+                        <forename>Franz</forename>
+                        <surname>Schubert</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

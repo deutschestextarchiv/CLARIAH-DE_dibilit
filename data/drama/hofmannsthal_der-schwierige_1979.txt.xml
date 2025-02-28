@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -189,65 +186,18 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="lukas" sex="MALE">
-                  <persName>Lukas</persName>
-               </person>
-               <person xml:id="vinzenz" sex="MALE">
-                  <persName>Vinzenz</persName>
-               </person>
-               <person xml:id="hans_karl" sex="MALE">
-                  <persName>Hans Karl</persName>
-               </person>
-               <person xml:id="crescence" sex="FEMALE">
-                  <persName>Crescence</persName>
-               </person>
-               <person xml:id="neugebauer" sex="MALE">
-                  <persName>Sekretär Neugebauer</persName>
-               </person>
-               <person xml:id="agathe" sex="FEMALE">
-                  <persName>Agathe</persName>
-               </person>
-               <person xml:id="stani" sex="MALE">
-                  <persName>Stani</persName>
-               </person>
-               <person xml:id="neuhoff" sex="MALE">
-                  <persName>Neuhoff</persName>
-               </person>
-               <person xml:id="altenwyl" sex="MALE">
-                  <persName>Altenwyl</persName>
-               </person>
-               <person xml:id="helene" sex="FEMALE">
-                  <persName>Helene</persName>
-               </person>
-               <person xml:id="edine" sex="FEMALE">
-                  <persName>Edine</persName>
-               </person>
-               <person xml:id="der_beruehmte_mann" sex="MALE">
-                  <persName>Der berühmte Mann</persName>
-               </person>
-               <person xml:id="antoinette" sex="FEMALE">
-                  <persName>Antoinette</persName>
-               </person>
-               <person xml:id="huberta" sex="FEMALE">
-                  <persName>Huberta</persName>
-               </person>
-               <person xml:id="nanni" sex="FEMALE">
-                  <persName>Nanni</persName>
-               </person>
-               <person xml:id="kammerdiener" sex="MALE">
-                  <persName>Kammerdiener</persName>
-               </person>
-               <person xml:id="diener" sex="MALE">
-                  <persName>Diener</persName>
-               </person>
-               <person xml:id="hechingen" sex="MALE">
-                  <persName>Hechingen</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118552759">
+                        <forename>Hugo</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Hofmannsthal</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Bernd</forename>
+                        <surname>Schoeller</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Rudolf</forename>
+                        <surname>Hirsch</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

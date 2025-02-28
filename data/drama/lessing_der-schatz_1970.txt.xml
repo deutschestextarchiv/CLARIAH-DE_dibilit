@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -217,35 +214,33 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="staleno" sex="MALE">
-                  <persName>Staleno</persName>
-               </person>
-               <person xml:id="leander" sex="MALE">
-                  <persName>Leander</persName>
-               </person>
-               <person xml:id="philto" sex="MALE">
-                  <persName>Philto</persName>
-               </person>
-               <person xml:id="lelio" sex="MALE">
-                  <persName>Lelio</persName>
-               </person>
-               <person xml:id="maskarill" sex="MALE">
-                  <persName>Maskarill</persName>
-               </person>
-               <person xml:id="anselmo" sex="MALE">
-                  <persName>Anselmo</persName>
-               </person>
-               <person xml:id="der_traeger" sex="MALE">
-                  <persName>Der Träger</persName>
-               </person>
-               <person xml:id="raps" sex="MALE">
-                  <persName>Raps</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1745</date>
                   <date type="firstPublication" subtype="i5">1745</date>
                   <date type="firstPublication" subtype="gerdracor">1745</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1722"
-                        notAfter="1776"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1722" notAfter="1776"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3306e256">Erstdruck in: »Deutsche Schaubühne«, sechster Band [herausgegeben von J.C. Gottsched], 1745.</note>
@@ -178,37 +172,7 @@
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="herr_gotthart" sex="MALE">
-                  <persName>Herr Gotthart</persName>
-               </person>
-               <person xml:id="dr_muskat" sex="MALE">
-                  <persName>Dr. Muskat</persName>
-               </person>
-               <person xml:id="dr_krebsstein" sex="MALE">
-                  <persName>Dr. Krebsstein</persName>
-               </person>
-               <person xml:id="heinrich" sex="MALE">
-                  <persName>Heinrich</persName>
-               </person>
-               <person xml:id="kathrine" sex="FEMALE">
-                  <persName>Kathrine</persName>
-               </person>
-               <person xml:id="ernst_gotthart" sex="MALE">
-                  <persName>Ernst Gotthart</persName>
-               </person>
-               <person xml:id="jungfer_froehlichin" sex="FEMALE">
-                  <persName>Jungfer Fröhlichin</persName>
-               </person>
-               <person xml:id="frau_kreuzin" sex="FEMALE">
-                  <persName>Frau Kreuzin</persName>
-               </person>
-               <person xml:id="herr_froehlich" sex="MALE">
-                  <persName>Herr Fröhlich</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

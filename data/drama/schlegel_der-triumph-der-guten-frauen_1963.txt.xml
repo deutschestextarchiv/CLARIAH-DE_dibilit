@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -179,32 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="cathrine" sex="FEMALE">
-                  <persName>Cathrine</persName>
-               </person>
-               <person xml:id="philinte" sex="FEMALE">
-                  <persName>Philinte</persName>
-               </person>
-               <person xml:id="nicander" sex="MALE">
-                  <persName>Nicander</persName>
-               </person>
-               <person xml:id="juliane" sex="FEMALE">
-                  <persName>Juliane</persName>
-               </person>
-               <person xml:id="agenor" sex="MALE">
-                  <persName>Agenor</persName>
-               </person>
-               <person xml:id="heinrich" sex="MALE">
-                  <persName>Heinrich</persName>
-               </person>
-               <person xml:id="agathe" sex="FEMALE">
-                  <persName>Agathe</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118608002">
+                        <forename>Johann Elias</forename>
+                        <surname>Schlegel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Werner</forename>
+                        <surname>Schubert</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

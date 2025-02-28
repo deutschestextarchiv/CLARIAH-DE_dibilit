@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1846</date>
                   <date type="firstPublication" subtype="i5">1846</date>
                   <date type="firstPublication" subtype="gerdracor">1846</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1806"
-                        notAfter="1884"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1806" notAfter="1884"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3418e265">Erstdruck in: »Heinrich Laube: Dramatische Werke«, zweiter Band, Leipzig (Weber), 1846. Uraufführung am 17.04.1844, Stuttgart.</note>
@@ -183,35 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="guldberg" sex="MALE">
-                  <persName>Guldberg</persName>
-               </person>
-               <person xml:id="ranzau" sex="MALE">
-                  <persName>Graf Ranzau</persName>
-               </person>
-               <person xml:id="koeller" sex="MALE">
-                  <persName>Köller</persName>
-               </person>
-               <person xml:id="lorenz" sex="MALE">
-                  <persName>Lorenz</persName>
-               </person>
-               <person xml:id="koenigin" sex="FEMALE">
-                  <persName>Königin</persName>
-               </person>
-               <person xml:id="gallen" sex="FEMALE">
-                  <persName>Gräfin Gallen</persName>
-               </person>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>König</persName>
-               </person>
-               <person xml:id="struensee" sex="MALE">
-                  <persName>Struensee</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118570080">
+                        <forename>Heinrich</forename>
+                        <surname>Laube</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Heinrich Hubert</forename>
+                        <surname>Houben</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

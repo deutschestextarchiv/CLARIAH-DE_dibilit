@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -152,10 +149,7 @@
                   <date type="firstPublication" subtype="clariah">1784</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1798</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1751"
-                        notAfter="1798"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1751" notAfter="1798"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#BUnger-Friederik-d1e341">Erstdruck (anonym): Berlin (Johann Friedrich Unger) 1784; Erstdruck (anonym) der 3. veränderten und vermehrten Ausgabe in zwei Bänden: Berlin (Johann Friedrich Unger) 1798.</note>
@@ -169,7 +163,10 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/117293091">
+                        <forename>Friederike Helene</forename>
+                        <surname>Unger</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

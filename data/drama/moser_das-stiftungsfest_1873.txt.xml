@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="zeno">1862</date>
                   <date type="firstPublication" subtype="i5">1862</date>
                   <date type="firstPublication" subtype="gerdracor">1862</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1825"
-                        notAfter="1873"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1825" notAfter="1873"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2865e273">Erstdruck in: »G. v. Moser: Lustspiele«, erster Band, Berlin (Lassar), 1862.</note>
@@ -179,44 +173,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="bolzau" sex="MALE">
-                  <persName>Bolzau</persName>
-               </person>
-               <person xml:id="bertha" sex="FEMALE">
-                  <persName>Bertha</persName>
-               </person>
-               <person xml:id="schnake" sex="MALE">
-                  <persName>Schnake</persName>
-               </person>
-               <person xml:id="scheffler" sex="MALE">
-                  <persName>Scheffler</persName>
-               </person>
-               <person xml:id="hartwig" sex="MALE">
-                  <persName>Hartwig</persName>
-               </person>
-               <person xml:id="steinkirch" sex="MALE">
-                  <persName>Steinkirch</persName>
-               </person>
-               <person xml:id="diener" sex="MALE">
-                  <persName>Diener</persName>
-               </person>
-               <person xml:id="ludmilla" sex="FEMALE">
-                  <persName>Ludmilla</persName>
-               </person>
-               <person xml:id="brimborius" sex="MALE">
-                  <persName>Brimborius</persName>
-               </person>
-               <person xml:id="wilhelmine" sex="FEMALE">
-                  <persName>Wilhelmine</persName>
-               </person>
-               <person xml:id="franz" sex="MALE">
-                  <persName>Franz</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/116937807">
+                        <forename>Gustav</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Moser</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

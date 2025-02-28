@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno">1912</date>
                   <date type="firstPublication" subtype="i5">1911</date>
                   <date type="firstPublication" subtype="gerdracor">1912</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1910"
-                        notAfter="1911"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1910" notAfter="1911"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3152e351">Entstanden 1910/1911. Erstdruck: Berlin-Lichterfelde (Selbstverlag), 1912. Uraufführung 1914, Schauspielhaus, Düsseldorf.</note>
@@ -176,119 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="buergermeister" sex="MALE">
-                  <persName>Der Bürgermeister</persName>
-                  <persName type="variant">Bürgerst</persName>
-               </person>
-               <person xml:id="ein_rat" sex="MALE">
-                  <persName>Ein Rat</persName>
-               </person>
-               <person xml:id="rat_klemens" sex="MALE">
-                  <persName>Rat Klemens</persName>
-               </person>
-               <person xml:id="roland" sex="MALE">
-                  <persName>Roland</persName>
-               </person>
-               <personGrp xml:id="die_ratsherren_die_raete" sex="MALE">
-                  <name>Die Ratsherren/Die Räte</name>
-               </personGrp>
-               <person xml:id="femina_frau_kuenkeluen" sex="FEMALE">
-                  <persName>Femina/Frau Künkelün</persName>
-                  <persName type="variant">Stimme</persName>
-               </person>
-               <personGrp xml:id="geschrei" sex="MALE">
-                  <name>Geschrei (Ein Hauptmann und Soldaten)</name>
-               </personGrp>
-               <person xml:id="marie" sex="FEMALE">
-                  <persName>Marie</persName>
-               </person>
-               <person xml:id="hellebardier" sex="MALE">
-                  <persName>Hellebardier</persName>
-               </person>
-               <person xml:id="weib_3a" sex="FEMALE">
-                  <persName>Weib (III. Aufzug)</persName>
-               </person>
-               <personGrp xml:id="der_haufen_die_weiber_alle_weiber" sex="FEMALE">
-                  <name>Der Haufen/Die Weiber/Alle Weiber</name>
-                  <name type="variant">Alle</name>
-               </personGrp>
-               <person xml:id="ein_weib_3b" sex="FEMALE">
-                  <persName>Ein Weib (III. Aufzug)</persName>
-               </person>
-               <person xml:id="ein_weib_3c" sex="FEMALE">
-                  <persName>Ein Weib (III. Aufzug)</persName>
-               </person>
-               <person xml:id="ein_weib_3d" sex="FEMALE">
-                  <persName>Ein Weib (III. Aufzug)</persName>
-               </person>
-               <person xml:id="frau_klemens" sex="FEMALE">
-                  <persName>Frau Klemens</persName>
-               </person>
-               <personGrp xml:id="die_angeflogenen" sex="MALE">
-                  <name>Die Angeflogenen</name>
-               </personGrp>
-               <person xml:id="stimme_3" sex="MALE">
-                  <persName>Stimme (III. Aufzug)</persName>
-               </person>
-               <person xml:id="erste" sex="FEMALE">
-                  <persName>Erste (Frau)</persName>
-               </person>
-               <person xml:id="zweite" sex="FEMALE">
-                  <persName>Zweite (Frau)</persName>
-               </person>
-               <person xml:id="erstes_weib_5a" sex="FEMALE">
-                  <persName>Erstes Weib</persName>
-                  <persName type="variant">Ein Weib</persName>
-                  <persName type="variant">Ein Erstes</persName>
-               </person>
-               <person xml:id="anderes_weib_5a" sex="FEMALE">
-                  <persName>Anderes Weib/Zweites Weib</persName>
-               </person>
-               <person xml:id="drittes_weib_5a" sex="FEMALE">
-                  <persName>Drittes Weib</persName>
-               </person>
-               <person xml:id="viertes_weib_5a" sex="FEMALE">
-                  <persName>Viertes Weib</persName>
-               </person>
-               <person xml:id="neues_weib_im_hosenrock" sex="FEMALE">
-                  <persName>Neues Weib/Weib (im Hosenrock)</persName>
-               </person>
-               <person xml:id="erstes_weib_5b" sex="FEMALE">
-                  <persName>Erstes Weib</persName>
-                  <persName type="variant">Ein Weib</persName>
-               </person>
-               <person xml:id="anderes_weib_5b" sex="FEMALE">
-                  <persName>Anderes Weib</persName>
-               </person>
-               <person xml:id="drittes_weib_5b" sex="FEMALE">
-                  <persName>Drittes Weib</persName>
-               </person>
-               <person xml:id="viertes_weib_5b" sex="FEMALE">
-                  <persName>Viertes Weib</persName>
-               </person>
-               <person xml:id="weib" sex="FEMALE">
-                  <persName>Weib (V. Aufzug)</persName>
-               </person>
-               <person xml:id="franzose" sex="MALE">
-                  <persName>Franzose</persName>
-               </person>
-               <personGrp xml:id="die_franzosen" sex="MALE">
-                  <name>Die Franzosen</name>
-               </personGrp>
-               <person xml:id="melak" sex="MALE">
-                  <persName>Melak</persName>
-               </person>
-               <person xml:id="ein_weib" sex="FEMALE">
-                  <persName>Ein Weib (V. Aufzug)</persName>
-               </person>
-               <personGrp xml:id="alle_maenner" sex="MALE">
-                  <name>Alle Männer</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118531212">
+                        <forename>Hermann</forename>
+                        <surname>Essig</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno">1888</date>
                   <date type="firstPublication" subtype="i5">1888</date>
                   <date type="firstPublication" subtype="gerdracor">1888</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1862"
-                        notAfter="1888"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1862" notAfter="1888"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d170e385">Erstdruck: Leipzig (Friedrich), 1888.</note>
@@ -176,158 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="dietrich" sex="MALE">
-                  <persName>Dietrich</persName>
-               </person>
-               <person xml:id="helldrungen" sex="MALE">
-                  <persName>Helldrungen</persName>
-               </person>
-               <person xml:id="erich" sex="MALE">
-                  <persName>Erich</persName>
-               </person>
-               <person xml:id="graefin" sex="FEMALE">
-                  <persName>Gräfin</persName>
-               </person>
-               <person xml:id="liborius" sex="MALE">
-                  <persName>Liborius</persName>
-               </person>
-               <person xml:id="ruediger" sex="MALE">
-                  <persName>Rüdiger</persName>
-               </person>
-               <person xml:id="probst" sex="MALE">
-                  <persName>Probst</persName>
-               </person>
-               <person xml:id="gerlind" sex="FEMALE">
-                  <persName>Gerlind</persName>
-               </person>
-               <person xml:id="ein_knappe" sex="MALE">
-                  <persName>Ein Knappe</persName>
-               </person>
-               <person xml:id="die_alte_steimann" sex="FEMALE">
-                  <persName>Die alte Steimann</persName>
-               </person>
-               <person xml:id="frau_huefer" sex="FEMALE">
-                  <persName>Frau Hüfer</persName>
-               </person>
-               <person xml:id="blinte" sex="MALE">
-                  <persName>Blinte</persName>
-               </person>
-               <personGrp xml:id="bauern_1" sex="UNKNOWN">
-                  <name>Bauern (I. Akt)</name>
-               </personGrp>
-               <personGrp xml:id="einige_bauern" sex="UNKNOWN">
-                  <name>Einige Bauern</name>
-               </personGrp>
-               <person xml:id="engel" sex="MALE">
-                  <persName>Engel</persName>
-               </person>
-               <personGrp xml:id="viele_stimmen" sex="UNKNOWN">
-                  <name>Viele Stimmen</name>
-               </personGrp>
-               <person xml:id="thomae" sex="MALE">
-                  <persName>Thomä</persName>
-               </person>
-               <person xml:id="sander" sex="MALE">
-                  <persName>Sander</persName>
-               </person>
-               <person xml:id="reinhard" sex="MALE">
-                  <persName>Reinhard</persName>
-               </person>
-               <personGrp xml:id="alle_1" sex="UNKNOWN">
-                  <name>Alle (I. Akt)</name>
-               </personGrp>
-               <person xml:id="storch" sex="MALE">
-                  <persName>Storch</persName>
-               </person>
-               <person xml:id="pfeifer" sex="MALE">
-                  <persName>Pfeifer</persName>
-               </person>
-               <person xml:id="hans" sex="MALE">
-                  <persName>Hans</persName>
-               </person>
-               <person xml:id="muenzer" sex="MALE">
-                  <persName>Münzer</persName>
-               </person>
-               <personGrp xml:id="ein_theil_der_bauern_1" sex="UNKNOWN">
-                  <name>Ein Theil der Bauern (I. Akt)</name>
-               </personGrp>
-               <personGrp xml:id="stimmen_vor_der_thuer" sex="UNKNOWN">
-                  <name>Stimmen (vor der Thür)</name>
-               </personGrp>
-               <personGrp xml:id="bauern_2" sex="UNKNOWN">
-                  <name>Bauern (II. Akt)</name>
-               </personGrp>
-               <personGrp xml:id="ein_theil_der_bauern_2" sex="UNKNOWN">
-                  <name>Ein Theil der Bauern (II. Akt)</name>
-               </personGrp>
-               <personGrp xml:id="laerm_draussen_vor_der_scene" sex="UNKNOWN">
-                  <name>Lärm (draußen vor der Scene)</name>
-               </personGrp>
-               <person xml:id="roder" sex="MALE">
-                  <persName>Roder</persName>
-               </person>
-               <personGrp xml:id="laerm_hinter_der_scene" sex="UNKNOWN">
-                  <name>Lärm (hinter der Scene)</name>
-               </personGrp>
-               <personGrp xml:id="weiber" sex="FEMALE">
-                  <name>Weiber</name>
-               </personGrp>
-               <personGrp xml:id="alle_2" sex="UNKNOWN">
-                  <name>Alle (II. Akt)</name>
-               </personGrp>
-               <person xml:id="luther" sex="MALE">
-                  <persName>Luther</persName>
-               </person>
-               <personGrp xml:id="stimmen_hinter_der_scene" sex="UNKNOWN">
-                  <name>Stimmen (hinter der Scene)</name>
-               </personGrp>
-               <personGrp xml:id="wenige_stimmen" sex="UNKNOWN">
-                  <name>Wenige Stimmen</name>
-               </personGrp>
-               <personGrp xml:id="starker_chor" sex="UNKNOWN">
-                  <name>Starker Chor</name>
-               </personGrp>
-               <personGrp xml:id="anderer_chor" sex="UNKNOWN">
-                  <name>Anderer Chor</name>
-               </personGrp>
-               <personGrp xml:id="stimmen_durcheinander" sex="UNKNOWN">
-                  <name>Stimmen (durcheinander)</name>
-               </personGrp>
-               <person xml:id="jacobe" sex="FEMALE">
-                  <persName>Jacobe</persName>
-               </person>
-               <personGrp xml:id="frauen" sex="FEMALE">
-                  <name>Frauen</name>
-               </personGrp>
-               <person xml:id="ein_knecht_3-6a" sex="MALE">
-                  <persName>Ein Knecht (III/6)</persName>
-               </person>
-               <person xml:id="ein_knecht_3-6b" sex="MALE">
-                  <persName>Ein Knecht (III/6)</persName>
-               </person>
-               <person xml:id="ein_knecht_3-7" sex="MALE">
-                  <persName>Ein Knecht (III/7)</persName>
-               </person>
-               <personGrp xml:id="bauern_4" sex="UNKNOWN">
-                  <name>Bauern (IV. Akt)</name>
-               </personGrp>
-               <person xml:id="wache" sex="MALE">
-                  <persName>Wache</persName>
-               </person>
-               <person xml:id="landgraf" sex="MALE">
-                  <persName>Landgraf</persName>
-               </person>
-               <personGrp xml:id="bauern_5" sex="UNKNOWN">
-                  <name>Bauern (V. Akt)</name>
-               </personGrp>
-               <personGrp xml:id="einige_landsknechte" sex="MALE">
-                  <name>Einige Landsknechte</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/116009926">
+                        <forename>Conrad</forename>
+                        <surname>Alberti</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

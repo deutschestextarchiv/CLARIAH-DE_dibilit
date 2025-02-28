@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -180,54 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="erster_freier_erster_gegensprecher" sex="MALE">
-                  <persName>Erster Freier/Erster Gegensprecher</persName>
-               </person>
-               <personGrp xml:id="chor_der_freier" sex="MALE">
-                  <name>Chor der Freier</name>
-               </personGrp>
-               <person xml:id="zweiter_freier_zweiter_gegensprecher" sex="MALE">
-                  <persName>Zweiter Freier/Zweiter Gegensprecher</persName>
-               </person>
-               <person xml:id="dritter_freier_chorsprecher" sex="MALE">
-                  <persName>Dritter Freier/Chorsprecher</persName>
-               </person>
-               <person xml:id="saenger" sex="MALE">
-                  <persName>Sänger</persName>
-                  <persName type="variant">Der Sänger</persName>
-               </person>
-               <person xml:id="telemachos" sex="MALE">
-                  <persName>Telemachos</persName>
-               </person>
-               <person xml:id="seher" sex="MALE">
-                  <persName>Seher</persName>
-               </person>
-               <personGrp xml:id="oberer_chor" sex="MALE">
-                  <name>Oberer Chor</name>
-               </personGrp>
-               <personGrp xml:id="unterer_chor" sex="MALE">
-                  <name>Unterer Chor</name>
-               </personGrp>
-               <person xml:id="odysseus" sex="MALE">
-                  <persName>Odysseus</persName>
-               </person>
-               <person xml:id="eine_stimme_aus_dem_chor" sex="MALE">
-                  <persName>Eine Stimme (aus dem Chor)</persName>
-               </person>
-               <person xml:id="eine_andere" sex="MALE">
-                  <persName>Eine andere</persName>
-               </person>
-               <person xml:id="eine_stimme_aus_dem_palast" sex="MALE">
-                  <persName>Eine Stimme (aus dem Palast)</persName>
-               </person>
-               <person xml:id="penelopeia" sex="FEMALE">
-                  <persName>Penelopeia</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118798065">
+                        <forename>Reinhard Johannes</forename>
+                        <surname>Sorge</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hans Gerd</forename>
+                        <surname>Rötzer</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

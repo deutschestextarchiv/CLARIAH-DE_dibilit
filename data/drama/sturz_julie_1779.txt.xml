@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1767</date>
                   <date type="firstPublication" subtype="i5">1767</date>
                   <date type="firstPublication" subtype="gerdracor">1767</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1736"
-                        notAfter="1779"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1736" notAfter="1779"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2424e265">Erstdruck: Kopenhagen und Leipzig (Prost), 1767. Uraufführung [?] 1768 durch die Kochische Truppe.</note>
@@ -177,41 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="frau_von_wichmann" sex="FEMALE">
-                  <persName>Frau von Wichmann</persName>
-               </person>
-               <person xml:id="julie" sex="FEMALE">
-                  <persName>Julie</persName>
-               </person>
-               <person xml:id="wohlau" sex="MALE">
-                  <persName>Herr von Wohlau</persName>
-               </person>
-               <person xml:id="der_capitain" sex="MALE">
-                  <persName>Der Capitain</persName>
-               </person>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter</persName>
-               </person>
-               <person xml:id="werneck" sex="MALE">
-                  <persName>Werneck</persName>
-               </person>
-               <person xml:id="belmont" sex="MALE">
-                  <persName>Belmont</persName>
-               </person>
-               <person xml:id="dalton" sex="FEMALE">
-                  <persName>Dalton</persName>
-               </person>
-               <person xml:id="woldemar" sex="MALE">
-                  <persName>Woldemar</persName>
-               </person>
-               <person xml:id="der_bediente" sex="MALE">
-                  <persName>Der Bediente</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118619756">
+                        <forename>Peter Helfrich</forename>
+                        <surname>Sturz</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

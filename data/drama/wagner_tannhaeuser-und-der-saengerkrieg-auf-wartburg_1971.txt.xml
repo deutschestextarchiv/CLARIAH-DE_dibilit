@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1813"
-                        notAfter="1883"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1813" notAfter="1883"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1969e296">Komponiert von Richard Wagner. Uraufführung am 19.10.1845, Königlich-Sächsisches Opernhaus (Semperoper), Dresden.</note>
@@ -176,69 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="sirenen" sex="FEMALE">
-                  <name>Sirenen</name>
-               </personGrp>
-               <person xml:id="venus" sex="FEMALE">
-                  <persName>Venus</persName>
-               </person>
-               <person xml:id="tannhaeuser" sex="MALE">
-                  <persName>Tannhäuser</persName>
-               </person>
-               <person xml:id="der_hirt" sex="MALE">
-                  <persName>Der Hirt</persName>
-               </person>
-               <person xml:id="die_aelteren_pilger" sex="MALE">
-                  <persName>Die älteren Pilger</persName>
-                  <persName type="variant">Die Pilger</persName>
-               </person>
-               <person xml:id="der_landgraf" sex="MALE">
-                  <persName>Der Landgraf</persName>
-                  <persName type="variant">Landgraf</persName>
-               </person>
-               <person xml:id="walther" sex="MALE">
-                  <persName>Walther von der Vogelweide</persName>
-               </person>
-               <person xml:id="biterolf" sex="MALE">
-                  <persName>Biterolf</persName>
-               </person>
-               <person xml:id="wolfram" sex="MALE">
-                  <persName>Wolfram von Eschenbach</persName>
-               </person>
-               <person xml:id="heinrich_der_schreiber" sex="MALE">
-                  <persName>Heinrich der Schreiber</persName>
-               </person>
-               <person xml:id="reinmar_von_zweter" sex="MALE">
-                  <persName>Reinmar von Zweter</persName>
-               </person>
-               <person xml:id="elisabeth" sex="FEMALE">
-                  <persName>Elisabeth</persName>
-               </person>
-               <personGrp xml:id="die_ritter" sex="MALE">
-                  <name>Die Ritter</name>
-                  <name type="variant">Chor der Ritter</name>
-                  <name type="variant">Ritter</name>
-               </personGrp>
-               <personGrp xml:id="edelfrauen" sex="FEMALE">
-                  <name>Edelfrauen</name>
-                  <name type="variant">Frauen</name>
-                  <name type="variant">Die Edelfrauen</name>
-               </personGrp>
-               <personGrp xml:id="vier_edelknaben" sex="MALE">
-                  <name>Vier Edelknaben</name>
-               </personGrp>
-               <personGrp xml:id="die_juengeren_pilger" sex="MALE">
-                  <name>Die jüngeren Pilger</name>
-                  <name type="variant">Gesang der jüngeren Pilger</name>
-               </personGrp>
-               <personGrp xml:id="maennergesang" sex="MALE">
-                  <name>Männergesang</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118594117">
+                        <forename>Richard</forename>
+                        <surname>Wagner</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

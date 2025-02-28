@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -162,10 +159,7 @@
                   <date type="firstPublication" subtype="zeno">1803</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1803</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1767"
-                        notAfter="1845"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1767" notAfter="1845"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2326e262">Erstdruck: Hamburg (Perthes), 1803. Uraufführung am 02.01.1802, Hoftheater, Weimar.</note>
@@ -185,29 +179,16 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="jon" sex="MALE">
-                  <persName>Jon</persName>
-               </person>
-               <person xml:id="pythia" sex="FEMALE">
-                  <persName>Pythia</persName>
-               </person>
-               <person xml:id="phorbas" sex="MALE">
-                  <persName>Phorbas</persName>
-               </person>
-               <person xml:id="kreusa" sex="FEMALE">
-                  <persName>Kreusa</persName>
-               </person>
-               <person xml:id="xuthus" sex="MALE">
-                  <persName>Xuthus</persName>
-               </person>
-               <person xml:id="apollo" sex="MALE">
-                  <persName>Apollo</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118607960">
+                        <forename>August Wilhelm</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schlegel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <roleName>Dr.</roleName>
+                        <forename>Eberhard</forename>
+                        <surname>Sauer</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

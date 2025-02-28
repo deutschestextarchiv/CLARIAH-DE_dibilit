@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1745</date>
                   <date type="firstPublication" subtype="i5">1745</date>
                   <date type="firstPublication" subtype="gerdracor">1745</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1713"
-                        notAfter="1762"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1713" notAfter="1762"/>
                </publicationStmt>
                <seriesStmt>
                   <title level="s" type="main">Deutsche Literatur in Entwicklungsreihen</title>
@@ -189,47 +183,7 @@
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="fraeulein_amalie" sex="FEMALE">
-                  <persName>Fräulein Amalie</persName>
-               </person>
-               <person xml:id="fraeulein_karoline" sex="FEMALE">
-                  <persName>Fräulein Karoline</persName>
-               </person>
-               <person xml:id="dr_hippokras" sex="MALE">
-                  <persName>Dr. Hippokras</persName>
-               </person>
-               <person xml:id="frau_von_tiefenborn" sex="FEMALE">
-                  <persName>Frau von Tiefenborn</persName>
-               </person>
-               <person xml:id="heinrich" sex="MALE">
-                  <persName>Heinrich</persName>
-               </person>
-               <person xml:id="herr_von_kaltenbrunn" sex="MALE">
-                  <persName>Herr von Kaltenbrunn</persName>
-               </person>
-               <person xml:id="herr_von_kreuzweg" sex="MALE">
-                  <persName>Herr von Kreuzweg</persName>
-               </person>
-               <person xml:id="landrat_von_ziegendorf" sex="MALE">
-                  <persName>Landrat von Ziegendorf</persName>
-               </person>
-               <person xml:id="kammerherr_von_ziegendorf" sex="MALE">
-                  <persName>Kammerherr von Ziegendorf</persName>
-                  <persName type="variant">Dr. Schlagbalsam</persName>
-               </person>
-               <person xml:id="herr_von_wagehals" sex="MALE">
-                  <persName>Herr von Wagehals</persName>
-               </person>
-               <person xml:id="ein_diener" sex="MALE">
-                  <persName>Ein Diener</persName>
-               </person>
-               <person xml:id="notarius" sex="MALE">
-                  <persName>Notarius</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

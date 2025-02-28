@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -181,91 +178,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="die_trommler" sex="MALE">
-                  <name>Die Trommler</name>
-                  <name type="variant">Trommler</name>
-               </personGrp>
-               <person xml:id="sonnsfeld" sex="MALE">
-                  <persName>Fräulein von Sonnsfeld</persName>
-               </person>
-               <person xml:id="eversmann" sex="MALE">
-                  <persName>Eversmann</persName>
-               </person>
-               <person xml:id="wilhelmine" sex="FEMALE">
-                  <persName>Wilhelmine</persName>
-               </person>
-               <person xml:id="erbprinz" sex="MALE">
-                  <persName>Erbprinz</persName>
-               </person>
-               <person xml:id="koenigin" sex="FEMALE">
-                  <persName>Königin</persName>
-                  <persName type="variant">Die Königin</persName>
-               </person>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>König</persName>
-               </person>
-               <person xml:id="grumbkow" sex="MALE">
-                  <persName>Grumbkow</persName>
-               </person>
-               <person xml:id="seckendorf" sex="MALE">
-                  <persName>Seckendorf</persName>
-               </person>
-               <person xml:id="lakai" sex="MALE">
-                  <persName>Lakai</persName>
-               </person>
-               <person xml:id="hotham" sex="MALE">
-                  <persName>Hotham</persName>
-               </person>
-               <person xml:id="kamke" sex="MALE">
-                  <persName>Kamke</persName>
-               </person>
-               <person xml:id="eckhof" sex="MALE">
-                  <persName>Eckhof</persName>
-               </person>
-               <person xml:id="erster_grenadier" sex="MALE">
-                  <persName>Erster Grenadier</persName>
-               </person>
-               <person xml:id="zweiter_grenadier" sex="MALE">
-                  <persName>Zweiter Grenadier</persName>
-               </person>
-               <person xml:id="dritter_grenadier" sex="MALE">
-                  <persName>Dritter Grenadier</persName>
-               </person>
-               <personGrp xml:id="bediente" sex="MALE">
-                  <name>Bediente</name>
-               </personGrp>
-               <personGrp xml:id="alle_3-1-4" sex="UNKNOWN">
-                  <name>Alle (III/1/4)</name>
-               </personGrp>
-               <person xml:id="graf_schwerin" sex="MALE">
-                  <persName>Graf Schwerin</persName>
-               </person>
-               <person xml:id="graf_wartensleben" sex="MALE">
-                  <persName>Graf Wartensleben</persName>
-               </person>
-               <personGrp xml:id="alle_4-2-2" sex="UNKNOWN">
-                  <name>Alle (IV/2/2)</name>
-               </personGrp>
-               <personGrp xml:id="lakaien" sex="MALE">
-                  <name>Lakaien</name>
-               </personGrp>
-               <person xml:id="viereck" sex="FEMALE">
-                  <persName>Frau von Viereck</persName>
-               </person>
-               <person xml:id="holzendorf" sex="FEMALE">
-                  <persName>Frau von Holzendorf</persName>
-               </person>
-               <personGrp xml:id="hofdamen" sex="FEMALE">
-                  <name>Hofdamen</name>
-               </personGrp>
-               <personGrp xml:id="alle_5-1-4_und_5-1-5" sex="UNKNOWN">
-                  <name>Alle (V/1/4–5)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118543830">
+                        <forename>Karl</forename>
+                        <surname>Gutzkow</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Reinhold</forename>
+                        <surname>Gensel</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

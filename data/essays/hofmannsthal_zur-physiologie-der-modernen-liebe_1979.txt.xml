@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -165,10 +162,7 @@
                   <date type="firstPublication" subtype="clariah">1891</date>
                   <date type="firstPublication" subtype="zeno">1891</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1874"
-                        notAfter="1929"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1874" notAfter="1929"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Hofmannsthal-Hu-d1e154306">Erstdruck in: Die Moderne (Berlin), 1. Jg., Nr. 2/3, 8.2.1891.</note>
@@ -182,7 +176,17 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118552759">
+                        <forename>Hugo</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Hofmannsthal</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Bernd</forename>
+                        <surname>Schoeller</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Rudolf</forename>
+                        <surname>Hirsch</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -175,83 +172,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="der_rangaelteste_hauptmann" sex="MALE">
-                  <persName>Der rangälteste Hauptmann</persName>
-               </person>
-               <person xml:id="von_marschall" sex="MALE">
-                  <persName>von Marschall</persName>
-               </person>
-               <person xml:id="von_grobitzsch" sex="MALE">
-                  <persName>von Grobitzsch</persName>
-               </person>
-               <personGrp xml:id="alle_verschiedene" sex="MALE">
-                  <name>Alle/Verschiedene (I/1)</name>
-               </personGrp>
-               <person xml:id="moritz" sex="MALE">
-                  <persName>Moritz Diesterbeg</persName>
-               </person>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter von Ramberg</persName>
-               </person>
-               <person xml:id="fritz" sex="MALE">
-                  <persName>Fritz von der Leyen</persName>
-               </person>
-               <person xml:id="eine_ordonnanz_1-3a" sex="MALE">
-                  <persName>Eine Ordonnanz (I/3)</persName>
-               </person>
-               <person xml:id="tiedemann" sex="MALE">
-                  <persName>Tiedemann</persName>
-               </person>
-               <person xml:id="paul" sex="MALE">
-                  <persName>Paul von Ramberg</persName>
-               </person>
-               <person xml:id="glahn" sex="MALE">
-                  <persName>Glahn</persName>
-               </person>
-               <person xml:id="benno" sex="MALE">
-                  <persName>Benno von Klewitz</persName>
-               </person>
-               <person xml:id="meitzen" sex="MALE">
-                  <persName>Meitzen</persName>
-               </person>
-               <person xml:id="eine_ordonnanz_1-3b" sex="MALE">
-                  <persName>Eine Ordonnanz (I/3)</persName>
-               </person>
-               <person xml:id="hans" sex="MALE">
-                  <persName>Hans Rudorff</persName>
-               </person>
-               <person xml:id="harold" sex="MALE">
-                  <persName>Harold</persName>
-               </person>
-               <person xml:id="drewes" sex="MALE">
-                  <persName>Drewes (Ordonnanz)</persName>
-               </person>
-               <person xml:id="die_ordonnanz_1-6" sex="MALE">
-                  <persName>Die Ordonnanz (I/6)</persName>
-               </person>
-               <person xml:id="kommandostimme" sex="MALE">
-                  <persName>Kommandostimme</persName>
-               </person>
-               <person xml:id="heinrich" sex="MALE">
-                  <persName>Heinrich</persName>
-               </person>
-               <person xml:id="joseph" sex="MALE">
-                  <persName>Joseph Wachowiock</persName>
-               </person>
-               <person xml:id="schmitz" sex="MALE">
-                  <persName>Schmitz</persName>
-               </person>
-               <person xml:id="traute" sex="MALE">
-                  <persName>Traute</persName>
-               </person>
-               <personGrp xml:id="die_masken" sex="MALE">
-                  <name>Die Masken</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118546198">
+                        <forename>Otto Erich</forename>
+                        <surname>Hartleben</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -152,10 +149,7 @@
                   <date type="firstPublication" subtype="clariah">1781</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1781</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1722"
-                        notAfter="1781"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1722" notAfter="1781"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d58e297">Komponiert von Antonio Salieri. Uraufführung am 30.04.1781, Burgtheater, Wien.</note>
@@ -175,72 +169,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="volpino" sex="MALE">
-                  <persName>Volpino</persName>
-                  <persName type="variant">Volpin</persName>
-               </person>
-               <person xml:id="lisel" sex="FEMALE">
-                  <persName>Lisel</persName>
-               </person>
-               <person xml:id="johann" sex="MALE">
-                  <persName>Johann</persName>
-               </person>
-               <person xml:id="fraenzl" sex="FEMALE">
-                  <persName>Fränzl</persName>
-               </person>
-               <person xml:id="frau_von_habicht" sex="FEMALE">
-                  <persName>Frau von Habicht</persName>
-               </person>
-               <person xml:id="fraeule" sex="FEMALE">
-                  <persName>Fräule</persName>
-               </person>
-               <person xml:id="herr_von_baer" sex="MALE">
-                  <persName>Herr von Bär</persName>
-               </person>
-               <person xml:id="herr_von_wolf" sex="MALE">
-                  <persName>Herr von Wolf</persName>
-               </person>
-               <personGrp xml:id="chor_1-16" sex="UNKNOWN">
-                  <name>Chor (I/16)</name>
-               </personGrp>
-               <person xml:id="chloe" sex="FEMALE">
-                  <persName>Chloe</persName>
-               </person>
-               <person xml:id="daphne" sex="FEMALE">
-                  <persName>Daphne</persName>
-               </person>
-               <person xml:id="ganymedes" sex="MALE">
-                  <persName>Ganymedes</persName>
-               </person>
-               <person xml:id="tirus" sex="MALE">
-                  <persName>Tirus</persName>
-               </person>
-               <person xml:id="dardos" sex="MALE">
-                  <persName>Dardos</persName>
-               </person>
-               <person xml:id="jakob" sex="MALE">
-                  <persName>Jakob</persName>
-               </person>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter</persName>
-               </person>
-               <personGrp xml:id="chor_2-11" sex="UNKNOWN">
-                  <name>Chor (II/11)</name>
-               </personGrp>
-               <person xml:id="tomaso" sex="MALE">
-                  <persName>Tomaso</persName>
-               </person>
-               <personGrp xml:id="chor_3-16" sex="UNKNOWN">
-                  <name>Chor (III/16)</name>
-               </personGrp>
-               <personGrp xml:id="chor_3-23" sex="UNKNOWN">
-                  <name>Chor (III/23)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118750909">
+                        <forename>Antonio</forename>
+                        <surname>Salieri</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

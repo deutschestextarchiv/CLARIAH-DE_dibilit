@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,126 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="mariane" sex="FEMALE">
-                  <persName>Mariane</persName>
-                  <persName type="variant">Marianens Stimme</persName>
-                  <persName type="variant">Weibsperson</persName>
-               </person>
-               <person xml:id="charlotte" sex="FEMALE">
-                  <persName>Charlotte</persName>
-               </person>
-               <person xml:id="stolzius" sex="MALE">
-                  <persName>Stolzius</persName>
-               </person>
-               <person xml:id="mutter" sex="FEMALE">
-                  <persName>Stolzius' Mutter</persName>
-               </person>
-               <person xml:id="desportes" sex="MALE">
-                  <persName>Desportes</persName>
-               </person>
-               <person xml:id="wesener" sex="MALE">
-                  <persName>Wesener</persName>
-               </person>
-               <person xml:id="der_junge_graf" sex="MALE">
-                  <persName>Der junge Graf (von Spannheim)</persName>
-               </person>
-               <person xml:id="haudy" sex="MALE">
-                  <persName>Haudy</persName>
-               </person>
-               <person xml:id="hofmeister" sex="MALE">
-                  <persName>Hofmeister</persName>
-               </person>
-               <person xml:id="eisenhardt" sex="MALE">
-                  <persName>Eisenhardt</persName>
-               </person>
-               <person xml:id="obrister" sex="MALE">
-                  <persName>Obrister</persName>
-               </person>
-               <person xml:id="mary" sex="MALE">
-                  <persName>Mary</persName>
-                  <persName type="variant">Marys Stimme</persName>
-               </person>
-               <person xml:id="pirzel" sex="MALE">
-                  <persName>Pirzel</persName>
-               </person>
-               <person xml:id="einer_aus_der_gesellschaft_2-2a" sex="MALE">
-                  <persName>Einer aus der Gesellschaft</persName>
-               </person>
-               <person xml:id="ein_anderer_aus_der_gesellschaft" sex="MALE">
-                  <persName>Ein Anderer aus der Gesellschaft</persName>
-               </person>
-               <person xml:id="zwei_drei_aus_dem_haufen" sex="MALE">
-                  <persName>Zwei, drei aus dem Haufen</persName>
-               </person>
-               <person xml:id="einer_2-2a" sex="MALE">
-                  <persName>Einer</persName>
-               </person>
-               <person xml:id="einer_2-2b" sex="MALE">
-                  <persName>Einer</persName>
-               </person>
-               <person xml:id="rammler" sex="MALE">
-                  <persName>Rammler</persName>
-               </person>
-               <person xml:id="einer_aus_dem_haufen" sex="MALE">
-                  <persName>Einer aus dem Haufen</persName>
-               </person>
-               <person xml:id="einer_aus_der_gesellschaft_2-2b" sex="MALE">
-                  <persName>Einer aus der Gesellschaft</persName>
-               </person>
-               <person xml:id="einer_2-2c" sex="MALE">
-                  <persName>Einer</persName>
-               </person>
-               <person xml:id="ein_andrer" sex="MALE">
-                  <persName>Ein Andrer</persName>
-               </person>
-               <person xml:id="alle_2-2" sex="MALE">
-                  <persName>Alle (II/2)</persName>
-               </person>
-               <person xml:id="jungfer_zipfersaat" sex="FEMALE">
-                  <persName>Jungfer Zipfersaat</persName>
-               </person>
-               <person xml:id="weseners_alte_mutter" sex="FEMALE">
-                  <persName>Weseners alte Mutter</persName>
-               </person>
-               <person xml:id="aaron" sex="MALE">
-                  <persName>Aaron</persName>
-               </person>
-               <person xml:id="magd" sex="FEMALE">
-                  <persName>Magd</persName>
-               </person>
-               <person xml:id="frau_wesener" sex="FEMALE">
-                  <persName>Frau Wesener</persName>
-                  <persName type="variant">Frau Wesenern</persName>
-               </person>
-               <person xml:id="graefin" sex="FEMALE">
-                  <persName>Gräfin de la Roche</persName>
-               </person>
-               <person xml:id="bedienter" sex="MALE">
-                  <persName>Bedienter</persName>
-               </person>
-               <person xml:id="junger_graf" sex="MALE">
-                  <persName>Junger Graf (de la Roche)</persName>
-               </person>
-               <person xml:id="jaeger" sex="MALE">
-                  <persName>Jäger</persName>
-               </person>
-               <person xml:id="mademoiselle_bischof" sex="FEMALE">
-                  <persName>Mademoiselle Bischof</persName>
-               </person>
-               <person xml:id="madame_bischof" sex="FEMALE">
-                  <persName>Madame Bischof</persName>
-               </person>
-               <person xml:id="gilbert" sex="MALE">
-                  <persName>Gilbert</persName>
-               </person>
-               <person xml:id="alle_offiziers" sex="MALE">
-                  <persName>Alle Offiziers</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118571656">
+                        <forename>Jakob Michael Reinhold</forename>
+                        <surname>Lenz</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Britta</forename>
+                        <surname>Titel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hellmut</forename>
+                        <surname>Haug</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

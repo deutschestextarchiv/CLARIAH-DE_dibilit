@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1934</date>
                   <date type="firstPublication" subtype="i5">1750</date>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1749"
-                        notAfter="1750"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1749" notAfter="1750"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d716e237">Entstanden 1749–1750. Erstdruck: Leipzig (Hiersemann), herausgegeben von Otto Mausser, 1934. Uraufführung wahrscheinlich 1750, Oberammergau.</note>
@@ -183,7 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118749870">
+                        <roleName>Pater (O.S.B.)</roleName>
+                        <forename>Ferdinand</forename>
+                        <surname>Rosner</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Otto</forename>
+                        <surname>Mausser</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

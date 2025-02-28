@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -158,10 +155,7 @@
                   <date type="firstPublication" subtype="clariah">1670</date>
                   <date type="firstPublication" subtype="zeno">1670</date>
                   <date type="firstPublication" subtype="i5">1670</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1621"
-                        notAfter="1670"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1621" notAfter="1670"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Grimmelshausen--d1e16938">Erstdruck: Nürnberg (Felßecker) 1670.</note>
@@ -175,7 +169,14 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118542273">
+                        <forename>Hans Jakob Christoffel</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Grimmelshausen</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hans Heinrich</forename>
+                        <surname>Borcherdt</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

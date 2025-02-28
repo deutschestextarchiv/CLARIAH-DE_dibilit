@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,94 +174,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="schulmeister" sex="MALE">
-                  <persName>Der Schulmeister</persName>
-               </person>
-               <person xml:id="tobies" sex="MALE">
-                  <persName>Tobies</persName>
-               </person>
-               <person xml:id="gottliebchen" sex="MALE">
-                  <persName>Gottliebchen</persName>
-               </person>
-               <person xml:id="teufel" sex="MALE">
-                  <persName>Der Teufel</persName>
-               </person>
-               <person xml:id="erster_naturhistoriker" sex="MALE">
-                  <persName>Erster Naturhistoriker</persName>
-                  <persName type="variant">Ein Naturhistoriker</persName>
-               </person>
-               <person xml:id="zweiter_naturhistoriker" sex="MALE">
-                  <persName>Zweiter Naturhistoriker</persName>
-               </person>
-               <person xml:id="dritter_naturhistoriker" sex="MALE">
-                  <persName>Dritter Naturhistoriker</persName>
-               </person>
-               <person xml:id="vierter_naturhistoriker" sex="MALE">
-                  <persName>Vierter Naturhistoriker</persName>
-               </person>
-               <person xml:id="rattengift" sex="MALE">
-                  <persName>Rattengift</persName>
-               </person>
-               <person xml:id="liddy" sex="FEMALE">
-                  <persName>Liddy</persName>
-               </person>
-               <person xml:id="wernthal" sex="MALE">
-                  <persName>Herr von Wernthal</persName>
-               </person>
-               <person xml:id="baron" sex="MALE">
-                  <persName>Baron von Haldungen</persName>
-               </person>
-               <person xml:id="ein_diener_1-3" sex="MALE">
-                  <persName>Ein Diener (I/3)</persName>
-               </person>
-               <person xml:id="der_bediente_1-4" sex="MALE">
-                  <persName>Ein Bedienter (I/4)</persName>
-               </person>
-               <person xml:id="schmied" sex="MALE">
-                  <persName>Der Schmied</persName>
-               </person>
-               <person xml:id="freiherr" sex="MALE">
-                  <persName>Freiherr von Mordax</persName>
-               </person>
-               <person xml:id="mollfels" sex="MALE">
-                  <persName>Mollfels</persName>
-               </person>
-               <person xml:id="der_bediente_2-4" sex="MALE">
-                  <persName>Ein Bedienter (II/4)</persName>
-               </person>
-               <person xml:id="gretchen" sex="FEMALE">
-                  <persName>Gretchen</persName>
-               </person>
-               <person xml:id="einer_von_ihnen" sex="MALE">
-                  <persName>Einer von ihnen (den Naturhistorikern)</persName>
-               </person>
-               <personGrp xml:id="die_spiessgesellen" sex="MALE">
-                  <name>Die Spießgesellen</name>
-               </personGrp>
-               <person xml:id="der_hauswirt" sex="MALE">
-                  <persName>Der Hauswirt</persName>
-               </person>
-               <person xml:id="ein_diener_3-6a" sex="MALE">
-                  <persName>Ein Diener (III/6)</persName>
-               </person>
-               <person xml:id="des_teufels_grossmutter" sex="FEMALE">
-                  <persName>Des Teufels Großmutter</persName>
-               </person>
-               <person xml:id="nero" sex="MALE">
-                  <persName>Kaiser Nero</persName>
-                  <persName type="variant">Der römische Kaiser Nero</persName>
-               </person>
-               <person xml:id="der_bediente_3-6b" sex="MALE">
-                  <persName>Ein Bedienter (III/6)</persName>
-               </person>
-               <person xml:id="grabbe" sex="MALE">
-                  <persName>Grabbe</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118541102">
+                        <forename>Christian Dietrich</forename>
+                        <surname>Grabbe</surname>
+                     </persName></person><person role="editor"><persName>Akademie der Wissenschaften in Göttingen</persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

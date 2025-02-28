@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,39 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="fritz" sex="MALE">
-                  <persName>Fritz</persName>
-                  <persName type="variant">Fritzens Stimme</persName>
-               </person>
-               <person xml:id="stimme_des_dieners" sex="MALE">
-                  <persName>Stimme des Dieners</persName>
-               </person>
-               <person xml:id="theodor" sex="MALE">
-                  <persName>Theodor</persName>
-               </person>
-               <person xml:id="mizi" sex="FEMALE">
-                  <persName>Mizi</persName>
-               </person>
-               <person xml:id="christine" sex="FEMALE">
-                  <persName>Christine</persName>
-               </person>
-               <person xml:id="der_herr" sex="MALE">
-                  <persName>Der Herr</persName>
-               </person>
-               <person xml:id="katharina" sex="FEMALE">
-                  <persName>Katharina</persName>
-               </person>
-               <person xml:id="weiring" sex="MALE">
-                  <persName>Weiring</persName>
-               </person>
-               <person xml:id="lina" sex="FEMALE">
-                  <persName>Lina</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118609807">
+                        <forename>Arthur</forename>
+                        <surname>Schnitzler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

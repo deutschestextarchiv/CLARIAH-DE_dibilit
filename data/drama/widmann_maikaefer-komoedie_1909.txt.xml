@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,139 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="hans_engerling_hans_von_maikerf" sex="MALE">
-                  <persName>Hans Engerling/Hans von Maikerf</persName>
-                  <persName type="variant">Stimme Hans von Maikerfs</persName>
-               </person>
-               <person xml:id="zweiter_bruder" sex="MALE">
-                  <persName>Zweiter Bruder</persName>
-               </person>
-               <person xml:id="dritter_bruder" sex="MALE">
-                  <persName>Dritter Bruder</persName>
-               </person>
-               <person xml:id="dummerchen" sex="MALE">
-                  <persName>Dummerchen</persName>
-                  <persName type="variant">Dummerchens Stimme aus der Menge</persName>
-                  <persName type="variant">Dummerchens Stimme</persName>
-               </person>
-               <person xml:id="erster_buerger" sex="MALE">
-                  <persName>Erster Bürger</persName>
-                  <persName type="variant">Stimme aus dem Volk</persName>
-               </person>
-               <person xml:id="zweiter_buerger" sex="MALE">
-                  <persName>Zweiter Bürger</persName>
-               </person>
-               <person xml:id="hinterstoisser" sex="MALE">
-                  <persName>Bauer Hinterstoisser</persName>
-               </person>
-               <person xml:id="reps" sex="MALE">
-                  <persName>Reps</persName>
-               </person>
-               <person xml:id="kleps" sex="MALE">
-                  <persName>Kleps</persName>
-               </person>
-               <person xml:id="ein_herold" sex="MALE">
-                  <persName>Ein Herold</persName>
-                  <persName type="variant">Herold</persName>
-               </person>
-               <personGrp xml:id="volk_alles_volk_viele_stimmen_andre_stimmen" sex="UNKNOWN">
-                  <name>Volk/Alles Volk/Viele Stimmen/Andre Stimmen</name>
-                  <name type="variant">Ausbrechender Jubel des Volkes</name>
-                  <name type="variant">Viele Stimmen im Hintergrund</name>
-               </personGrp>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>König</persName>
-               </person>
-               <person xml:id="hofprediger" sex="MALE">
-                  <persName>Hofprediger</persName>
-               </person>
-               <personGrp xml:id="hofstaat" sex="UNKNOWN">
-                  <name>Hofstaat</name>
-               </personGrp>
-               <person xml:id="ploetzliche_stimme_aus_dem_hintergrund" sex="UNKNOWN">
-                  <persName>Plötzliche Stimme aus dem Hintergrund</persName>
-               </person>
-               <person xml:id="von_der_kron" sex="MALE">
-                  <persName>Flügel-Adjutant von der Kron</persName>
-               </person>
-               <person xml:id="der_rote_sepp" sex="MALE">
-                  <persName>Der rote Sepp/Das Individuum</persName>
-               </person>
-               <person xml:id="hubeland" sex="MALE">
-                  <persName>Hubeland</persName>
-                  <persName type="variant">Der alte Hubeland</persName>
-               </person>
-               <person xml:id="offizier" sex="MALE">
-                  <persName>Offizier</persName>
-               </person>
-               <person xml:id="sylvan" sex="MALE">
-                  <persName>Der lyrische Dichter Sylvan</persName>
-               </person>
-               <person xml:id="kanzler" sex="MALE">
-                  <persName>Kanzler</persName>
-               </person>
-               <person xml:id="kultusminister" sex="MALE">
-                  <persName>Kultusminister</persName>
-               </person>
-               <person xml:id="von_zangen" sex="MALE">
-                  <persName>Medizinalrat von Zangen</persName>
-               </person>
-               <person xml:id="artemisia" sex="FEMALE">
-                  <persName>Maikäferfürstin Artemisia</persName>
-               </person>
-               <person xml:id="andrakia" sex="FEMALE">
-                  <persName>Andrakia</persName>
-               </person>
-               <person xml:id="myrrha" sex="FEMALE">
-                  <persName>Myrrha</persName>
-               </person>
-               <person xml:id="phyllis" sex="FEMALE">
-                  <persName>Phyllis</persName>
-               </person>
-               <person xml:id="anthusa" sex="FEMALE">
-                  <persName>Anthusa</persName>
-               </person>
-               <personGrp xml:id="brummorchester" sex="UNKNOWN">
-                  <name>Brummorchester</name>
-               </personGrp>
-               <person xml:id="lainilla" sex="FEMALE">
-                  <persName>Lainilla</persName>
-               </person>
-               <person xml:id="doris" sex="FEMALE">
-                  <persName>Doris</persName>
-               </person>
-               <person xml:id="stimme_aus_dem_haufen" sex="UNKNOWN">
-                  <persName>Stimme aus dem Haufen</persName>
-               </person>
-               <person xml:id="andre_stimme" sex="UNKNOWN">
-                  <persName>Andre Stimme</persName>
-               </person>
-               <person xml:id="dritte_stimme" sex="UNKNOWN">
-                  <persName>Dritte Stimme</persName>
-               </person>
-               <person xml:id="stimme_im_hintergrund" sex="UNKNOWN">
-                  <persName>Stimme im Hintergrund</persName>
-               </person>
-               <personGrp xml:id="gesang_des_regens_im_walde" sex="UNKNOWN">
-                  <name>Gesang des Regens im Walde</name>
-               </personGrp>
-               <person xml:id="phrixa" sex="FEMALE">
-                  <persName>Phrixa</persName>
-               </person>
-               <person xml:id="tattabaucis" sex="FEMALE">
-                  <persName>Tattabaucis</persName>
-               </person>
-               <person xml:id="kakodromida" sex="FEMALE">
-                  <persName>Kakodromida</persName>
-               </person>
-               <personGrp xml:id="andre_weiber_reigen_und_gesang" sex="FEMALE">
-                  <name>Andre Weiber/Reigen und Gesang</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118632302">
+                        <forename>Josef Victor</forename>
+                        <surname>Widmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

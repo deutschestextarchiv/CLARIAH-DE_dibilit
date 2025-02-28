@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1845</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1845</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1816"
-                        notAfter="1872"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1816" notAfter="1872"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2956e301">Erstdruck: Zürich und Winterthur (Verlag des literarischen Comptoirs), 1845.</note>
@@ -178,80 +172,7 @@
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="kilian" sex="MALE">
-                  <persName>Kilian</persName>
-               </person>
-               <person xml:id="doctor" sex="MALE">
-                  <persName>Doctor</persName>
-               </person>
-               <person xml:id="schlaukopf" sex="MALE">
-                  <persName>Schlaukopf</persName>
-               </person>
-               <personGrp xml:id="chor_der_sklaven" sex="MALE">
-                  <name>Chor der Sklaven</name>
-                  <name type="variant">Die Sklaven</name>
-               </personGrp>
-               <person xml:id="germania" sex="FEMALE">
-                  <persName>Germania</persName>
-               </person>
-               <person xml:id="der_dichter" sex="MALE">
-                  <persName>Der Dichter</persName>
-               </person>
-               <person xml:id="erstes_frauenzimmer" sex="FEMALE">
-                  <persName>Erstes Frauenzimmer</persName>
-               </person>
-               <person xml:id="zweites_frauenzimmer" sex="FEMALE">
-                  <persName>Zweites Frauenzimmer</persName>
-               </person>
-               <person xml:id="medea" sex="FEMALE">
-                  <persName>Medea</persName>
-               </person>
-               <person xml:id="antigone" sex="FEMALE">
-                  <persName>Antigone</persName>
-               </person>
-               <person xml:id="romantiker" sex="MALE">
-                  <persName>Romantiker</persName>
-               </person>
-               <person xml:id="philosoph" sex="MALE">
-                  <persName>Philosoph</persName>
-               </person>
-               <person xml:id="die_fremde" sex="FEMALE">
-                  <persName>Die Fremde</persName>
-               </person>
-               <person xml:id="erster_gensdarm" sex="MALE">
-                  <persName>Erster Gensd'arm</persName>
-               </person>
-               <person xml:id="zweiter_gensdarm" sex="MALE">
-                  <persName>Zweiter Gensd'arm</persName>
-               </person>
-               <personGrp xml:id="chor_der_moenche" sex="MALE">
-                  <name>Chor der Mönche</name>
-               </personGrp>
-               <personGrp xml:id="die_wiedergeborenen" sex="UNKNOWN">
-                  <name>Die Wiedergeborenen</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_ritter" sex="MALE">
-                  <name>Chor der Ritter</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_gaense" sex="UNKNOWN">
-                  <name>Chor der Gänse</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_freisinnigen" sex="MALE">
-                  <name>Chor der Freisinnigen</name>
-               </personGrp>
-               <person xml:id="der_kaiser_von_china" sex="MALE">
-                  <persName>Der Kaiser von China</persName>
-               </person>
-               <person xml:id="ein_nachtwaechter" sex="MALE">
-                  <persName>Ein Nachtwächter</persName>
-               </person>
-               <personGrp xml:id="die_kosaken" sex="MALE">
-                  <name>Die Kosaken</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

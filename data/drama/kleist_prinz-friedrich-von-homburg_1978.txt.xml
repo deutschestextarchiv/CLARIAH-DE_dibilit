@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -206,140 +203,27 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="hohenzollern" sex="MALE">
-                  <persName>Der Graf von Hohenzollern</persName>
-               </person>
-               <person xml:id="der_kurfuerst" sex="MALE">
-                  <persName>Der Kurfürst</persName>
-               </person>
-               <person xml:id="die_kurfuerstin" sex="FEMALE">
-                  <persName>Die Kurfürstin</persName>
-               </person>
-               <person xml:id="natalie" sex="FEMALE">
-                  <persName>Prinzessin Natalie</persName>
-               </person>
-               <person xml:id="hofkavalier_1-1" sex="MALE">
-                  <persName>Ein Hofkavalier (I/1)</persName>
-               </person>
-               <person xml:id="der_prinz_von_homburg" sex="MALE">
-                  <persName>Der Prinz von Homburg</persName>
-               </person>
-               <person xml:id="der_page" sex="MALE">
-                  <persName>Der Page</persName>
-               </person>
-               <person xml:id="feldmarschall_doerfling" sex="MALE">
-                  <persName>Feldmarschall Dörfling</persName>
-               </person>
-               <person xml:id="hofkavalier_1-5a" sex="MALE">
-                  <persName>Ein Hofkavalier (I/5)</persName>
-               </person>
-               <person xml:id="oberst_hennings" sex="MALE">
-                  <persName>Oberst Hennings</persName>
-               </person>
-               <person xml:id="graf_truchss" sex="MALE">
-                  <persName>Graf Truchß</persName>
-               </person>
-               <person xml:id="heiduck_1-5" sex="MALE">
-                  <persName>Ein Heiduck (I/5)</persName>
-               </person>
-               <person xml:id="golz" sex="MALE">
-                  <persName>Rittmeister von der Golz</persName>
-               </person>
-               <person xml:id="hofkavalier_1-5b" sex="MALE">
-                  <persName>Ein Hofkavalier (I/5)</persName>
-               </person>
-               <person xml:id="ein_reitknecht" sex="MALE">
-                  <persName>Ein Reitknecht</persName>
-               </person>
-               <person xml:id="kottwitz" sex="MALE">
-                  <persName>Obrist Kottwitz</persName>
-               </person>
-               <person xml:id="erster_offizier" sex="MALE">
-                  <persName>Erster Offizier</persName>
-               </person>
-               <person xml:id="zweiter_offizier" sex="MALE">
-                  <persName>Zweiter Offizier</persName>
-               </person>
-               <person xml:id="dritter_offizier" sex="MALE">
-                  <persName>Dritter Offizier</persName>
-               </person>
-               <personGrp xml:id="alle_2-2" sex="UNKNOWN">
-                  <name>Alle (II/2)</name>
-               </personGrp>
-               <person xml:id="hofkavalier_2-3" sex="MALE">
-                  <persName>Ein Hofkavalier (II/3)</persName>
-               </person>
-               <person xml:id="der_bauer" sex="MALE">
-                  <persName>Der Bauer</persName>
-               </person>
-               <person xml:id="die_frau" sex="FEMALE">
-                  <persName>Die Frau</persName>
-               </person>
-               <personGrp xml:id="die_hofdamen" sex="FEMALE">
-                  <name>Die Hofdamen</name>
-               </personGrp>
-               <person xml:id="moerner" sex="MALE">
-                  <persName>Mörner</persName>
-               </person>
-               <person xml:id="erste_hofdame" sex="FEMALE">
-                  <persName>Erste Hofdame</persName>
-               </person>
-               <person xml:id="wachtmeister" sex="MALE">
-                  <persName>Wachtmeister</persName>
-               </person>
-               <person xml:id="graf_sparren" sex="MALE">
-                  <persName>Graf Sparren</persName>
-               </person>
-               <person xml:id="offizier_2-10" sex="MALE">
-                  <persName>Ein Offizier (II/10)</persName>
-               </person>
-               <person xml:id="reuter" sex="MALE">
-                  <persName>Reuter</persName>
-               </person>
-               <person xml:id="die_hofdame_3-4" sex="FEMALE">
-                  <persName>Die Hofdame (III/4)</persName>
-               </person>
-               <person xml:id="graf_reuss" sex="MALE">
-                  <persName>Graf Reuß</persName>
-               </person>
-               <person xml:id="heiduck_4-2" sex="MALE">
-                  <persName>Ein Heiduck (IV/2)</persName>
-               </person>
-               <person xml:id="laeufer" sex="MALE">
-                  <persName>Läufer</persName>
-               </person>
-               <person xml:id="erster_bedienter" sex="MALE">
-                  <persName>Erster Bedienter</persName>
-               </person>
-               <person xml:id="erster_heiduck" sex="MALE">
-                  <persName>Erster Heiduck</persName>
-               </person>
-               <person xml:id="zweiter_heiduck" sex="MALE">
-                  <persName>Zweiter Heiduck</persName>
-               </person>
-               <person xml:id="offizier_5-6" sex="MALE">
-                  <persName>Ein Offizier (V/6)</persName>
-               </person>
-               <personGrp xml:id="mehrere_offiziere_5-7" sex="MALE">
-                  <name>Mehrere Offiziere (V/7)</name>
-               </personGrp>
-               <person xml:id="stranz" sex="MALE">
-                  <persName>Stranz</persName>
-               </person>
-               <personGrp xml:id="die_offiziere_5-11" sex="MALE">
-                  <name>Die Offiziere (V/11)</name>
-               </personGrp>
-               <personGrp xml:id="alle_5-11" sex="UNKNOWN">
-                  <name>Alle (V/11)</name>
-               </personGrp>
-               <personGrp xml:id="mehrere_offiziere_5-11" sex="MALE">
-                  <name>Mehrere Offiziere (V/11)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118563076">
+                        <forename>Heinrich</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Kleist</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Siegfried</forename>
+                        <surname>Streller</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Peter</forename>
+                        <surname>Goldammer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Barthel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Anita</forename>
+                        <surname>Golz</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Rudolf</forename>
+                        <surname>Loch</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

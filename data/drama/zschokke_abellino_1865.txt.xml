@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1794</date>
                   <date type="firstPublication" subtype="gerdracor">1795</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1771"
-                        notAfter="1848"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1771" notAfter="1848"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1822e288">Erstdruck des Romans unter dem Titel »Abaellino der große Bandit«: Frankfurt und Leipzig, 1794. Erstdruck der ersten dramatisierten Fassung unter dem Titel »Abällino, der große Bandit«: Leipzig und Franfurt/Oder, 1795. Erstdruck der hier vorliegenden Neubearbeitung des Dramas: Aarau (Sauerländer), 1828. Uraufführung der ersten Fassung am 19.05.1795, Leipzig.</note>
@@ -177,63 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="abellino" sex="MALE">
-                  <persName>Abellino</persName>
-               </person>
-               <person xml:id="matteo" sex="MALE">
-                  <persName>Matteo</persName>
-               </person>
-               <person xml:id="doge" sex="MALE">
-                  <persName>Doge</persName>
-               </person>
-               <person xml:id="dandolo" sex="MALE">
-                  <persName>Dandolo</persName>
-               </person>
-               <person xml:id="canari" sex="MALE">
-                  <persName>Canari</persName>
-               </person>
-               <person xml:id="iduella" sex="FEMALE">
-                  <persName>Iduella</persName>
-               </person>
-               <person xml:id="rosamunde" sex="FEMALE">
-                  <persName>Rosamunde</persName>
-               </person>
-               <person xml:id="flodoardo" sex="MALE">
-                  <persName>Flodoardo</persName>
-               </person>
-               <person xml:id="parozzi" sex="MALE">
-                  <persName>Parozzi</persName>
-               </person>
-               <person xml:id="memmo" sex="MALE">
-                  <persName>Memmo</persName>
-               </person>
-               <person xml:id="falieri" sex="MALE">
-                  <persName>Falieri</persName>
-               </person>
-               <person xml:id="contarino" sex="MALE">
-                  <persName>Contarino</persName>
-               </person>
-               <person xml:id="tolomeo" sex="MALE">
-                  <persName>Tolomeo</persName>
-               </person>
-               <person xml:id="diener" sex="MALE">
-                  <persName>Diener</persName>
-               </person>
-               <person xml:id="ein_senator" sex="MALE">
-                  <persName>Ein Senator</persName>
-                  <persName type="variant">Senator</persName>
-               </person>
-               <personGrp xml:id="alle_5-2" sex="UNKNOWN">
-                  <name>Alle (V/2)</name>
-               </personGrp>
-               <personGrp xml:id="die_verschwornen" sex="MALE">
-                  <name>Die Verschwornen</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118637266">
+                        <forename>Heinrich</forename>
+                        <surname>Zschokke</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

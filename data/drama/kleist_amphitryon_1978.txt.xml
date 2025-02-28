@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -206,56 +203,27 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="sosias" sex="MALE">
-                  <persName>Sosias</persName>
-               </person>
-               <person xml:id="merkur" sex="MALE">
-                  <persName>Merkur</persName>
-               </person>
-               <person xml:id="jupiter" sex="MALE">
-                  <persName>Jupiter</persName>
-               </person>
-               <person xml:id="alkmene" sex="FEMALE">
-                  <persName>Alkmene</persName>
-               </person>
-               <person xml:id="charis" sex="FEMALE">
-                  <persName>Charis</persName>
-               </person>
-               <person xml:id="amphitryon" sex="MALE">
-                  <persName>Amphitryon</persName>
-               </person>
-               <person xml:id="erster_feldherr" sex="MALE">
-                  <persName>Erster Feldherr</persName>
-               </person>
-               <person xml:id="zweiter_feldherr" sex="MALE">
-                  <persName>Zweiter Feldherr</persName>
-               </person>
-               <person xml:id="dritter_feldherr" sex="MALE">
-                  <persName>Dritter Feldherr</persName>
-               </person>
-               <person xml:id="einer_aus_dem_volk" sex="MALE">
-                  <persName>Einer aus dem Volk</persName>
-               </person>
-               <person xml:id="zweiter_oberster" sex="MALE">
-                  <persName>Zweiter Oberster</persName>
-               </person>
-               <person xml:id="erster_oberster" sex="MALE">
-                  <persName>Erster Oberster</persName>
-               </person>
-               <personGrp xml:id="das_volk" sex="UNKNOWN">
-                  <name>Das Volk</name>
-               </personGrp>
-               <personGrp xml:id="die_obersten" sex="MALE">
-                  <name>Die Obersten</name>
-               </personGrp>
-               <personGrp xml:id="die_feldherren" sex="MALE">
-                  <name>Die Feldherren</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118563076">
+                        <forename>Heinrich</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Kleist</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Siegfried</forename>
+                        <surname>Streller</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Peter</forename>
+                        <surname>Goldammer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Barthel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Anita</forename>
+                        <surname>Golz</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Rudolf</forename>
+                        <surname>Loch</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

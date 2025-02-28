@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,97 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="franz_von_moor" sex="MALE">
-                  <persName>Franz von Moor</persName>
-               </person>
-               <person xml:id="der_alte_moor" sex="MALE">
-                  <persName>Der alte Moor</persName>
-                  <persName type="variant">Der Alte</persName>
-                  <persName type="variant">Eine Stimme</persName>
-                  <persName type="variant">Die Stimme</persName>
-                  <persName type="variant">Stimme</persName>
-               </person>
-               <person xml:id="karl_von_moor" sex="MALE">
-                  <persName>Karl von Moor</persName>
-                  <persName type="variant">Moor</persName>
-                  <persName type="variant">Räuber Moor</persName>
-               </person>
-               <person xml:id="spiegelberg" sex="MALE">
-                  <persName>Spiegelberg</persName>
-               </person>
-               <person xml:id="roller" sex="MALE">
-                  <persName>Roller</persName>
-               </person>
-               <person xml:id="grimm" sex="MALE">
-                  <persName>Grimm</persName>
-               </person>
-               <person xml:id="schwarz" sex="MALE">
-                  <persName>Schwarz</persName>
-               </person>
-               <person xml:id="schufterle" sex="MALE">
-                  <persName>Schufterle</persName>
-               </person>
-               <person xml:id="razmann" sex="MALE">
-                  <persName>Razmann</persName>
-               </person>
-               <person xml:id="schweizer" sex="MALE">
-                  <persName>Schweizer</persName>
-               </person>
-               <person xml:id="amalia" sex="FEMALE">
-                  <persName>Amalia</persName>
-               </person>
-               <person xml:id="hermann" sex="MALE">
-                  <persName>Hermann</persName>
-               </person>
-               <person xml:id="daniel" sex="MALE">
-                  <persName>Daniel</persName>
-               </person>
-               <person xml:id="einer_von_der_bande" sex="MALE">
-                  <persName>Einer von der Bande</persName>
-               </person>
-               <person xml:id="ein_zweiter" sex="MALE">
-                  <persName>Ein Zweiter</persName>
-               </person>
-               <person xml:id="ein_dritter" sex="MALE">
-                  <persName>Ein Dritter</persName>
-               </person>
-               <person xml:id="pater" sex="MALE">
-                  <persName>Pater</persName>
-               </person>
-               <person xml:id="kosinsky" sex="MALE">
-                  <persName>Kosinsky</persName>
-               </person>
-               <personGrp xml:id="die_raeuber" sex="MALE">
-                  <name>Die Räuber</name>
-                  <name type="variant">Räuber</name>
-                  <name type="variant">Neue Räuber</name>
-               </personGrp>
-               <person xml:id="bedienter_5-1a" sex="MALE">
-                  <persName>Bedienter</persName>
-               </person>
-               <person xml:id="moser" sex="MALE">
-                  <persName>Moser</persName>
-               </person>
-               <person xml:id="bedienter_5-1b" sex="MALE">
-                  <persName>Bedienter</persName>
-               </person>
-               <personGrp xml:id="volk" sex="UNKNOWN">
-                  <name>Volk</name>
-               </personGrp>
-               <person xml:id="ein_raeuber" sex="MALE">
-                  <persName>Ein Räuber</persName>
-               </person>
-               <person xml:id="ein_alter_raeuber" sex="MALE">
-                  <persName>Ein alter Räuber</persName>
-               </person>
-               <person xml:id="ein_dritter_raeuber" sex="MALE">
-                  <persName>Ein dritter Räuber</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118607626">
+                        <forename>Friedrich</forename>
+                        <surname>Schiller</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

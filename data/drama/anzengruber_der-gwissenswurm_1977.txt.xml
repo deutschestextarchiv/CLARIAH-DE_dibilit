@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1874</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1874</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1839"
-                        notAfter="1889"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1839" notAfter="1889"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3516e281">Erstdruck: Wien (Rosner), 1874. Uraufführung am 19.9.1874, Theater an der Wien, Wien.</note>
@@ -177,56 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="knechte" sex="MALE">
-                  <name>Knechte</name>
-               </personGrp>
-               <personGrp xml:id="maegde" sex="FEMALE">
-                  <name>Mägde</name>
-               </personGrp>
-               <person xml:id="grillhofer" sex="MALE">
-                  <persName>Grillhofer</persName>
-               </person>
-               <person xml:id="rosl" sex="FEMALE">
-                  <persName>Rosl</persName>
-               </person>
-               <person xml:id="wastl" sex="MALE">
-                  <persName>Wastl</persName>
-               </person>
-               <person xml:id="dusterer" sex="MALE">
-                  <persName>Dusterer</persName>
-               </person>
-               <person xml:id="liesel" sex="FEMALE">
-                  <persName>Liesel</persName>
-               </person>
-               <person xml:id="michl" sex="MALE">
-                  <persName>Michl</persName>
-               </person>
-               <person xml:id="annemirl" sex="FEMALE">
-                  <persName>Annemirl</persName>
-               </person>
-               <personGrp xml:id="chor" sex="UNKNOWN">
-                  <name>Chor</name>
-               </personGrp>
-               <person xml:id="leonhardt" sex="MALE">
-                  <persName>Leonhardt</persName>
-               </person>
-               <person xml:id="natzl" sex="MALE">
-                  <persName>Natzl</persName>
-               </person>
-               <person xml:id="hans" sex="MALE">
-                  <persName>Hans</persName>
-               </person>
-               <person xml:id="bauer" sex="MALE">
-                  <persName>Bauer</persName>
-               </person>
-               <person xml:id="baeuerin" sex="FEMALE">
-                  <persName>Bäuerin</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/11850357X">
+                        <forename>Ludwig</forename>
+                        <surname>Anzengruber</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

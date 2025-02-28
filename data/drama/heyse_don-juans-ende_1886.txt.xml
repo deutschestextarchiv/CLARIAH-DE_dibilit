@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1883</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1883</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1830"
-                        notAfter="1910"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1830" notAfter="1910"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2382e296">Erstdruck in »P. Heyse: Dramatische Dichtungen«, 13. Band, Berlin (Hertz), 1883. Uraufführung 1884 in Frankfurt am Main.</note>
@@ -177,64 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="don_juan" sex="MALE">
-                  <persName>Don Juan</persName>
-               </person>
-               <person xml:id="leporello" sex="MALE">
-                  <persName>Leporello</persName>
-               </person>
-               <person xml:id="der_alte_fischer" sex="MALE">
-                  <persName>Der alte Fischer</persName>
-                  <persName type="variant">Der Alte</persName>
-                  <persName type="variant">Der Fischer</persName>
-               </person>
-               <personGrp xml:id="prozession" sex="UNKNOWN">
-                  <name>Prozession</name>
-               </personGrp>
-               <person xml:id="ghita" sex="FEMALE">
-                  <persName>Ghita</persName>
-               </person>
-               <person xml:id="der_moench" sex="MALE">
-                  <persName>Der Mönch</persName>
-                  <persName type="variant">Der Karthäuser</persName>
-               </person>
-               <person xml:id="erster_strolch" sex="MALE">
-                  <persName>Erster Strolch</persName>
-               </person>
-               <person xml:id="zweiter_strolch" sex="MALE">
-                  <persName>Zweiter Strolch</persName>
-               </person>
-               <person xml:id="gianotto" sex="MALE">
-                  <persName>Gianotto</persName>
-                  <persName type="variant">Gianotto's Stimme</persName>
-               </person>
-               <person xml:id="wirth" sex="MALE">
-                  <persName>Wirth</persName>
-                  <persName type="variant">Salvatore's Stimme</persName>
-                  <persName type="variant">Der Wirth</persName>
-               </person>
-               <person xml:id="biondetta" sex="FEMALE">
-                  <persName>Biondetta</persName>
-                  <persName type="variant">Biondetta's Stimme</persName>
-               </person>
-               <person xml:id="martina" sex="FEMALE">
-                  <persName>Martina</persName>
-               </person>
-               <person xml:id="graefin" sex="FEMALE">
-                  <persName>Gräfin</persName>
-               </person>
-               <person xml:id="diener" sex="MALE">
-                  <persName>Diener</persName>
-                  <persName type="variant">Ein Diener</persName>
-               </person>
-               <personGrp xml:id="stimmen" sex="UNKNOWN">
-                  <name>Stimmen</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118550772">
+                        <forename>Paul</forename>
+                        <surname>Heyse</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

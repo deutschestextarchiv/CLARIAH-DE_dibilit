@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -181,96 +178,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="miss_ellen" sex="FEMALE">
-                  <persName>Miss Ellen</persName>
-                  <persName type="variant">Weibliche Stimme (Miss Ellen)</persName>
-               </person>
-               <person xml:id="steele" sex="MALE">
-                  <persName>Steele</persName>
-               </person>
-               <person xml:id="savage" sex="MALE">
-                  <persName>Savage</persName>
-               </person>
-               <person xml:id="viscount" sex="MALE">
-                  <persName>Viscount</persName>
-               </person>
-               <person xml:id="lord_winchester" sex="MALE">
-                  <persName>Lord Winchester</persName>
-               </person>
-               <person xml:id="lady" sex="FEMALE">
-                  <persName>Lady</persName>
-               </person>
-               <person xml:id="lord_berwick" sex="MALE">
-                  <persName>Lord Berwick</persName>
-               </person>
-               <person xml:id="bedienter_der_lady" sex="MALE">
-                  <persName>Bedienter der Lady</persName>
-               </person>
-               <person xml:id="lord_tyrconnel" sex="MALE">
-                  <persName>Lord Tyrconnel</persName>
-               </person>
-               <person xml:id="maennliche_stimme" sex="MALE">
-                  <persName>Männliche Stimme (Schauspieler)</persName>
-               </person>
-               <person xml:id="haushofmeister" sex="MALE">
-                  <persName>Haushofmeister</persName>
-               </person>
-               <person xml:id="oberrichter" sex="MALE">
-                  <persName>Oberrichter</persName>
-               </person>
-               <person xml:id="erster_bedienter" sex="MALE">
-                  <persName>Erster Bedienter</persName>
-               </person>
-               <person xml:id="zweiter_bedienter" sex="MALE">
-                  <persName>Zweiter Bedienter</persName>
-               </person>
-               <person xml:id="dritter_bedienter" sex="MALE">
-                  <persName>Dritter Bedienter</persName>
-               </person>
-               <person xml:id="erste_maske" sex="MALE">
-                  <persName>Erste Maske</persName>
-               </person>
-               <person xml:id="zweite_maske" sex="MALE">
-                  <persName>Zweite Maske</persName>
-               </person>
-               <person xml:id="dritte_maske" sex="MALE">
-                  <persName>Dritte Maske</persName>
-               </person>
-               <person xml:id="vierte_maske" sex="MALE">
-                  <persName>Vierte Maske</persName>
-               </person>
-               <person xml:id="fuenfte_maske" sex="MALE">
-                  <persName>Fünfte Maske</persName>
-               </person>
-               <person xml:id="sechste_maske" sex="MALE">
-                  <persName>Sechste Maske</persName>
-               </person>
-               <person xml:id="achte_maske" sex="MALE">
-                  <persName>Achte Maske</persName>
-               </person>
-               <person xml:id="neunte_maske" sex="MALE">
-                  <persName>Neunte Maske</persName>
-               </person>
-               <person xml:id="zehnte_maske" sex="MALE">
-                  <persName>Zehnte Maske</persName>
-               </person>
-               <personGrp xml:id="alle_4-2-4" sex="UNKNOWN">
-                  <name>Alle (IV/2/4)</name>
-               </personGrp>
-               <person xml:id="toms" sex="MALE">
-                  <persName>Toms</persName>
-               </person>
-               <person xml:id="kitty" sex="FEMALE">
-                  <persName>Kitty</persName>
-               </person>
-               <person xml:id="bursche" sex="MALE">
-                  <persName>Bursche</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118543830">
+                        <forename>Karl</forename>
+                        <surname>Gutzkow</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Reinhold</forename>
+                        <surname>Gensel</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

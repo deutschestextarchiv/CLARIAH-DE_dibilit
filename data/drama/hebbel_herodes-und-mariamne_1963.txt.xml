@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,10 +170,7 @@
                   <date type="firstPublication" subtype="zeno">1850</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1850</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1813"
-                        notAfter="1850"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1813" notAfter="1850"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2417e343">Erstdruck: Wien (Carl Gerold) 1850. Uraufführung am 14.9.1849 in Wien.</note>
@@ -196,95 +190,20 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="joab" sex="MALE">
-                  <persName>Joab</persName>
-               </person>
-               <person xml:id="herodes" sex="MALE">
-                  <persName>Herodes</persName>
-               </person>
-               <person xml:id="judas" sex="MALE">
-                  <persName>Judas</persName>
-               </person>
-               <person xml:id="sameas" sex="MALE">
-                  <persName>Sameas</persName>
-               </person>
-               <person xml:id="serubabel" sex="MALE">
-                  <persName>Serubabel</persName>
-               </person>
-               <person xml:id="titus" sex="MALE">
-                  <persName>Titus</persName>
-               </person>
-               <person xml:id="ein_diener_1-3" sex="MALE">
-                  <persName>Ein Diener (I/3)</persName>
-               </person>
-               <person xml:id="mariamne" sex="FEMALE">
-                  <persName>Mariamne</persName>
-               </person>
-               <person xml:id="ein_diener_1-5" sex="MALE">
-                  <persName>Ein Diener (I/5)</persName>
-               </person>
-               <person xml:id="joseph" sex="MALE">
-                  <persName>Joseph</persName>
-               </person>
-               <person xml:id="alexandra" sex="FEMALE">
-                  <persName>Alexandra</persName>
-               </person>
-               <person xml:id="ein_diener_2-4" sex="MALE">
-                  <persName>Ein Diener (II/4)</persName>
-               </person>
-               <person xml:id="ein_diener_2-5" sex="MALE">
-                  <persName>Ein Diener (II/5)</persName>
-                  <persName type="variant">Der Diener</persName>
-               </person>
-               <person xml:id="philo" sex="MALE">
-                  <persName>Philo</persName>
-               </person>
-               <person xml:id="salome" sex="FEMALE">
-                  <persName>Salome</persName>
-               </person>
-               <person xml:id="soemus" sex="MALE">
-                  <persName>Soemus</persName>
-               </person>
-               <person xml:id="ein_bote" sex="MALE">
-                  <persName>Ein Bote</persName>
-                  <persName type="variant">Bote</persName>
-               </person>
-               <person xml:id="moses" sex="MALE">
-                  <persName>Moses</persName>
-               </person>
-               <person xml:id="artaxerxes" sex="MALE">
-                  <persName>Artaxerxes</persName>
-               </person>
-               <person xml:id="jehu" sex="MALE">
-                  <persName>Jehu</persName>
-               </person>
-               <person xml:id="silo" sex="MALE">
-                  <persName>Silo</persName>
-               </person>
-               <personGrp xml:id="stimmen_im_hintergrund" sex="UNKNOWN">
-                  <name>Stimmen im Hintergrund</name>
-               </personGrp>
-               <person xml:id="aaron" sex="MALE">
-                  <persName>Aaron</persName>
-               </person>
-               <person xml:id="ein_diener_5-8" sex="MALE">
-                  <persName>Ein Diener (V/8)</persName>
-                  <persName type="variant">Der Diener</persName>
-               </person>
-               <person xml:id="erster_koenig" sex="MALE">
-                  <persName>Erster König</persName>
-               </person>
-               <person xml:id="zweiter_koenig" sex="MALE">
-                  <persName>Zweiter König</persName>
-               </person>
-               <person xml:id="dritter_koenig" sex="MALE">
-                  <persName>Dritter König</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118547445">
+                        <forename>Friedrich</forename>
+                        <surname>Hebbel</surname>
+                     </persName></person><person sex="m" role="editor"><persName>
+                        <forename>Gerhard</forename>
+                        <surname>Fricke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Werner</forename>
+                        <surname>Keller</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

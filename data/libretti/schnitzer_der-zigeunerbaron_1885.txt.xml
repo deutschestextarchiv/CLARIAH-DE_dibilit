@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -164,10 +161,7 @@
                   <date type="firstPublication" subtype="clariah">1885</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1839"
-                        notAfter="1921"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1839" notAfter="1921"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2e313">Komponiert von Johann Strauß. Uraufführung am 24.10.1885, Theater an der Wien, Wien.</note>
@@ -187,74 +181,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="ottokar" sex="MALE">
-                  <persName>Ottokar</persName>
-               </person>
-               <person xml:id="czipra" sex="MALE">
-                  <persName>Czipra</persName>
-               </person>
-               <person xml:id="chor_der_schiffer" sex="MALE">
-                  <persName>Chor der Schiffer</persName>
-               </person>
-               <person xml:id="barinkay" sex="MALE">
-                  <persName>Barinkay</persName>
-               </person>
-               <personGrp xml:id="chor" sex="UNKNOWN">
-                  <name>Chor</name>
-               </personGrp>
-               <person xml:id="carnero" sex="MALE">
-                  <persName>Carnero</persName>
-               </person>
-               <person xml:id="saffi" sex="FEMALE">
-                  <persName>Saffi</persName>
-               </person>
-               <person xml:id="zsupan" sex="MALE">
-                  <persName>Zsupán</persName>
-               </person>
-               <person xml:id="mirabella" sex="FEMALE">
-                  <persName>Mirabella</persName>
-               </person>
-               <person xml:id="arsena" sex="FEMALE">
-                  <persName>Arsena</persName>
-               </person>
-               <personGrp xml:id="chor_der_maedchen" sex="FEMALE">
-                  <name>Chor der Mädchen</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_zigeuner" sex="UNKNOWN">
-                  <name>Chor der Zigeuner</name>
-                  <name type="variant">Zigeuner-Chor</name>
-                  <name type="variant">Zigeuner</name>
-               </personGrp>
-               <personGrp xml:id="zsupans_gruppe" sex="MALE">
-                  <name>Chor der Zsupán'schen Gruppe</name>
-                  <name type="variant">Chor Zsupán's</name>
-                  <name type="variant">Zsupán's Gruppe</name>
-               </personGrp>
-               <personGrp xml:id="barinkays_gruppe" sex="MALE">
-                  <name>Barinkays Gruppe</name>
-               </personGrp>
-               <person xml:id="pali" sex="MALE">
-                  <persName>Pali</persName>
-               </person>
-               <personGrp xml:id="chor_der_zigeunerinnen" sex="FEMALE">
-                  <name>Chor der Zigeunerinnen</name>
-               </personGrp>
-               <person xml:id="graf_homonay" sex="MALE">
-                  <persName>Graf Homonay</persName>
-               </person>
-               <personGrp xml:id="chor_der_soldaten" sex="MALE">
-                  <name>Chor der Soldaten</name>
-               </personGrp>
-               <personGrp xml:id="allgemeiner_chor" sex="UNKNOWN">
-                  <name>Allgemeiner Chor</name>
-                  <name type="variant">Allgemeiner Schlußchor</name>
-                  <name type="variant">Gruppe und Volksmenge</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/121068218">
+                        <forename>Ignaz</forename>
+                        <surname>Schnitzer</surname>
+                     </persName></person><person role="author"><persName role="composer">
+                        <forename>Johann</forename>
+                        <surname>Strauß</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

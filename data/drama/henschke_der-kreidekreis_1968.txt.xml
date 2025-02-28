@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -161,10 +158,7 @@
                   <date type="firstPublication" subtype="zeno">1925</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1925</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1890"
-                        notAfter="1928"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1890" notAfter="1928"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1780e312">Erstdruck: Berlin (J.M. Spaeth) 1925.</note>
@@ -184,77 +178,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="tong" sex="MALE">
-                  <persName>Tong</persName>
-               </person>
-               <person xml:id="haitang" sex="FEMALE">
-                  <persName>Haitang</persName>
-               </person>
-               <person xml:id="frau_tschang" sex="FEMALE">
-                  <persName>Frau Tschang</persName>
-               </person>
-               <person xml:id="tschang-ling" sex="MALE">
-                  <persName>Tschang-ling</persName>
-               </person>
-               <person xml:id="prinz_pao_kaiser" sex="MALE">
-                  <persName>Prinz Pao (späterer Kaiser)</persName>
-               </person>
-               <person xml:id="ma" sex="MALE">
-                  <persName>Ma</persName>
-               </person>
-               <person xml:id="frau_ma" sex="FEMALE">
-                  <persName>Frau Ma</persName>
-               </person>
-               <person xml:id="tschao" sex="MALE">
-                  <persName>Tschao</persName>
-               </person>
-               <person xml:id="ein_polizist" sex="MALE">
-                  <persName>Ein Polizist</persName>
-               </person>
-               <person xml:id="tschu" sex="MALE">
-                  <persName>Tschu</persName>
-               </person>
-               <person xml:id="hebamme" sex="FEMALE">
-                  <persName>Hebamme</persName>
-               </person>
-               <personGrp xml:id="zwei_kulis" sex="MALE">
-                  <name>Zwei Kulis</name>
-               </personGrp>
-               <person xml:id="diener" sex="MALE">
-                  <persName>Diener</persName>
-               </person>
-               <person xml:id="kurier" sex="MALE">
-                  <persName>Kurier</persName>
-               </person>
-               <personGrp xml:id="soldaten" sex="MALE">
-                  <name>Soldaten</name>
-               </personGrp>
-               <person xml:id="erster_soldat" sex="MALE">
-                  <persName>Erster Soldat</persName>
-               </person>
-               <person xml:id="zweiter_soldat" sex="MALE">
-                  <persName>Zweiter Soldat</persName>
-               </person>
-               <person xml:id="dritter_soldat" sex="MALE">
-                  <persName>Dritter Soldat</persName>
-               </person>
-               <person xml:id="vierter_soldat" sex="MALE">
-                  <persName>Vierter Soldat</persName>
-               </person>
-               <person xml:id="wirt" sex="MALE">
-                  <persName>Wirt</persName>
-               </person>
-               <person xml:id="dichter" sex="MALE">
-                  <persName>Dichter</persName>
-               </person>
-               <person xml:id="zeremonienmeister" sex="MALE">
-                  <persName>Zeremonienmeister</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118562681">
+                        <forename>Alfred Georg Hermann</forename>
+                        <surname>Henschke</surname>
+                        <addName>Klabund</addName>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Marianne</forename>
+                        <surname>Kesting</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

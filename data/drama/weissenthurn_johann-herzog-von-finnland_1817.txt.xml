@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="zeno">1817</date>
                   <date type="firstPublication" subtype="i5">1817</date>
                   <date type="firstPublication" subtype="gerdracor">1817</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1772"
-                        notAfter="1817"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1772" notAfter="1817"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1577e314">Erstdruck in: Neue Schauspiele, 1. Bd., Wien (Kaulfuß und Armbruster) 1817. Uraufführung am 01.10.1811, Burgtheater, Wien</note>
@@ -179,82 +173,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="sten" sex="MALE">
-                  <persName>Sten</persName>
-               </person>
-               <person xml:id="hasko" sex="MALE">
-                  <persName>Hasko</persName>
-               </person>
-               <person xml:id="richers" sex="MALE">
-                  <persName>Richers</persName>
-               </person>
-               <person xml:id="botwid" sex="MALE">
-                  <persName>Botwid</persName>
-               </person>
-               <person xml:id="theit" sex="MALE">
-                  <persName>Theit</persName>
-               </person>
-               <person xml:id="struen" sex="MALE">
-                  <persName>Struen</persName>
-               </person>
-               <personGrp xml:id="alle_die_andern_1-5_und_1-6" sex="MALE">
-                  <name>Alle/Die Andern (I/5–6)</name>
-               </personGrp>
-               <person xml:id="joeran" sex="MALE">
-                  <persName>Jöran</persName>
-               </person>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>König</persName>
-                  <persName type="variant">Erik</persName>
-               </person>
-               <person xml:id="koeniginn" sex="FEMALE">
-                  <persName>Königinn</persName>
-                  <persName type="variant">Die Königinn</persName>
-               </person>
-               <person xml:id="wolowsky" sex="MALE">
-                  <persName>Wolowsky</persName>
-               </person>
-               <person xml:id="catharina" sex="FEMALE">
-                  <persName>Catharina</persName>
-               </person>
-               <person xml:id="siegmund" sex="MALE">
-                  <persName>Siegmund</persName>
-               </person>
-               <person xml:id="johann" sex="MALE">
-                  <persName>Johann</persName>
-               </person>
-               <person xml:id="gruskel" sex="MALE">
-                  <persName>Gruskel</persName>
-               </person>
-               <person xml:id="hauptmann" sex="MALE">
-                  <persName>Hauptmann</persName>
-               </person>
-               <person xml:id="rathsdiener" sex="MALE">
-                  <persName>Rathsdiener</persName>
-               </person>
-               <person xml:id="braske" sex="MALE">
-                  <persName>Braske</persName>
-               </person>
-               <personGrp xml:id="einige_mehrere_raethe" sex="MALE">
-                  <name>Einige/Mehrere Räthe</name>
-               </personGrp>
-               <person xml:id="einer" sex="MALE">
-                  <persName>Einer</persName>
-               </person>
-               <person xml:id="ein_rath" sex="MALE">
-                  <persName>Ein Rath</persName>
-               </person>
-               <person xml:id="page" sex="MALE">
-                  <persName>Page</persName>
-               </person>
-               <person xml:id="kammerherr" sex="MALE">
-                  <persName>Kammerherr</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/116752505">
+                        <forename>Johanna Franul</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Weißenthurn</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

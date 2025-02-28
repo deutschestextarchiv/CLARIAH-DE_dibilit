@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -159,10 +156,7 @@
                   <date type="firstPublication" subtype="zeno">1799</date>
                   <date type="firstPublication" subtype="i5">1799</date>
                   <date type="firstPublication" subtype="gerdracor">1799</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1761"
-                        notAfter="1819"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1761" notAfter="1819"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1374e261">Erstdruck: Leipzig (Paul Gotthelf Kummer), 1799.</note>
@@ -182,30 +176,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="baron" sex="MALE">
-                  <persName>Baron</persName>
-               </person>
-               <person xml:id="frau_von_berg" sex="FEMALE">
-                  <persName>Frau von Berg</persName>
-                  <persName type="variant">Mutter</persName>
-               </person>
-               <person xml:id="malchen" sex="FEMALE">
-                  <persName>Malchen</persName>
-               </person>
-               <person xml:id="hans" sex="MALE">
-                  <persName>Hans</persName>
-               </person>
-               <person xml:id="karl" sex="MALE">
-                  <persName>Karl</persName>
-               </person>
-               <person xml:id="fuerst" sex="MALE">
-                  <persName>Fürst</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118565796">
+                        <forename>August</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Kotzebue</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,29 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="frau_giselius" sex="FEMALE">
-                  <persName>Frau Giselius</persName>
-               </person>
-               <person xml:id="professor_giselius" sex="MALE">
-                  <persName>Professor Giselius</persName>
-               </person>
-               <person xml:id="babette" sex="FEMALE">
-                  <persName>Babette</persName>
-               </person>
-               <person xml:id="coelestine" sex="FEMALE">
-                  <persName>Cölestine</persName>
-               </person>
-               <person xml:id="dr_appel" sex="MALE">
-                  <persName>Dr. Appel</persName>
-               </person>
-               <person xml:id="lottchen" sex="FEMALE">
-                  <persName>Lottchen</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118622072">
+                        <forename>Ludwig</forename>
+                        <surname>Thoma</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -152,10 +149,7 @@
                   <date type="firstPublication" subtype="clariah">1825</date>
                   <date type="firstPublication" subtype="zeno">1825</date>
                   <date type="firstPublication" subtype="i5">1823</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1821"
-                        notAfter="1823"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1821" notAfter="1823"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#BManzoni-Alessan-d1e234">Frühe Fassung entstanden zwischen 1821 und 1823. Erstdruck der weiter bearbeiteten Fassung: Mailand (Ferrario) 1825 (Bd. 1 u. 2) und Mailand (Ferrario) 1826 (Bd. 3). Hier in der Übers. v. Emilie Schröder.</note>
@@ -169,7 +163,10 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118577409">
+                        <forename>Alessandro</forename>
+                        <surname>Manzoni</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

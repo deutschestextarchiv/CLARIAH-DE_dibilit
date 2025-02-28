@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="zeno">1776</date>
                   <date type="firstPublication" subtype="i5">1971</date>
                   <date type="firstPublication" subtype="gerdracor">1776</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1752"
-                        notAfter="1776"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1752" notAfter="1776"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1290e290">Erstdruck: Berlin 1776 (anonym).</note>
@@ -179,69 +173,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="amante" sex="MALE">
-                  <persName>Amante</persName>
-               </person>
-               <person xml:id="paulo" sex="MALE">
-                  <persName>Paulo</persName>
-               </person>
-               <person xml:id="laura" sex="FEMALE">
-                  <persName>Laura</persName>
-               </person>
-               <person xml:id="julio" sex="MALE">
-                  <persName>Julio</persName>
-               </person>
-               <person xml:id="ludovico" sex="MALE">
-                  <persName>Ludovico</persName>
-               </person>
-               <person xml:id="pirro" sex="MALE">
-                  <persName>Pirro</persName>
-               </person>
-               <person xml:id="solina" sex="FEMALE">
-                  <persName>Donna Solina</persName>
-               </person>
-               <person xml:id="pasquino" sex="MALE">
-                  <persName>Pasquino</persName>
-               </person>
-               <person xml:id="galbino" sex="MALE">
-                  <persName>Prinz Galbino</persName>
-               </person>
-               <person xml:id="rosaline" sex="FEMALE">
-                  <persName>Rosaline</persName>
-               </person>
-               <person xml:id="herzogin" sex="FEMALE">
-                  <persName>Herzogin</persName>
-               </person>
-               <person xml:id="rosaura" sex="FEMALE">
-                  <persName>Rosaura</persName>
-                  <persName type="variant">Dame d'Honneur</persName>
-               </person>
-               <person xml:id="drullo" sex="MALE">
-                  <persName>Graf Drullo</persName>
-               </person>
-               <person xml:id="bedienter" sex="MALE">
-                  <persName>Bedienter</persName>
-               </person>
-               <person xml:id="galanteriekraemerin" sex="FEMALE">
-                  <persName>Galanteriekrämerin</persName>
-               </person>
-               <person xml:id="carlo" sex="MALE">
-                  <persName>Carlo</persName>
-               </person>
-               <person xml:id="stallmeister" sex="MALE">
-                  <persName>Stallmeister</persName>
-               </person>
-               <person xml:id="kammerdiener" sex="MALE">
-                  <persName>Kammerdiener</persName>
-               </person>
-               <person xml:id="abgeordneter" sex="MALE">
-                  <persName>Abgeordneter</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="editor" sex="m"><persName ref="http://d-nb.info/gnd/116995742">
+                        <forename>Heinz</forename>
+                        <surname>Nicolai</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

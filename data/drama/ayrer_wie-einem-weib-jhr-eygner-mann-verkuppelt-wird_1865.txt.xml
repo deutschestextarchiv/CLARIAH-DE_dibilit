@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -159,10 +156,7 @@
                   <date type="firstPublication" subtype="zeno">1618</date>
                   <date type="firstPublication" subtype="i5">1618</date>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1544"
-                        notAfter="1605"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1544" notAfter="1605"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d156e233">Erstdruck in: »Jacob Ayrer: Opus Thaeatricum« Nürnberg (Balthasar Scherffen), 1618.</note>
@@ -182,7 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118651307">
+                        <forename>Jakob</forename>
+                        <surname>Ayrer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Adalbert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Keller</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

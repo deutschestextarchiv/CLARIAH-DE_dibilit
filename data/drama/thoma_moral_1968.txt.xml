@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1909</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1909</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1867"
-                        notAfter="1909"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1867" notAfter="1909"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1066e288">Erstdruck: München (Langen) 1909. Uraufführung am 20.11.1908 in Berlin, Kleines Theater.</note>
@@ -177,63 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="bolland" sex="MALE">
-                  <persName>Bolland</persName>
-               </person>
-               <person xml:id="beermann" sex="MALE">
-                  <persName>Beermann</persName>
-               </person>
-               <person xml:id="wasner" sex="MALE">
-                  <persName>Wasner</persName>
-               </person>
-               <person xml:id="effie" sex="FEMALE">
-                  <persName>Effie</persName>
-               </person>
-               <person xml:id="frau_bolland" sex="FEMALE">
-                  <persName>Frau Bolland</persName>
-               </person>
-               <person xml:id="fraeulein_koch-pinneberg" sex="FEMALE">
-                  <persName>Fräulein Koch-Pinneberg</persName>
-               </person>
-               <person xml:id="dobler" sex="MALE">
-                  <persName>Dobler</persName>
-               </person>
-               <person xml:id="frau_beermann" sex="FEMALE">
-                  <persName>Frau Beermann</persName>
-               </person>
-               <person xml:id="hauser" sex="MALE">
-                  <persName>Hauser</persName>
-               </person>
-               <person xml:id="frau_lund" sex="FEMALE">
-                  <persName>Frau Lund</persName>
-               </person>
-               <person xml:id="stroebel" sex="MALE">
-                  <persName>Ströbel</persName>
-                  <persName type="variant">Assessor</persName>
-               </person>
-               <person xml:id="reisacher" sex="MALE">
-                  <persName>Reisacher</persName>
-               </person>
-               <person xml:id="praesident" sex="MALE">
-                  <persName>Präsident</persName>
-               </person>
-               <person xml:id="hauteville" sex="FEMALE">
-                  <persName>Madame Hauteville</persName>
-               </person>
-               <person xml:id="schutzmann" sex="MALE">
-                  <persName>Schutzmann</persName>
-               </person>
-               <person xml:id="schmettau" sex="MALE">
-                  <persName>Schmettau</persName>
-               </person>
-               <person xml:id="betty" sex="FEMALE">
-                  <persName>Betty</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118622072">
+                        <forename>Ludwig</forename>
+                        <surname>Thoma</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

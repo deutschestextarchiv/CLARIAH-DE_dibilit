@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -165,10 +162,7 @@
                   <date type="firstPublication" subtype="clariah">1886</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1791"
-                        notAfter="1866"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1791" notAfter="1866"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d198e316">Komponiert von Franz Schubert. Uraufführung am 09.02.1897, Großherzogliches Hoftheater, Karlsruhe.</note>
@@ -188,73 +182,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="jungfrauen" sex="FEMALE">
-                  <name>Jungfrauen</name>
-               </personGrp>
-               <person xml:id="emma" sex="FEMALE">
-                  <persName>Emma</persName>
-               </person>
-               <person xml:id="eine_spinnerin" sex="FEMALE">
-                  <persName>Eine Spinnerin</persName>
-               </person>
-               <person xml:id="eginhard" sex="MALE">
-                  <persName>Eginhard</persName>
-               </person>
-               <personGrp xml:id="maenner" sex="MALE">
-                  <name>Männer</name>
-               </personGrp>
-               <personGrp xml:id="die_ritter" sex="MALE">
-                  <name>Die Ritter</name>
-                  <name type="variant">Ritter</name>
-                  <name type="variant">Chor der Ritter</name>
-                  <name type="variant">Alle Ritter</name>
-                  <name type="variant">Die übrigen Ritter</name>
-                  <name type="variant">Chor</name>
-               </personGrp>
-               <personGrp xml:id="frauen" sex="FEMALE">
-                  <name>Frauen</name>
-               </personGrp>
-               <person xml:id="karl" sex="MALE">
-                  <persName>Karl</persName>
-               </person>
-               <person xml:id="roland" sex="MALE">
-                  <persName>Roland</persName>
-               </person>
-               <person xml:id="fierrabras" sex="MALE">
-                  <persName>Fierrabras</persName>
-               </person>
-               <personGrp xml:id="maennerchor_maenner_1-7_und_1-8" sex="MALE">
-                  <name>Männerchor/Männer (I/7–8)</name>
-               </personGrp>
-               <personGrp xml:id="krieger" sex="MALE">
-                  <name>Krieger</name>
-               </personGrp>
-               <person xml:id="brutamonte" sex="MALE">
-                  <persName>Brutamonte</persName>
-               </person>
-               <personGrp xml:id="die_mauren" sex="MALE">
-                  <name>Die Mauren</name>
-                  <name type="variant">Chor</name>
-                  <name type="variant">Chor der Mauren</name>
-                  <name type="variant">Mauren</name>
-               </personGrp>
-               <person xml:id="ogier" sex="MALE">
-                  <persName>Ogier</persName>
-               </person>
-               <person xml:id="florinda" sex="FEMALE">
-                  <persName>Florinda</persName>
-               </person>
-               <person xml:id="maragond" sex="FEMALE">
-                  <persName>Maragond</persName>
-               </person>
-               <person xml:id="boland" sex="MALE">
-                  <persName>Boland</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/134672275">
+                        <forename>Josef</forename>
+                        <surname>Kupelwieser</surname>
+                     </persName></person><person role="author"><persName role="composer">
+                        <forename>Franz</forename>
+                        <surname>Schubert</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

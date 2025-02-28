@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -179,137 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="chor_1-1" sex="UNKNOWN">
-                  <name>Chor (I/1)</name>
-               </personGrp>
-               <person xml:id="zenobius" sex="MALE">
-                  <persName>Zenobius</persName>
-               </person>
-               <person xml:id="bustorius" sex="MALE">
-                  <persName>Bustorius</persName>
-               </person>
-               <person xml:id="borax" sex="MALE">
-                  <persName>Borax</persName>
-               </person>
-               <person xml:id="antimonia" sex="FEMALE">
-                  <persName>Antimonia</persName>
-               </person>
-               <person xml:id="feendiener" sex="MALE">
-                  <persName>Feendiener</persName>
-                  <persName type="variant">Ein Feendiener</persName>
-                  <persName type="variant">Diener</persName>
-               </person>
-               <personGrp xml:id="alle_1-3" sex="UNKNOWN">
-                  <name>Alle (I/3)</name>
-               </personGrp>
-               <person xml:id="lakrimosa" sex="FEMALE">
-                  <persName>Lakrimosa</persName>
-               </person>
-               <person xml:id="ajaxerle" sex="MALE">
-                  <persName>Ajaxerle</persName>
-               </person>
-               <person xml:id="fiaker" sex="MALE">
-                  <persName>Fiaker</persName>
-               </person>
-               <person xml:id="ein_kleiner_genius" sex="MALE">
-                  <persName>Ein kleiner Genius</persName>
-                  <persName type="variant">Genius</persName>
-               </person>
-               <person xml:id="stimme_von_unten" sex="MALE">
-                  <persName>Stimme von unten</persName>
-               </person>
-               <person xml:id="lorenz" sex="MALE">
-                  <persName>Lorenz</persName>
-               </person>
-               <person xml:id="habakuk" sex="MALE">
-                  <persName>Habakuk</persName>
-               </person>
-               <person xml:id="lottchen" sex="FEMALE">
-                  <persName>Lottchen</persName>
-               </person>
-               <person xml:id="wurzel" sex="MALE">
-                  <persName>Wurzel</persName>
-               </person>
-               <person xml:id="karl" sex="MALE">
-                  <persName>Karl</persName>
-               </person>
-               <person xml:id="satyr" sex="MALE">
-                  <persName>Satyr</persName>
-               </person>
-               <personGrp xml:id="alles_1-13" sex="UNKNOWN">
-                  <name>Alles (I/13)</name>
-               </personGrp>
-               <person xml:id="schlosser" sex="MALE">
-                  <persName>Schlosser</persName>
-               </person>
-               <person xml:id="tischler" sex="MALE">
-                  <persName>Tischler</persName>
-               </person>
-               <personGrp xml:id="chor_1-13" sex="UNKNOWN">
-                  <name>Chor (I/13)</name>
-               </personGrp>
-               <person xml:id="illi" sex="MALE">
-                  <persName>Illi</persName>
-               </person>
-               <person xml:id="zufriedenheit" sex="UNKNOWN">
-                  <persName>Zufriedenheit</persName>
-               </person>
-               <person xml:id="afterling" sex="MALE">
-                  <persName>Afterling</persName>
-               </person>
-               <person xml:id="musensohn" sex="MALE">
-                  <persName>Musensohn</persName>
-               </person>
-               <person xml:id="schmeichelfeld" sex="MALE">
-                  <persName>Schmeichelfeld</persName>
-               </person>
-               <personGrp xml:id="alle_bedienten" sex="MALE">
-                  <name>Alle Bedienten</name>
-               </personGrp>
-               <person xml:id="jugend" sex="UNKNOWN">
-                  <persName>Jugend</persName>
-               </person>
-               <person xml:id="das_alter" sex="UNKNOWN">
-                  <persName>Das Alter</persName>
-               </person>
-               <person xml:id="neid" sex="UNKNOWN">
-                  <persName>Neid</persName>
-               </person>
-               <person xml:id="hass" sex="UNKNOWN">
-                  <persName>Hass</persName>
-               </person>
-               <person xml:id="tophan" sex="MALE">
-                  <persName>Tophan</persName>
-               </person>
-               <person xml:id="nigowitz" sex="MALE">
-                  <persName>Nigowitz</persName>
-               </person>
-               <person xml:id="papagei" sex="UNKNOWN">
-                  <persName>Papagei</persName>
-               </person>
-               <personGrp xml:id="chor_2-13" sex="UNKNOWN">
-                  <name>Chor (II/13)</name>
-               </personGrp>
-               <personGrp xml:id="chor_3-1" sex="UNKNOWN">
-                  <name>Chor (III/1)</name>
-               </personGrp>
-               <person xml:id="amor" sex="MALE">
-                  <persName>Amor</persName>
-               </person>
-               <person xml:id="laermen" sex="UNKNOWN">
-                  <persName>Lärmen (von außen)</persName>
-               </person>
-               <person xml:id="hymen" sex="FEMALE">
-                  <persName>Hymen</persName>
-               </person>
-               <personGrp xml:id="chor_3-7" sex="UNKNOWN">
-                  <name>Chor (III/7)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118597914">
+                        <forename>Ferdinand</forename>
+                        <surname>Raimund</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Friedrich</forename>
+                        <surname>Schreyvogl</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

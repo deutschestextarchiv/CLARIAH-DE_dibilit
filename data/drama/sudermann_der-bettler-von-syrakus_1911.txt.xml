@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno">1911</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1911</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1857"
-                        notAfter="1911"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1857" notAfter="1911"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1542e453">Erstdruck: Stuttgart (Cotta), 1911. Uraufführung 1911, Königliches Schauspielhaus, Berlin.</note>
@@ -176,217 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="lykon" sex="MALE">
-                  <persName>Lykon</persName>
-               </person>
-               <person xml:id="der_zeltwaechter" sex="MALE">
-                  <persName>Der Zeltwächter</persName>
-               </person>
-               <person xml:id="arratos" sex="MALE">
-                  <persName>Arratos</persName>
-               </person>
-               <person xml:id="der_hauptmann" sex="MALE">
-                  <persName>Der Hauptmann</persName>
-               </person>
-               <person xml:id="mago" sex="MALE">
-                  <persName>Mago</persName>
-               </person>
-               <person xml:id="philarete" sex="FEMALE">
-                  <persName>Philarete</persName>
-                  <persName type="variant">Stimme Philaretes</persName>
-               </person>
-               <person xml:id="diokles" sex="MALE">
-                  <persName>Diokles</persName>
-               </person>
-               <person xml:id="myrrha" sex="FEMALE">
-                  <persName>Myrrha</persName>
-               </person>
-               <person xml:id="die_erscheinung" sex="MALE">
-                  <persName>Die Erscheinung</persName>
-               </person>
-               <person xml:id="menesto" sex="FEMALE">
-                  <persName>Menesto</persName>
-               </person>
-               <person xml:id="bio" sex="FEMALE">
-                  <persName>Bio</persName>
-               </person>
-               <person xml:id="phenippe" sex="FEMALE">
-                  <persName>Phenippe</persName>
-               </person>
-               <person xml:id="artemidor" sex="MALE">
-                  <persName>Artemidor</persName>
-               </person>
-               <person xml:id="der_tuerhueter" sex="MALE">
-                  <persName>Der Türhüter</persName>
-               </person>
-               <person xml:id="erster_spaeher" sex="MALE">
-                  <persName>Erster Späher</persName>
-               </person>
-               <person xml:id="zweiter_spaeher" sex="MALE">
-                  <persName>Zweiter Späher</persName>
-               </person>
-               <personGrp xml:id="die_bettler" sex="MALE">
-                  <name>Die Bettler</name>
-                  <name type="variant">Rufe</name>
-                  <name type="variant">Gemurmel</name>
-               </personGrp>
-               <person xml:id="der_reisende" sex="MALE">
-                  <persName>Der Reisende</persName>
-               </person>
-               <person xml:id="deonax" sex="MALE">
-                  <persName>Deonax</persName>
-               </person>
-               <person xml:id="sosthenes" sex="MALE">
-                  <persName>Sosthenes</persName>
-               </person>
-               <person xml:id="einer_2-1" sex="MALE">
-                  <persName>Einer (II/1)</persName>
-               </person>
-               <person xml:id="eurytimos" sex="MALE">
-                  <persName>Eurytimos</persName>
-               </person>
-               <person xml:id="ein_bettler" sex="MALE">
-                  <persName>Ein Bettler</persName>
-               </person>
-               <person xml:id="ein_anderer_2-2a" sex="MALE">
-                  <persName>Ein Anderer (II/2)</persName>
-               </person>
-               <person xml:id="der_blinde" sex="MALE">
-                  <persName>Der Blinde</persName>
-               </person>
-               <person xml:id="mandros" sex="MALE">
-                  <persName>Mandros</persName>
-               </person>
-               <person xml:id="einer_2-2" sex="MALE">
-                  <persName>Einer (II/2)</persName>
-                  <persName type="variant">Der Erste</persName>
-               </person>
-               <person xml:id="ein_anderer_2-2b" sex="MALE">
-                  <persName>Ein Anderer (II/2)</persName>
-               </person>
-               <person xml:id="gubal" sex="MALE">
-                  <persName>Gubal</persName>
-               </person>
-               <person xml:id="der_karthagische_diener" sex="MALE">
-                  <persName>Der karthagische Diener</persName>
-               </person>
-               <person xml:id="einer_der_bettler" sex="MALE">
-                  <persName>Einer der Bettler</persName>
-               </person>
-               <person xml:id="einer_aus_dem_volke_2-4" sex="MALE">
-                  <persName>Einer aus dem Volke (II/4)</persName>
-               </person>
-               <person xml:id="ein_anderer_2-4a" sex="MALE">
-                  <persName>Ein Anderer (II/4)</persName>
-               </person>
-               <personGrp xml:id="mehrere_die_menge_stimmen_im_volke" sex="UNKNOWN">
-                  <name>Mehrere/Die Menge/Stimmen im Volke</name>
-               </personGrp>
-               <person xml:id="einer_2-4" sex="MALE">
-                  <persName>Einer (II/4)</persName>
-               </person>
-               <person xml:id="ein_anderer_2-4b" sex="MALE">
-                  <persName>Ein Anderer (II/4)</persName>
-               </person>
-               <person xml:id="ein_dritter_2-4" sex="MALE">
-                  <persName>Ein Dritter (II/4)</persName>
-               </person>
-               <person xml:id="hegesias" sex="MALE">
-                  <persName>Hegesias</persName>
-               </person>
-               <person xml:id="einer_aus_dem_volke_2-5" sex="MALE">
-                  <persName>Einer aus dem Volke (II/5)</persName>
-               </person>
-               <person xml:id="einer_2-5" sex="MALE">
-                  <persName>Einer (II/5)</persName>
-               </person>
-               <person xml:id="ein_waechter_2-7" sex="MALE">
-                  <persName>Ein Wächter (II/7)</persName>
-               </person>
-               <person xml:id="ein_waechter_3-3" sex="MALE">
-                  <persName>Ein Wächter (III/3)</persName>
-               </person>
-               <person xml:id="der_erste_sklave" sex="MALE">
-                  <persName>Der erste Sklave</persName>
-               </person>
-               <person xml:id="der_zweite" sex="MALE">
-                  <persName>Der zweite Sklave</persName>
-               </person>
-               <person xml:id="der_dritte" sex="MALE">
-                  <persName>Der dritte Sklave</persName>
-               </person>
-               <person xml:id="der_vierte" sex="MALE">
-                  <persName>Der vierte Sklave</persName>
-               </person>
-               <person xml:id="ein_sehr_alter_sklave" sex="MALE">
-                  <persName>Ein sehr alter Sklave</persName>
-               </person>
-               <person xml:id="ein_aelterer_diener_4-1a" sex="MALE">
-                  <persName>Ein älterer Diener (IV/1)</persName>
-               </person>
-               <person xml:id="einer_4-1a" sex="MALE">
-                  <persName>Einer (IV/1)</persName>
-               </person>
-               <person xml:id="ktesias" sex="MALE">
-                  <persName>Ktesias</persName>
-               </person>
-               <person xml:id="lysimachos" sex="MALE">
-                  <persName>Lysimachos</persName>
-               </person>
-               <person xml:id="hermachos" sex="MALE">
-                  <persName>Hermachos</persName>
-               </person>
-               <person xml:id="einer_4-1b" sex="MALE">
-                  <persName>Einer (IV/1)</persName>
-               </person>
-               <person xml:id="ein_aelterer_diener_4-1b" sex="MALE">
-                  <persName>Ein älterer Diener (IV/1)</persName>
-               </person>
-               <person xml:id="die_erste" sex="FEMALE">
-                  <persName>Die Erste</persName>
-               </person>
-               <person xml:id="die_zweite" sex="FEMALE">
-                  <persName>Die Zweite</persName>
-               </person>
-               <person xml:id="die_dritte" sex="FEMALE">
-                  <persName>Die Dritte</persName>
-               </person>
-               <person xml:id="einer_4-2" sex="MALE">
-                  <persName>Einer (IV/2)</persName>
-               </person>
-               <person xml:id="ein_zweiter_4-2" sex="MALE">
-                  <persName>Ein Zweiter (IV/2)</persName>
-               </person>
-               <person xml:id="ein_dritter_4-2" sex="MALE">
-                  <persName>Ein Dritter (IV/2)</persName>
-               </person>
-               <person xml:id="eins_der_maedchen" sex="FEMALE">
-                  <persName>Eins der Mädchen</persName>
-               </person>
-               <person xml:id="phaino" sex="FEMALE">
-                  <persName>Phaino</persName>
-               </person>
-               <person xml:id="strution" sex="FEMALE">
-                  <persName>Strution</persName>
-               </person>
-               <personGrp xml:id="rufe_4" sex="UNKNOWN">
-                  <name>Rufe (IV)</name>
-                  <name type="variant">Lachende Rufe</name>
-                  <name type="variant">Wirre Rufe</name>
-                  <name type="variant">Alle</name>
-                  <name type="variant">Fragende Rufe</name>
-               </personGrp>
-               <person xml:id="erster_waechter" sex="MALE">
-                  <persName>Erster Wächter</persName>
-               </person>
-               <personGrp xml:id="rufe_5" sex="UNKNOWN">
-                  <name>Rufe (V)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118619853">
+                        <forename>Hermann</forename>
+                        <surname>Sudermann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

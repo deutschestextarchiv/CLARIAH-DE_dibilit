@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -159,10 +156,7 @@
                   <date type="firstPublication" subtype="clariah">1843</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1969</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1761"
-                        notAfter="1819"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1761" notAfter="1819"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d44e310">Komponiert von Albert Lortzing. Uraufführung am 31.12.1842, Schauspielhaus, Leipzig.</note>
@@ -182,70 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="landleute" sex="UNKNOWN">
-                  <name>Landleute</name>
-                  <name type="variant">Alle</name>
-                  <name type="variant">Chor</name>
-               </personGrp>
-               <person xml:id="gretchen" sex="FEMALE">
-                  <persName>Gretchen</persName>
-               </person>
-               <person xml:id="baculus" sex="MALE">
-                  <persName>Baculus</persName>
-               </person>
-               <person xml:id="ein_hochzeitsgast" sex="MALE">
-                  <persName>Ein Hochzeitsgast</persName>
-               </person>
-               <person xml:id="baronin" sex="FEMALE">
-                  <persName>Baronin</persName>
-               </person>
-               <person xml:id="nanette" sex="FEMALE">
-                  <persName>Nanette</persName>
-               </person>
-               <person xml:id="graf" sex="MALE">
-                  <persName>Graf</persName>
-               </person>
-               <person xml:id="baron" sex="MALE">
-                  <persName>Baron</persName>
-               </person>
-               <personGrp xml:id="jaeger" sex="MALE">
-                  <name>Jäger</name>
-               </personGrp>
-               <personGrp xml:id="dienerchor" sex="MALE">
-                  <name>Dienerchor</name>
-                  <name type="variant">Diener</name>
-                  <name type="variant">Alle</name>
-                  <name type="variant">Chor</name>
-               </personGrp>
-               <person xml:id="graefin" sex="FEMALE">
-                  <persName>Gräfin</persName>
-               </person>
-               <person xml:id="pancratius" sex="MALE">
-                  <persName>Pancratius</persName>
-               </person>
-               <personGrp xml:id="maedchen" sex="FEMALE">
-                  <name>Die Mädchen (III/3)</name>
-                  <name type="variant">Alle</name>
-                  <name type="variant">Die Andern</name>
-                  <name type="variant">Die andern Mädchen</name>
-                  <name type="variant">Einige Mädchen</name>
-                  <name type="variant">Andere</name>
-                  <name type="variant">Alle</name>
-               </personGrp>
-               <person xml:id="erstes_maedchen" sex="FEMALE">
-                  <persName>Erstes Mädchen</persName>
-               </person>
-               <person xml:id="zweites_maedchen" sex="FEMALE">
-                  <persName>Zweites Mädchen</persName>
-               </person>
-               <personGrp xml:id="schuljugend" sex="UNKNOWN">
-                  <name>Schuljugend</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118574469">
+                        <forename>Albert</forename>
+                        <surname>Lortzing</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wilhelm</forename>
+                        <surname>Zentner</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

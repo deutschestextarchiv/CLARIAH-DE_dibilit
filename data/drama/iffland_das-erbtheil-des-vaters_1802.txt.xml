@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno">1802</date>
                   <date type="firstPublication" subtype="i5">1802</date>
                   <date type="firstPublication" subtype="gerdracor">1802</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1759"
-                        notAfter="1802"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1759" notAfter="1802"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2557e288">Erstdruck: Leipzig (Georg Joachim Göschen) 1802.</note>
@@ -176,60 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="neurath" sex="MALE">
-                  <persName>Neurath</persName>
-               </person>
-               <person xml:id="horfmann" sex="MALE">
-                  <persName>Horfmann</persName>
-               </person>
-               <person xml:id="bedienter" sex="MALE">
-                  <persName>Bedienter</persName>
-               </person>
-               <person xml:id="delomer" sex="MALE">
-                  <persName>Delomer</persName>
-               </person>
-               <person xml:id="dominique_sohn" sex="MALE">
-                  <persName>Dominique Sohn</persName>
-                  <persName type="variant">Dominique S.</persName>
-               </person>
-               <person xml:id="madam_dominique" sex="FEMALE">
-                  <persName>Madam Dominique</persName>
-                  <persName type="variant">Mad. Dominique</persName>
-               </person>
-               <person xml:id="graf" sex="MALE">
-                  <persName>Graf Warbing</persName>
-               </person>
-               <person xml:id="graefin" sex="FEMALE">
-                  <persName>Gräfin</persName>
-               </person>
-               <personGrp xml:id="die_bauern" sex="UNKNOWN">
-                  <name>Die Bauern</name>
-               </personGrp>
-               <person xml:id="schulz" sex="MALE">
-                  <persName>Schulz</persName>
-               </person>
-               <person xml:id="das_kind" sex="MALE">
-                  <persName>Das Kind</persName>
-                  <persName type="variant">Der kleine Dominique</persName>
-               </person>
-               <person xml:id="dominique_vater" sex="MALE">
-                  <persName>Dominique Vater</persName>
-                  <persName type="variant">Dominique V.</persName>
-               </person>
-               <person xml:id="marquis" sex="MALE">
-                  <persName>Marquis de Valiere</persName>
-               </person>
-               <person xml:id="gaertner" sex="MALE">
-                  <persName>Gärtner</persName>
-               </person>
-               <personGrp xml:id="etliche" sex="UNKNOWN">
-                  <name>Etliche</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118555324">
+                        <forename>August Wilhelm</forename>
+                        <surname>Iffland</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

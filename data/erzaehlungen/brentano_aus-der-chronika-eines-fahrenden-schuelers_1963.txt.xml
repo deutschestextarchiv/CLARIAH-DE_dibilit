@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="clariah">1818</date>
                   <date type="firstPublication" subtype="zeno">1818</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1803"
-                        notAfter="1810"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1803" notAfter="1810"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Brentano-Clemen-d1e152839">Entstanden zwischen 1803 und 1810, Erstdruck in: Die Sängerfahrt. Eine Neujahrsausgabe für Freunde der Dichtkunst und Malerey, hg. v. Friedrich Förster, Berlin (Maurer) 1818.</note>
@@ -173,7 +167,13 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118515055">
+                        <forename>Clemens</forename>
+                        <surname>Brentano</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Friedhelm</forename>
+                        <surname>Kemp</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

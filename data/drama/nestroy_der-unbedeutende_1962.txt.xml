@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -155,10 +152,7 @@
                   <date type="firstPublication" subtype="zeno">1849</date>
                   <date type="firstPublication" subtype="i5">1849</date>
                   <date type="firstPublication" subtype="gerdracor">1849</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1801"
-                        notAfter="1862"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1801" notAfter="1862"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1829e348">Erstdruck: Wien (Wallishausser), 1849. Uraufführung am 02.05.1846, Leopoldstädter Theater, Wien.</note>
@@ -178,121 +172,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="ottilie" sex="FEMALE">
-                  <persName>Ottilie</persName>
-               </person>
-               <person xml:id="puffmann" sex="MALE">
-                  <persName>Puffmann</persName>
-               </person>
-               <person xml:id="von_groening" sex="MALE">
-                  <persName>von Gröning</persName>
-               </person>
-               <person xml:id="hermine" sex="FEMALE">
-                  <persName>Hermine</persName>
-               </person>
-               <person xml:id="thomas" sex="MALE">
-                  <persName>Thomas</persName>
-               </person>
-               <person xml:id="friedrich" sex="MALE">
-                  <persName>Friedrich</persName>
-               </person>
-               <person xml:id="franz" sex="MALE">
-                  <persName>Franz</persName>
-               </person>
-               <person xml:id="heinrich" sex="MALE">
-                  <persName>Heinrich</persName>
-               </person>
-               <person xml:id="tupper" sex="MALE">
-                  <persName>Tupper</persName>
-               </person>
-               <person xml:id="althof" sex="MALE">
-                  <persName>Althof</persName>
-               </person>
-               <person xml:id="lockerfeld" sex="MALE">
-                  <persName>Lockerfeld</persName>
-               </person>
-               <person xml:id="massengold" sex="MALE">
-                  <persName>Massengold</persName>
-               </person>
-               <person xml:id="packendorf" sex="MALE">
-                  <persName>Packendorf</persName>
-               </person>
-               <person xml:id="seewald" sex="MALE">
-                  <persName>Seewald</persName>
-               </person>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter</persName>
-               </person>
-               <person xml:id="frau_hussbergerin" sex="FEMALE">
-                  <persName>Frau Hussbergerin</persName>
-               </person>
-               <person xml:id="hansi" sex="MALE">
-                  <persName>Hansi</persName>
-               </person>
-               <person xml:id="frau_flachsin" sex="FEMALE">
-                  <persName>Frau Flachsin</persName>
-               </person>
-               <person xml:id="kuebler" sex="MALE">
-                  <persName>Kübler</persName>
-               </person>
-               <person xml:id="frau_kueblerin" sex="FEMALE">
-                  <persName>Frau Küblerin</persName>
-               </person>
-               <person xml:id="frau_schmalzerin" sex="FEMALE">
-                  <persName>Frau Schmalzerin</persName>
-               </person>
-               <person xml:id="schmalzer" sex="MALE">
-                  <persName>Schmalzer</persName>
-               </person>
-               <person xml:id="flachs" sex="MALE">
-                  <persName>Flachs</persName>
-               </person>
-               <person xml:id="klopf" sex="MALE">
-                  <persName>Klopf</persName>
-               </person>
-               <person xml:id="frau_klopfin" sex="FEMALE">
-                  <persName>Frau Klopfin</persName>
-               </person>
-               <person xml:id="susi" sex="FEMALE">
-                  <persName>Susi</persName>
-               </person>
-               <person xml:id="spring" sex="MALE">
-                  <persName>Spring</persName>
-               </person>
-               <person xml:id="biegel" sex="MALE">
-                  <persName>Biegel</persName>
-               </person>
-               <person xml:id="leicht" sex="MALE">
-                  <persName>Leicht</persName>
-               </person>
-               <person xml:id="klara" sex="FEMALE">
-                  <persName>Klara</persName>
-               </person>
-               <person xml:id="kellner" sex="MALE">
-                  <persName>Kellner</persName>
-               </person>
-               <person xml:id="netti" sex="FEMALE">
-                  <persName>Netti</persName>
-               </person>
-               <personGrp xml:id="mehrere_anwesende_mehrere_frauen_einige_maenner_alle"
-                          sex="UNKNOWN">
-                  <name>Mehrere Anwesende/Mehrere Frauen/Einige Männer/Alle (II/8)</name>
-               </personGrp>
-               <person xml:id="rumpf" sex="MALE">
-                  <persName>Rumpf</persName>
-               </person>
-               <person xml:id="wirt" sex="MALE">
-                  <persName>Wirt</persName>
-               </person>
-               <personGrp xml:id="die_anwesenden_die_buergersleute_die_anderen_alle"
-                          sex="UNKNOWN">
-                  <name>Die Anwesenden/Die Bürgersleute/Die Anderen/Alle (III/33–34)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118587080">
+                        <forename>Johann</forename>
+                        <surname>Nestroy</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

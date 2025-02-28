@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1908</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1908</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1881"
-                        notAfter="1919"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1881" notAfter="1919"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1787e300">Erstdruck: Berlin-Wilmersdorf (Meyer), 1908.</note>
@@ -183,66 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="wabn" sex="FEMALE">
-                  <persName>Die alte Wabn</persName>
-               </person>
-               <person xml:id="innocentia" sex="FEMALE">
-                  <persName>Innocentia</persName>
-               </person>
-               <person xml:id="apotheker" sex="MALE">
-                  <persName>Apotheker</persName>
-               </person>
-               <person xml:id="wirt" sex="MALE">
-                  <persName>Wirt</persName>
-               </person>
-               <person xml:id="anna" sex="FEMALE">
-                  <persName>Anna</persName>
-                  <persName type="variant">Annas Stimme</persName>
-               </person>
-               <person xml:id="lehmann" sex="MALE">
-                  <persName>Lehmann</persName>
-                  <persName type="variant">Lehmanns Stimme</persName>
-               </person>
-               <person xml:id="heinrich" sex="MALE">
-                  <persName>Heinrich</persName>
-                  <persName type="variant">Heinrichs Stimme</persName>
-               </person>
-               <person xml:id="jakob" sex="MALE">
-                  <persName>Jakob</persName>
-                  <persName type="variant">Jakobs Stimme</persName>
-               </person>
-               <person xml:id="gendarm" sex="MALE">
-                  <persName>Gendarm</persName>
-               </person>
-               <person xml:id="kommandant" sex="MALE">
-                  <persName>Kommandant</persName>
-               </person>
-               <person xml:id="braumeister" sex="MALE">
-                  <persName>Braumeister</persName>
-               </person>
-               <person xml:id="zirngibl" sex="MALE">
-                  <persName>Zirngibl</persName>
-               </person>
-               <person xml:id="kommandantin" sex="FEMALE">
-                  <persName>Kommandantin</persName>
-               </person>
-               <personGrp xml:id="stimmen" sex="UNKNOWN">
-                  <name>Stimmen</name>
-               </personGrp>
-               <person xml:id="erster_bauer" sex="MALE">
-                  <persName>1. Bauer</persName>
-               </person>
-               <person xml:id="zweiter_bauer" sex="MALE">
-                  <persName>2. Bauer</persName>
-               </person>
-               <person xml:id="agnes" sex="FEMALE">
-                  <persName>Agnes</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118570226">
+                        <forename>Heinrich</forename>
+                        <surname>Lautensack</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wilhelm Lukas</forename>
+                        <surname>Kristl</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

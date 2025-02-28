@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -172,10 +169,7 @@
                   <date type="firstPublication" subtype="clariah">1850</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1961</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1805"
-                        notAfter="1879"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1805" notAfter="1879"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d128e328">Komponiert von Friedrich von Flotow. Uraufführung am 25.11.1847, Kärntnertor-Theater, Wien.</note>
@@ -195,83 +189,18 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="dienerinnen" sex="FEMALE">
-                  <name>Dienerinnen</name>
-               </personGrp>
-               <person xml:id="nancy" sex="FEMALE">
-                  <persName>Nancy</persName>
-               </person>
-               <person xml:id="lady" sex="FEMALE">
-                  <persName>Lady</persName>
-               </person>
-               <person xml:id="erster_diener" sex="MALE">
-                  <persName>Erster Diener</persName>
-               </person>
-               <person xml:id="zweiter_diener" sex="MALE">
-                  <persName>Zweiter Diener</persName>
-               </person>
-               <person xml:id="dritter_diener" sex="MALE">
-                  <persName>Dritter Diener</persName>
-               </person>
-               <person xml:id="tristan" sex="MALE">
-                  <persName>Sir Tristan</persName>
-               </person>
-               <personGrp xml:id="maegde_vier_maegde_weitere_maegde_alle_maegde" sex="FEMALE">
-                  <name>Mägde/Vier Mägde/Weitere Mägde/Alle Mägde</name>
-               </personGrp>
-               <personGrp xml:id="landleute_einige_alle_volk_frauen_maenner" sex="UNKNOWN">
-                  <name>Landleute/Einige/Alle/Volk/Frauen/Männer</name>
-               </personGrp>
-               <personGrp xml:id="paechter" sex="MALE">
-                  <name>Pächter</name>
-               </personGrp>
-               <person xml:id="plumkett" sex="MALE">
-                  <persName>Plumkett</persName>
-               </person>
-               <person xml:id="lyonel" sex="MALE">
-                  <persName>Lyonel</persName>
-               </person>
-               <person xml:id="richter" sex="MALE">
-                  <persName>Richter</persName>
-               </person>
-               <person xml:id="erste_magd" sex="FEMALE">
-                  <persName>Erste Magd</persName>
-               </person>
-               <person xml:id="ein_paechter" sex="MALE">
-                  <persName>Ein Pächter</persName>
-               </person>
-               <person xml:id="zweite_magd" sex="FEMALE">
-                  <persName>Zweite Magd</persName>
-               </person>
-               <person xml:id="eine_paechterin" sex="FEMALE">
-                  <persName>Eine Pächterin</persName>
-               </person>
-               <person xml:id="dritte_magd" sex="FEMALE">
-                  <persName>Dritte Magd</persName>
-               </person>
-               <personGrp xml:id="paechterinnen" sex="FEMALE">
-                  <name>Pächterinnen</name>
-               </personGrp>
-               <personGrp xml:id="einige_knechte_die_knechte_andere_knechte" sex="MALE">
-                  <name>Einige Knechte/Die Knechte/Andere Knechte/Knechte</name>
-               </personGrp>
-               <personGrp xml:id="das_gesinde" sex="UNKNOWN">
-                  <name>Das Gesinde</name>
-               </personGrp>
-               <personGrp xml:id="jaegerinnen" sex="FEMALE">
-                  <name>Jägerinnen</name>
-               </personGrp>
-               <personGrp xml:id="hofgesellschaft" sex="UNKNOWN">
-                  <name>Hofgesellschaft</name>
-               </personGrp>
-               <personGrp xml:id="jaeger" sex="MALE">
-                  <name>Jäger</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/105607231">
+                        <forename>Friedrich Wilhelm</forename>
+                        <surname>Riese</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/118691929">
+                        <forename>Friedrich</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Flotow</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wilhelm</forename>
+                        <surname>Zentner</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

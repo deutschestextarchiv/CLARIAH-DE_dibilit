@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -155,10 +152,7 @@
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1901</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1840"
-                        notAfter="1843"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1840" notAfter="1843"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2634e422">Entstanden wahrscheinlich zwischen 1840–1843. Unvollständiger Erstdruck in: »Deutsche Dichtung«, herausgegeben von Karl Emil Franzos, Stuttgart, 1888. Vollständiger Erstdruck herausgegeben von K. Weichberger, Oppeln (Maske), 1901.</note>
@@ -178,187 +172,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>König</persName>
-               </person>
-               <person xml:id="narr" sex="MALE">
-                  <persName>Narr</persName>
-               </person>
-               <person xml:id="buergermeister" sex="MALE">
-                  <persName>Bürgermeister</persName>
-               </person>
-               <person xml:id="paphnutius" sex="MALE">
-                  <persName>Paphnutius</persName>
-               </person>
-               <person xml:id="erster_buerger" sex="MALE">
-                  <persName>Erster Bürger</persName>
-               </person>
-               <person xml:id="zweiter_buerger" sex="MALE">
-                  <persName>Zweiter Bürger</persName>
-               </person>
-               <person xml:id="dritter_buerger" sex="MALE">
-                  <persName>Dritter Bürger</persName>
-               </person>
-               <person xml:id="vierter_buerger" sex="MALE">
-                  <persName>Vierter Bürger</persName>
-               </person>
-               <person xml:id="sechster_buerger" sex="MALE">
-                  <persName>Sechster Bürger</persName>
-               </person>
-               <person xml:id="andrer_buerger" sex="MALE">
-                  <persName>Andrer Bürger</persName>
-               </person>
-               <person xml:id="fuenfter_buerger" sex="MALE">
-                  <persName>Fünfter Bürger</persName>
-               </person>
-               <person xml:id="siebenter_buerger" sex="MALE">
-                  <persName>Siebenter Bürger</persName>
-               </person>
-               <person xml:id="achter_buerger" sex="MALE">
-                  <persName>Achter Bürger</persName>
-               </person>
-               <person xml:id="gymnasiast" sex="MALE">
-                  <persName>Gymnasiast</persName>
-               </person>
-               <person xml:id="neunter_buerger" sex="MALE">
-                  <persName>Neunter Bürger</persName>
-               </person>
-               <person xml:id="zehnter_buerger" sex="MALE">
-                  <persName>Zehnter Bürger</persName>
-               </person>
-               <personGrp xml:id="reigen" sex="UNKNOWN">
-                  <name>Reigen</name>
-               </personGrp>
-               <person xml:id="er" sex="MALE">
-                  <persName>Er</persName>
-               </person>
-               <person xml:id="sie" sex="FEMALE">
-                  <persName>Sie</persName>
-               </person>
-               <person xml:id="vater" sex="MALE">
-                  <persName>Vater</persName>
-               </person>
-               <person xml:id="ein_bauer_3a" sex="MALE">
-                  <persName>Ein Bauer</persName>
-                  <persName type="variant">Bauer</persName>
-               </person>
-               <personGrp xml:id="bauern" sex="MALE">
-                  <name>Bauern</name>
-               </personGrp>
-               <personGrp xml:id="taenzer" sex="MALE">
-                  <name>Tänzer</name>
-               </personGrp>
-               <person xml:id="erster_jaeger" sex="MALE">
-                  <persName>Erster Jäger</persName>
-               </person>
-               <person xml:id="oberjaegermeister" sex="MALE">
-                  <persName>Oberjägermeister</persName>
-               </person>
-               <person xml:id="zweiter_jaeger" sex="MALE">
-                  <persName>Zweiter Jäger</persName>
-               </person>
-               <person xml:id="dritter_jaeger" sex="MALE">
-                  <persName>Dritter Jäger</persName>
-               </person>
-               <person xml:id="ein_bauer_3b" sex="MALE">
-                  <persName>Ein Bauer</persName>
-                  <persName type="variant">Bauer</persName>
-               </person>
-               <personGrp xml:id="kriegsgesang" sex="MALE">
-                  <name>Kriegsgesang</name>
-                  <name type="variant">Gesang</name>
-               </personGrp>
-               <person xml:id="biester" sex="MALE">
-                  <persName>Biester</persName>
-               </person>
-               <person xml:id="nicolai" sex="MALE">
-                  <persName>Nicolai</persName>
-               </person>
-               <person xml:id="sebaldus_nothanker" sex="MALE">
-                  <persName>Sebaldus Nothanker</persName>
-                  <persName type="variant">Nothanker</persName>
-               </person>
-               <person xml:id="ralf" sex="MALE">
-                  <persName>Ralf</persName>
-               </person>
-               <person xml:id="kunz" sex="MALE">
-                  <persName>Kunz</persName>
-               </person>
-               <person xml:id="offizier" sex="MALE">
-                  <persName>Offizier</persName>
-               </person>
-               <personGrp xml:id="soldaten" sex="MALE">
-                  <name>Soldaten</name>
-               </personGrp>
-               <person xml:id="die_blaue" sex="UNKNOWN">
-                  <persName>Die Blaue</persName>
-                  <persName type="variant">Blaue</persName>
-               </person>
-               <person xml:id="freimund" sex="MALE">
-                  <persName>Freimund</persName>
-               </person>
-               <person xml:id="willibald" sex="MALE">
-                  <persName>Willibald</persName>
-               </person>
-               <personGrp xml:id="alle_viele_stimmen_gesang" sex="UNKNOWN">
-                  <name>Alle/Viele Stimmen/Gesang</name>
-               </personGrp>
-               <personGrp xml:id="draussen" sex="UNKNOWN">
-                  <name>Draußen</name>
-               </personGrp>
-               <person xml:id="mathilde" sex="FEMALE">
-                  <persName>Mathilde</persName>
-               </person>
-               <personGrp xml:id="die_schlepptragenden_juenglinge" sex="MALE">
-                  <name>Die schlepptragenden Jünglinge</name>
-               </personGrp>
-               <person xml:id="erster_soldat" sex="MALE">
-                  <persName>Erster Soldat</persName>
-               </person>
-               <person xml:id="zweiter_soldat" sex="MALE">
-                  <persName>Zweiter Soldat</persName>
-               </person>
-               <person xml:id="dritter_soldat" sex="MALE">
-                  <persName>Dritter Soldat</persName>
-               </person>
-               <person xml:id="vierter_soldat" sex="MALE">
-                  <persName>Vierter Soldat</persName>
-               </person>
-               <person xml:id="colombine" sex="FEMALE">
-                  <persName>Colombine</persName>
-               </person>
-               <person xml:id="erster_diener" sex="MALE">
-                  <persName>Erster Diener</persName>
-               </person>
-               <person xml:id="zweiter_diener" sex="MALE">
-                  <persName>Zweiter Diener</persName>
-               </person>
-               <person xml:id="dritter_diener" sex="MALE">
-                  <persName>Dritter Diener</persName>
-               </person>
-               <person xml:id="vierter_diener" sex="MALE">
-                  <persName>Vierter Diener</persName>
-               </person>
-               <person xml:id="fuenfter_diener" sex="MALE">
-                  <persName>Fünfter Diener</persName>
-               </person>
-               <person xml:id="sechster_diener" sex="MALE">
-                  <persName>Sechster Diener</persName>
-               </person>
-               <person xml:id="waechter" sex="MALE">
-                  <persName>Wächter</persName>
-               </person>
-               <personGrp xml:id="einige_andre_stimmen" sex="UNKNOWN">
-                  <name>Einige/Andre/Stimmen</name>
-               </personGrp>
-               <person xml:id="general" sex="MALE">
-                  <persName>General</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118529390">
+                        <forename>Joseph</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Eichendorff</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

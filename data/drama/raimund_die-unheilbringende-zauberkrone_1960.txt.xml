@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -179,179 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="jubelchor" sex="UNKNOWN">
-                  <name>Jubelchor</name>
-               </personGrp>
-               <person xml:id="phalarius" sex="MALE">
-                  <persName>Phalarius</persName>
-               </person>
-               <person xml:id="hades" sex="MALE">
-                  <persName>Hades</persName>
-               </person>
-               <person xml:id="antrogaeus" sex="MALE">
-                  <persName>Antrogäus</persName>
-               </person>
-               <personGrp xml:id="chor_1-2" sex="MALE">
-                  <name>Chor (I/2)</name>
-               </personGrp>
-               <person xml:id="lucina" sex="FEMALE">
-                  <persName>Lucina</persName>
-               </person>
-               <person xml:id="kreon" sex="MALE">
-                  <persName>Kreon</persName>
-               </person>
-               <person xml:id="simplizius" sex="MALE">
-                  <persName>Simplizius Zitternadel</persName>
-               </person>
-               <person xml:id="ewald" sex="MALE">
-                  <persName>Ewald</persName>
-               </person>
-               <person xml:id="riegelsam" sex="MALE">
-                  <persName>Riegelsam</persName>
-               </person>
-               <personGrp xml:id="zwei_gerichtsdiener" sex="MALE">
-                  <name>Zwei Gerichtsdiener</name>
-               </personGrp>
-               <personGrp xml:id="kurzer_chor_gejammer" sex="UNKNOWN">
-                  <name>Kurzer Chor/Gejammer</name>
-               </personGrp>
-               <person xml:id="genius_des_todes" sex="MALE">
-                  <persName>Genius des Todes</persName>
-                  <persName type="variant">Genius</persName>
-               </person>
-               <person xml:id="thestius" sex="MALE">
-                  <persName>Thestius</persName>
-               </person>
-               <person xml:id="epaminondas" sex="MALE">
-                  <persName>Epaminondas</persName>
-               </person>
-               <person xml:id="hippomedon" sex="MALE">
-                  <persName>Hippomedon</persName>
-               </person>
-               <person xml:id="eine_frau" sex="FEMALE">
-                  <persName>Eine Frau</persName>
-               </person>
-               <person xml:id="sillius" sex="MALE">
-                  <persName>Sillius</persName>
-               </person>
-               <personGrp xml:id="alles_1-14" sex="UNKNOWN">
-                  <name>Alles (I/14)</name>
-               </personGrp>
-               <person xml:id="argos" sex="MALE">
-                  <persName>Argos</persName>
-               </person>
-               <person xml:id="diener" sex="MALE">
-                  <persName>Diener</persName>
-               </person>
-               <person xml:id="harmodius" sex="MALE">
-                  <persName>Harmodius</persName>
-               </person>
-               <person xml:id="arete" sex="FEMALE">
-                  <persName>Arete</persName>
-               </person>
-               <personGrp xml:id="kurzer_chor_der_furien" sex="FEMALE">
-                  <name>Kurzer Chor der Furien</name>
-               </personGrp>
-               <person xml:id="heraklius" sex="MALE">
-                  <persName>Heraklius</persName>
-               </person>
-               <personGrp xml:id="alle_1-19" sex="MALE">
-                  <name>Alle (I/19)</name>
-               </personGrp>
-               <person xml:id="adrasto" sex="MALE">
-                  <persName>Adrasto</persName>
-               </person>
-               <personGrp xml:id="jagdchor" sex="MALE">
-                  <name>Jagdchor</name>
-               </personGrp>
-               <person xml:id="antrokles" sex="MALE">
-                  <persName>Antrokles</persName>
-               </person>
-               <person xml:id="clitonius" sex="MALE">
-                  <persName>Clitonius</persName>
-               </person>
-               <person xml:id="lulu" sex="FEMALE">
-                  <persName>Lulu</persName>
-               </person>
-               <person xml:id="fanfu" sex="FEMALE">
-                  <persName>Fanfu</persName>
-               </person>
-               <person xml:id="ein_jaeger" sex="MALE">
-                  <persName>Ein Jäger</persName>
-               </person>
-               <person xml:id="octavian" sex="MALE">
-                  <persName>Octavian</persName>
-               </person>
-               <person xml:id="atritia" sex="FEMALE">
-                  <persName>Atritia</persName>
-               </person>
-               <person xml:id="olimar" sex="MALE">
-                  <persName>Olimar</persName>
-               </person>
-               <person xml:id="astrachan" sex="MALE">
-                  <persName>Astrachan</persName>
-               </person>
-               <person xml:id="abukar" sex="MALE">
-                  <persName>Abukar</persName>
-               </person>
-               <person xml:id="nimmelot" sex="MALE">
-                  <persName>Nimmelot</persName>
-               </person>
-               <personGrp xml:id="alle_2-9" sex="MALE">
-                  <name>Alle (II/9)</name>
-               </personGrp>
-               <person xml:id="aloe" sex="FEMALE">
-                  <persName>Aloe</persName>
-               </person>
-               <personGrp xml:id="geschrei" sex="UNKNOWN">
-                  <name>Geschrei</name>
-               </personGrp>
-               <personGrp xml:id="die_krieger" sex="MALE">
-                  <name>Die Krieger/Chor von Kriegern</name>
-                  <name type="variant">Alle</name>
-                  <name type="variant">Alle Krieger</name>
-                  <name type="variant">Krieger</name>
-               </personGrp>
-               <person xml:id="dardonius" sex="MALE">
-                  <persName>Dardonius</persName>
-               </person>
-               <person xml:id="ein_hoefling" sex="MALE">
-                  <persName>Ein Höfling</persName>
-                  <persName type="variant">Höfling</persName>
-               </person>
-               <personGrp xml:id="hoeflinge" sex="MALE">
-                  <name>Die Höflinge</name>
-                  <name type="variant">Mehrere Höflinge</name>
-               </personGrp>
-               <personGrp xml:id="chor_alle_alles_2-15_und_2-16" sex="UNKNOWN">
-                  <name>Chor/Alle/Alles (II/15–16)</name>
-               </personGrp>
-               <personGrp xml:id="die_maenner" sex="MALE">
-                  <name>Die Männer</name>
-               </personGrp>
-               <personGrp xml:id="die_frauen" sex="FEMALE">
-                  <name>Die Frauen</name>
-               </personGrp>
-               <person xml:id="tisiphone" sex="FEMALE">
-                  <persName>Tisiphone</persName>
-               </person>
-               <person xml:id="megaera" sex="FEMALE">
-                  <persName>Megära</persName>
-               </person>
-               <person xml:id="alekto" sex="FEMALE">
-                  <persName>Alekto</persName>
-               </person>
-               <personGrp xml:id="die_drei_geister" sex="UNKNOWN">
-                  <name>Die drei Geister</name>
-               </personGrp>
-               <personGrp xml:id="alles_chor_2-19" sex="UNKNOWN">
-                  <name>Alles/Chor (II/19)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118597914">
+                        <forename>Ferdinand</forename>
+                        <surname>Raimund</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Friedrich</forename>
+                        <surname>Schreyvogl</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

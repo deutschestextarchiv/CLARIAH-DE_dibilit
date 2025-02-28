@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1741</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1741</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1700"
-                        notAfter="1766"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1700" notAfter="1766"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d345e267">Erstdruck in: »Die Deutsche Schaubühne«, 3. Band, Leizig (Bernhard Christoph Breitkopf), 1741.</note>
@@ -183,38 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="doris" sex="FEMALE">
-                  <persName>Doris</persName>
-               </person>
-               <person xml:id="menalkas" sex="MALE">
-                  <persName>Menalkas</persName>
-               </person>
-               <person xml:id="nisus" sex="MALE">
-                  <persName>Nisus</persName>
-               </person>
-               <person xml:id="atalanta" sex="FEMALE">
-                  <persName>Atalanta</persName>
-               </person>
-               <person xml:id="corydon" sex="MALE">
-                  <persName>Corydon</persName>
-               </person>
-               <person xml:id="damon" sex="MALE">
-                  <persName>Damon</persName>
-               </person>
-               <person xml:id="amaryllis" sex="FEMALE">
-                  <persName>Amaryllis</persName>
-               </person>
-               <person xml:id="myrtillus" sex="MALE">
-                  <persName>Myrtillus</persName>
-               </person>
-               <person xml:id="damoetas" sex="MALE">
-                  <persName>Damötas</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118541013">
+                        <forename>Johann Christoph</forename>
+                        <surname>Gottsched</surname>
+                     </persName></person><person role="editor" sex="m"><persName ref="http://d-nb.info/gnd/130194573">
+                        <forename>Joachim</forename>
+                        <surname>Birke</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

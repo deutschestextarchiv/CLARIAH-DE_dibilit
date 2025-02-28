@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -197,10 +194,7 @@
                   <date type="firstPublication" subtype="zeno">1767</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1767</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1729"
-                        notAfter="1767"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1729" notAfter="1767"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d219e318">Erstdruck: Berlin (Voss) 1767. Uraufführung am 30.9.1767 in Hamburg.</note>
@@ -220,50 +214,33 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="just" sex="MALE">
-                  <persName>Just</persName>
-               </person>
-               <person xml:id="der_wirt" sex="MALE">
-                  <persName>Der Wirt</persName>
-               </person>
-               <person xml:id="von_tellheim" sex="MALE">
-                  <persName>Major von Tellheim</persName>
-               </person>
-               <person xml:id="die_dame" sex="FEMALE">
-                  <persName>Eine Dame in Trauer</persName>
-               </person>
-               <person xml:id="der_bediente" sex="MALE">
-                  <persName>Der Bediente</persName>
-               </person>
-               <person xml:id="paul_werner" sex="MALE">
-                  <persName>Paul Werner</persName>
-               </person>
-               <person xml:id="das_fraeulein" sex="FEMALE">
-                  <persName>Minna von Barnhelm</persName>
-               </person>
-               <person xml:id="franziska" sex="FEMALE">
-                  <persName>Franziska</persName>
-               </person>
-               <person xml:id="riccaut" sex="MALE">
-                  <persName>Riccaut</persName>
-               </person>
-               <person xml:id="der_feldjaeger" sex="MALE">
-                  <persName>Der Feldjäger</persName>
-               </person>
-               <person xml:id="der_eine_bediente" sex="MALE">
-                  <persName>Der eine Bediente</persName>
-               </person>
-               <person xml:id="der_andere_bediente" sex="MALE">
-                  <persName>Der andere Bediente</persName>
-               </person>
-               <person xml:id="der_graf" sex="MALE">
-                  <persName>Graf von Bruchsall</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

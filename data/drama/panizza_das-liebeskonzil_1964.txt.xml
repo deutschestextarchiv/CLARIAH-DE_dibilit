@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -159,10 +156,7 @@
                   <date type="firstPublication" subtype="zeno">1895</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1895</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1853"
-                        notAfter="1895"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1853" notAfter="1895"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1556e380">Erstdruck: Zürich (Verlagsmagazin) 1895.</note>
@@ -182,147 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="erster_engel" sex="UNKNOWN">
-                  <persName>Erster Engel</persName>
-               </person>
-               <person xml:id="zweiter_engel" sex="UNKNOWN">
-                  <persName>Zweiter Engel</persName>
-               </person>
-               <person xml:id="dritter_engel" sex="UNKNOWN">
-                  <persName>Dritter Engel</persName>
-               </person>
-               <personGrp xml:id="zwei_aeltere_engel" sex="UNKNOWN">
-                  <name>Zwei ältere Engel</name>
-                  <name type="variant">Die zwei älteren Engel</name>
-               </personGrp>
-               <person xml:id="gott_vater" sex="MALE">
-                  <persName>Gott Vater</persName>
-               </person>
-               <person xml:id="cherubim" sex="UNKNOWN">
-                  <persName>Cherubim</persName>
-               </person>
-               <person xml:id="ein_engel_1-2a" sex="UNKNOWN">
-                  <persName>Ein Engel</persName>
-               </person>
-               <person xml:id="ein_engel_1-2b" sex="UNKNOWN">
-                  <persName>Ein Engel</persName>
-               </person>
-               <person xml:id="ein_engel_1-2c" sex="UNKNOWN">
-                  <persName>Ein Engel</persName>
-               </person>
-               <person xml:id="ein_engel_1-2d" sex="UNKNOWN">
-                  <persName>Ein Engel</persName>
-               </person>
-               <person xml:id="ein_engel_1-2e" sex="UNKNOWN">
-                  <persName>Ein Engel</persName>
-               </person>
-               <person xml:id="ein_engel_1-2f" sex="UNKNOWN">
-                  <persName>Ein Engel</persName>
-               </person>
-               <person xml:id="ein_engel_1-2g" sex="UNKNOWN">
-                  <persName>Ein Engel</persName>
-               </person>
-               <person xml:id="ein_engel_1-2h" sex="UNKNOWN">
-                  <persName>Ein Engel</persName>
-               </person>
-               <personGrp xml:id="verschiedene_engel_alle_engel_1-2" sex="UNKNOWN">
-                  <name>Verschiedene Engel/Alle Engel (I/2)</name>
-               </personGrp>
-               <person xml:id="ein_engel_1-2i" sex="UNKNOWN">
-                  <persName>Ein Engel</persName>
-               </person>
-               <person xml:id="bote" sex="MALE">
-                  <persName>Bote</persName>
-               </person>
-               <personGrp xml:id="die_vorauseilenden_aelteren_juengeren_engel_1-5" sex="UNKNOWN">
-                  <name>Die vorauseilenden Engel/Die Engel/Die älteren Engel/Die jüngeren Engel
-              (I/5)</name>
-               </personGrp>
-               <person xml:id="maria" sex="FEMALE">
-                  <persName>Maria</persName>
-               </person>
-               <person xml:id="christus" sex="MALE">
-                  <persName>Christus</persName>
-               </person>
-               <person xml:id="maria_magdalena" sex="FEMALE">
-                  <persName>Maria Magdalena</persName>
-               </person>
-               <personGrp xml:id="chor_der_apostel" sex="MALE">
-                  <name>Chor der Apostel</name>
-                  <name type="variant">Chorus der Apostel</name>
-               </personGrp>
-               <personGrp xml:id="die_maertyrer" sex="UNKNOWN">
-                  <name>Die Märtyrer</name>
-               </personGrp>
-               <person xml:id="don_gioffre" sex="MALE">
-                  <persName>Don Gioffre</persName>
-               </person>
-               <person xml:id="der_papst" sex="MALE">
-                  <persName>Der Papst</persName>
-               </person>
-               <person xml:id="donna_sancia" sex="FEMALE">
-                  <persName>Donna Sancia</persName>
-               </person>
-               <person xml:id="lucrezia" sex="FEMALE">
-                  <persName>Lucrezia</persName>
-               </person>
-               <person xml:id="francesco_borgia" sex="MALE">
-                  <persName>Francesco Borgia</persName>
-               </person>
-               <person xml:id="don_giovanni" sex="MALE">
-                  <persName>Don Giovanni</persName>
-               </person>
-               <person xml:id="cesare" sex="MALE">
-                  <persName>Cesare</persName>
-               </person>
-               <person xml:id="erster_edelmann" sex="MALE">
-                  <persName>Erster Edelmann</persName>
-               </person>
-               <person xml:id="zweiter_edelmann" sex="MALE">
-                  <persName>Zweiter Edelmann</persName>
-               </person>
-               <person xml:id="dritter_edelmann" sex="MALE">
-                  <persName>Dritter Edelmann</persName>
-               </person>
-               <person xml:id="burcard" sex="MALE">
-                  <persName>Burcard</persName>
-               </person>
-               <personGrp xml:id="chor_mehrstimmiges_graduale" sex="UNKNOWN">
-                  <name>Chor (mehrstimmiges Graduale)</name>
-               </personGrp>
-               <person xml:id="eines_der_maedchen" sex="FEMALE">
-                  <persName>Eines der Mädchen</persName>
-               </person>
-               <person xml:id="die_kurtisane" sex="FEMALE">
-                  <persName>Die Kurtisane</persName>
-               </person>
-               <personGrp xml:id="schlussgesang_der_vesper" sex="UNKNOWN">
-                  <name>Schlußgesang der Vesper</name>
-               </personGrp>
-               <person xml:id="rodrigo_borgia" sex="MALE">
-                  <persName>Rodrigo Borgia</persName>
-               </person>
-               <personGrp xml:id="die_maedchen" sex="FEMALE">
-                  <name>Die Mädchen</name>
-               </personGrp>
-               <person xml:id="teufel" sex="MALE">
-                  <persName>Teufel</persName>
-               </person>
-               <person xml:id="lesender_engel" sex="UNKNOWN">
-                  <persName>Lesender Engel</persName>
-                  <persName type="variant">Engel</persName>
-               </person>
-               <person xml:id="priester" sex="MALE">
-                  <persName>Priester</persName>
-               </person>
-               <personGrp xml:id="die_anwesenden" sex="UNKNOWN">
-                  <name>Die Anwesenden (V/1)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118739131">
+                        <forename>Oskar</forename>
+                        <surname>Panizza</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hans</forename>
+                        <surname>Prescher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

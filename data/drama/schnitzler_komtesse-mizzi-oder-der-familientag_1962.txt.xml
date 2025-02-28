@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,38 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="diener" sex="MALE">
-                  <persName>Diener</persName>
-               </person>
-               <person xml:id="graf" sex="MALE">
-                  <persName>Graf</persName>
-               </person>
-               <person xml:id="komtesse" sex="FEMALE">
-                  <persName>Komtesse</persName>
-               </person>
-               <person xml:id="gaertner" sex="MALE">
-                  <persName>Gärtner</persName>
-               </person>
-               <person xml:id="fuerst" sex="MALE">
-                  <persName>Der Fürst</persName>
-               </person>
-               <person xml:id="philipp" sex="MALE">
-                  <persName>Philipp</persName>
-               </person>
-               <person xml:id="lolo" sex="FEMALE">
-                  <persName>Lolo</persName>
-               </person>
-               <person xml:id="wasner" sex="MALE">
-                  <persName>Wasner</persName>
-               </person>
-               <person xml:id="professor_windhofer" sex="MALE">
-                  <persName>Professor Windhofer</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118609807">
+                        <forename>Arthur</forename>
+                        <surname>Schnitzler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

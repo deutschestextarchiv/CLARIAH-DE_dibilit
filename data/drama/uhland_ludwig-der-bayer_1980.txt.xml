@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -166,10 +163,7 @@
                   <date type="firstPublication" subtype="zeno">1819</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1819</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1817"
-                        notAfter="1818"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1817" notAfter="1818"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1507e386">Entstanden 1817–1818. Erstdruck: Berlin (Georg Reimer), 1819. Uraufführung [?] 1826, München.</note>
@@ -189,141 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="adelram" sex="MALE">
-                  <persName>Adelram</persName>
-               </person>
-               <person xml:id="der_schoeffe" sex="MALE">
-                  <persName>Der Schöffe</persName>
-                  <persName type="variant">Schöffe</persName>
-               </person>
-               <personGrp xml:id="die_buerger_1" sex="MALE">
-                  <name>Die Bürger (I)</name>
-               </personGrp>
-               <person xml:id="ludwig" sex="MALE">
-                  <persName>Ludwig</persName>
-               </person>
-               <person xml:id="ein_buerger" sex="MALE">
-                  <persName>Ein Bürger</persName>
-               </person>
-               <personGrp xml:id="mehrere_ritter_die_uebrigen_ritter" sex="MALE">
-                  <name>Mehrere Ritter/Die übrigen Ritter</name>
-               </personGrp>
-               <person xml:id="der_burggraf" sex="MALE">
-                  <persName>Der Burggraf</persName>
-                  <persName type="variant">Burggraf</persName>
-               </person>
-               <person xml:id="albertus" sex="MALE">
-                  <persName>Albertus</persName>
-               </person>
-               <person xml:id="erster_edelknabe" sex="MALE">
-                  <persName>Erster Edelknabe</persName>
-               </person>
-               <person xml:id="zweiter_edelknabe" sex="MALE">
-                  <persName>Zweiter Edelknabe</persName>
-                  <persName type="variant">Zweiter</persName>
-               </person>
-               <person xml:id="friedrich" sex="MALE">
-                  <persName>Friedrich</persName>
-               </person>
-               <person xml:id="isabella" sex="FEMALE">
-                  <persName>Isabella</persName>
-                  <persName type="variant">Zweite Pilgerin</persName>
-                  <persName type="variant">Zweite</persName>
-               </person>
-               <person xml:id="leopold" sex="MALE">
-                  <persName>Leopold</persName>
-               </person>
-               <personGrp xml:id="die_fuersten_auf_ludwigs_seite" sex="MALE">
-                  <name>Die Fürsten auf Ludwigs Seite</name>
-               </personGrp>
-               <personGrp xml:id="die_fuersten_auf_friedrichs_seite" sex="MALE">
-                  <name>Die Fürsten auf Friedrichs Seite</name>
-               </personGrp>
-               <person xml:id="der_legat" sex="MALE">
-                  <persName>Der Legat</persName>
-                  <persName type="variant">Legat</persName>
-               </person>
-               <person xml:id="thomas" sex="MALE">
-                  <persName>Thomas</persName>
-               </person>
-               <person xml:id="steffen" sex="MALE">
-                  <persName>Steffen</persName>
-               </person>
-               <person xml:id="schweppermann" sex="MALE">
-                  <persName>Schweppermann</persName>
-               </person>
-               <person xml:id="albrecht_von_rindsmaul" sex="MALE">
-                  <persName>Albrecht von Rindsmaul</persName>
-               </person>
-               <person xml:id="dietrich" sex="MALE">
-                  <persName>Dietrich</persName>
-               </person>
-               <personGrp xml:id="die_knappen" sex="MALE">
-                  <name>Die Knappen</name>
-               </personGrp>
-               <person xml:id="ein_ritter_3-3a" sex="MALE">
-                  <persName>Ein Ritter (III/3)</persName>
-               </person>
-               <person xml:id="ritter_3-3b" sex="MALE">
-                  <persName>Ritter (III/3)</persName>
-               </person>
-               <person xml:id="ein_ritter_3-4a" sex="MALE">
-                  <persName>Ein Ritter (III/4)</persName>
-               </person>
-               <person xml:id="ein_andrer_ritter_3-4b" sex="MALE">
-                  <persName>Ein andrer Ritter (III/4)</persName>
-               </person>
-               <personGrp xml:id="die_oesterreicher" sex="MALE">
-                  <name>Die Österreicher</name>
-               </personGrp>
-               <person xml:id="ein_ritter_3-4c" sex="MALE">
-                  <persName>Ein Ritter (III/4)</persName>
-               </person>
-               <personGrp xml:id="die_bayer_einige_andre" sex="MALE">
-                  <name>Die Bayer/Einige/Andre</name>
-               </personGrp>
-               <person xml:id="erste_pilgerin_die_begleiterin" sex="FEMALE">
-                  <persName>Erste Pilgerin/Die Begleiterin</persName>
-                  <persName type="variant">Erste</persName>
-               </person>
-               <person xml:id="burgvogt" sex="MALE">
-                  <persName>Burgvogt</persName>
-               </person>
-               <person xml:id="erster_waechter" sex="MALE">
-                  <persName>Erster Wächter</persName>
-               </person>
-               <person xml:id="zweiter_waechter" sex="MALE">
-                  <persName>Zweiter Wächter</persName>
-               </person>
-               <person xml:id="dritter_waechter" sex="MALE">
-                  <persName>Dritter Wächter</persName>
-               </person>
-               <person xml:id="ein_waechter" sex="MALE">
-                  <persName>Ein Wächter</persName>
-               </person>
-               <person xml:id="albrecht" sex="MALE">
-                  <persName>Albrecht</persName>
-               </person>
-               <person xml:id="erster_buerger" sex="MALE">
-                  <persName>Erster Bürger</persName>
-               </person>
-               <person xml:id="zweiter_buerger" sex="MALE">
-                  <persName>Zweiter Bürger</persName>
-               </person>
-               <personGrp xml:id="die_andern_die_buerger_5-2" sex="MALE">
-                  <name>Die Andern/Die Bürger (V/2)</name>
-               </personGrp>
-               <person xml:id="stephan" sex="MALE">
-                  <persName>Stephan</persName>
-               </person>
-               <person xml:id="otto" sex="MALE">
-                  <persName>Otto</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118625063">
+                        <forename>Ludwig</forename>
+                        <surname>Uhland</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hartmut</forename>
+                        <surname>Fröschle</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Walter</forename>
+                        <surname>Scheffler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

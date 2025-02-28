@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -149,10 +146,7 @@
                   <date type="firstPublication" subtype="clariah">1472</date>
                   <date type="firstPublication" subtype="zeno">1472</date>
                   <date type="firstPublication" subtype="i5">1321</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1307"
-                        notAfter="1321"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1307" notAfter="1321"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Dante-Alighieri-d1e304">Entstanden ca. 1307–1321. Erstdruck: Foligno 1472. Hier nach der Übers. v. Karl Witte, Berlin: Askanischer Verlag, [1916].</note>
@@ -166,7 +160,10 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118523708">
+                        <forename>Dante</forename>
+                        <surname>Alighieri</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

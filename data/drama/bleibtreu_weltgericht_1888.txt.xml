@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno">1888</date>
                   <date type="firstPublication" subtype="i5">1888</date>
                   <date type="firstPublication" subtype="gerdracor">1888</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1859"
-                        notAfter="1928"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1859" notAfter="1928"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3383e391">Erstdruck: Leipzig (Friedrich), 1888. Uraufführung am 12.04.1902, Raimundtheater, Wien.</note>
@@ -176,161 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="danton" sex="MALE">
-                  <persName>Danton</persName>
-               </person>
-               <person xml:id="talleyrand" sex="MALE">
-                  <persName>Talleyrand</persName>
-                  <persName type="variant">Talleyrand's Stimme</persName>
-               </person>
-               <person xml:id="henriot" sex="MALE">
-                  <persName>Henriot</persName>
-                  <persName type="variant">Henriots Stimme</persName>
-               </person>
-               <person xml:id="theroigne" sex="MALE">
-                  <persName>Theroigne</persName>
-               </person>
-               <person xml:id="barras" sex="MALE">
-                  <persName>Barras</persName>
-               </person>
-               <person xml:id="collot" sex="MALE">
-                  <persName>Collot</persName>
-               </person>
-               <personGrp xml:id="alle-stimmen-geschrei_1" sex="UNKNOWN">
-                  <name>Alle/Stimmen/Geschrei (I. Akt)</name>
-               </personGrp>
-               <person xml:id="hoche" sex="MALE">
-                  <persName>Hoche</persName>
-               </person>
-               <person xml:id="biron" sex="MALE">
-                  <persName>Biron</persName>
-               </person>
-               <person xml:id="marie" sex="FEMALE">
-                  <persName>Marie</persName>
-                  <persName type="variant">Marie's Stimme</persName>
-               </person>
-               <person xml:id="st_just" sex="MALE">
-                  <persName>St. Just</persName>
-               </person>
-               <person xml:id="frau_roland" sex="MALE">
-                  <persName>Frau Roland</persName>
-               </person>
-               <person xml:id="condorcet" sex="MALE">
-                  <persName>Condorcet</persName>
-               </person>
-               <person xml:id="marat" sex="MALE">
-                  <persName>Marat</persName>
-               </person>
-               <person xml:id="sanskulott" sex="MALE">
-                  <persName>Ein Sanskulott</persName>
-               </person>
-               <person xml:id="andre_stimme_1" sex="MALE">
-                  <persName>Andre Stimme</persName>
-               </person>
-               <person xml:id="stimme_1" sex="MALE">
-                  <persName>Stimme</persName>
-               </person>
-               <person xml:id="stimme_draussen_1" sex="MALE">
-                  <persName>Stimme (draußen)</persName>
-               </person>
-               <person xml:id="madame_tallien" sex="FEMALE">
-                  <persName>Madame Tallien</persName>
-               </person>
-               <person xml:id="theos" sex="FEMALE">
-                  <persName>Theos</persName>
-               </person>
-               <person xml:id="lenchen" sex="FEMALE">
-                  <persName>Lenchen</persName>
-               </person>
-               <person xml:id="bonaparte" sex="MALE">
-                  <persName>Bonaparte</persName>
-               </person>
-               <person xml:id="carnot" sex="MALE">
-                  <persName>Carnot</persName>
-               </person>
-               <person xml:id="die_dame" sex="FEMALE">
-                  <persName>Die Dame</persName>
-               </person>
-               <person xml:id="der_betrunkene" sex="MALE">
-                  <persName>Der Betrunkene</persName>
-               </person>
-               <person xml:id="redakteur" sex="MALE">
-                  <persName>Redakteur</persName>
-               </person>
-               <person xml:id="josefine" sex="FEMALE">
-                  <persName>Josefine</persName>
-               </person>
-               <person xml:id="menou" sex="MALE">
-                  <persName>Menou</persName>
-               </person>
-               <person xml:id="junot" sex="MALE">
-                  <persName>Junot</persName>
-               </person>
-               <person xml:id="duroc" sex="MALE">
-                  <persName>Duroc</persName>
-               </person>
-               <person xml:id="murat" sex="MALE">
-                  <persName>Murat</persName>
-               </person>
-               <person xml:id="talma" sex="MALE">
-                  <persName>Talma</persName>
-               </person>
-               <personGrp xml:id="alle-die-gaeste_4" sex="UNKNOWN">
-                  <name>Alle/Die Gäste (IV. Akt)</name>
-               </personGrp>
-               <personGrp xml:id="rufe-stimmen-viele-alle_5" sex="UNKNOWN">
-                  <name>Rufe/(Viele) Stimmen/Alle (V. Akt)</name>
-               </personGrp>
-               <person xml:id="eine_stimme_5a" sex="MALE">
-                  <persName>Eine Stimme</persName>
-               </person>
-               <person xml:id="eine_andere_stimme_5b" sex="MALE">
-                  <persName>Eine andere Stimme</persName>
-               </person>
-               <person xml:id="eine_stimme_5c" sex="MALE">
-                  <persName>Eine Stimme</persName>
-               </person>
-               <person xml:id="stimme_5d" sex="MALE">
-                  <persName>Stimme</persName>
-               </person>
-               <person xml:id="anderer_5e" sex="MALE">
-                  <persName>Anderer</persName>
-               </person>
-               <person xml:id="eine_stimme_5f" sex="MALE">
-                  <persName>Eine Stimme</persName>
-               </person>
-               <person xml:id="ein_anderer_5g" sex="MALE">
-                  <persName>Ein Anderer</persName>
-               </person>
-               <person xml:id="ein_dritter_5h" sex="MALE">
-                  <persName>Ein Dritter</persName>
-               </person>
-               <person xml:id="eine_stimme_5i" sex="MALE">
-                  <persName>Eine Stimme</persName>
-               </person>
-               <person xml:id="gaparins_stimme" sex="UNKNOWN">
-                  <persName>Gaparin's Stimme</persName>
-               </person>
-               <person xml:id="eine_stimme_5j" sex="MALE">
-                  <persName>Eine Stimme</persName>
-               </person>
-               <person xml:id="eine_andere_5k" sex="MALE">
-                  <persName>Eine Andere</persName>
-               </person>
-               <person xml:id="eine_dritte_5l" sex="MALE">
-                  <persName>Eine Dritte</persName>
-               </person>
-               <person xml:id="eine_laute_stimme" sex="MALE">
-                  <persName>Eine laute Stimme</persName>
-               </person>
-               <person xml:id="ein_ordonnanzoffizier" sex="MALE">
-                  <persName>Ein Ordonnanzoffizier</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118663909">
+                        <forename>Karl</forename>
+                        <surname>Bleibtreu</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

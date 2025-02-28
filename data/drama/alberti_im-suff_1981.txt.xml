@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1890</date>
                   <date type="firstPublication" subtype="i5">1890</date>
                   <date type="firstPublication" subtype="gerdracor">1890</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1862"
-                        notAfter="1918"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1862" notAfter="1918"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3453e282">Erstdruck: Berlin (Cassirer und Danziger), 1890.</note>
@@ -177,59 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="krawutschke" sex="MALE">
-                  <persName>Krawutschke</persName>
-               </person>
-               <person xml:id="lehmann" sex="MALE">
-                  <persName>Lehmann</persName>
-                  <persName type="variant">Lehmanns Stimme</persName>
-               </person>
-               <person xml:id="lude" sex="MALE">
-                  <persName>Lude</persName>
-               </person>
-               <person xml:id="bulle" sex="MALE">
-                  <persName>Bulle</persName>
-               </person>
-               <person xml:id="abramsen" sex="MALE">
-                  <persName>Abramsen</persName>
-               </person>
-               <person xml:id="mieze" sex="FEMALE">
-                  <persName>Mieze</persName>
-               </person>
-               <person xml:id="henriette" sex="FEMALE">
-                  <persName>Henriette</persName>
-                  <persName type="variant">Henriette Marschall</persName>
-               </person>
-               <person xml:id="angler" sex="MALE">
-                  <persName>Angler</persName>
-               </person>
-               <person xml:id="helene" sex="FEMALE">
-                  <persName>Helene</persName>
-               </person>
-               <person xml:id="der_herr" sex="MALE">
-                  <persName>Der Herr</persName>
-                  <persName type="variant">Der Herr, welcher im Zwischengang hinausgeworfen wurde, oder
-              wenigstens ein ihm auffallend ähnlicher Herr</persName>
-               </person>
-               <personGrp xml:id="rufe" sex="UNKNOWN">
-                  <name>Rufe von allen Seiten/Rufe von der Galerie/Rufe</name>
-               </personGrp>
-               <person xml:id="das_vorstandsmitglied" sex="MALE">
-                  <persName>Das Vorstandsmitglied</persName>
-                  <persName type="variant">Ein Vorstandsmitglied der Freien Bühne</persName>
-                  <persName type="variant">Das erste Vorstandsmitglied</persName>
-               </person>
-               <person xml:id="ein_anderes_vorstandsmitglied" sex="MALE">
-                  <persName>Ein anderes Vorstandsmitglied</persName>
-               </person>
-               <person xml:id="morphy" sex="MALE">
-                  <persName>Morphy</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="editor" sex="m"><persName ref="http://d-nb.info/gnd/120568691">
+                        <forename>Roy C. (Chadwell)</forename>
+                        <surname>Cowen</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

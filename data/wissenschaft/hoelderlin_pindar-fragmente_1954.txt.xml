@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -157,10 +154,7 @@
                   <date type="firstPublication" subtype="clariah">1916</date>
                   <date type="firstPublication" subtype="zeno">1916</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1800"
-                        notAfter="1805"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1800" notAfter="1805"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Hoelderlin-Fried-d1e71137">Entstanden zwischen 1800 und 1805, Erstdruck in: Das Reich (Stuttgart), 1916, bzw. in: Hölderlins Pindar-Übertragungen, Berlin 1910.</note>
@@ -174,7 +168,13 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118551981">
+                        <forename>Friedrich</forename>
+                        <surname>Hölderlin</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Friedrich</forename>
+                        <surname>Beissner</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

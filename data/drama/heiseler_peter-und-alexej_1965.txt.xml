@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -175,99 +172,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="costa" sex="MALE">
-                  <persName>Costa</persName>
-                  <persName type="variant">Costas Stimme</persName>
-               </person>
-               <person xml:id="afanassjitsch" sex="MALE">
-                  <persName>Afanássjitsch</persName>
-               </person>
-               <person xml:id="afrossja" sex="FEMALE">
-                  <persName>Afróssja</persName>
-               </person>
-               <person xml:id="alexej" sex="MALE">
-                  <persName>Alexéj</persName>
-               </person>
-               <person xml:id="glebof" sex="MALE">
-                  <persName>Glébof</persName>
-               </person>
-               <person xml:id="kikin" sex="MALE">
-                  <persName>Kíkin</persName>
-               </person>
-               <person xml:id="dolgoruki" sex="MALE">
-                  <persName>Dolgorúki</persName>
-               </person>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter</persName>
-               </person>
-               <person xml:id="gordon" sex="MALE">
-                  <persName>Gordon</persName>
-               </person>
-               <person xml:id="awdotja" sex="FEMALE">
-                  <persName>Awdótja</persName>
-               </person>
-               <person xml:id="erster_bojar" sex="MALE">
-                  <persName>Erster Bojar</persName>
-               </person>
-               <person xml:id="abram" sex="MALE">
-                  <persName>Abrám</persName>
-               </person>
-               <person xml:id="dritter_bojar" sex="MALE">
-                  <persName>Dritter Bojar</persName>
-               </person>
-               <person xml:id="zweiter_bojar" sex="MALE">
-                  <persName>Zweiter Bojar</persName>
-               </person>
-               <personGrp xml:id="mehrere_viele_alle_2" sex="MALE">
-                  <name>Mehrere/Viele/Alle (II. Akt)</name>
-               </personGrp>
-               <person xml:id="menschikof" sex="MALE">
-                  <persName>Ménschikof</persName>
-               </person>
-               <person xml:id="tolstoi" sex="MALE">
-                  <persName>Tolstoí</persName>
-               </person>
-               <person xml:id="erster_diener" sex="MALE">
-                  <persName>Erster Diener</persName>
-               </person>
-               <person xml:id="zweiter_diener" sex="MALE">
-                  <persName>Zweiter Diener</persName>
-               </person>
-               <person xml:id="kammerdiener" sex="MALE">
-                  <persName>Kammerdiener</persName>
-               </person>
-               <person xml:id="iwanuschka" sex="MALE">
-                  <persName>Iwánuschka</persName>
-               </person>
-               <person xml:id="dritter_diener" sex="MALE">
-                  <persName>Dritter Diener</persName>
-               </person>
-               <personGrp xml:id="alle_3" sex="UNKNOWN">
-                  <name>Alle (III. Akt)</name>
-               </personGrp>
-               <person xml:id="mons" sex="MALE">
-                  <persName>Mons</persName>
-               </person>
-               <person xml:id="soldat" sex="MALE">
-                  <persName>Soldat</persName>
-               </person>
-               <person xml:id="offizier" sex="MALE">
-                  <persName>Offizier</persName>
-               </person>
-               <person xml:id="katharina" sex="FEMALE">
-                  <persName>Katharina</persName>
-               </person>
-               <person xml:id="der_alte" sex="MALE">
-                  <persName>Der Alte</persName>
-               </person>
-               <personGrp xml:id="die_alten" sex="MALE">
-                  <name>Die Alten</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118709933">
+                        <forename>Henry</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Heiseler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -155,10 +152,7 @@
                   <date type="firstPublication" subtype="clariah">1787</date>
                   <date type="firstPublication" subtype="zeno">1787</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1744"
-                        notAfter="1787"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1744" notAfter="1787"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Herder-Johann-G-d1e193137">Erstdruck: Gotha (Ettinger) 1787. Der Text folgt der 2. erweiterten Ausgabe: Gotha (Ettinger) 1800.</note>
@@ -172,7 +166,13 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118549553">
+                        <forename>Johann Gottfried</forename>
+                        <surname>Herder</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Heinrich</forename>
+                        <surname>Düntzer</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

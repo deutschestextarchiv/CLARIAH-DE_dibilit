@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1928</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1928</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1878"
-                        notAfter="1928"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1878" notAfter="1928"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d541e427">Erstdruck: Berlin (Gilde freiheitlicher Bücherfreunde) 1928. Uraufführung im April 1929 im »Novemberstudio«, Berlin.</note>
@@ -177,198 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="katzmann" sex="MALE">
-                  <persName>Katzmann</persName>
-               </person>
-               <person xml:id="stenotypistin" sex="FEMALE">
-                  <persName>Stenotypistin</persName>
-               </person>
-               <person xml:id="polizeikommissar" sex="MALE">
-                  <persName>Polizeikommissar</persName>
-                  <persName type="variant">Kommissar</persName>
-               </person>
-               <person xml:id="thayer" sex="MALE">
-                  <persName>Thayer</persName>
-               </person>
-               <person xml:id="sacco" sex="MALE">
-                  <persName>Sacco</persName>
-               </person>
-               <person xml:id="rosa" sex="FEMALE">
-                  <persName>Rosa</persName>
-               </person>
-               <person xml:id="vanzetti" sex="MALE">
-                  <persName>Vanzetti</persName>
-               </person>
-               <person xml:id="frau_johnson" sex="FEMALE">
-                  <persName>Frau Johnson</persName>
-               </person>
-               <person xml:id="johnson" sex="MALE">
-                  <persName>Johnson</persName>
-               </person>
-               <person xml:id="levangie" sex="MALE">
-                  <persName>Levangie</persName>
-               </person>
-               <person xml:id="thompson" sex="MALE">
-                  <persName>Thompson</persName>
-               </person>
-               <person xml:id="moore" sex="MALE">
-                  <persName>Moore</persName>
-               </person>
-               <person xml:id="mcanarney" sex="MALE">
-                  <persName>McAnarney</persName>
-               </person>
-               <person xml:id="die_campbell" sex="FEMALE">
-                  <persName>Die Campbell</persName>
-               </person>
-               <person xml:id="die_andrews" sex="FEMALE">
-                  <persName>Die Andrews</persName>
-               </person>
-               <person xml:id="sibley" sex="MALE">
-                  <persName>Sibley</persName>
-               </person>
-               <person xml:id="beffel" sex="MALE">
-                  <persName>Beffel</persName>
-               </person>
-               <person xml:id="ein_journalist" sex="MALE">
-                  <persName>Ein Journalist (5. Bild)</persName>
-               </person>
-               <person xml:id="frau_bernkopf" sex="FEMALE">
-                  <persName>Frau Bernkopf</persName>
-               </person>
-               <person xml:id="ein_arbeiter_5" sex="MALE">
-                  <persName>Ein Arbeiter (5. Bild)</persName>
-               </person>
-               <person xml:id="ein_polizist" sex="MALE">
-                  <persName>Ein Polizist</persName>
-               </person>
-               <person xml:id="musmanno" sex="MALE">
-                  <persName>Musmanno</persName>
-               </person>
-               <person xml:id="straefling" sex="MALE">
-                  <persName>Sträfling</persName>
-               </person>
-               <person xml:id="madeiros" sex="MALE">
-                  <persName>Madeiros</persName>
-               </person>
-               <person xml:id="ein_arbeiter_9a" sex="MALE">
-                  <persName>Ein Arbeiter (9. Bild)</persName>
-               </person>
-               <person xml:id="ein_anderer" sex="MALE">
-                  <persName>Ein Anderer</persName>
-               </person>
-               <person xml:id="ein_dritter" sex="MALE">
-                  <persName>Ein Dritter</persName>
-               </person>
-               <person xml:id="ein_arbeiter_9b" sex="MALE">
-                  <persName>Ein Arbeiter (9. Bild)</persName>
-               </person>
-               <person xml:id="eine_frau_9" sex="FEMALE">
-                  <persName>Eine Frau (9. Bild)</persName>
-               </person>
-               <personGrp xml:id="stimmen_aus_den_arbeitern" sex="MALE">
-                  <name>Stimmen aus den Arbeitern</name>
-               </personGrp>
-               <person xml:id="sekretaer" sex="MALE">
-                  <persName>Sekretär</persName>
-               </person>
-               <person xml:id="fuller" sex="MALE">
-                  <persName>Fuller</persName>
-               </person>
-               <person xml:id="lakai" sex="MALE">
-                  <persName>Ein Lakai</persName>
-               </person>
-               <person xml:id="luigia" sex="FEMALE">
-                  <persName>Luigia</persName>
-               </person>
-               <person xml:id="italienischer_arbeiter" sex="MALE">
-                  <persName>Italienischer Arbeiter</persName>
-               </person>
-               <person xml:id="amerikanischer_arbeiter" sex="MALE">
-                  <persName>Amerikanischer Arbeiter</persName>
-               </person>
-               <person xml:id="aufseher_11" sex="MALE">
-                  <persName>Aufseher (11. Bild)</persName>
-               </person>
-               <person xml:id="direktor" sex="MALE">
-                  <persName>Gefängnisdirektor</persName>
-               </person>
-               <personGrp xml:id="rufe_viele_stimmen_gesang_12" sex="UNKNOWN">
-                  <name>Rufe/Viele/Stimmen/Gesang (12. Bild)</name>
-               </personGrp>
-               <person xml:id="erster_arbeiter" sex="MALE">
-                  <persName>Erster Arbeiter</persName>
-               </person>
-               <person xml:id="zweiter_arbeiter" sex="MALE">
-                  <persName>Zweiter Arbeiter</persName>
-               </person>
-               <person xml:id="dritter_arbeiter" sex="MALE">
-                  <persName>Dritter Arbeiter</persName>
-               </person>
-               <person xml:id="vierter_arbeiter" sex="MALE">
-                  <persName>Vierter Arbeiter</persName>
-               </person>
-               <person xml:id="eine_frau_12a" sex="FEMALE">
-                  <persName>Eine Frau</persName>
-               </person>
-               <person xml:id="frau_12b" sex="FEMALE">
-                  <persName>Frau</persName>
-               </person>
-               <person xml:id="fuenfter_arbeiter" sex="MALE">
-                  <persName>Fünfter Arbeiter</persName>
-               </person>
-               <person xml:id="eine_stimme" sex="UNKNOWN">
-                  <persName>Eine Stimme</persName>
-               </person>
-               <person xml:id="eine_frau_12c" sex="FEMALE">
-                  <persName>Eine Frau</persName>
-               </person>
-               <person xml:id="stimme" sex="UNKNOWN">
-                  <persName>Stimme</persName>
-               </person>
-               <person xml:id="eine_frau_12d" sex="FEMALE">
-                  <persName>Eine Frau</persName>
-               </person>
-               <person xml:id="ein_richter" sex="MALE">
-                  <persName>Ein Richter</persName>
-               </person>
-               <person xml:id="ein_beamter" sex="MALE">
-                  <persName>Ein Beamter</persName>
-               </person>
-               <person xml:id="erster_aufseher" sex="MALE">
-                  <persName>Erster Aufseher</persName>
-               </person>
-               <person xml:id="zweiter_aufseher" sex="MALE">
-                  <persName>Zweiter Aufseher</persName>
-               </person>
-               <person xml:id="dritter_aufseher" sex="MALE">
-                  <persName>Dritter Aufseher</persName>
-               </person>
-               <person xml:id="vierter_aufseher" sex="MALE">
-                  <persName>Vierter Aufseher</persName>
-               </person>
-               <person xml:id="hendry" sex="MALE">
-                  <persName>Hendry</persName>
-               </person>
-               <person xml:id="journalist" sex="MALE">
-                  <persName>Journalist (14. Bild)</persName>
-               </person>
-               <person xml:id="geistlicher" sex="MALE">
-                  <persName>Geistlicher</persName>
-               </person>
-               <person xml:id="sheriff" sex="MALE">
-                  <persName>Sheriff</persName>
-               </person>
-               <person xml:id="ein_arzt" sex="MALE">
-                  <persName>Ein Arzt</persName>
-               </person>
-               <personGrp xml:id="stimmen_chor_14_und_15" sex="UNKNOWN">
-                  <name>Stimmen/Chor (14. und 15. Bild)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118584758">
+                        <forename>Erich</forename>
+                        <surname>Mühsam</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

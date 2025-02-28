@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -155,10 +152,7 @@
                   <date type="firstPublication" subtype="zeno">1896</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1896</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1863"
-                        notAfter="1896"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1863" notAfter="1896"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d968e281">Publiziert als erster Teil eines auf zehn Dramen berechneten Dramenzyklus, der den Titel »Berlin. Das Ende einer Zeit in Dramen« tragen sollte. Erstdruck: Rudolstadt/Leipzig (Mänicke/Jahn) 1896.</note>
@@ -179,59 +173,7 @@
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="fiebig" sex="MALE">
-                  <persName>Fiebig</persName>
-               </person>
-               <person xml:id="hahn" sex="MALE">
-                  <persName>Hahn</persName>
-               </person>
-               <person xml:id="frau_fiebig" sex="FEMALE">
-                  <persName>Frau Fiebig</persName>
-               </person>
-               <person xml:id="anna" sex="FEMALE">
-                  <persName>Anna</persName>
-               </person>
-               <person xml:id="meischen" sex="FEMALE">
-                  <persName>Meischen</persName>
-               </person>
-               <person xml:id="gehrke" sex="MALE">
-                  <persName>Gehrke</persName>
-               </person>
-               <person xml:id="werner" sex="MALE">
-                  <persName>Werner</persName>
-               </person>
-               <person xml:id="junge" sex="MALE">
-                  <persName>Junge</persName>
-                  <persName type="variant">Druckerjunge</persName>
-               </person>
-               <person xml:id="styczinski" sex="MALE">
-                  <persName>Styczinski</persName>
-               </person>
-               <person xml:id="bellermann" sex="MALE">
-                  <persName>Bellermann</persName>
-               </person>
-               <person xml:id="gendarm" sex="MALE">
-                  <persName>Gendarm</persName>
-               </person>
-               <person xml:id="amtsvorsteher" sex="MALE">
-                  <persName>Amtsvorsteher</persName>
-               </person>
-               <person xml:id="schwabe" sex="MALE">
-                  <persName>Schwabe</persName>
-               </person>
-               <person xml:id="naphtali" sex="MALE">
-                  <persName>Naphtali</persName>
-               </person>
-               <person xml:id="dienstmann" sex="MALE">
-                  <persName>Dienstmann</persName>
-               </person>
-               <person xml:id="waschfrau" sex="FEMALE">
-                  <persName>Waschfrau</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

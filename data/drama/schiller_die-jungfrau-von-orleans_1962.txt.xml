@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1802</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1801</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1800"
-                        notAfter="1801"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1800" notAfter="1801"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1101e382">Entstanden 1800–1801, Erstdruck in: Kalender auf das Jahr 1802, Berlin (Unger) 1801. Uraufführung am 11.9.1801 in Leipzig.</note>
@@ -177,153 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="thibaut" sex="MALE">
-                  <persName>Thibaut</persName>
-               </person>
-               <person xml:id="louison" sex="FEMALE">
-                  <persName>Louison</persName>
-               </person>
-               <person xml:id="claude_marie" sex="MALE">
-                  <persName>Claude Marie</persName>
-               </person>
-               <person xml:id="margot" sex="FEMALE">
-                  <persName>Margot</persName>
-               </person>
-               <person xml:id="raimond" sex="MALE">
-                  <persName>Raimond</persName>
-               </person>
-               <person xml:id="bertrand" sex="MALE">
-                  <persName>Bertrand</persName>
-               </person>
-               <person xml:id="johanna" sex="FEMALE">
-                  <persName>Johanna</persName>
-               </person>
-               <person xml:id="dunois" sex="MALE">
-                  <persName>Dunois</persName>
-               </person>
-               <person xml:id="du_chatel" sex="MALE">
-                  <persName>Du Chatel</persName>
-               </person>
-               <person xml:id="koenig_karl" sex="MALE">
-                  <persName>König Karl</persName>
-               </person>
-               <person xml:id="edelknecht_1-2" sex="MALE">
-                  <persName>Edelknecht (I/2)</persName>
-               </person>
-               <person xml:id="ratsherr" sex="MALE">
-                  <persName>Ratsherr</persName>
-               </person>
-               <person xml:id="agnes_sorel" sex="FEMALE">
-                  <persName>Sorel</persName>
-               </person>
-               <person xml:id="la_hire" sex="MALE">
-                  <persName>La Hire</persName>
-               </person>
-               <person xml:id="erzbischof" sex="MALE">
-                  <persName>Erzbischof</persName>
-               </person>
-               <person xml:id="raoul" sex="MALE">
-                  <persName>Raoul</persName>
-               </person>
-               <person xml:id="viele_stimmen_hinter_der_szene" sex="MALE">
-                  <persName>Viele Stimmen (hinter der Szene)</persName>
-               </person>
-               <person xml:id="edelknecht_1-10" sex="MALE">
-                  <persName>Edelknecht (I/10)</persName>
-               </person>
-               <person xml:id="herold" sex="MALE">
-                  <persName>Herold</persName>
-               </person>
-               <person xml:id="talbot" sex="MALE">
-                  <persName>Talbot</persName>
-               </person>
-               <person xml:id="lionel" sex="MALE">
-                  <persName>Lionel</persName>
-               </person>
-               <person xml:id="burgund" sex="MALE">
-                  <persName>Burgund</persName>
-                  <persName type="variant">Ritter</persName>
-               </person>
-               <person xml:id="isabeau" sex="FEMALE">
-                  <persName>Isabeau</persName>
-               </person>
-               <personGrp xml:id="alle_2-4" sex="MALE">
-                  <name>Alle (II/4)</name>
-               </personGrp>
-               <person xml:id="schildwache" sex="MALE">
-                  <persName>Schildwache</persName>
-               </person>
-               <person xml:id="erster" sex="MALE">
-                  <persName>Erster (englischer Soldat)</persName>
-               </person>
-               <person xml:id="zweiter" sex="MALE">
-                  <persName>Zweiter (englischer Soldat)</persName>
-               </person>
-               <person xml:id="dritter" sex="MALE">
-                  <persName>Dritter (englischer Soldat)</persName>
-               </person>
-               <person xml:id="vierter" sex="MALE">
-                  <persName>Vierter (englischer Soldat)</persName>
-               </person>
-               <person xml:id="fuenfter" sex="MALE">
-                  <persName>Fünfter (englischer Soldat)</persName>
-               </person>
-               <person xml:id="soldat_2-5" sex="MALE">
-                  <persName>Soldat (II/5)</persName>
-               </person>
-               <person xml:id="montgomery" sex="MALE">
-                  <persName>Montgomery</persName>
-               </person>
-               <person xml:id="chatillon" sex="MALE">
-                  <persName>Chatillon</persName>
-               </person>
-               <person xml:id="edelknecht_3-2" sex="MALE">
-                  <persName>Edelknecht (III/2)</persName>
-               </person>
-               <person xml:id="ritter_3-5" sex="MALE">
-                  <persName>Ritter (III/5)</persName>
-               </person>
-               <person xml:id="fastolf" sex="MALE">
-                  <persName>Fastolf</persName>
-               </person>
-               <person xml:id="schwarzer_ritter" sex="MALE">
-                  <persName>Schwarzer Ritter</persName>
-               </person>
-               <person xml:id="etienne" sex="MALE">
-                  <persName>Etienne</persName>
-               </person>
-               <personGrp xml:id="alle_stimmen_volk_mehrere_stimmen" sex="UNKNOWN">
-                  <name>Alle Stimmen/Volk/Mehrere Stimmen (IV/10–11)</name>
-               </personGrp>
-               <person xml:id="koehler" sex="MALE">
-                  <persName>Köhler</persName>
-               </person>
-               <person xml:id="koehlerweib" sex="FEMALE">
-                  <persName>Köhlerweib</persName>
-               </person>
-               <person xml:id="koehlerbub" sex="MALE">
-                  <persName>Köhlerbub</persName>
-               </person>
-               <personGrp xml:id="soldaten" sex="MALE">
-                  <name>Soldaten</name>
-               </personGrp>
-               <person xml:id="anfuehrer_der_soldaten" sex="MALE">
-                  <persName>Anführer der Soldaten</persName>
-               </person>
-               <person xml:id="edelmann" sex="MALE">
-                  <persName>Edelmann</persName>
-               </person>
-               <person xml:id="hauptmann" sex="MALE">
-                  <persName>Hauptmann</persName>
-               </person>
-               <person xml:id="soldat_5-11_und_5-12" sex="MALE">
-                  <persName>Soldat (V/11–12)</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118607626">
+                        <forename>Friedrich</forename>
+                        <surname>Schiller</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

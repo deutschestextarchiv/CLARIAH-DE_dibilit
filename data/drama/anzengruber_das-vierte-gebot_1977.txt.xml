@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1878</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1878</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1839"
-                        notAfter="1889"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1839" notAfter="1889"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d177e333">Erstdruck: Wien (Rosner), 1878. Uraufführung am 29.12.1877, Theater in der Josephstadt, Wien.</note>
@@ -177,107 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="schoen" sex="MALE">
-                  <persName>Schön</persName>
-               </person>
-               <person xml:id="anna" sex="FEMALE">
-                  <persName>Anna</persName>
-               </person>
-               <person xml:id="hutterer" sex="MALE">
-                  <persName>Hutterer</persName>
-               </person>
-               <person xml:id="sidonie" sex="FEMALE">
-                  <persName>Sidonie</persName>
-               </person>
-               <person xml:id="frey" sex="MALE">
-                  <persName>Frey</persName>
-               </person>
-               <person xml:id="hedwig" sex="FEMALE">
-                  <persName>Hedwig</persName>
-               </person>
-               <person xml:id="eduard" sex="MALE">
-                  <persName>Eduard</persName>
-               </person>
-               <person xml:id="barbara" sex="FEMALE">
-                  <persName>Barbara</persName>
-               </person>
-               <person xml:id="johann" sex="MALE">
-                  <persName>Johann</persName>
-               </person>
-               <person xml:id="michel" sex="MALE">
-                  <persName>Michel</persName>
-               </person>
-               <person xml:id="josepha" sex="FEMALE">
-                  <persName>Josepha</persName>
-               </person>
-               <person xml:id="stolzenthaler" sex="MALE">
-                  <persName>Stolzenthaler</persName>
-               </person>
-               <person xml:id="schalanter" sex="MALE">
-                  <persName>Schalanter</persName>
-               </person>
-               <person xml:id="martin" sex="MALE">
-                  <persName>Martin</persName>
-               </person>
-               <person xml:id="herwig" sex="FEMALE">
-                  <persName>Herwig</persName>
-               </person>
-               <person xml:id="beller" sex="MALE">
-                  <persName>Beller</persName>
-               </person>
-               <person xml:id="hoeller" sex="MALE">
-                  <persName>Höller</persName>
-               </person>
-               <person xml:id="stoetzl" sex="MALE">
-                  <persName>Stötzl</persName>
-               </person>
-               <person xml:id="katscher" sex="MALE">
-                  <persName>Katscher</persName>
-               </person>
-               <person xml:id="resi" sex="FEMALE">
-                  <persName>Resi</persName>
-               </person>
-               <person xml:id="berger" sex="MALE">
-                  <persName>Berger</persName>
-               </person>
-               <person xml:id="minna" sex="FEMALE">
-                  <persName>Minna</persName>
-               </person>
-               <person xml:id="stille" sex="MALE">
-                  <persName>Stille</persName>
-               </person>
-               <person xml:id="mostinger" sex="MALE">
-                  <persName>Mostinger</persName>
-               </person>
-               <person xml:id="sedlberger" sex="MALE">
-                  <persName>Sedlberger</persName>
-               </person>
-               <personGrp xml:id="alle_3-4" sex="UNKNOWN">
-                  <name>Alle (III/4)</name>
-               </personGrp>
-               <person xml:id="tomerl" sex="MALE">
-                  <persName>Tomerl</persName>
-               </person>
-               <person xml:id="kraft" sex="MALE">
-                  <persName>Kraft</persName>
-               </person>
-               <person xml:id="werner" sex="MALE">
-                  <persName>Werner</persName>
-               </person>
-               <person xml:id="seeburger" sex="MALE">
-                  <persName>Seeburger</persName>
-               </person>
-               <person xml:id="stoeber" sex="MALE">
-                  <persName>Stöber</persName>
-               </person>
-               <person xml:id="atzwanger" sex="MALE">
-                  <persName>Atzwanger</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/11850357X">
+                        <forename>Ludwig</forename>
+                        <surname>Anzengruber</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

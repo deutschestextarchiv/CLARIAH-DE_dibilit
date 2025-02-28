@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,10 +170,7 @@
                   <date type="firstPublication" subtype="zeno">1844</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1844</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1813"
-                        notAfter="1844"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1813" notAfter="1844"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1801e287">Erstdruck: Hamburg (Hoffmann und Campe) 1844. Uraufführung 13.3.1846 in Königsberg.</note>
@@ -196,44 +190,20 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="klara" sex="FEMALE">
-                  <persName>Klara</persName>
-               </person>
-               <person xml:id="mutter" sex="FEMALE">
-                  <persName>Mutter</persName>
-               </person>
-               <person xml:id="karl" sex="MALE">
-                  <persName>Karl</persName>
-               </person>
-               <person xml:id="leonhard" sex="MALE">
-                  <persName>Leonhard</persName>
-               </person>
-               <person xml:id="meister_anton" sex="MALE">
-                  <persName>Meister Anton</persName>
-               </person>
-               <person xml:id="adam" sex="MALE">
-                  <persName>Adam</persName>
-               </person>
-               <person xml:id="zweiter_gerichtsdiener" sex="MALE">
-                  <persName>Zweiter Gerichtsdiener</persName>
-               </person>
-               <person xml:id="eine_magd" sex="FEMALE">
-                  <persName>Eine Magd</persName>
-               </person>
-               <person xml:id="wolfram" sex="MALE">
-                  <persName>Wolfram</persName>
-               </person>
-               <person xml:id="sekretaer" sex="MALE">
-                  <persName>Sekretär</persName>
-               </person>
-               <person xml:id="ein_knabe" sex="MALE">
-                  <persName>Ein Knabe</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118547445">
+                        <forename>Friedrich</forename>
+                        <surname>Hebbel</surname>
+                     </persName></person><person sex="m" role="editor"><persName>
+                        <forename>Gerhard</forename>
+                        <surname>Fricke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Werner</forename>
+                        <surname>Keller</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

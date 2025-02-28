@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -155,10 +152,7 @@
                   <date type="firstPublication" subtype="zeno">1892</date>
                   <date type="firstPublication" subtype="i5">1892</date>
                   <date type="firstPublication" subtype="gerdracor">1892</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1862"
-                        notAfter="1892"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1862" notAfter="1892"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d737e255">Erstdruck: Berlin (Fischer) 1892. Erste öffentliche Aufführung am Ostersonntag 1900 in Magdeburg.</note>
@@ -179,34 +173,7 @@
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="mariechen" sex="FEMALE">
-                  <persName>Mariechen</persName>
-               </person>
-               <person xml:id="pauline" sex="MALE">
-                  <persName>Pauline</persName>
-               </person>
-               <person xml:id="frau_weidenhammer" sex="FEMALE">
-                  <persName>Frau Weidenhammer</persName>
-               </person>
-               <person xml:id="rese" sex="FEMALE">
-                  <persName>Rese</persName>
-               </person>
-               <person xml:id="meister_oelze" sex="MALE">
-                  <persName>Meister Oelze</persName>
-               </person>
-               <person xml:id="emil" sex="MALE">
-                  <persName>Emil</persName>
-               </person>
-               <person xml:id="frau_kramer" sex="FEMALE">
-                  <persName>Frau Kramer</persName>
-               </person>
-               <person xml:id="patschke" sex="MALE">
-                  <persName>Patschke</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

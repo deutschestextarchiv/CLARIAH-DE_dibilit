@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="zeno">1769</date>
                   <date type="firstPublication" subtype="i5">1769</date>
                   <date type="firstPublication" subtype="gerdracor">1769</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1733"
-                        notAfter="1802"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1733" notAfter="1802"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1724e274">Erstdruck: Wien (Logenmeister), 1769.</note>
@@ -179,44 +173,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="der_verwalter" sex="MALE">
-                  <persName>Der Verwalter</persName>
-               </person>
-               <person xml:id="lisette" sex="FEMALE">
-                  <persName>Lisette</persName>
-               </person>
-               <person xml:id="die_baroninn" sex="FEMALE">
-                  <persName>Die Baroninn</persName>
-               </person>
-               <person xml:id="der_hauptmann" sex="MALE">
-                  <persName>Der Hauptmann</persName>
-               </person>
-               <person xml:id="leonore" sex="FEMALE">
-                  <persName>Leonore</persName>
-               </person>
-               <person xml:id="der_bediente" sex="MALE">
-                  <persName>Der Bediente</persName>
-               </person>
-               <person xml:id="baron" sex="MALE">
-                  <persName>Baron</persName>
-               </person>
-               <person xml:id="major" sex="MALE">
-                  <persName>Major</persName>
-               </person>
-               <person xml:id="blumenkranz" sex="MALE">
-                  <persName>Blumenkranz</persName>
-               </person>
-               <person xml:id="reitbahn" sex="MALE">
-                  <persName>Reitbahn</persName>
-               </person>
-               <person xml:id="notarius" sex="MALE">
-                  <persName>Notarius</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118869647">
+                        <forename>Cornelius</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Ayrenhoff</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

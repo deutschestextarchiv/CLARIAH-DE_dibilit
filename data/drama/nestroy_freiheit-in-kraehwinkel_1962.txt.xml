@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,113 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="nachtwaechter" sex="MALE">
-                  <persName>Nachtwächter</persName>
-               </person>
-               <person xml:id="pemperl" sex="MALE">
-                  <persName>Pemperl</persName>
-               </person>
-               <person xml:id="schabenfellner" sex="MALE">
-                  <persName>Schabenfellner</persName>
-               </person>
-               <person xml:id="klaus" sex="MALE">
-                  <persName>Klaus</persName>
-               </person>
-               <personGrp xml:id="die_buerger" sex="UNKNOWN">
-                  <name>Die Bürger</name>
-               </personGrp>
-               <person xml:id="caecilie" sex="FEMALE">
-                  <persName>Cäcilie</persName>
-               </person>
-               <person xml:id="walpurga" sex="FEMALE">
-                  <persName>Walpurga</persName>
-               </person>
-               <person xml:id="sigmund" sex="MALE">
-                  <persName>Sigmund</persName>
-               </person>
-               <person xml:id="willibald" sex="MALE">
-                  <persName>Willibald</persName>
-               </person>
-               <person xml:id="pfiffspitz" sex="MALE">
-                  <persName>Pfiffspitz</persName>
-               </person>
-               <person xml:id="ultra" sex="MALE">
-                  <persName>Ultra</persName>
-               </person>
-               <personGrp xml:id="die_kraehwinkler_1-10" sex="UNKNOWN">
-                  <name>Die Krähwinkler (I/10)</name>
-               </personGrp>
-               <person xml:id="reakzerl" sex="MALE">
-                  <persName>Reakzerl</persName>
-               </person>
-               <person xml:id="frau_von_frankenfrei" sex="FEMALE">
-                  <persName>Frau von Frankenfrei</persName>
-               </person>
-               <person xml:id="buergermeister" sex="MALE">
-                  <persName>Bürgermeister</persName>
-               </person>
-               <person xml:id="emerenzia" sex="FEMALE">
-                  <persName>Emerenzia</persName>
-               </person>
-               <person xml:id="sperling" sex="MALE">
-                  <persName>Sperling</persName>
-               </person>
-               <person xml:id="rummelpuff" sex="MALE">
-                  <persName>Rummelpuff</persName>
-               </person>
-               <personGrp xml:id="die_kraehwinkler_2-10" sex="UNKNOWN">
-                  <name>Die Krähwinkler (II/10)</name>
-               </personGrp>
-               <personGrp xml:id="die_frauen" sex="FEMALE">
-                  <name>Die Frauen</name>
-               </personGrp>
-               <person xml:id="frau_pemperl" sex="FEMALE">
-                  <persName>Frau Pemperl</persName>
-               </person>
-               <person xml:id="frau_schabenfellner" sex="FEMALE">
-                  <persName>Frau Schabenfellner</persName>
-               </person>
-               <personGrp xml:id="die_maenner" sex="MALE">
-                  <name>Die Männer</name>
-               </personGrp>
-               <person xml:id="frau_kloeppl" sex="FEMALE">
-                  <persName>Frau Klöppl</persName>
-               </person>
-               <personGrp xml:id="chor_alle_2-13_bis_2-16" sex="UNKNOWN">
-                  <name>Chor/Alle (II/13–16)</name>
-               </personGrp>
-               <person xml:id="babette" sex="FEMALE">
-                  <persName>Babette</persName>
-               </person>
-               <person xml:id="adele" sex="FEMALE">
-                  <persName>Adele</persName>
-               </person>
-               <person xml:id="frau_von_schnabelbeiss" sex="FEMALE">
-                  <persName>Frau von Schnabelbeiß</persName>
-               </person>
-               <person xml:id="kathi" sex="FEMALE">
-                  <persName>Kathi</persName>
-               </person>
-               <person xml:id="ein_bedienter" sex="MALE">
-                  <persName>Ein Bedienter</persName>
-               </person>
-               <person xml:id="kellner" sex="MALE">
-                  <persName>Kellner</persName>
-               </person>
-               <personGrp xml:id="die_kraehwinkler_3-11" sex="UNKNOWN">
-                  <name>Zwei Krähwinkler (III/11)</name>
-               </personGrp>
-               <personGrp xml:id="chor_3-12" sex="UNKNOWN">
-                  <name>Chor (III/12)</name>
-               </personGrp>
-               <personGrp xml:id="alle_3-24" sex="UNKNOWN">
-                  <name>Alle (III/24)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118587080">
+                        <forename>Johann</forename>
+                        <surname>Nestroy</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

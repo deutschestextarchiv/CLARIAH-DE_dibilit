@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,62 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="miller" sex="MALE">
-                  <persName>Miller</persName>
-               </person>
-               <person xml:id="millerin" sex="FEMALE">
-                  <persName>Millerin</persName>
-               </person>
-               <person xml:id="wurm" sex="MALE">
-                  <persName>Wurm</persName>
-               </person>
-               <person xml:id="luise" sex="FEMALE">
-                  <persName>Luise</persName>
-               </person>
-               <person xml:id="ferdinand" sex="MALE">
-                  <persName>Ferdinand</persName>
-               </person>
-               <person xml:id="praesident" sex="MALE">
-                  <persName>Präsident von Walter</persName>
-               </person>
-               <person xml:id="ein_kammerdiener_1-5" sex="MALE">
-                  <persName>Ein Kammerdiener (I/5)</persName>
-               </person>
-               <person xml:id="hofmarschall" sex="MALE">
-                  <persName>Hofmarschall von Kalb</persName>
-               </person>
-               <person xml:id="sophie" sex="FEMALE">
-                  <persName>Sophie</persName>
-               </person>
-               <person xml:id="lady" sex="FEMALE">
-                  <persName>Lady Milford</persName>
-               </person>
-               <person xml:id="kammerdiener_2-2" sex="MALE">
-                  <persName>Kammerdiener (II/2)</persName>
-               </person>
-               <person xml:id="bedienter" sex="MALE">
-                  <persName>Bedienter</persName>
-               </person>
-               <person xml:id="kammerdiener_3-1" sex="MALE">
-                  <persName>Kammerdiener (III/1)</persName>
-               </person>
-               <person xml:id="kammerdiener_4-1" sex="MALE">
-                  <persName>Kammerdiener (IV/1)</persName>
-               </person>
-               <person xml:id="ein_kammerdiener_4-6" sex="MALE">
-                  <persName>Ein Kammerdiener (IV/6)</persName>
-               </person>
-               <person xml:id="kammerdiener_4-9" sex="MALE">
-                  <persName>Kammerdiener (IV/9)</persName>
-               </person>
-               <person xml:id="alle_bediente" sex="UNKNOWN">
-                  <persName>Alle Bediente</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118607626">
+                        <forename>Friedrich</forename>
+                        <surname>Schiller</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

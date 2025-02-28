@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1823</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1823</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1797"
-                        notAfter="1856"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1797" notAfter="1856"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2305e290">Erstdruck in: Tragödien nebst einem lyrischen Intermezzo, Berlin (Dümmler) 1823.</note>
@@ -183,59 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="mac-gregor" sex="MALE">
-                  <persName>Mac-Gregor</persName>
-               </person>
-               <person xml:id="douglas" sex="MALE">
-                  <persName>Douglas</persName>
-               </person>
-               <person xml:id="margarete" sex="FEMALE">
-                  <persName>Margarete</persName>
-               </person>
-               <person xml:id="maria" sex="FEMALE">
-                  <persName>Maria</persName>
-               </person>
-               <person xml:id="lesley" sex="MALE">
-                  <persName>Lesley</persName>
-               </person>
-               <person xml:id="tom" sex="MALE">
-                  <persName>Tom</persName>
-               </person>
-               <person xml:id="willie" sex="MALE">
-                  <persName>Willie</persName>
-               </person>
-               <person xml:id="ratcliff" sex="MALE">
-                  <persName>Ratcliff</persName>
-               </person>
-               <personGrp xml:id="alle-mehrere" sex="MALE">
-                  <name>Alle/Mehrere</name>
-               </personGrp>
-               <person xml:id="robin" sex="MALE">
-                  <persName>Robin</persName>
-               </person>
-               <person xml:id="dick" sex="MALE">
-                  <persName>Dick</persName>
-               </person>
-               <person xml:id="bill" sex="MALE">
-                  <persName>Bill</persName>
-               </person>
-               <person xml:id="john" sex="MALE">
-                  <persName>John</persName>
-               </person>
-               <person xml:id="taddie" sex="MALE">
-                  <persName>Taddie</persName>
-               </person>
-               <person xml:id="ein_diener" sex="MALE">
-                  <persName>Ein Diener</persName>
-               </person>
-               <personGrp xml:id="viele_stimmen-alle" sex="UNKNOWN">
-                  <name>Viele Stimmen/Alle</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118548018">
+                        <forename>Heinrich</forename>
+                        <surname>Heine</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hans</forename>
+                        <surname>Kaufmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

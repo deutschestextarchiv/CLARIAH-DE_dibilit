@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -166,10 +163,7 @@
                   <date type="firstPublication" subtype="zeno">1872</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1872</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1825"
-                        notAfter="1848"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1825" notAfter="1848"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2193e403">Entstanden zwischen 1825 und 1848. Erstdruck: Stuttgart (Cotta) 1872. Uraufführung am 24. 9. 1872 in Wien.</note>
@@ -189,154 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="gerichtsperson" sex="MALE">
-                  <persName>Gerichtsperson</persName>
-               </person>
-               <person xml:id="don_caesar" sex="MALE">
-                  <persName>Don Cäsar</persName>
-                  <persName type="variant">Cäsar</persName>
-               </person>
-               <person xml:id="russworm" sex="MALE">
-                  <persName>Rußworm</persName>
-               </person>
-               <person xml:id="prokop" sex="MALE">
-                  <persName>Prokop</persName>
-               </person>
-               <person xml:id="klesel" sex="MALE">
-                  <persName>Klesel</persName>
-               </person>
-               <person xml:id="kaemmerer" sex="MALE">
-                  <persName>Kämmerer</persName>
-               </person>
-               <person xml:id="mathias" sex="MALE">
-                  <persName>Mathias</persName>
-               </person>
-               <person xml:id="rumpf" sex="MALE">
-                  <persName>Wolfgang Rumpf</persName>
-                  <persName type="variant">Rumpfs Stimme</persName>
-               </person>
-               <person xml:id="rudolf" sex="MALE">
-                  <persName>Rudolf</persName>
-                  <persName type="variant">Der Kaiser</persName>
-               </person>
-               <person xml:id="ferdinand" sex="MALE">
-                  <persName>Erzherzog Ferdinand</persName>
-               </person>
-               <person xml:id="leopold" sex="MALE">
-                  <persName>Erzherzog Leopold</persName>
-                  <persName type="variant">Erzherzog Leopolds Stimme</persName>
-               </person>
-               <person xml:id="hauptmann_2" sex="MALE">
-                  <persName>Hauptmann (II)</persName>
-               </person>
-               <person xml:id="fahnentraeger" sex="MALE">
-                  <persName>Fahnenträger</persName>
-               </person>
-               <personGrp xml:id="mehrere_im_trupp_rings_herum_geschrei_alle" sex="MALE">
-                  <name>Mehrere im Trupp/Rings herum/Geschrei/Alle</name>
-               </personGrp>
-               <person xml:id="ramee" sex="MALE">
-                  <persName>Oberst Ramee</persName>
-               </person>
-               <person xml:id="ein_soldat_2a" sex="MALE">
-                  <persName>Ein Soldat (II)</persName>
-               </person>
-               <personGrp xml:id="zwei_kuerassiere" sex="MALE">
-                  <name>Zwei Kürassiere</name>
-                  <name type="variant">Kürassiere</name>
-               </personGrp>
-               <person xml:id="kuerassier" sex="MALE">
-                  <persName>Kürassier</persName>
-               </person>
-               <person xml:id="zweiter_soldat_2a" sex="MALE">
-                  <persName>Zweiter Soldat (II)</persName>
-               </person>
-               <person xml:id="max" sex="MALE">
-                  <persName>Maximilian</persName>
-               </person>
-               <person xml:id="erster_soldat_2b" sex="MALE">
-                  <persName>Erster Soldat (II)</persName>
-               </person>
-               <person xml:id="zweiter_soldat_2b" sex="MALE">
-                  <persName>Zweiter Soldat (II)</persName>
-               </person>
-               <person xml:id="ein_diener_2" sex="MALE">
-                  <persName>Ein Diener (II)</persName>
-               </person>
-               <person xml:id="erster_soldat_2c" sex="MALE">
-                  <persName>Erster Soldat (II)</persName>
-               </person>
-               <person xml:id="zweiter_soldat_2c" sex="MALE">
-                  <persName>Zweiter Soldat (II)</persName>
-               </person>
-               <person xml:id="dritter_soldat_2c" sex="MALE">
-                  <persName>Dritter Soldat (II)</persName>
-               </person>
-               <person xml:id="lukrezia" sex="FEMALE">
-                  <persName>Lukrezia</persName>
-               </person>
-               <person xml:id="julius" sex="MALE">
-                  <persName>Herzog Julius</persName>
-                  <persName type="variant">Der Mann</persName>
-               </person>
-               <person xml:id="schlick" sex="MALE">
-                  <persName>Schlick</persName>
-                  <persName type="variant">Zweiter</persName>
-                  <persName type="variant">Der Wortführer</persName>
-                  <persName type="variant">Abgeordneter</persName>
-               </person>
-               <person xml:id="diener_3" sex="MALE">
-                  <persName>Diener (III)</persName>
-               </person>
-               <personGrp xml:id="die_staende" sex="MALE">
-                  <name>Die Stände</name>
-               </personGrp>
-               <person xml:id="thurn" sex="MALE">
-                  <persName>Graf Thurn</persName>
-               </person>
-               <personGrp xml:id="volk" sex="UNKNOWN">
-                  <name>Volk</name>
-               </personGrp>
-               <person xml:id="ein_buerger" sex="MALE">
-                  <persName>Ein Bürger</persName>
-                  <persName type="variant">Bürger</persName>
-               </person>
-               <person xml:id="hauptmann_4" sex="MALE">
-                  <persName>Hauptmann (IV)</persName>
-               </person>
-               <person xml:id="diener_4" sex="MALE">
-                  <persName>Diener (IV)</persName>
-               </person>
-               <person xml:id="hinter_der_szene" sex="MALE">
-                  <persName>Hinter der Szene</persName>
-               </person>
-               <person xml:id="arbeiter" sex="MALE">
-                  <persName>Arbeiter</persName>
-               </person>
-               <person xml:id="kaemmerling" sex="MALE">
-                  <persName>Kämmerling</persName>
-               </person>
-               <person xml:id="seyfried" sex="MALE">
-                  <persName>Seyfried Breuner</persName>
-               </person>
-               <person xml:id="ein_diener_5" sex="MALE">
-                  <persName>Ein Diener (V)</persName>
-               </person>
-               <person xml:id="wallenstein" sex="MALE">
-                  <persName>Wallenstein</persName>
-               </person>
-               <personGrp xml:id="einige_andere_mehrere" sex="MALE">
-                  <name>Einige/Andere/Mehrere</name>
-               </personGrp>
-               <personGrp xml:id="auf_der_strasse" sex="UNKNOWN">
-                  <name>Auf der Straße</name>
-                  <name type="variant">Von der Straße</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118542192">
+                        <forename>Franz</forename>
+                        <surname>Grillparzer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Peter</forename>
+                        <surname>Frank</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

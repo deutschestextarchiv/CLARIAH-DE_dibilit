@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -159,10 +156,7 @@
                   <date type="firstPublication" subtype="zeno">1925</date>
                   <date type="firstPublication" subtype="i5">1925</date>
                   <date type="firstPublication" subtype="gerdracor">1925</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1895"
-                        notAfter="1919"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1895" notAfter="1919"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d877e387">Erstdruck in »Hans Kaltneker: Dichtungen und Dramen«, Wien (Zsolnay), 1925.</note>
@@ -182,143 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="die_dame" sex="FEMALE">
-                  <persName>Die Dame des Hauses</persName>
-               </person>
-               <person xml:id="der_staatsanwalt" sex="MALE">
-                  <persName>Der Staatsanwalt</persName>
-               </person>
-               <person xml:id="ein_anderer_herr" sex="MALE">
-                  <persName>Ein anderer Herr</persName>
-                  <persName type="variant">Der andere Herr</persName>
-               </person>
-               <person xml:id="der_graf" sex="MALE">
-                  <persName>Der Graf</persName>
-               </person>
-               <person xml:id="der_millionaerssohn" sex="MALE">
-                  <persName>Der Millionärssohn</persName>
-               </person>
-               <person xml:id="der_dichter" sex="MALE">
-                  <persName>Der Dichter</persName>
-               </person>
-               <person xml:id="ein_bridgespieler" sex="MALE">
-                  <persName>Ein Bridgespieler</persName>
-               </person>
-               <person xml:id="der_partner" sex="MALE">
-                  <persName>Der Partner des Staatsanwaltes</persName>
-                  <persName type="variant">Sein Bridgepartner</persName>
-               </person>
-               <person xml:id="die_eine_dame" sex="FEMALE">
-                  <persName>Die eine Dame</persName>
-                  <persName type="variant">Die erste Dame</persName>
-               </person>
-               <person xml:id="die_andere_dame" sex="FEMALE">
-                  <persName>Die andere Dame</persName>
-               </person>
-               <person xml:id="der_komponist" sex="MALE">
-                  <persName>Der Komponist</persName>
-               </person>
-               <person xml:id="der_prinz" sex="MALE">
-                  <persName>Der Prinz</persName>
-               </person>
-               <person xml:id="die_saengerin" sex="FEMALE">
-                  <persName>Die Sängerin</persName>
-               </person>
-               <person xml:id="ein_kritischer_zuhoerer" sex="MALE">
-                  <persName>Ein kritischer Zuhörer</persName>
-                  <persName type="variant">Der Kritiker</persName>
-               </person>
-               <person xml:id="ein_junges_maedchen" sex="FEMALE">
-                  <persName>Ein junges Mädchen</persName>
-               </person>
-               <person xml:id="der_erste_votant" sex="MALE">
-                  <persName>Der erste Votant</persName>
-                  <persName type="variant">Der eine Votant</persName>
-                  <persName type="variant">Der Erste</persName>
-               </person>
-               <person xml:id="der_zweite_votant" sex="MALE">
-                  <persName>Der zweite Votant</persName>
-                  <persName type="variant">Der Zweite</persName>
-               </person>
-               <person xml:id="der_obmann" sex="MALE">
-                  <persName>Der Obmann</persName>
-               </person>
-               <person xml:id="der_geschworene_2a" sex="MALE">
-                  <persName>Der Geschworene</persName>
-               </person>
-               <person xml:id="der_junge_rechtsanwalt" sex="MALE">
-                  <persName>Der junge Rechtsanwalt</persName>
-                  <persName type="variant">Ein junger Rechtsanwalt</persName>
-               </person>
-               <person xml:id="der_aeltere_rechtsanwalt" sex="MALE">
-                  <persName>Der ältere Rechtsanwalt</persName>
-                  <persName type="variant">Der Andere</persName>
-                  <persName type="variant">Der Ältere</persName>
-               </person>
-               <person xml:id="ein_geschworener_2b" sex="MALE">
-                  <persName>Ein Geschworener</persName>
-               </person>
-               <person xml:id="ein_geschworener_2c" sex="MALE">
-                  <persName>Ein Geschworener</persName>
-               </person>
-               <person xml:id="der_psychiater" sex="MALE">
-                  <persName>Der Psychiater</persName>
-                  <persName type="variant">Ein Psychiater</persName>
-               </person>
-               <person xml:id="ein_justizbeamter" sex="MALE">
-                  <persName>Ein Justizbeamter</persName>
-               </person>
-               <person xml:id="ein_geschworener_2d" sex="MALE">
-                  <persName>Ein Geschworener/Der Sadist</persName>
-               </person>
-               <person xml:id="der_angesprochene" sex="MALE">
-                  <persName>Der Angesprochene</persName>
-               </person>
-               <person xml:id="irgendein_herr" sex="MALE">
-                  <persName>Irgendein Herr</persName>
-               </person>
-               <person xml:id="ein_geschworener_2e" sex="MALE">
-                  <persName>Ein Geschworener</persName>
-               </person>
-               <person xml:id="der_praesident" sex="MALE">
-                  <persName>Der Präsident</persName>
-               </person>
-               <person xml:id="der_delinquent" sex="MALE">
-                  <persName>Der Delinquent</persName>
-               </person>
-               <personGrp xml:id="die_gehilfen" sex="MALE">
-                  <name>Die Gehilfen</name>
-               </personGrp>
-               <personGrp xml:id="verworrene_stimmen" sex="UNKNOWN">
-                  <name>Verworrene Stimmen</name>
-               </personGrp>
-               <person xml:id="der_geistliche" sex="MALE">
-                  <persName>Der Geistliche</persName>
-               </person>
-               <personGrp xml:id="chorus_damnatorum" sex="UNKNOWN">
-                  <name>Chorus Damnatorum</name>
-               </personGrp>
-               <person xml:id="der_verteidiger" sex="MALE">
-                  <persName>Der Verteidiger</persName>
-               </person>
-               <person xml:id="der_gefaengnisdirektor" sex="MALE">
-                  <persName>Der Gefängnisdirektor</persName>
-               </person>
-               <person xml:id="der_behaebige_herr" sex="MALE">
-                  <persName>Der behäbige Herr</persName>
-               </person>
-               <person xml:id="der_aufseher" sex="MALE">
-                  <persName>Der Aufseher</persName>
-                  <persName type="variant">Der alte Aufseher</persName>
-               </person>
-               <person xml:id="der_bruder" sex="MALE">
-                  <persName>Der Bruder</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/11855963X">
+                        <forename>Hans</forename>
+                        <surname>Kaltneker</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Paul</forename>
+                        <surname>Zsolnay</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

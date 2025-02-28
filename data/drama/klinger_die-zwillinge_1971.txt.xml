@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="zeno">1776</date>
                   <date type="firstPublication" subtype="i5">1776</date>
                   <date type="firstPublication" subtype="gerdracor">1776</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1752"
-                        notAfter="1831"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1752" notAfter="1831"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3264e254">Erstdruck in: Hamburgisches Theater. Herausgegeben von Friedrich Ludwig Schröder, Band 1, Hamburg (Herold) 1776. Uraufführung am 23.2.1776 in Hamburg.</note>
@@ -179,35 +173,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="grimaldi" sex="MALE">
-                  <persName>Grimaldi</persName>
-               </person>
-               <person xml:id="guelfo" sex="MALE">
-                  <persName>Guelfo</persName>
-               </person>
-               <person xml:id="galbo" sex="MALE">
-                  <persName>Galbo</persName>
-               </person>
-               <person xml:id="amalia" sex="FEMALE">
-                  <persName>Amalia</persName>
-               </person>
-               <person xml:id="alter_guelfo" sex="MALE">
-                  <persName>Alter Guelfo</persName>
-               </person>
-               <person xml:id="ferdinando" sex="MALE">
-                  <persName>Ferdinando</persName>
-               </person>
-               <person xml:id="camilla" sex="FEMALE">
-                  <persName>Camilla</persName>
-               </person>
-               <person xml:id="bediente" sex="UNKNOWN">
-                  <persName>Bediente</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="editor" sex="m"><persName ref="http://d-nb.info/gnd/116995742">
+                        <forename>Heinz</forename>
+                        <surname>Nicolai</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

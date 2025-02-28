@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -165,10 +162,7 @@
                   <date type="firstPublication" subtype="clariah">1782</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1782</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1746"
-                        notAfter="1782"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1746" notAfter="1782"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d65e261">Komponiert von Georg Anton Benda. Uraufführung am 01.05.1775, Kochs Theater, Leipzig.</note>
@@ -188,26 +182,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="medea" sex="FEMALE">
-                  <persName>Medea</persName>
-               </person>
-               <person xml:id="hofmeisterin" sex="FEMALE">
-                  <persName>Hofmeisterin</persName>
-               </person>
-               <person xml:id="der_juengere" sex="MALE">
-                  <persName>Der Jüngere</persName>
-               </person>
-               <person xml:id="der_aeltere" sex="MALE">
-                  <persName>Der Ältere</persName>
-               </person>
-               <person xml:id="jason" sex="MALE">
-                  <persName>Jason</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118540939">
+                        <forename>Friedrich Wilhelm</forename>
+                        <surname>Gotter</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/118655329">
+                        <forename>Georg Anton</forename>
+                        <surname>Benda</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

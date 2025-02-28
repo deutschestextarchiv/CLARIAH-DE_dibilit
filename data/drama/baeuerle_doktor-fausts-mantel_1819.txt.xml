@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1819</date>
                   <date type="firstPublication" subtype="i5">1819</date>
                   <date type="firstPublication" subtype="gerdracor">1819</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1786"
-                        notAfter="1819"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1786" notAfter="1819"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d611e325">Erstdruck: Wien (Verlag Leopold Grund) 1819.</note>
@@ -177,95 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="leiser_ruhiger_chor" sex="UNKNOWN">
-                  <name>Leiser, ruhiger Chor</name>
-               </personGrp>
-               <person xml:id="haller" sex="MALE">
-                  <persName>Haller</persName>
-               </person>
-               <person xml:id="winter" sex="MALE">
-                  <persName>Winter</persName>
-               </person>
-               <person xml:id="emilie" sex="FEMALE">
-                  <persName>Emilie</persName>
-               </person>
-               <person xml:id="fledermaus" sex="MALE">
-                  <persName>Treuhold Fledermaus</persName>
-                  <persName type="variant">Treuhold</persName>
-               </person>
-               <person xml:id="stadtdirector" sex="MALE">
-                  <persName>Stadtdirector</persName>
-               </person>
-               <person xml:id="joseph" sex="MALE">
-                  <persName>Joseph</persName>
-               </person>
-               <person xml:id="rosel" sex="FEMALE">
-                  <persName>Rosel</persName>
-               </person>
-               <person xml:id="viktorl" sex="FEMALE">
-                  <persName>Viktorl</persName>
-               </person>
-               <person xml:id="wirth" sex="MALE">
-                  <persName>Wirth</persName>
-               </person>
-               <person xml:id="zachariesel" sex="MALE">
-                  <persName>Zachariesel</persName>
-                  <persName type="variant">Zacharias</persName>
-               </person>
-               <person xml:id="hausherr" sex="MALE">
-                  <persName>Hausherr</persName>
-               </person>
-               <person xml:id="erster_gerichtsdiener" sex="MALE">
-                  <persName>Erster Gerichtsdiener</persName>
-               </person>
-               <person xml:id="zweyter_gerichtsdiener" sex="MALE">
-                  <persName>Zweyter Gerichtsdiener</persName>
-               </person>
-               <person xml:id="ein_gerichtsdiener" sex="MALE">
-                  <persName>Ein Gerichtsdiener</persName>
-               </person>
-               <personGrp xml:id="alle-chor_1-23" sex="UNKNOWN">
-                  <name>Alle/Chor (I/23)</name>
-               </personGrp>
-               <personGrp xml:id="dienstleute" sex="UNKNOWN">
-                  <name>Dienstleute</name>
-               </personGrp>
-               <person xml:id="jaeger" sex="MALE">
-                  <persName>Jäger</persName>
-               </person>
-               <person xml:id="sophie" sex="FEMALE">
-                  <persName>Sophie</persName>
-               </person>
-               <personGrp xml:id="allgemeiner_chor" sex="UNKNOWN">
-                  <name>Allgemeiner Chor</name>
-               </personGrp>
-               <person xml:id="erster_spieler" sex="MALE">
-                  <persName>Erster Spieler</persName>
-               </person>
-               <personGrp xml:id="die_maedchen" sex="FEMALE">
-                  <name>Die Mädchen</name>
-               </personGrp>
-               <person xml:id="zweyter_spieler" sex="MALE">
-                  <persName>Zweyter Spieler</persName>
-               </person>
-               <personGrp xml:id="alle_spieler" sex="MALE">
-                  <name>Alle Spieler</name>
-                  <name type="variant">Andere</name>
-               </personGrp>
-               <person xml:id="ein_anderer_spieler" sex="MALE">
-                  <persName>Ein anderer Spieler</persName>
-               </person>
-               <personGrp xml:id="ballet-chor" sex="UNKNOWN">
-                  <name>Ballet-Chor von Höllengeistern und Furien</name>
-               </personGrp>
-               <personGrp xml:id="schluss-chor" sex="UNKNOWN">
-                  <name>Schluß-Chor</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/119560038">
+                        <forename>Adolf</forename>
+                        <surname>Bäuerle</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

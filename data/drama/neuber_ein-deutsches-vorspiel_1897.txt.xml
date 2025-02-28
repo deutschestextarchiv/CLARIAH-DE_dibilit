@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -161,10 +158,7 @@
                   <date type="firstPublication" subtype="zeno">1734</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1734</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1697"
-                        notAfter="1734"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1697" notAfter="1734"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2669e283">Erstdruck: Leipzig (Bernhard Christoph Breitkopf) 1734.</note>
@@ -184,53 +178,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="silenus" sex="MALE">
-                  <persName>Silenus</persName>
-               </person>
-               <person xml:id="thalia" sex="FEMALE">
-                  <persName>Thalia</persName>
-               </person>
-               <person xml:id="melpomene" sex="FEMALE">
-                  <persName>Melpomene</persName>
-               </person>
-               <person xml:id="tharsus" sex="MALE">
-                  <persName>Tharsus</persName>
-               </person>
-               <person xml:id="sedulius" sex="MALE">
-                  <persName>Sedulius</persName>
-               </person>
-               <person xml:id="alethea" sex="FEMALE">
-                  <persName>Alethea</persName>
-               </person>
-               <person xml:id="obsequens" sex="UNKNOWN">
-                  <persName>Obsequens</persName>
-               </person>
-               <person xml:id="arete" sex="FEMALE">
-                  <persName>Arete</persName>
-               </person>
-               <person xml:id="vigilantia" sex="FEMALE">
-                  <persName>Vigilantia</persName>
-               </person>
-               <person xml:id="meletander" sex="UNKNOWN">
-                  <persName>Meletander</persName>
-               </person>
-               <person xml:id="euphrosyne" sex="FEMALE">
-                  <persName>Euphrosyne</persName>
-               </person>
-               <person xml:id="apollo" sex="MALE">
-                  <persName>Apollo</persName>
-               </person>
-               <person xml:id="themis" sex="FEMALE">
-                  <persName>Themis</persName>
-               </person>
-               <person xml:id="pseudolus" sex="MALE">
-                  <persName>Pseudolus</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/118738577">
+                        <forename>Friederike Caroline</forename>
+                        <surname>Neuber</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Arthur</forename>
+                        <surname>Richter</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

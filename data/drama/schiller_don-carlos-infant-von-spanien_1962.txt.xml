@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1787</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1787</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1782"
-                        notAfter="1787"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1782" notAfter="1787"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d618e321">Entstanden 1782–1787. Teilabdrucke in: Rheinische Thalia (Mannheim), 1. Jg., 1785, und Thalia (Leipzig), 2./3. Jg., 1786/87; Erstdruck des ganzen Dramas: Leipzig (Göschen) 1787. Uraufführung am 29.8.1787 in Hamburg.</note>
@@ -177,92 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="domingo" sex="MALE">
-                  <persName>Domingo</persName>
-               </person>
-               <person xml:id="carlos" sex="MALE">
-                  <persName>Don Carlos</persName>
-               </person>
-               <person xml:id="marquis" sex="MALE">
-                  <persName>Marquis von Posa</persName>
-               </person>
-               <person xml:id="koenigin" sex="FEMALE">
-                  <persName>Königin</persName>
-               </person>
-               <person xml:id="prinzessin_von_eboli" sex="FEMALE">
-                  <persName>Prinzessin von Eboli</persName>
-               </person>
-               <person xml:id="mondekar" sex="FEMALE">
-                  <persName>Marquisin von Mondekar</persName>
-               </person>
-               <person xml:id="olivarez" sex="FEMALE">
-                  <persName>Herzogin von Olivarez</persName>
-               </person>
-               <person xml:id="koenig_philipp" sex="MALE">
-                  <persName>König Philipp</persName>
-                  <persName type="variant">König</persName>
-                  <persName type="variant">Philipp</persName>
-               </person>
-               <person xml:id="alba" sex="MALE">
-                  <persName>Herzog von Alba</persName>
-               </person>
-               <person xml:id="lerma" sex="MALE">
-                  <persName>Graf von Lerma</persName>
-               </person>
-               <person xml:id="page" sex="MALE">
-                  <persName>Page</persName>
-               </person>
-               <person xml:id="prior" sex="MALE">
-                  <persName>Prior</persName>
-               </person>
-               <person xml:id="medina_sidonia" sex="MALE">
-                  <persName>Herzog von Medina Sidonia</persName>
-               </person>
-               <person xml:id="parma" sex="MALE">
-                  <persName>Prinz von Parma</persName>
-               </person>
-               <person xml:id="feria" sex="MALE">
-                  <persName>Herzog von Feria</persName>
-               </person>
-               <person xml:id="erster_grande" sex="MALE">
-                  <persName>Einer von den Granden</persName>
-                  <persName type="variant">Der Erste</persName>
-               </person>
-               <person xml:id="ein_zweiter" sex="MALE">
-                  <persName>Ein zweiter</persName>
-               </person>
-               <person xml:id="ein_dritter" sex="MALE">
-                  <persName>Ein dritter</persName>
-               </person>
-               <person xml:id="fuentes" sex="FEMALE">
-                  <persName>Gräfin Fuentes</persName>
-               </person>
-               <person xml:id="infantin" sex="FEMALE">
-                  <persName>Infantin</persName>
-               </person>
-               <person xml:id="taxis" sex="MALE">
-                  <persName>Don Raimond von Taxis</persName>
-               </person>
-               <personGrp xml:id="die_granden" sex="MALE">
-                  <name>Die übrigen/anwesenden/Alle Granden</name>
-               </personGrp>
-               <person xml:id="offizier_5-5" sex="MALE">
-                  <persName>Offizier (V/5)</persName>
-               </person>
-               <person xml:id="merkado" sex="MALE">
-                  <persName>Don Ludwig Merkado</persName>
-               </person>
-               <person xml:id="offizier_5-9" sex="MALE">
-                  <persName>Offizier (V/9)</persName>
-               </person>
-               <person xml:id="grossinquisitor" sex="MALE">
-                  <persName>Großinquisitor</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118607626">
+                        <forename>Friedrich</forename>
+                        <surname>Schiller</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -159,10 +156,7 @@
                   <date type="firstPublication" subtype="zeno">1845</date>
                   <date type="firstPublication" subtype="i5">1845</date>
                   <date type="firstPublication" subtype="gerdracor">1845</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1814"
-                        notAfter="1874"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1814" notAfter="1874"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d583e291">Erstdruck: Wien (A. Pichler's sel. Witwe), 1845. Uraufführung am 10.08.1844, Theater in der Leopoldstadt, Wien.</note>
@@ -182,59 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="hochfeld" sex="MALE">
-                  <persName>Hochfeld</persName>
-               </person>
-               <person xml:id="faustin" sex="MALE">
-                  <persName>Faustin</persName>
-               </person>
-               <person xml:id="eulalia" sex="FEMALE">
-                  <persName>Eulalia</persName>
-               </person>
-               <person xml:id="regine" sex="FEMALE">
-                  <persName>Regine</persName>
-               </person>
-               <person xml:id="haller" sex="MALE">
-                  <persName>Haller</persName>
-               </person>
-               <person xml:id="hupfer" sex="MALE">
-                  <persName>Herr von Hupfer</persName>
-               </person>
-               <person xml:id="jakob" sex="MALE">
-                  <persName>Jakob</persName>
-                  <persName type="variant">Jakobs Stimme</persName>
-               </person>
-               <person xml:id="robert" sex="MALE">
-                  <persName>Robert</persName>
-                  <persName type="variant">Er</persName>
-               </person>
-               <person xml:id="glatt" sex="MALE">
-                  <persName>Glatt</persName>
-               </person>
-               <person xml:id="sebastian" sex="MALE">
-                  <persName>Sebastian</persName>
-               </person>
-               <person xml:id="klotilde" sex="FEMALE">
-                  <persName>Klotilde</persName>
-                  <persName type="variant">Sie</persName>
-               </person>
-               <person xml:id="apollonia" sex="FEMALE">
-                  <persName>Apollonia</persName>
-               </person>
-               <person xml:id="kapellmeister" sex="MALE">
-                  <persName>Kapellmeister</persName>
-               </person>
-               <person xml:id="graf_von_flambourg" sex="MALE">
-                  <persName>Graf von Flambourg</persName>
-               </person>
-               <person xml:id="wellenschlag" sex="MALE">
-                  <persName>Wellenschlag</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118874748">
+                        <forename>Friedrich</forename>
+                        <surname>Kaiser</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Ernst</forename>
+                        <surname>Weiland</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

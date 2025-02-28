@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,45 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="madame_welldorf" sex="FEMALE">
-                  <persName>Madame Welldorf</persName>
-               </person>
-               <person xml:id="sophie" sex="FEMALE">
-                  <persName>Sophie</persName>
-               </person>
-               <person xml:id="luise" sex="FEMALE">
-                  <persName>Luise</persName>
-               </person>
-               <person xml:id="eduard" sex="MALE">
-                  <persName>Eduard</persName>
-               </person>
-               <person xml:id="der_arzt" sex="MALE">
-                  <persName>Der Arzt</persName>
-               </person>
-               <person xml:id="von_brink" sex="MALE">
-                  <persName>von Brink</persName>
-               </person>
-               <person xml:id="welldorf" sex="MALE">
-                  <persName>Welldorf</persName>
-               </person>
-               <person xml:id="der_bediente" sex="MALE">
-                  <persName>Der Bediente</persName>
-                  <persName type="variant">Bedienter</persName>
-               </person>
-               <person xml:id="der_oberst" sex="MALE">
-                  <persName>Der Oberst</persName>
-               </person>
-               <person xml:id="sergeant" sex="MALE">
-                  <persName>Sergeant</persName>
-               </person>
-               <person xml:id="wache" sex="MALE">
-                  <persName>Wache</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/11868468X">
+                        <forename>Johann Jakob</forename>
+                        <surname>Engel</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

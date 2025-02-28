@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,10 +170,7 @@
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1843</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1813"
-                        notAfter="1843"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1813" notAfter="1843"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2683e311">Erstdruck: Hamburg (Hoffmann und Campe) 1843. Uraufführung am 13.05.1849. Erstdruck des »Nachspiels« in: Europa. Chronik der gebildeten Welt (Leipzig), 7. Jg., 1852.</note>
@@ -196,68 +190,20 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="siegfried" sex="MALE">
-                  <persName>Siegfried</persName>
-               </person>
-               <person xml:id="hildebrant" sex="MALE">
-                  <persName>Hildebrant</persName>
-               </person>
-               <person xml:id="golo" sex="MALE">
-                  <persName>Golo</persName>
-               </person>
-               <person xml:id="genoveva" sex="FEMALE">
-                  <persName>Genoveva</persName>
-               </person>
-               <person xml:id="drago" sex="MALE">
-                  <persName>Drago</persName>
-               </person>
-               <person xml:id="caspar" sex="MALE">
-                  <persName>Caspar</persName>
-               </person>
-               <person xml:id="balthasar" sex="MALE">
-                  <persName>Balthasar</persName>
-               </person>
-               <person xml:id="katharina" sex="FEMALE">
-                  <persName>Katharina</persName>
-               </person>
-               <personGrp xml:id="mehrere_stimmen" sex="UNKNOWN">
-                  <name>Mehrere Stimmen</name>
-               </personGrp>
-               <person xml:id="hans" sex="MALE">
-                  <persName>Hans</persName>
-               </person>
-               <person xml:id="jude" sex="MALE">
-                  <persName>Jude</persName>
-               </person>
-               <person xml:id="margaretha" sex="FEMALE">
-                  <persName>Margaretha</persName>
-               </person>
-               <person xml:id="tristan" sex="MALE">
-                  <persName>Tristan</persName>
-               </person>
-               <person xml:id="maler" sex="MALE">
-                  <persName>Maler</persName>
-               </person>
-               <person xml:id="conrad" sex="MALE">
-                  <persName>Conrad</persName>
-               </person>
-               <person xml:id="klaus" sex="MALE">
-                  <persName>Klaus</persName>
-               </person>
-               <person xml:id="edelknecht" sex="MALE">
-                  <persName>Edelknecht</persName>
-               </person>
-               <person xml:id="geist" sex="MALE">
-                  <persName>Geist</persName>
-               </person>
-               <person xml:id="schmerzenreich" sex="MALE">
-                  <persName>Schmerzenreich</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118547445">
+                        <forename>Friedrich</forename>
+                        <surname>Hebbel</surname>
+                     </persName></person><person sex="m" role="editor"><persName>
+                        <forename>Gerhard</forename>
+                        <surname>Fricke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Werner</forename>
+                        <surname>Keller</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

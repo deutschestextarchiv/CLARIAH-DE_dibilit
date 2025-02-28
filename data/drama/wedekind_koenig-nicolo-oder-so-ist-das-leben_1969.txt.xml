@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -180,106 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="koenig_nicolo" sex="MALE">
-                  <persName>König Nicolo</persName>
-                  <persName type="variant">Der König</persName>
-               </person>
-               <person xml:id="alma" sex="FEMALE">
-                  <persName>Prinzessin Alma</persName>
-               </person>
-               <person xml:id="erster_bedienter" sex="MALE">
-                  <persName>Erster Bedienter</persName>
-               </person>
-               <person xml:id="zweiter_bedienter" sex="MALE">
-                  <persName>Zweiter Bedienter</persName>
-               </person>
-               <person xml:id="koenig_pietro" sex="MALE">
-                  <persName>Pietro Folchi/König Pietro</persName>
-               </person>
-               <personGrp xml:id="die_buerger_alle_anwesenden" sex="UNKNOWN">
-                  <name>Die Bürger/Einige Stimmen/Einige Bürger/Alle Anwesenden (1. Bild)</name>
-               </personGrp>
-               <person xml:id="andrea_valori" sex="MALE">
-                  <persName>Andrea Valori</persName>
-               </person>
-               <person xml:id="filipo" sex="MALE">
-                  <persName>Filipo Folchi/Prinz Filipo</persName>
-               </person>
-               <person xml:id="benedetto_nardi" sex="MALE">
-                  <persName>Benedetto Nardi</persName>
-               </person>
-               <person xml:id="der_soeldner" sex="MALE">
-                  <persName>Der Söldner</persName>
-               </person>
-               <person xml:id="der_gutsbesitzer" sex="MALE">
-                  <persName>Der Gutsbesitzer</persName>
-               </person>
-               <person xml:id="der_landstreicher" sex="MALE">
-                  <persName>Der Landstreicher</persName>
-                  <persName type="variant">Ein Landstreicher</persName>
-               </person>
-               <person xml:id="meister_pandolfo" sex="MALE">
-                  <persName>Meister Pandolfo</persName>
-               </person>
-               <person xml:id="michele" sex="MALE">
-                  <persName>Michele</persName>
-               </person>
-               <person xml:id="noe" sex="MALE">
-                  <persName>Noè</persName>
-               </person>
-               <person xml:id="battista" sex="MALE">
-                  <persName>Battista</persName>
-               </person>
-               <person xml:id="der_oberrichter" sex="MALE">
-                  <persName>Der Oberrichter</persName>
-               </person>
-               <person xml:id="der_prokurator_des_koenigs" sex="MALE">
-                  <persName>Der Prokurator des Königs</persName>
-               </person>
-               <person xml:id="der_gerichtsaktuar" sex="MALE">
-                  <persName>Der Gerichtsaktuar</persName>
-               </person>
-               <person xml:id="der_verteidiger" sex="MALE">
-                  <persName>Der Verteidiger</persName>
-               </person>
-               <person xml:id="der_gefaengniswaerter" sex="MALE">
-                  <persName>Der Gefängniswärter</persName>
-               </person>
-               <person xml:id="der_kunstreiter" sex="MALE">
-                  <persName>Der Kunstreiter</persName>
-               </person>
-               <personGrp xml:id="chorus" sex="UNKNOWN">
-                  <name>Chorus (7. Bild)</name>
-               </personGrp>
-               <person xml:id="der_erste_theaterbesitzer" sex="MALE">
-                  <persName>Der erste Theaterbesitzer</persName>
-                  <persName type="variant">Ein Theaterbesitzer</persName>
-                  <persName type="variant">Der Theaterbesitzer</persName>
-               </person>
-               <person xml:id="der_schauspieler" sex="MALE">
-                  <persName>Der Schauspieler</persName>
-               </person>
-               <personGrp xml:id="die_zuschauer_die_zuhoerer" sex="UNKNOWN">
-                  <name>Die Zuschauer/Die Zuhörer (7. Bild)</name>
-               </personGrp>
-               <person xml:id="die_kupplerin" sex="FEMALE">
-                  <persName>Die Kupplerin</persName>
-               </person>
-               <person xml:id="der_zweite_theaterbesitzer" sex="MALE">
-                  <persName>Der zweite Theaterbesitzer</persName>
-                  <persName type="variant">Ein anderer Theaterbesitzer</persName>
-               </person>
-               <person xml:id="ein_edelknabe" sex="MALE">
-                  <persName>Ein Edelknabe</persName>
-               </person>
-               <person xml:id="der_zuschauer" sex="MALE">
-                  <persName>Der Zuschauer (8. Bild)</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118629867">
+                        <forename>Frank</forename>
+                        <surname>Wedekind</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Manfred</forename>
+                        <surname>Hahn</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

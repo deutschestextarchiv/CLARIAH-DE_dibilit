@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1893</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1893</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1888"
-                        notAfter="1891"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1888" notAfter="1891"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1997e269">Entstanden 1888–1891. Vollständiger Erstdruck: Berlin (Verlag des Bibliographischen Bureaus), 1893. Uraufführung (ohne »Denksteine« und »Agonie«) am 03.12.1910, Deutsches Volkstheater, Wien und Lessingtheater, Berlin.</note>
@@ -177,45 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="max" sex="MALE">
-                  <persName>Max</persName>
-               </person>
-               <person xml:id="anatol" sex="MALE">
-                  <persName>Anatol</persName>
-               </person>
-               <person xml:id="cora" sex="FEMALE">
-                  <persName>Cora</persName>
-               </person>
-               <person xml:id="gabriele" sex="FEMALE">
-                  <persName>Gabriele</persName>
-               </person>
-               <person xml:id="bianca" sex="FEMALE">
-                  <persName>Bianca</persName>
-               </person>
-               <person xml:id="emilie" sex="FEMALE">
-                  <persName>Emilie</persName>
-               </person>
-               <person xml:id="annie" sex="FEMALE">
-                  <persName>Annie</persName>
-               </person>
-               <person xml:id="kellner" sex="MALE">
-                  <persName>Kellner</persName>
-               </person>
-               <person xml:id="else" sex="FEMALE">
-                  <persName>Else</persName>
-               </person>
-               <person xml:id="franz" sex="MALE">
-                  <persName>Franz</persName>
-               </person>
-               <person xml:id="ilona" sex="FEMALE">
-                  <persName>Ilona</persName>
-                  <persName type="variant">Ilonas Stimme</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118609807">
+                        <forename>Arthur</forename>
+                        <surname>Schnitzler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

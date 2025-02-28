@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -171,10 +168,7 @@
                   <date type="firstPublication" subtype="clariah">1786</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1741"
-                        notAfter="1800"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1741" notAfter="1800"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d79e282">Komponiert von Karl Ditters von Dittersdorf. Uraufführung am 11.07.1786, Burgtheater, Wien.</note>
@@ -194,41 +188,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="sturmwald" sex="MALE">
-                  <persName>Sturmwald</persName>
-               </person>
-               <person xml:id="leonore" sex="FEMALE">
-                  <persName>Leonore</persName>
-               </person>
-               <person xml:id="claudia" sex="FEMALE">
-                  <persName>Claudia</persName>
-               </person>
-               <person xml:id="rosalie" sex="FEMALE">
-                  <persName>Rosalie</persName>
-               </person>
-               <person xml:id="gotthold" sex="MALE">
-                  <persName>Gotthold</persName>
-               </person>
-               <person xml:id="sichel" sex="MALE">
-                  <persName>Sichel</persName>
-               </person>
-               <person xml:id="krautmann" sex="MALE">
-                  <persName>Krautmann</persName>
-               </person>
-               <person xml:id="gallus" sex="MALE">
-                  <persName>Gallus</persName>
-               </person>
-               <person xml:id="stoessel" sex="MALE">
-                  <persName>Stößel</persName>
-               </person>
-               <person xml:id="kommissaer" sex="MALE">
-                  <persName>Kommissär</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/119545799">
+                        <forename>Johann Gottlieb</forename>
+                        <surname>Stephanie</surname>
+                     </persName></person><person role="author"><persName role="composer">
+                        <forename>Karl</forename>
+                        <surname>Ditters von Dittersdorf</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Carl Friedrich</forename>
+                        <surname>Wittmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

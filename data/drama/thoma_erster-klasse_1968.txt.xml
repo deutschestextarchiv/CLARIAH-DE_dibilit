@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,41 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="stueve" sex="MALE">
-                  <persName>Stüve</persName>
-               </person>
-               <person xml:id="kleewitz" sex="MALE">
-                  <persName>Kleewitz</persName>
-               </person>
-               <person xml:id="frau_von_kleewitz" sex="FEMALE">
-                  <persName>Frau von Kleewitz</persName>
-               </person>
-               <person xml:id="scheibler" sex="MALE">
-                  <persName>Scheibler</persName>
-               </person>
-               <person xml:id="schaffner" sex="MALE">
-                  <persName>Schaffner</persName>
-               </person>
-               <person xml:id="zugfuehrer" sex="MALE">
-                  <persName>Zugführer</persName>
-               </person>
-               <person xml:id="filser" sex="MALE">
-                  <persName>Filser</persName>
-               </person>
-               <person xml:id="frau_filser" sex="FEMALE">
-                  <persName>Frau Filser</persName>
-               </person>
-               <person xml:id="gsottmaier" sex="MALE">
-                  <persName>Gsottmaier</persName>
-               </person>
-               <person xml:id="die_rekruten" sex="MALE">
-                  <persName>Die Rekruten</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118622072">
+                        <forename>Ludwig</forename>
+                        <surname>Thoma</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

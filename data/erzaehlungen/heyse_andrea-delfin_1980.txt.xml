@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -169,10 +166,7 @@
                   <date type="firstPublication" subtype="clariah">1862</date>
                   <date type="firstPublication" subtype="zeno">1862</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1859"
-                        notAfter="1862"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1859" notAfter="1862"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Heyse-Paul-d1e81268">Entstanden: 1859: Erstdruck: Berlin [o. V.] 1862. Viele Heyses Novellen wurden vor allem in Zeitschriften wie »Die Gartenlaube«, »Westermanns Monatshefte« u. »Deutsche Rundschau« schon vor dem Erscheinen in einem Band veröffentlicht.</note>
@@ -186,7 +180,19 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118550772">
+                        <forename>Paul</forename>
+                        <surname>Heyse</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Bernhard</forename>
+                        <surname>Knick</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Johanna</forename>
+                        <surname>Knick</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hildegard</forename>
+                        <surname>Korth</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

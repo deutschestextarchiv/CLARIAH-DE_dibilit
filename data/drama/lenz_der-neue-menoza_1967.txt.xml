@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,80 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="herr_von_biederling" sex="MALE">
-                  <persName>Herr von Biederling</persName>
-               </person>
-               <person xml:id="frau_von_biederling" sex="FEMALE">
-                  <persName>Frau von Biederling</persName>
-               </person>
-               <person xml:id="prinz_tandi" sex="MALE">
-                  <persName>Prinz Tandi</persName>
-               </person>
-               <person xml:id="graf" sex="MALE">
-                  <persName>Graf Camäleon</persName>
-               </person>
-               <person xml:id="verwalter" sex="MALE">
-                  <persName>Verwalter</persName>
-               </person>
-               <person xml:id="donna_diana" sex="FEMALE">
-                  <persName>Donna Diana</persName>
-               </person>
-               <person xml:id="zierau" sex="MALE">
-                  <persName>Zierau</persName>
-               </person>
-               <person xml:id="wilhelmine" sex="FEMALE">
-                  <persName>Wilhelmine</persName>
-               </person>
-               <person xml:id="babet" sex="FEMALE">
-                  <persName>Babet</persName>
-               </person>
-               <person xml:id="magister_beza" sex="MALE">
-                  <persName>Magister Beza</persName>
-               </person>
-               <person xml:id="herr_von_zopf" sex="MALE">
-                  <persName>Herr von Zopf</persName>
-               </person>
-               <person xml:id="gustav" sex="MALE">
-                  <persName>Gustav</persName>
-               </person>
-               <person xml:id="kaffeewirt" sex="MALE">
-                  <persName>Kaffeewirt</persName>
-               </person>
-               <person xml:id="ein_buckligter" sex="MALE">
-                  <persName>Ein Buckligter</persName>
-               </person>
-               <person xml:id="lahmer" sex="MALE">
-                  <persName>Lahmer</persName>
-               </person>
-               <person xml:id="blinder" sex="MALE">
-                  <persName>Blinder</persName>
-               </person>
-               <person xml:id="ein_anderer_blinder" sex="MALE">
-                  <persName>Ein anderer Blinder</persName>
-               </person>
-               <person xml:id="eine_dame" sex="FEMALE">
-                  <persName>Eine Dame</persName>
-               </person>
-               <person xml:id="ein_chapeau" sex="MALE">
-                  <persName>Ein Chapeau</persName>
-               </person>
-               <person xml:id="ein_dicker_kerl" sex="MALE">
-                  <persName>Ein dicker Kerl</persName>
-               </person>
-               <person xml:id="eine_maske" sex="UNKNOWN">
-                  <persName>Eine Maske</persName>
-               </person>
-               <person xml:id="eine_andere_maske" sex="UNKNOWN">
-                  <persName>Eine andere Maske</persName>
-               </person>
-               <person xml:id="buergermeister" sex="MALE">
-                  <persName>Bürgermeister</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118571656">
+                        <forename>Jakob Michael Reinhold</forename>
+                        <surname>Lenz</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Britta</forename>
+                        <surname>Titel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hellmut</forename>
+                        <surname>Haug</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno">1889</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1889</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1857"
-                        notAfter="1889"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1857" notAfter="1889"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3026e281">Erstdruck: Berlin (Entsch) 1889. Uraufführung am 27.11.1889 in Berlin im Lessing-Theater.</note>
@@ -176,57 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="frau_hebenstreit" sex="FEMALE">
-                  <persName>Frau Hebenstreit</persName>
-               </person>
-               <person xml:id="frau_heinecke" sex="FEMALE">
-                  <persName>Frau Heinecke</persName>
-               </person>
-               <person xml:id="heinecke" sex="MALE">
-                  <persName>Heinecke</persName>
-               </person>
-               <person xml:id="robert" sex="MALE">
-                  <persName>Robert</persName>
-               </person>
-               <person xml:id="auguste" sex="FEMALE">
-                  <persName>Auguste</persName>
-               </person>
-               <person xml:id="michalski" sex="MALE">
-                  <persName>Michalski</persName>
-               </person>
-               <person xml:id="wilhelm" sex="MALE">
-                  <persName>Wilhelm</persName>
-               </person>
-               <person xml:id="alma" sex="FEMALE">
-                  <persName>Alma</persName>
-                  <persName type="variant">Almas Stimme</persName>
-               </person>
-               <person xml:id="trast" sex="MALE">
-                  <persName>Trast</persName>
-               </person>
-               <person xml:id="curt" sex="MALE">
-                  <persName>Curt</persName>
-               </person>
-               <person xml:id="muehlingk" sex="MALE">
-                  <persName>Mühlingk</persName>
-               </person>
-               <person xml:id="frau_muehlingk" sex="FEMALE">
-                  <persName>Frau Mühlingk</persName>
-               </person>
-               <person xml:id="lenore" sex="FEMALE">
-                  <persName>Lenore</persName>
-               </person>
-               <person xml:id="lothar" sex="MALE">
-                  <persName>Lothar</persName>
-               </person>
-               <person xml:id="hugo" sex="MALE">
-                  <persName>Hugo</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118619853">
+                        <forename>Hermann</forename>
+                        <surname>Sudermann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

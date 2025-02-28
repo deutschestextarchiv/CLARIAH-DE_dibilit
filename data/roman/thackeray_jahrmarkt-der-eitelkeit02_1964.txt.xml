@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -152,10 +149,7 @@
                   <date type="firstPublication" precision="low" subtype="clariah">1848</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1848</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1811"
-                        notAfter="1863"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1811" notAfter="1863"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#BThackeray-Willi-d1e748">Erstmals unter dem Titel »Vanity Fair: Pen and Pencil Sketches of English Society« in monatlichen Fortsetzungen zwischen Januar 1847 und Juli 1848 gedruckt. Erste Buchausgabe: London (Bradbury and Evans) 1848. Hier nach der Übers. v. Dr. Chr. Fr. Grieb.</note>
@@ -169,7 +163,10 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118621483">
+                        <forename>William Makepeace</forename>
+                        <surname>Thackeray</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

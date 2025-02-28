@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="clariah">1857</date>
                   <date type="firstPublication" subtype="zeno">1857</date>
                   <date type="firstPublication" subtype="i5">1857</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1832"
-                        notAfter="1857"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1832" notAfter="1857"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Bjornson-Bjorns-d1e421">Erstdruck: Kristiania (Dahl) 1857. Hier nach der Ausgabe hg. v. Julius Elias, Berlin: S. Fischer Verlag, [1911].</note>
@@ -173,7 +167,13 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118511459">
+                        <forename>Björnstjerne</forename>
+                        <surname>Björnson</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Julius</forename>
+                        <surname>Elias</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

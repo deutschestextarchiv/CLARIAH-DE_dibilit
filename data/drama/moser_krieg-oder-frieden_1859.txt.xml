@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -175,36 +172,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="johann" sex="MALE">
-                  <persName>Johann</persName>
-               </person>
-               <person xml:id="major" sex="MALE">
-                  <persName>Major</persName>
-               </person>
-               <person xml:id="jenny" sex="FEMALE">
-                  <persName>Jenny</persName>
-               </person>
-               <person xml:id="barbier" sex="MALE">
-                  <persName>Barbier</persName>
-               </person>
-               <person xml:id="milchfrau" sex="FEMALE">
-                  <persName>Milchfrau</persName>
-               </person>
-               <person xml:id="paddemann" sex="MALE">
-                  <persName>Paddemann</persName>
-                  <persName type="variant">Paddermann</persName>
-               </person>
-               <person xml:id="assessor" sex="MALE">
-                  <persName>Assessor</persName>
-               </person>
-               <person xml:id="kulike" sex="MALE">
-                  <persName>Kulike</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/116937807">
+                        <forename>Gustav</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Moser</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

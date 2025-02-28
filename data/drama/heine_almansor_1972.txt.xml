@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,10 +157,7 @@
                   <date type="firstPublication" subtype="zeno">1821</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1821</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1797"
-                        notAfter="1856"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1797" notAfter="1856"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d247e361">Erstdruck in: Der Gesellschafter oder Blätter für Herz und Geist (Berlin), 5. Jg., November 1821.</note>
@@ -183,122 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="almansor" sex="MALE">
-                  <persName>Almansor</persName>
-               </person>
-               <person xml:id="erster_maure" sex="MALE">
-                  <persName>Erster Maure</persName>
-               </person>
-               <person xml:id="zweiter_maure" sex="MALE">
-                  <persName>Zweiter Maure</persName>
-               </person>
-               <person xml:id="dritter_maure" sex="MALE">
-                  <persName>Dritter Maure</persName>
-               </person>
-               <person xml:id="hassan" sex="MALE">
-                  <persName>Hassan</persName>
-                  <persName type="variant">Die Gestalt</persName>
-               </person>
-               <person xml:id="don_enrique" sex="MALE">
-                  <persName>Don Enrique</persName>
-               </person>
-               <person xml:id="zuleima" sex="FEMALE">
-                  <persName>Zuleima</persName>
-                  <persName type="variant">Zuleimas Stimme</persName>
-               </person>
-               <person xml:id="aly" sex="MALE">
-                  <persName>Aly</persName>
-                  <persName type="variant">Alys Stimme</persName>
-               </person>
-               <person xml:id="pedrillo" sex="MALE">
-                  <persName>Pedrillo</persName>
-               </person>
-               <person xml:id="eine_andre_stimme" sex="MALE">
-                  <persName>Eine andre Stimme</persName>
-               </person>
-               <person xml:id="eine_dritte_stimme" sex="MALE">
-                  <persName>Eine dritte Stimme</persName>
-               </person>
-               <person xml:id="erster_ritter_3a" sex="MALE">
-                  <persName>Erster Ritter (3)</persName>
-               </person>
-               <person xml:id="seine_dame_3" sex="FEMALE">
-                  <persName>Seine Dame (3)</persName>
-               </person>
-               <person xml:id="eine_andre_dame_3" sex="FEMALE">
-                  <persName>Eine andre Dame (3)</persName>
-                  <persName type="variant">Die Dame</persName>
-               </person>
-               <person xml:id="ihr_ritter_3a" sex="MALE">
-                  <persName>Ihr Ritter (3)</persName>
-               </person>
-               <person xml:id="der_erste_3b" sex="MALE">
-                  <persName>Der Erste (3)</persName>
-               </person>
-               <person xml:id="der_zweite_3b" sex="MALE">
-                  <persName>Der Zweite (3)</persName>
-               </person>
-               <person xml:id="der_eine_ritter_3c" sex="MALE">
-                  <persName>Der eine Ritter (3)</persName>
-               </person>
-               <person xml:id="der_andre_ritter_3c" sex="MALE">
-                  <persName>Der andre Ritter (3)</persName>
-               </person>
-               <person xml:id="ein_junger_fiedler" sex="MALE">
-                  <persName>Ein junger Fiedler</persName>
-                  <persName type="variant">Der junge Fiedler</persName>
-               </person>
-               <person xml:id="der_alte" sex="MALE">
-                  <persName>Der Alte</persName>
-               </person>
-               <person xml:id="don_diego" sex="MALE">
-                  <persName>Don Diego</persName>
-               </person>
-               <personGrp xml:id="der_chor" sex="UNKNOWN">
-                  <name>Der Chor</name>
-               </personGrp>
-               <person xml:id="ein_ritter_6" sex="MALE">
-                  <persName>Ein Ritter (6)</persName>
-               </person>
-               <personGrp xml:id="ein_teil_der_gaeste_alle" sex="UNKNOWN">
-                  <name>Ein Teil der Gäste/Alle (6)</name>
-               </personGrp>
-               <person xml:id="der_abt" sex="MALE">
-                  <persName>Der Abt</persName>
-               </person>
-               <person xml:id="ein_anderer_ritter_6" sex="MALE">
-                  <persName>Ein anderer Ritter (6)</persName>
-                  <persName type="variant">Zweiter Ritter</persName>
-               </person>
-               <person xml:id="dritter_ritter_6" sex="MALE">
-                  <persName>Dritter Ritter (6)</persName>
-               </person>
-               <person xml:id="vierter_ritter_6" sex="MALE">
-                  <persName>Vierter Ritter (6)</persName>
-               </person>
-               <person xml:id="fuenfter_ritter_6" sex="MALE">
-                  <persName>Fünfter Ritter (6)</persName>
-               </person>
-               <person xml:id="die_dame_6" sex="FEMALE">
-                  <persName>Die Dame (6)</persName>
-               </person>
-               <person xml:id="der_harfenspieler" sex="MALE">
-                  <persName>Der Harfenspieler</persName>
-               </person>
-               <personGrp xml:id="einige_ritter_andre_ritter_alle_ritter_6" sex="MALE">
-                  <name>Einige Ritter/Andre Ritter/Alle Ritter (6)</name>
-               </personGrp>
-               <personGrp xml:id="mehrere_ritter_8" sex="MALE">
-                  <name>Mehrere Ritter (8)</name>
-               </personGrp>
-               <person xml:id="ein_ritter_8" sex="MALE">
-                  <persName>Ein Ritter (8)</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118548018">
+                        <forename>Heinrich</forename>
+                        <surname>Heine</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hans</forename>
+                        <surname>Kaufmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

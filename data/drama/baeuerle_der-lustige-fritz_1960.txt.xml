@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -162,10 +159,7 @@
                   <date type="firstPublication" subtype="zeno">1819</date>
                   <date type="firstPublication" subtype="i5">1819</date>
                   <date type="firstPublication" subtype="gerdracor">1819</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1775"
-                        notAfter="1853"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1775" notAfter="1853"/>
                </publicationStmt>
                <seriesStmt>
                   <title level="s" type="main">Das Wiener Volkstheater in seinen schönsten Stücken</title>
@@ -191,102 +185,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="speck" sex="MALE">
-                  <persName>Speck</persName>
-               </person>
-               <personGrp xml:id="chor_alle_1-1_und_2-22" sex="UNKNOWN">
-                  <name>Chor/Alle (I/1 und II/22)</name>
-               </personGrp>
-               <person xml:id="frau_steigerl" sex="FEMALE">
-                  <persName>Frau Steigerl</persName>
-               </person>
-               <person xml:id="steigerl" sex="MALE">
-                  <persName>Steigerl</persName>
-               </person>
-               <person xml:id="schmalz" sex="MALE">
-                  <persName>Schmalz</persName>
-               </person>
-               <person xml:id="jean" sex="MALE">
-                  <persName>Jean</persName>
-               </person>
-               <person xml:id="malchen" sex="FEMALE">
-                  <persName>Malchen</persName>
-               </person>
-               <person xml:id="lottchen" sex="FEMALE">
-                  <persName>Lottchen</persName>
-               </person>
-               <person xml:id="fritz" sex="MALE">
-                  <persName>Fritz</persName>
-               </person>
-               <person xml:id="marie" sex="FEMALE">
-                  <persName>Marie</persName>
-               </person>
-               <person xml:id="oebstlerin" sex="FEMALE">
-                  <persName>Öbstlerin</persName>
-               </person>
-               <person xml:id="schneider" sex="MALE">
-                  <persName>Schneider</persName>
-               </person>
-               <person xml:id="schuster" sex="MALE">
-                  <persName>Schuster</persName>
-               </person>
-               <person xml:id="kutscher" sex="MALE">
-                  <persName>Kutscher</persName>
-               </person>
-               <person xml:id="salami-mann" sex="MALE">
-                  <persName>Salami-Mann</persName>
-               </person>
-               <person xml:id="magier" sex="MALE">
-                  <persName>Magier</persName>
-               </person>
-               <personGrp xml:id="chor_der_vier_diener" sex="MALE">
-                  <name>Chor der vier Diener</name>
-               </personGrp>
-               <person xml:id="satire" sex="UNKNOWN">
-                  <persName>Satire</persName>
-               </person>
-               <person xml:id="laster" sex="UNKNOWN">
-                  <persName>Laster</persName>
-               </person>
-               <person xml:id="die_begierde" sex="UNKNOWN">
-                  <persName>Die Begierde</persName>
-               </person>
-               <person xml:id="die_amoretten" sex="UNKNOWN">
-                  <persName>Die Amoretten</persName>
-               </person>
-               <person xml:id="kaprice" sex="UNKNOWN">
-                  <persName>Kaprice</persName>
-               </person>
-               <person xml:id="mode" sex="UNKNOWN">
-                  <persName>Die Mode</persName>
-               </person>
-               <person xml:id="luxus" sex="UNKNOWN">
-                  <persName>Luxus</persName>
-               </person>
-               <person xml:id="kompliment" sex="UNKNOWN">
-                  <persName>Das Kompliment</persName>
-               </person>
-               <person xml:id="armut" sex="UNKNOWN">
-                  <persName>Armut</persName>
-               </person>
-               <person xml:id="koketterie" sex="UNKNOWN">
-                  <persName>Koketterie</persName>
-               </person>
-               <person xml:id="schande" sex="UNKNOWN">
-                  <persName>Schande</persName>
-               </person>
-               <person xml:id="die_schulden" sex="UNKNOWN">
-                  <persName>Die Schulden</persName>
-                  <persName type="variant">Chor aus ›Orpheus‹</persName>
-               </person>
-               <person xml:id="die_hoffnung" sex="UNKNOWN">
-                  <persName>Die Hoffnung</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/119560038">
+                        <forename>Adolf</forename>
+                        <surname>Bäuerle</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Gerhard</forename>
+                        <surname>Helbig</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

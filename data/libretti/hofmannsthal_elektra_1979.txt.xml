@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -188,72 +185,18 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="erste_dienerin" sex="FEMALE">
-                  <persName>Erste Dienerin</persName>
-                  <persName type="variant">Eine</persName>
-               </person>
-               <person xml:id="zweite_dienerin" sex="FEMALE">
-                  <persName>Zweite Dienerin</persName>
-               </person>
-               <person xml:id="dritte_dienerin" sex="FEMALE">
-                  <persName>Dritte Dienerin</persName>
-               </person>
-               <person xml:id="vierte_dienerin" sex="FEMALE">
-                  <persName>Vierte Dienerin</persName>
-               </person>
-               <person xml:id="fuenfte_dienerin" sex="FEMALE">
-                  <persName>Fünfte Dienerin</persName>
-                  <persName type="variant">Die Eine</persName>
-               </person>
-               <person xml:id="aufseherin" sex="FEMALE">
-                  <persName>Aufseherin</persName>
-               </person>
-               <personGrp xml:id="die_dienerinnen" sex="FEMALE">
-                  <name>Die Dienerinnen</name>
-                  <name type="variant">Alle</name>
-                  <name type="variant">Mehrere</name>
-               </personGrp>
-               <person xml:id="elektra" sex="FEMALE">
-                  <persName>Elektra</persName>
-               </person>
-               <person xml:id="chrysothemis" sex="FEMALE">
-                  <persName>Chrysothemis</persName>
-               </person>
-               <person xml:id="klytaemnestra" sex="FEMALE">
-                  <persName>Klytämnestra</persName>
-               </person>
-               <person xml:id="die_vertraute" sex="FEMALE">
-                  <persName>Die Vertraute</persName>
-               </person>
-               <person xml:id="die_schlepptraegerin" sex="FEMALE">
-                  <persName>Die Schleppträgerin</persName>
-               </person>
-               <person xml:id="ein_junger_diener" sex="MALE">
-                  <persName>Ein junger Diener</persName>
-                  <persName type="variant">Der Diener</persName>
-                  <persName type="variant">Der Junge</persName>
-               </person>
-               <person xml:id="der_koch" sex="MALE">
-                  <persName>Der Koch</persName>
-               </person>
-               <person xml:id="ein_alter_diener" sex="MALE">
-                  <persName>Ein alter Diener</persName>
-                  <persName type="variant">Der Alte</persName>
-               </person>
-               <person xml:id="orest" sex="MALE">
-                  <persName>Orest</persName>
-               </person>
-               <person xml:id="der_pfleger" sex="MALE">
-                  <persName>Der Pfleger des Orest</persName>
-               </person>
-               <person xml:id="aegisth" sex="MALE">
-                  <persName>Ägisth</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118552759">
+                        <forename>Hugo</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Hofmannsthal</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Bernd</forename>
+                        <surname>Schoeller</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Rudolf</forename>
+                        <surname>Hirsch</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

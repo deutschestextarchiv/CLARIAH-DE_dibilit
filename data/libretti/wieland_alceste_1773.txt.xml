@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -152,10 +149,7 @@
                   <date type="firstPublication" subtype="clariah">1773</date>
                   <date type="firstPublication" subtype="zeno">1773</date>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1733"
-                        notAfter="1773"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1733" notAfter="1773"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d107e248">Erstdruck: Leipzig (Weidmanns Erben und Reich), 1773. Komposition von Anton Schweitzer. Uraufführung am 28.05.1773, Großherzogliches Hofheater, Weimar.</note>
@@ -175,26 +169,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="alceste" sex="FEMALE">
-                  <persName>Alceste</persName>
-               </person>
-               <person xml:id="parthenia" sex="FEMALE">
-                  <persName>Parthenia</persName>
-               </person>
-               <person xml:id="admet" sex="MALE">
-                  <persName>Admet</persName>
-               </person>
-               <person xml:id="herkules" sex="MALE">
-                  <persName>Herkules</persName>
-               </person>
-               <person xml:id="chor" sex="UNKNOWN">
-                  <persName>Chor</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118632477">
+                        <forename>Christoph Martin</forename>
+                        <surname>Wieland</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

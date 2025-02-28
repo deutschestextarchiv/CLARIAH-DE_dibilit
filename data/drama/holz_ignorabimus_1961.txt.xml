@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1913</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1914</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1863"
-                        notAfter="1929"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1863" notAfter="1929"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1059e255">Erstdruck: Dresden (Carl Reißner), 1913. Uraufführung am 14.04.1927, Düsseldorf.</note>
@@ -177,32 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="marianne" sex="FEMALE">
-                  <persName>Marianne</persName>
-               </person>
-               <person xml:id="onkel_ludwig" sex="MALE">
-                  <persName>Onkel Ludwig</persName>
-               </person>
-               <person xml:id="georg" sex="MALE">
-                  <persName>Georg</persName>
-               </person>
-               <person xml:id="dufroy" sex="MALE">
-                  <persName>Dufroy</persName>
-               </person>
-               <person xml:id="uexkuell" sex="MALE">
-                  <persName>Uexküll</persName>
-               </person>
-               <person xml:id="stimme" sex="UNKNOWN">
-                  <persName>Stimme</persName>
-               </person>
-               <person xml:id="die_erscheinung" sex="UNKNOWN">
-                  <persName>Die Erscheinung</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118553216">
+                        <forename>Arno</forename>
+                        <surname>Holz</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

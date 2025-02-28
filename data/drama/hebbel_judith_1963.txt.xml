@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,10 +170,7 @@
                   <date type="firstPublication" subtype="zeno">1841</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1841</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1813"
-                        notAfter="1841"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1813" notAfter="1841"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d975e454">Erstdruck: Hamburg (Hoffmann und Campe) 1841. Uraufführung am 6.7.1840 in Berlin.</note>
@@ -196,197 +190,20 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="holofernes" sex="MALE">
-                  <persName>Holofernes</persName>
-               </person>
-               <person xml:id="oberpriester_1a" sex="MALE">
-                  <persName>Oberpriester</persName>
-               </person>
-               <person xml:id="trabant" sex="MALE">
-                  <persName>Trabant</persName>
-               </person>
-               <person xml:id="ein_krieger" sex="MALE">
-                  <persName>Ein Krieger</persName>
-                  <persName type="variant">Der Krieger</persName>
-               </person>
-               <person xml:id="hauptmann_1a" sex="MALE">
-                  <persName>Hauptmann</persName>
-               </person>
-               <person xml:id="ein_hauptmann_1b" sex="MALE">
-                  <persName>Ein Hauptmann</persName>
-               </person>
-               <person xml:id="bote" sex="MALE">
-                  <persName>Bote</persName>
-               </person>
-               <person xml:id="priester_1b" sex="MALE">
-                  <persName>Priester</persName>
-               </person>
-               <person xml:id="ein_hauptmann_1c" sex="MALE">
-                  <persName>Ein Hauptmann</persName>
-                  <persName type="variant">Hauptmann</persName>
-               </person>
-               <personGrp xml:id="lybische_gesandte" sex="MALE">
-                  <name>Lybische Gesandte</name>
-               </personGrp>
-               <personGrp xml:id="mesopotamische_gesandte" sex="MALE">
-                  <name>Mesopotamische Gesandte</name>
-               </personGrp>
-               <person xml:id="achior" sex="MALE">
-                  <persName>Achior</persName>
-               </person>
-               <person xml:id="judith" sex="FEMALE">
-                  <persName>Judith</persName>
-               </person>
-               <person xml:id="mirza" sex="FEMALE">
-                  <persName>Mirza</persName>
-               </person>
-               <person xml:id="ephraim" sex="MALE">
-                  <persName>Ephraim</persName>
-               </person>
-               <person xml:id="hosea" sex="MALE">
-                  <persName>Hosea</persName>
-               </person>
-               <person xml:id="ammon" sex="MALE">
-                  <persName>Ammon</persName>
-               </person>
-               <person xml:id="ben" sex="MALE">
-                  <persName>Ben</persName>
-               </person>
-               <person xml:id="der_eine" sex="MALE">
-                  <persName>Der eine (ältere Bürger)</persName>
-               </person>
-               <person xml:id="der_andere" sex="MALE">
-                  <persName>Der andere (ältere Bürger)</persName>
-               </person>
-               <person xml:id="samuel" sex="MALE">
-                  <persName>Samuel</persName>
-               </person>
-               <person xml:id="enkel" sex="MALE">
-                  <persName>Enkel</persName>
-               </person>
-               <person xml:id="erster_buerger_3a" sex="MALE">
-                  <persName>Erster Bürger (III. Akt)</persName>
-               </person>
-               <person xml:id="zweiter_buerger_3a" sex="MALE">
-                  <persName>Zweiter Bürger (III. Akt)</persName>
-               </person>
-               <person xml:id="der_aelteste_3" sex="MALE">
-                  <persName>Der Älteste (III. Akt)</persName>
-               </person>
-               <person xml:id="assad" sex="MALE">
-                  <persName>Assad</persName>
-               </person>
-               <person xml:id="ein_anderer_3b" sex="MALE">
-                  <persName>Ein Anderer</persName>
-               </person>
-               <person xml:id="daniel" sex="MALE">
-                  <persName>Daniel</persName>
-               </person>
-               <personGrp xml:id="volk_stimmen_im_volk_3" sex="UNKNOWN">
-                  <name>Volk/Stimmen im Volk (III. Akt)</name>
-               </personGrp>
-               <person xml:id="samaja" sex="MALE">
-                  <persName>Samaja</persName>
-               </person>
-               <person xml:id="ein_buerger_3b" sex="MALE">
-                  <persName>Ein Bürger</persName>
-               </person>
-               <person xml:id="josua" sex="MALE">
-                  <persName>Josua</persName>
-               </person>
-               <person xml:id="einer_im_volk_3c" sex="MALE">
-                  <persName>Einer im Volk (III. Akt)</persName>
-               </person>
-               <person xml:id="ein_anderer_der_vorige_3c" sex="MALE">
-                  <persName>Ein Anderer/Der Vorige</persName>
-               </person>
-               <person xml:id="ein_dritter_3" sex="MALE">
-                  <persName>Ein Dritter (III. Akt)</persName>
-               </person>
-               <person xml:id="delia" sex="FEMALE">
-                  <persName>Delia</persName>
-               </person>
-               <person xml:id="einer_der_aeltesten_3" sex="MALE">
-                  <persName>Einer der Ältesten</persName>
-                  <persName type="variant">Der vorige Älteste</persName>
-               </person>
-               <person xml:id="einer_aus_dem_volke_3d" sex="MALE">
-                  <persName>Einer aus dem Volke (III. Akt)</persName>
-               </person>
-               <person xml:id="ein_priester_3" sex="MALE">
-                  <persName>Ein Priester (III. Akt)</persName>
-               </person>
-               <person xml:id="einer_der_hauptleute_4a" sex="MALE">
-                  <persName>Einer der Hauptleute</persName>
-                  <persName type="variant">Der Erste</persName>
-               </person>
-               <person xml:id="der_zweite_der_hauptleute_4a" sex="MALE">
-                  <persName>Der Zweite (der Hauptleute)</persName>
-               </person>
-               <person xml:id="ein_hauptmann_4b" sex="MALE">
-                  <persName>Ein Hauptmann (IV. Akt)</persName>
-               </person>
-               <person xml:id="der_hauptmann_5" sex="MALE">
-                  <persName>Der Hauptmann (V. Akt)</persName>
-               </person>
-               <person xml:id="kaemmerer" sex="MALE">
-                  <persName>Kämmerer</persName>
-               </person>
-               <person xml:id="erster_priester_5a" sex="MALE">
-                  <persName>Erster Priester (V. Akt)</persName>
-                  <persName type="variant">Priester</persName>
-               </person>
-               <person xml:id="zweiter_priester_5a" sex="MALE">
-                  <persName>Zweiter Priester (V. Akt)</persName>
-                  <persName type="variant">Der zweite Priester</persName>
-               </person>
-               <person xml:id="ein_weib" sex="FEMALE">
-                  <persName>Ein Weib</persName>
-               </person>
-               <personGrp xml:id="weiber" sex="FEMALE">
-                  <name>Weiber</name>
-               </personGrp>
-               <person xml:id="eine_mutter" sex="FEMALE">
-                  <persName>Eine Mutter</persName>
-                  <persName type="variant">Mutter</persName>
-                  <persName type="variant">Die Mutter</persName>
-               </person>
-               <person xml:id="ein_anderes_weib" sex="FEMALE">
-                  <persName>Ein anderes Weib</persName>
-                  <persName type="variant">Das Weib</persName>
-               </person>
-               <person xml:id="erster_buerger_5" sex="MALE">
-                  <persName>Erster Bürger (V. Akt)</persName>
-               </person>
-               <person xml:id="zweiter_buerger_5" sex="MALE">
-                  <persName>Zweiter Bürger (V. Akt)</persName>
-               </person>
-               <person xml:id="ein_dritter_buerger_5" sex="MALE">
-                  <persName>Ein Dritter Bürger (V. Akt)</persName>
-               </person>
-               <personGrp xml:id="wachen" sex="MALE">
-                  <name>Wachen</name>
-               </personGrp>
-               <personGrp xml:id="volk_stimmen_im_volk_5" sex="UNKNOWN">
-                  <name>Volk/Stimmen im Volk (V. Akt)</name>
-               </personGrp>
-               <personGrp xml:id="die_aeltesten" sex="MALE">
-                  <name>Die Ältesten</name>
-               </personGrp>
-               <person xml:id="ein_priester_5b" sex="MALE">
-                  <persName>Ein Priester (V. Akt)</persName>
-               </person>
-               <person xml:id="einer_der_aeltesten_5" sex="MALE">
-                  <persName>Einer der Ältesten (V. Akt)</persName>
-               </person>
-               <personGrp xml:id="die_priester" sex="MALE">
-                  <name>Die Priester</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118547445">
+                        <forename>Friedrich</forename>
+                        <surname>Hebbel</surname>
+                     </persName></person><person sex="m" role="editor"><persName>
+                        <forename>Gerhard</forename>
+                        <surname>Fricke</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Werner</forename>
+                        <surname>Keller</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

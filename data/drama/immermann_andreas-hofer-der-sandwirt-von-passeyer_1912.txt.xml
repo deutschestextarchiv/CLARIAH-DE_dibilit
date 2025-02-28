@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -180,137 +177,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="etschmann" sex="MALE">
-                  <persName>Etschmann</persName>
-               </person>
-               <person xml:id="elsi" sex="FEMALE">
-                  <persName>Elsi</persName>
-               </person>
-               <person xml:id="mathis" sex="MALE">
-                  <persName>Mathis</persName>
-               </person>
-               <person xml:id="speckbacher" sex="MALE">
-                  <persName>Joseph Speckbacher</persName>
-                  <persName type="variant">Speckbachers Stimme</persName>
-               </person>
-               <person xml:id="herzog" sex="MALE">
-                  <persName>Der Herzog von Danzig</persName>
-               </person>
-               <person xml:id="la_coste" sex="MALE">
-                  <persName>La Coste</persName>
-               </person>
-               <person xml:id="fallern" sex="MALE">
-                  <persName>Fallern von Rodeneck</persName>
-               </person>
-               <person xml:id="mayer" sex="MALE">
-                  <persName>Peter Mayer</persName>
-               </person>
-               <person xml:id="haspinger" sex="MALE">
-                  <persName>Der Kapuziner Joachim Haspinger</persName>
-                  <persName type="variant">Haspingers Stimme</persName>
-               </person>
-               <personGrp xml:id="die_andern" sex="UNKNOWN">
-                  <name>Die Andern</name>
-               </personGrp>
-               <person xml:id="andreas_hofer" sex="MALE">
-                  <persName>Andreas Hofer</persName>
-                  <persName type="variant">Hofer</persName>
-               </person>
-               <personGrp xml:id="volk" sex="UNKNOWN">
-                  <name>Volk</name>
-                  <name type="variant">Das Volk</name>
-               </personGrp>
-               <person xml:id="ein_bote" sex="MALE">
-                  <persName>Ein Bote</persName>
-               </person>
-               <person xml:id="der_tiroler_1-9" sex="MALE">
-                  <persName>Der Tiroler (I/9)</persName>
-               </person>
-               <person xml:id="fleury" sex="MALE">
-                  <persName>Fleury</persName>
-               </person>
-               <person xml:id="eisenstecken" sex="MALE">
-                  <persName>Eisenstecken</persName>
-               </person>
-               <person xml:id="ein_offizier" sex="MALE">
-                  <persName>Ein Offizier</persName>
-               </person>
-               <person xml:id="frau_straubing" sex="FEMALE">
-                  <persName>Frau Straubing</persName>
-               </person>
-               <person xml:id="heinrich" sex="MALE">
-                  <persName>Heinrich</persName>
-               </person>
-               <personGrp xml:id="die_rainer" sex="MALE">
-                  <name>Gebrüder Rainer</name>
-               </personGrp>
-               <personGrp xml:id="mehrere_tiroler_alle_2-8" sex="UNKNOWN">
-                  <name>Mehrere Tiroler/Alle (II/8)</name>
-                  <name type="variant">Die Tiroler</name>
-                  <name type="variant">Andere Tiroler</name>
-                  <name type="variant">Alle</name>
-               </personGrp>
-               <person xml:id="einer_2-9a" sex="MALE">
-                  <persName>Einer</persName>
-                  <persName type="variant">Erster</persName>
-               </person>
-               <person xml:id="ein_anderer" sex="MALE">
-                  <persName>Ein Anderer</persName>
-               </person>
-               <person xml:id="einer_2-9b" sex="MALE">
-                  <persName>Einer</persName>
-               </person>
-               <personGrp xml:id="alle_2-9" sex="MALE">
-                  <name>Alle (II/9)</name>
-               </personGrp>
-               <person xml:id="kanzler" sex="MALE">
-                  <persName>Kanzler</persName>
-               </person>
-               <person xml:id="legationsrat" sex="MALE">
-                  <persName>Legationsrat</persName>
-               </person>
-               <person xml:id="ein_kabinettssekretaer" sex="MALE">
-                  <persName>Ein Kabinettssekretär</persName>
-               </person>
-               <person xml:id="ein_tiroler_4-1" sex="MALE">
-                  <persName>Ein Tiroler (IV/1)</persName>
-               </person>
-               <person xml:id="vizekoenig" sex="MALE">
-                  <persName>Vizekönig</persName>
-               </person>
-               <person xml:id="paraguay" sex="MALE">
-                  <persName>Graf Paraguay</persName>
-               </person>
-               <person xml:id="ein_page" sex="MALE">
-                  <persName>Ein Page</persName>
-               </person>
-               <person xml:id="weib_tirolerin" sex="FEMALE">
-                  <persName>Ein Weib/Die Tirolerin</persName>
-               </person>
-               <person xml:id="erstes_kind" sex="UNKNOWN">
-                  <persName>Ein Kind</persName>
-                  <persName type="variant">Kind</persName>
-               </person>
-               <person xml:id="zweites_kind" sex="UNKNOWN">
-                  <persName>Zweites Kind</persName>
-               </person>
-               <person xml:id="baerbel" sex="FEMALE">
-                  <persName>Bärbel</persName>
-               </person>
-               <person xml:id="donay" sex="MALE">
-                  <persName>Der Priester Donay</persName>
-               </person>
-               <person xml:id="raynouard" sex="MALE">
-                  <persName>Raynouard</persName>
-               </person>
-               <person xml:id="johann" sex="MALE">
-                  <persName>Johann</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118555553">
+                        <forename>Karl</forename>
+                        <surname>Immermann</surname>
+                     </persName></person><person role="editor"><persName>
+                        <roleName>Prof. Dr.</roleName>
+                        <forename>Hermann</forename>
+                        <surname>Muchau</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

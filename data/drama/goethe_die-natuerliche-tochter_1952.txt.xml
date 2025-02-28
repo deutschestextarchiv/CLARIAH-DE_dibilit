@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -156,10 +153,7 @@
                   <date type="firstPublication" subtype="zeno">1804</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1803</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1799"
-                        notAfter="1803"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1799" notAfter="1803"/>
                </publicationStmt>
                <seriesStmt>
                   <title level="s" type="main">Goethes Werke</title>
@@ -185,44 +179,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>König</persName>
-               </person>
-               <person xml:id="herzog" sex="MALE">
-                  <persName>Herzog</persName>
-               </person>
-               <person xml:id="graf" sex="MALE">
-                  <persName>Graf</persName>
-               </person>
-               <person xml:id="eugenie" sex="FEMALE">
-                  <persName>Eugenie</persName>
-               </person>
-               <person xml:id="sekretaer" sex="MALE">
-                  <persName>Sekretär</persName>
-               </person>
-               <person xml:id="hofmeisterin" sex="FEMALE">
-                  <persName>Hofmeisterin</persName>
-               </person>
-               <person xml:id="weltgeistlicher" sex="MALE">
-                  <persName>Weltgeistlicher</persName>
-               </person>
-               <person xml:id="gerichtsrat" sex="MALE">
-                  <persName>Gerichtsrat</persName>
-               </person>
-               <person xml:id="gouverneur" sex="MALE">
-                  <persName>Gouverneur</persName>
-               </person>
-               <person xml:id="aebtissin" sex="FEMALE">
-                  <persName>Äbtissin</persName>
-               </person>
-               <person xml:id="moench" sex="MALE">
-                  <persName>Mönch</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118540238">
+                        <forename>Johann Wolfgang</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Goethe</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

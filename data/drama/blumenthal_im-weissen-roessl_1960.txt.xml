@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -165,10 +162,7 @@
                   <date type="firstPublication" subtype="zeno">1898</date>
                   <date type="firstPublication" subtype="i5">1898</date>
                   <date type="firstPublication" subtype="gerdracor">1898</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1852"
-                        notAfter="1917"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1852" notAfter="1917"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d415e362">Erstdruck: [Berlin-] Charlottenburg (Simson), 1898. Uraufführung am 30.12.1898, Lessing- Theater, Berlin.</note>
@@ -188,121 +182,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="resi" sex="FEMALE">
-                  <persName>Resi</persName>
-               </person>
-               <person xml:id="leopold" sex="MALE">
-                  <persName>Leopold</persName>
-               </person>
-               <person xml:id="loidl" sex="MALE">
-                  <persName>Loidl</persName>
-               </person>
-               <person xml:id="piccolo" sex="MALE">
-                  <persName>Piccolo</persName>
-               </person>
-               <person xml:id="kracher" sex="MALE">
-                  <persName>Kracher</persName>
-               </person>
-               <person xml:id="josepha" sex="FEMALE">
-                  <persName>Josepha</persName>
-               </person>
-               <person xml:id="franz" sex="MALE">
-                  <persName>Franz</persName>
-               </person>
-               <person xml:id="mirzl" sex="FEMALE">
-                  <persName>Mirzl</persName>
-               </person>
-               <person xml:id="kapitaen" sex="MALE">
-                  <persName>Kapitän</persName>
-               </person>
-               <person xml:id="bootsmann" sex="MALE">
-                  <persName>Bootsmann</persName>
-               </person>
-               <person xml:id="erster_portier" sex="MALE">
-                  <persName>Erster Portier</persName>
-               </person>
-               <person xml:id="zweiter_portier" sex="MALE">
-                  <persName>Zweiter Portier</persName>
-               </person>
-               <person xml:id="dritter_portier" sex="MALE">
-                  <persName>Dritter Portier</persName>
-               </person>
-               <person xml:id="eine_dame" sex="FEMALE">
-                  <persName>Eine Dame</persName>
-               </person>
-               <person xml:id="baeuerin" sex="FEMALE">
-                  <persName>Bäuerin</persName>
-               </person>
-               <person xml:id="sepp" sex="MALE">
-                  <persName>Sepp</persName>
-               </person>
-               <person xml:id="bauernjunge" sex="MALE">
-                  <persName>Bauernjunge</persName>
-               </person>
-               <person xml:id="vierter_portier" sex="MALE">
-                  <persName>Vierter Portier</persName>
-               </person>
-               <person xml:id="reisender" sex="MALE">
-                  <persName>Reisender</persName>
-               </person>
-               <person xml:id="hochtourist" sex="MALE">
-                  <persName>Hochtourist</persName>
-               </person>
-               <person xml:id="bernbach" sex="MALE">
-                  <persName>Bernbach</persName>
-                  <persName type="variant">Dr. Bernbach</persName>
-                  <persName type="variant">Bernbacher</persName>
-               </person>
-               <person xml:id="emmy" sex="FEMALE">
-                  <persName>Emmy</persName>
-               </person>
-               <person xml:id="melanie_schmidt" sex="FEMALE">
-                  <persName>Melanie Schmidt</persName>
-               </person>
-               <person xml:id="raetin_schmidt" sex="FEMALE">
-                  <persName>Rätin Schmidt</persName>
-               </person>
-               <person xml:id="giesecke" sex="MALE">
-                  <persName>Giesecke</persName>
-               </person>
-               <person xml:id="charlotte" sex="FEMALE">
-                  <persName>Charlotte</persName>
-               </person>
-               <person xml:id="ottilie" sex="FEMALE">
-                  <persName>Ottilie</persName>
-               </person>
-               <person xml:id="siedler" sex="MALE">
-                  <persName>Siedler</persName>
-               </person>
-               <person xml:id="joseph" sex="MALE">
-                  <persName>Joseph</persName>
-               </person>
-               <person xml:id="martin" sex="MALE">
-                  <persName>Martin</persName>
-               </person>
-               <person xml:id="mali" sex="FEMALE">
-                  <persName>Mali</persName>
-               </person>
-               <person xml:id="kathi" sex="FEMALE">
-                  <persName>Kathi</persName>
-               </person>
-               <person xml:id="portier" sex="MALE">
-                  <persName>Portier</persName>
-               </person>
-               <person xml:id="suelzheimer" sex="MALE">
-                  <persName>Sülzheimer</persName>
-               </person>
-               <person xml:id="hinzelmann" sex="MALE">
-                  <persName>Hinzelmann</persName>
-               </person>
-               <person xml:id="klaerchen" sex="FEMALE">
-                  <persName>Klärchen</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118659111">
+                        <forename>Oskar</forename>
+                        <surname>Blumenthal</surname>
+                     </persName></person><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/116015675">
+                        <forename>Gustav</forename>
+                        <surname>Kadelburg</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

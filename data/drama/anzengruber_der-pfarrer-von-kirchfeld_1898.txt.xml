@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1871</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1871</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1869"
-                        notAfter="1870"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1869" notAfter="1870"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d499e308">Entstanden1869–1870. Erstdruck: Wien (Rosner), 1871, als zweiter Band der Reihe »Neues Wiener Theater«. Uraufführung am 5.11.1870, Theater an der Wien, Wien.</note>
@@ -177,80 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="lux" sex="MALE">
-                  <persName>Lux</persName>
-               </person>
-               <person xml:id="finsterberg" sex="MALE">
-                  <persName>Finsterberg</persName>
-               </person>
-               <person xml:id="hell" sex="MALE">
-                  <persName>Hell</persName>
-               </person>
-               <person xml:id="wirt" sex="MALE">
-                  <persName>Wirt</persName>
-               </person>
-               <person xml:id="wirtin" sex="FEMALE">
-                  <persName>Wirtin</persName>
-               </person>
-               <person xml:id="hannsl" sex="MALE">
-                  <persName>Hannsl</persName>
-               </person>
-               <personGrp xml:id="wallfahrerchor" sex="UNKNOWN">
-                  <name>Wallfahrerchor</name>
-               </personGrp>
-               <personGrp xml:id="hochzeitsreigen" sex="UNKNOWN">
-                  <name>Hochzeitsreigen</name>
-               </personGrp>
-               <person xml:id="schulmeister" sex="MALE">
-                  <persName>Schulmeister</persName>
-               </person>
-               <person xml:id="michel" sex="MALE">
-                  <persName>Michel</persName>
-               </person>
-               <person xml:id="loisl" sex="MALE">
-                  <persName>Loisl</persName>
-               </person>
-               <personGrp xml:id="alle_3-3" sex="UNKNOWN">
-                  <name>Alle (III/3)</name>
-               </personGrp>
-               <personGrp xml:id="chor" sex="UNKNOWN">
-                  <name>Chor</name>
-               </personGrp>
-               <personGrp xml:id="hochzeitschor" sex="UNKNOWN">
-                  <name>Hochzeitschor</name>
-               </personGrp>
-               <person xml:id="sepp" sex="MALE">
-                  <persName>Sepp</persName>
-               </person>
-               <person xml:id="annerl" sex="FEMALE">
-                  <persName>Annerl</persName>
-               </person>
-               <person xml:id="vetter" sex="MALE">
-                  <persName>Vetter</persName>
-               </person>
-               <person xml:id="brigitte" sex="FEMALE">
-                  <persName>Brigitte</persName>
-               </person>
-               <personGrp xml:id="einige_bauern" sex="MALE">
-                  <name>Einige Bauern</name>
-                  <name type="variant">Bauern</name>
-               </personGrp>
-               <personGrp xml:id="junge_burschen" sex="MALE">
-                  <name>Junge Burschen</name>
-                  <name type="variant">Junge Bursche</name>
-               </personGrp>
-               <person xml:id="ein_alter_bauer" sex="MALE">
-                  <persName>Ein alter Bauer</persName>
-                  <persName type="variant">Der alte Bauer</persName>
-               </person>
-               <personGrp xml:id="mehrere_alte_bauern" sex="MALE">
-                  <name>Mehrere alte Bauern</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/11850357X">
+                        <forename>Ludwig</forename>
+                        <surname>Anzengruber</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

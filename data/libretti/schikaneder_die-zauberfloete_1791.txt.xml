@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -164,10 +161,7 @@
                   <date type="firstPublication" subtype="clariah">1791</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1791</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1751"
-                        notAfter="1791"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1751" notAfter="1791"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d275e339">Komponiert von Wolfgang Amadeus Mozart. Uraufführung am 30.09.1791, Theater im Starhembergschen Freihaus auf der Wieden, Wien.</note>
@@ -187,98 +181,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="tamino" sex="MALE">
-                  <persName>Tamino</persName>
-               </person>
-               <person xml:id="erste_dame" sex="FEMALE">
-                  <persName>Erste Dame</persName>
-               </person>
-               <person xml:id="zweyte_dame" sex="FEMALE">
-                  <persName>Zweyte Dame</persName>
-               </person>
-               <person xml:id="dritte_dame" sex="FEMALE">
-                  <persName>Dritte Dame</persName>
-               </person>
-               <person xml:id="papageno" sex="MALE">
-                  <persName>Papageno</persName>
-               </person>
-               <person xml:id="koeniginn" sex="FEMALE">
-                  <persName>Königinn</persName>
-               </person>
-               <person xml:id="dritter_sclav" sex="MALE">
-                  <persName>Dritter Sclav</persName>
-               </person>
-               <person xml:id="erster_sclav" sex="MALE">
-                  <persName>Erster Sclav</persName>
-               </person>
-               <person xml:id="zweyter_sclav" sex="MALE">
-                  <persName>Zweyter Sclav</persName>
-               </person>
-               <person xml:id="monostatos" sex="MALE">
-                  <persName>Monostatos</persName>
-                  <persName type="variant">Mohr</persName>
-               </person>
-               <person xml:id="pamina" sex="FEMALE">
-                  <persName>Pamina</persName>
-               </person>
-               <person xml:id="stimme" sex="UNKNOWN">
-                  <persName>Stimme</persName>
-               </person>
-               <person xml:id="priester" sex="MALE">
-                  <persName>Priester</persName>
-               </person>
-               <personGrp xml:id="einige_stimmen" sex="UNKNOWN">
-                  <name>Einige Stimmen</name>
-                  <name type="variant">Die Stimmen</name>
-               </personGrp>
-               <personGrp xml:id="gefolge_sarastros" sex="UNKNOWN">
-                  <name>Gefolge Sarastros</name>
-               </personGrp>
-               <person xml:id="sarastro" sex="MALE">
-                  <persName>Sarastro</persName>
-               </person>
-               <person xml:id="erster_priester" sex="MALE">
-                  <persName>Erster Priester</persName>
-               </person>
-               <person xml:id="zweyter_priester" sex="MALE">
-                  <persName>Zweyter Priester</persName>
-               </person>
-               <person xml:id="dritter_priester" sex="MALE">
-                  <persName>Dritter Priester</persName>
-               </person>
-               <person xml:id="sprecher" sex="MALE">
-                  <persName>Sprecher</persName>
-               </person>
-               <personGrp xml:id="chor_von_priestern" sex="MALE">
-                  <name>Chor von Priestern</name>
-               </personGrp>
-               <person xml:id="weib" sex="FEMALE">
-                  <persName>Ein altes Weib</persName>
-               </person>
-               <person xml:id="eine_stimme" sex="UNKNOWN">
-                  <persName>Eine Stimme</persName>
-                  <persName type="variant">Die Stimme</persName>
-               </person>
-               <person xml:id="erster_knabe" sex="MALE">
-                  <persName>Erster Knabe</persName>
-               </person>
-               <person xml:id="zweyter_knabe" sex="MALE">
-                  <persName>Zweyter Knabe</persName>
-               </person>
-               <person xml:id="dritter_knabe" sex="MALE">
-                  <persName>Dritter Knabe</persName>
-               </person>
-               <personGrp xml:id="zwey_geharnischte" sex="MALE">
-                  <name>Zwey Geharnischte</name>
-                  <name type="variant">Zwey Männer</name>
-                  <name type="variant">Die Geharnischten</name>
-                  <name type="variant">Geharnischte</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/11860757X">
+                        <forename>Emanuel</forename>
+                        <surname>Schikaneder</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/118584596">
+                        <forename>Wolfgang Amadeus</forename>
+                        <surname>Mozart</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

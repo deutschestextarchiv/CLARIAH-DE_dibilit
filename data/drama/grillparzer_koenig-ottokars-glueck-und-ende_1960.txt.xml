@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,198 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="elisabeth" sex="FEMALE">
-                  <persName>Elisabeth</persName>
-                  <persName type="variant">Frau Elisabeth</persName>
-               </person>
-               <person xml:id="der_alte_merenberg" sex="MALE">
-                  <persName>Der alte Merenberg</persName>
-                  <persName type="variant">Merenberg</persName>
-               </person>
-               <person xml:id="seyfried" sex="MALE">
-                  <persName>Seyfried von Merenberg</persName>
-               </person>
-               <person xml:id="benesch" sex="MALE">
-                  <persName>Benesch</persName>
-               </person>
-               <person xml:id="milota" sex="MALE">
-                  <persName>Milota</persName>
-               </person>
-               <person xml:id="bertha" sex="FEMALE">
-                  <persName>Bertha</persName>
-               </person>
-               <person xml:id="zawisch" sex="MALE">
-                  <persName>Zawisch</persName>
-               </person>
-               <person xml:id="koenigin_margarethe" sex="FEMALE">
-                  <persName>Königin Margarethe</persName>
-                  <persName type="variant">Margarethe</persName>
-                  <persName type="variant">Königin</persName>
-                  <persName type="variant">Die Königin</persName>
-               </person>
-               <person xml:id="rudolf_von_habsburg" sex="MALE">
-                  <persName>Rudolf von Habsburg</persName>
-                  <persName type="variant">Rudolf</persName>
-               </person>
-               <person xml:id="kanzler" sex="MALE">
-                  <persName>Der Kanzler</persName>
-               </person>
-               <personGrp xml:id="alle_von_aussen_die_im_saale_zuruf" sex="UNKNOWN">
-                  <name>Alle/Von außen/Die im Saale/Zuruf von allen Seiten</name>
-               </personGrp>
-               <person xml:id="ottokar" sex="MALE">
-                  <persName>Ottokar</persName>
-                  <persName type="variant">Der König</persName>
-               </person>
-               <person xml:id="buergermeister_von_prag" sex="MALE">
-                  <persName>Bürgermeister von Prag</persName>
-                  <persName type="variant">Bürgermeister</persName>
-               </person>
-               <person xml:id="fuellenstein" sex="MALE">
-                  <persName>Füllenstein</persName>
-               </person>
-               <person xml:id="diener_1a" sex="MALE">
-                  <persName>Diener (I. Aufzug)</persName>
-               </person>
-               <person xml:id="diener_1b" sex="MALE">
-                  <persName>Diener (I. Aufzug)</persName>
-                  <persName type="variant">Ein Diener</persName>
-               </person>
-               <person xml:id="heinrich_von_lichtenstein" sex="MALE">
-                  <persName>Heinrich von Lichtenstein</persName>
-                  <persName type="variant">Lichtenstein</persName>
-               </person>
-               <person xml:id="wortfuehrer_der_steirer" sex="MALE">
-                  <persName>Wortführer der Steirer</persName>
-               </person>
-               <person xml:id="wortfuehrer_der_kaerntner" sex="MALE">
-                  <persName>Wortführer der Kärntner</persName>
-                  <persName type="variant">Kärntner</persName>
-               </person>
-               <person xml:id="bela" sex="MALE">
-                  <persName>Bela</persName>
-               </person>
-               <person xml:id="erster_abgesandter" sex="MALE">
-                  <persName>Erster Abgesandter</persName>
-                  <persName type="variant">Der Erste der Gesandtschaft</persName>
-                  <persName type="variant">Der Erste der Reichstaggesandten</persName>
-                  <persName type="variant">Abgesandter</persName>
-               </person>
-               <person xml:id="zweiter_abgesandter" sex="MALE">
-                  <persName>Zweiter Abgesandter (Kanzler des Erzbischofs von Mainz)</persName>
-                  <persName type="variant">Ein Zweiter der Abgesandten</persName>
-                  <persName type="variant">Der Zweite der Abgesandten</persName>
-                  <persName type="variant">Abgesandter</persName>
-               </person>
-               <person xml:id="kunigunde" sex="FEMALE">
-                  <persName>Kunigunde</persName>
-               </person>
-               <person xml:id="kammerfraeulein" sex="FEMALE">
-                  <persName>Kammerfräulein</persName>
-                  <persName type="variant">Fräulein</persName>
-               </person>
-               <person xml:id="diener_2a" sex="MALE">
-                  <persName>Diener (II. Aufzug)</persName>
-               </person>
-               <person xml:id="diener_2b" sex="MALE">
-                  <persName>Diener (II. Aufzug)</persName>
-               </person>
-               <person xml:id="burggraf" sex="MALE">
-                  <persName>Burggraf von Nürnberg</persName>
-               </person>
-               <personGrp xml:id="gemurmel" sex="UNKNOWN">
-                  <name>Gemurmel</name>
-               </personGrp>
-               <person xml:id="frau_3a" sex="FEMALE">
-                  <persName>Frau</persName>
-               </person>
-               <person xml:id="ortolf" sex="MALE">
-                  <persName>Ortolf</persName>
-               </person>
-               <person xml:id="knecht_duxer" sex="MALE">
-                  <persName>Knecht (Der Duxer)</persName>
-                  <persName type="variant">von außen</persName>
-                  <persName type="variant">außen</persName>
-               </person>
-               <person xml:id="hauptmann" sex="MALE">
-                  <persName>Hauptmann</persName>
-               </person>
-               <person xml:id="erster_buerger" sex="MALE">
-                  <persName>Erster Bürger</persName>
-               </person>
-               <person xml:id="zweiter_buerger" sex="MALE">
-                  <persName>Zweiter Bürger</persName>
-               </person>
-               <person xml:id="frau_3b" sex="FEMALE">
-                  <persName>Frau (Kathrina Fröhlich)</persName>
-                  <persName type="variant">Eine Frau</persName>
-               </person>
-               <person xml:id="schweizersoldat" sex="MALE">
-                  <persName>Schweizersoldat</persName>
-                  <persName type="variant">Schweizer</persName>
-               </person>
-               <person xml:id="hornek" sex="MALE">
-                  <persName>Ottokar von Hornek</persName>
-               </person>
-               <person xml:id="paltram" sex="MALE">
-                  <persName>Paltram</persName>
-               </person>
-               <person xml:id="pettauer" sex="MALE">
-                  <persName>Pettauer</persName>
-               </person>
-               <personGrp xml:id="die_böhmen" sex="MALE">
-                  <name>Die Böhmen</name>
-               </personGrp>
-               <person xml:id="knappe-diener" sex="MALE">
-                  <persName>Knappe/Diener</persName>
-               </person>
-               <person xml:id="buerger" sex="MALE">
-                  <persName>Bürger</persName>
-               </person>
-               <person xml:id="herold" sex="MALE">
-                  <persName>Herold</persName>
-               </person>
-               <person xml:id="diener_4" sex="MALE">
-                  <persName>Diener (IV. Aufzug)</persName>
-               </person>
-               <person xml:id="bote" sex="MALE">
-                  <persName>Bote</persName>
-               </person>
-               <person xml:id="diener_5a" sex="MALE">
-                  <persName>Diener (V. Aufzug)</persName>
-               </person>
-               <person xml:id="kuester" sex="MALE">
-                  <persName>Küster</persName>
-               </person>
-               <person xml:id="von_aussen_5" sex="UNKNOWN">
-                  <persName>von außen (V. Aufzug)</persName>
-               </person>
-               <person xml:id="knecht_5a" sex="MALE">
-                  <persName>Knecht (V. Aufzug)</persName>
-               </person>
-               <person xml:id="ein_ritter" sex="MALE">
-                  <persName>Ein Ritter</persName>
-               </person>
-               <person xml:id="diener_5b" sex="MALE">
-                  <persName>Diener (V. Aufzug)</persName>
-               </person>
-               <person xml:id="es_stuerzt_einer_herein" sex="MALE">
-                  <persName>Es stürzt Einer herein</persName>
-               </person>
-               <person xml:id="emerberg" sex="MALE">
-                  <persName>Emerberg</persName>
-               </person>
-               <person xml:id="knecht_5b" sex="MALE">
-                  <persName>Knecht (V. Aufzug)</persName>
-               </person>
-               <personGrp xml:id="alle_5" sex="UNKNOWN">
-                  <name>Alle (V. Aufzug)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118542192">
+                        <forename>Franz</forename>
+                        <surname>Grillparzer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Peter</forename>
+                        <surname>Frank</surname>
+                     </persName></person><person role="editor" sex="m"><persName>
+                        <forename>Karl</forename>
+                        <surname>Pörnbacher</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -181,62 +178,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="silva" sex="MALE">
-                  <persName>De Silva</persName>
-               </person>
-               <person xml:id="jochai" sex="MALE">
-                  <persName>Jochai</persName>
-               </person>
-               <person xml:id="diener_1-2" sex="MALE">
-                  <persName>Diener (I/2)</persName>
-               </person>
-               <person xml:id="uriel" sex="MALE">
-                  <persName>Uriel</persName>
-               </person>
-               <person xml:id="santos" sex="MALE">
-                  <persName>Santos</persName>
-               </person>
-               <person xml:id="manasse" sex="MALE">
-                  <persName>Manasse</persName>
-               </person>
-               <person xml:id="simon" sex="MALE">
-                  <persName>Simon</persName>
-               </person>
-               <person xml:id="judith" sex="FEMALE">
-                  <persName>Judith</persName>
-               </person>
-               <personGrp xml:id="alle_2-7" sex="UNKNOWN">
-                  <name>Alle (II/7)</name>
-               </personGrp>
-               <person xml:id="ruben" sex="MALE">
-                  <persName>Ruben</persName>
-               </person>
-               <person xml:id="esther" sex="FEMALE">
-                  <persName>Esther</persName>
-               </person>
-               <person xml:id="joel" sex="MALE">
-                  <persName>Joel</persName>
-               </person>
-               <person xml:id="diener_4-1" sex="MALE">
-                  <persName>Diener (IV/1)</persName>
-               </person>
-               <person xml:id="akiba" sex="MALE">
-                  <persName>Akiba</persName>
-               </person>
-               <person xml:id="embden" sex="MALE">
-                  <persName>Embden</persName>
-               </person>
-               <personGrp xml:id="alle_4-6" sex="UNKNOWN">
-                  <name>Alle (IV/6)</name>
-               </personGrp>
-               <person xml:id="baruch" sex="MALE">
-                  <persName>Baruch</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118543830">
+                        <forename>Karl</forename>
+                        <surname>Gutzkow</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Reinhold</forename>
+                        <surname>Gensel</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

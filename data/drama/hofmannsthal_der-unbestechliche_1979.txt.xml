@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -189,54 +186,18 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="die_jungfer" sex="FEMALE">
-                  <persName>Die Jungfer</persName>
-                  <persName type="variant">Jungfer</persName>
-                  <persName type="variant">Milli</persName>
-               </person>
-               <person xml:id="beschliesserin" sex="FEMALE">
-                  <persName>Beschließerin</persName>
-               </person>
-               <person xml:id="gaertner" sex="MALE">
-                  <persName>Gärtner</persName>
-               </person>
-               <person xml:id="baronin" sex="FEMALE">
-                  <persName>Baronin</persName>
-                  <persName type="variant">Stimme der Baronin</persName>
-               </person>
-               <person xml:id="kutscher" sex="MALE">
-                  <persName>Kutscher</persName>
-               </person>
-               <person xml:id="general" sex="MALE">
-                  <persName>General</persName>
-               </person>
-               <person xml:id="jaromir" sex="MALE">
-                  <persName>Jaromir</persName>
-               </person>
-               <person xml:id="der_kleine_jaromir" sex="MALE">
-                  <persName>Der kleine Jaromir</persName>
-                  <persName type="variant">Stimme des kleinen Jaromir</persName>
-               </person>
-               <person xml:id="anna" sex="FEMALE">
-                  <persName>Anna</persName>
-               </person>
-               <person xml:id="theodor" sex="MALE">
-                  <persName>Theodor</persName>
-               </person>
-               <person xml:id="marie" sex="FEMALE">
-                  <persName>Marie</persName>
-               </person>
-               <person xml:id="melanie" sex="FEMALE">
-                  <persName>Melanie</persName>
-               </person>
-               <person xml:id="hermine" sex="FEMALE">
-                  <persName>Hermine</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118552759">
+                        <forename>Hugo</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Hofmannsthal</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Bernd</forename>
+                        <surname>Schoeller</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Rudolf</forename>
+                        <surname>Hirsch</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

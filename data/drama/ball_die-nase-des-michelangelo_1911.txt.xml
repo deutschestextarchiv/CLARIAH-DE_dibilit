@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,44 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="michelangelo" sex="MALE">
-                  <persName>Michelangelo</persName>
-               </person>
-               <person xml:id="torrigiano" sex="MALE">
-                  <persName>Torrigiano</persName>
-               </person>
-               <person xml:id="cellini" sex="MALE">
-                  <persName>Cellini</persName>
-               </person>
-               <person xml:id="erster_student" sex="MALE">
-                  <persName>Erster Student</persName>
-               </person>
-               <person xml:id="zweiter_student" sex="MALE">
-                  <persName>Zweiter Student</persName>
-               </person>
-               <personGrp xml:id="die_menge" sex="UNKNOWN">
-                  <name>Die Menge</name>
-               </personGrp>
-               <person xml:id="ein_herold" sex="MALE">
-                  <persName>Ein Herold</persName>
-               </person>
-               <person xml:id="der_papst" sex="MALE">
-                  <persName>Der Papst</persName>
-               </person>
-               <person xml:id="kardinal_aus_dem_gefolge" sex="MALE">
-                  <persName>Kardinal aus dem Gefolge</persName>
-               </person>
-               <person xml:id="kardinal" sex="MALE">
-                  <persName>Kardinal</persName>
-               </person>
-               <personGrp xml:id="stimmen_aus_dem_volk" sex="UNKNOWN">
-                  <name>Stimmen aus dem Volk</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118506234">
+                        <forename>Hugo</forename>
+                        <surname>Ball</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

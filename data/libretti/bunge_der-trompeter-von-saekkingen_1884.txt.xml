@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -164,10 +161,7 @@
                   <date type="firstPublication" subtype="clariah">1884</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1836"
-                        notAfter="1907"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1836" notAfter="1907"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d261e325">Komponiert von Viktor Nessler. Uraufführung am 04.05.1884, Theater am Augustaplatz, Leipzig.</note>
@@ -187,80 +181,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="die_studenten" sex="MALE">
-                  <name>Die Studenten</name>
-                  <name type="variant">Chor der Studenten</name>
-                  <name type="variant">Einige Studenten</name>
-                  <name type="variant">Andere Studenten</name>
-                  <name type="variant">Alle Studenten</name>
-                  <name type="variant">Studentenchor</name>
-                  <name type="variant">Andere</name>
-               </personGrp>
-               <person xml:id="werner" sex="MALE">
-                  <persName>Werner</persName>
-               </person>
-               <personGrp xml:id="die_landsknechte" sex="MALE">
-                  <name>Die Landsknechte</name>
-                  <name type="variant">Chor der Landsknechte</name>
-               </personGrp>
-               <person xml:id="conradin" sex="MALE">
-                  <persName>Conradin</persName>
-               </person>
-               <person xml:id="haushofmeister" sex="MALE">
-                  <persName>Haushofmeister</persName>
-               </person>
-               <person xml:id="rector_magnificus" sex="MALE">
-                  <persName>Rector Magnificus</persName>
-                  <persName type="variant">Der Rector Magnificus</persName>
-                  <persName type="variant">Rector</persName>
-               </person>
-               <personGrp xml:id="chor" sex="UNKNOWN">
-                  <name>Chor</name>
-                  <name type="variant">Allgemeiner Schlußchor</name>
-               </personGrp>
-               <personGrp xml:id="einige_aeltere_maenner" sex="MALE">
-                  <name>Einige ältere Männer</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_jungen_saekkinger" sex="UNKNOWN">
-                  <name>Chor der jungen Säkkinger</name>
-               </personGrp>
-               <personGrp xml:id="einige_junge_maedchen" sex="FEMALE">
-                  <name>Einige junge Mädchen</name>
-                  <name type="variant">Die jungen Mädchen</name>
-               </personGrp>
-               <personGrp xml:id="die_bauern" sex="UNKNOWN">
-                  <name>Die Bauern</name>
-                  <name type="variant">Chor der Hauensteiner Bauern</name>
-               </personGrp>
-               <personGrp xml:id="die_schiffsleute" sex="MALE">
-                  <name>Die Schiffsleute</name>
-               </personGrp>
-               <person xml:id="maria" sex="FEMALE">
-                  <persName>Maria</persName>
-               </person>
-               <person xml:id="graefin_von_wildenstein" sex="FEMALE">
-                  <persName>Gräfin von Wildenstein</persName>
-               </person>
-               <person xml:id="freiherr" sex="MALE">
-                  <persName>Der Freiherr von Schönau</persName>
-               </person>
-               <personGrp xml:id="vier_herolde" sex="MALE">
-                  <name>Vier Herolde</name>
-               </personGrp>
-               <person xml:id="graf_von_wildenstein" sex="MALE">
-                  <persName>Graf von Wildenstein</persName>
-               </person>
-               <person xml:id="damian" sex="MALE">
-                  <persName>Damian</persName>
-               </person>
-               <personGrp xml:id="chor_der_buerger_und_buergerinnen" sex="UNKNOWN">
-                  <name>Chor der Bürger und Bürgerinnen</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/117156302">
+                        <forename>Rudolf</forename>
+                        <surname>Bunge</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/116941898">
+                        <forename>Viktor</forename>
+                        <surname>Nessler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

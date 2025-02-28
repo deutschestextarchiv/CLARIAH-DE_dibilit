@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -162,10 +159,7 @@
                   <date type="firstPublication" subtype="zeno">1891</date>
                   <date type="firstPublication" subtype="i5">1891</date>
                   <date type="firstPublication" subtype="gerdracor">1891</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1845"
-                        notAfter="1909"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1845" notAfter="1909"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d1360e272">Erstdruck: Berlin (Freund), 1891. Uraufführung am 20.09.1890, Deutsches Theater, Berlin.</note>
@@ -185,35 +179,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="hermann" sex="MALE">
-                  <persName>Hermann</persName>
-               </person>
-               <person xml:id="lene" sex="FEMALE">
-                  <persName>Lene</persName>
-                  <persName type="variant">Lenes Stimme</persName>
-               </person>
-               <person xml:id="juliane" sex="FEMALE">
-                  <persName>Juliane</persName>
-               </person>
-               <person xml:id="august" sex="MALE">
-                  <persName>August</persName>
-                  <persName type="variant">Augusts Stimme</persName>
-               </person>
-               <person xml:id="frau_schmalenbach" sex="FEMALE">
-                  <persName>Frau Schmalenbach</persName>
-               </person>
-               <person xml:id="ilefeld" sex="MALE">
-                  <persName>Ilefeld</persName>
-                  <persName type="variant">Ilefelds Stimme</persName>
-               </person>
-               <person xml:id="ale" sex="MALE">
-                  <persName>Ale</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118771760">
+                        <forename>Ernst</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Wildenbruch</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Berthold</forename>
+                        <surname>Litzmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

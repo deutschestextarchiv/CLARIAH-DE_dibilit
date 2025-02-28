@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -157,10 +154,7 @@
                   <date type="firstPublication" subtype="zeno">1700</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1642"
-                        notAfter="1708"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1642" notAfter="1708"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2116e230">Erstdruck in »Christian Weise: Neue Proben von der vertrauten Redenskunst«, Dresden und Leipzig (Mieth und Zimmermann), 1700.</note>
@@ -180,7 +174,13 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118630369">
+                        <forename>Christian</forename>
+                        <surname>Weise</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Harald</forename>
+                        <surname>Burger</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

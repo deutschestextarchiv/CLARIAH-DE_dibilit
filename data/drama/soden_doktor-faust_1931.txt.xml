@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -182,200 +179,16 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="brenner" sex="MALE">
-                  <persName>Brenner</persName>
-               </person>
-               <person xml:id="mephistopheles" sex="MALE">
-                  <persName>Mephistopheles</persName>
-               </person>
-               <person xml:id="erster_student" sex="MALE">
-                  <persName>Erster Student</persName>
-               </person>
-               <person xml:id="zweiter_student" sex="MALE">
-                  <persName>Zweiter Student</persName>
-               </person>
-               <person xml:id="dritter_student" sex="MALE">
-                  <persName>Dritter Student</persName>
-               </person>
-               <person xml:id="doktor_faust" sex="MALE">
-                  <persName>Doktor Faust</persName>
-               </person>
-               <person xml:id="fausts_vater" sex="MALE">
-                  <persName>Fausts Vater</persName>
-               </person>
-               <person xml:id="gerichtsdiener" sex="MALE">
-                  <persName>Gerichtsdiener</persName>
-               </person>
-               <person xml:id="ithuriel" sex="UNKNOWN">
-                  <persName>Ithuriel</persName>
-               </person>
-               <person xml:id="stimme" sex="UNKNOWN">
-                  <persName>Stimme</persName>
-               </person>
-               <person xml:id="erster_geist" sex="UNKNOWN">
-                  <persName>Erster Geist</persName>
-               </person>
-               <person xml:id="zweiter_geist" sex="UNKNOWN">
-                  <persName>Zweiter Geist</persName>
-               </person>
-               <person xml:id="dritter_geist" sex="UNKNOWN">
-                  <persName>Dritter Geist</persName>
-               </person>
-               <person xml:id="vierter_geist" sex="UNKNOWN">
-                  <persName>Vierter Geist</persName>
-               </person>
-               <person xml:id="fuenfter_geist" sex="UNKNOWN">
-                  <persName>Fünfter Geist</persName>
-               </person>
-               <person xml:id="sechster_geist" sex="UNKNOWN">
-                  <persName>Sechster Geist</persName>
-               </person>
-               <person xml:id="siebenter_geist" sex="UNKNOWN">
-                  <persName>Siebenter Geist</persName>
-                  <persName type="variant">Mephistopheles</persName>
-               </person>
-               <person xml:id="liese" sex="FEMALE">
-                  <persName>Liese</persName>
-               </person>
-               <person xml:id="wirt" sex="MALE">
-                  <persName>Wirt</persName>
-               </person>
-               <person xml:id="eremit" sex="MALE">
-                  <persName>Eremit</persName>
-                  <persName type="variant">Brenner</persName>
-               </person>
-               <person xml:id="maedchen" sex="FEMALE">
-                  <persName>Ein Mädchen</persName>
-               </person>
-               <person xml:id="mann" sex="MALE">
-                  <persName>Ein Mann in Lumpen</persName>
-               </person>
-               <person xml:id="alter" sex="MALE">
-                  <persName>Ein Alter</persName>
-               </person>
-               <person xml:id="maler" sex="MALE">
-                  <persName>Maler</persName>
-               </person>
-               <person xml:id="dame" sex="FEMALE">
-                  <persName>Eine Dame</persName>
-               </person>
-               <person xml:id="geist" sex="UNKNOWN">
-                  <persName>Geist</persName>
-                  <persName type="variant">Ithuriel</persName>
-               </person>
-               <person xml:id="sokrates" sex="MALE">
-                  <persName>Sokrates</persName>
-               </person>
-               <person xml:id="cato" sex="MALE">
-                  <persName>Cato</persName>
-               </person>
-               <person xml:id="solon" sex="MALE">
-                  <persName>Solon</persName>
-               </person>
-               <person xml:id="erster_hoefling" sex="MALE">
-                  <persName>Erster Höfling</persName>
-               </person>
-               <person xml:id="zweiter_hoefling" sex="MALE">
-                  <persName>Zweiter Höfling</persName>
-               </person>
-               <person xml:id="dritter_hoefling" sex="MALE">
-                  <persName>Dritter Höfling</persName>
-               </person>
-               <person xml:id="vierter_hoefling" sex="MALE">
-                  <persName>Vierter Höfling</persName>
-               </person>
-               <person xml:id="fuenfter_hoefling" sex="MALE">
-                  <persName>Fünfter Höfling</persName>
-               </person>
-               <person xml:id="hoeflinge" sex="MALE">
-                  <persName>Höflinge</persName>
-               </person>
-               <person xml:id="fuerst" sex="MALE">
-                  <persName>Fürst</persName>
-               </person>
-               <person xml:id="kaemmerer" sex="MALE">
-                  <persName>Kämmerer</persName>
-               </person>
-               <person xml:id="obrister" sex="MALE">
-                  <persName>Obrister</persName>
-               </person>
-               <person xml:id="jaegermeister" sex="MALE">
-                  <persName>Jägermeister</persName>
-               </person>
-               <person xml:id="kanzler" sex="MALE">
-                  <persName>Kanzler</persName>
-               </person>
-               <person xml:id="helena" sex="FEMALE">
-                  <persName>Helena</persName>
-               </person>
-               <person xml:id="fausts_mutter" sex="FEMALE">
-                  <persName>Fausts Mutter</persName>
-               </person>
-               <person xml:id="reisender" sex="MALE">
-                  <persName>Reisender</persName>
-               </person>
-               <person xml:id="guergel" sex="MALE">
-                  <persName>Gürgel</persName>
-               </person>
-               <person xml:id="volk" sex="UNKNOWN">
-                  <persName>Volk</persName>
-               </person>
-               <person xml:id="alle_aussen" sex="UNKNOWN">
-                  <persName>Alle (außen)</persName>
-               </person>
-               <person xml:id="andere_stimme_5-8a" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/8)</persName>
-               </person>
-               <person xml:id="andere_stimme_5-8b" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/8)</persName>
-               </person>
-               <person xml:id="einer_vom_volk_sich_vordraengend" sex="MALE">
-                  <persName>Einer vom Volk sich vordrängend</persName>
-               </person>
-               <person xml:id="andere_stimme_5-9a" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/9)</persName>
-               </person>
-               <person xml:id="eine_stimme_5-9" sex="UNKNOWN">
-                  <persName>Eine Stimme (V/9)</persName>
-               </person>
-               <person xml:id="andere_stimme_5-9b" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/9)</persName>
-               </person>
-               <person xml:id="andere_stimme_5-9c" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/9)</persName>
-               </person>
-               <person xml:id="andere_stimme_5-9d" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/9)</persName>
-               </person>
-               <person xml:id="andere_stimme_5-9e" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/9)</persName>
-               </person>
-               <person xml:id="andere_stimme_5-9f" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/9)</persName>
-               </person>
-               <person xml:id="andere_stimme_5-9g" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/9)</persName>
-               </person>
-               <person xml:id="andere_stimme_5-9h" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/9)</persName>
-               </person>
-               <person xml:id="andere_stimme_5-9i" sex="UNKNOWN">
-                  <persName>Andere Stimme (V/9)</persName>
-               </person>
-               <person xml:id="stimme_5-9a" sex="UNKNOWN">
-                  <persName>Stimme (V/9)</persName>
-               </person>
-               <person xml:id="stimme_5-9b" sex="UNKNOWN">
-                  <persName>Stimme (V/9)</persName>
-               </person>
-               <person xml:id="stimme_5-9c" sex="UNKNOWN">
-                  <persName>Stimme (V/9)</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118852027">
+                        <forename>Julius</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Soden</surname>
+                     </persName></person><person role="editor"><persName>
+                        <roleName>Dr.</roleName>
+                        <forename>Christoph</forename>
+                        <surname>Beck</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

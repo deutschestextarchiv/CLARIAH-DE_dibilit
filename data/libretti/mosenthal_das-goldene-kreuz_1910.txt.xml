@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -172,10 +169,7 @@
                   <date type="firstPublication" subtype="clariah">1875</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1821"
-                        notAfter="1877"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1821" notAfter="1877"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d212e285">Komponiert von Ignaz Brüll. Uraufführung am 22.12.1875, Königliches Opernhaus, Berlin.</note>
@@ -195,42 +189,18 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="chor_der_maedchen" sex="FEMALE">
-                  <name>Chor der Mädchen</name>
-               </personGrp>
-               <person xml:id="therese" sex="FEMALE">
-                  <persName>Therese</persName>
-               </person>
-               <person xml:id="christine" sex="FEMALE">
-                  <persName>Christine</persName>
-               </person>
-               <person xml:id="bombardon" sex="MALE">
-                  <persName>Bombardon</persName>
-               </person>
-               <person xml:id="gontran" sex="MALE">
-                  <persName>Gontran</persName>
-               </person>
-               <person xml:id="colas" sex="MALE">
-                  <persName>Colas</persName>
-               </person>
-               <personGrp xml:id="chor_der_maenner" sex="MALE">
-                  <name>Chor der Männer</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_frauen" sex="FEMALE">
-                  <name>Chor der Frauen</name>
-               </personGrp>
-               <personGrp xml:id="chor_allgemeiner_chor_alle" sex="UNKNOWN">
-                  <name>Chor/Allgemeiner Chor/Alle</name>
-                  <name type="variant">Der Chor</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_soldaten" sex="MALE">
-                  <name>Chor der Soldaten</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/101363184">
+                        <forename>H.S. (Salomon Hermann)</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Mosenthal</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/118660284">
+                        <forename>Ignaz</forename>
+                        <surname>Brüll</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Georg Richard</forename>
+                        <surname>Kruse</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

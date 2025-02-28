@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -174,118 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="mutter" sex="FEMALE">
-                  <persName>Mutter</persName>
-               </person>
-               <person xml:id="franziska" sex="FEMALE">
-                  <persName>Franziska</persName>
-               </person>
-               <person xml:id="dr_hofmiller" sex="MALE">
-                  <persName>Dr. Hofmiller</persName>
-               </person>
-               <person xml:id="veit_kunz" sex="MALE">
-                  <persName>Veit Kunz</persName>
-                  <persName type="variant">Eine tiefe Männerstimme</persName>
-                  <persName type="variant">Die Männerstimme</persName>
-               </person>
-               <person xml:id="gespensterschreck" sex="FEMALE">
-                  <persName>Gespensterschreck</persName>
-               </person>
-               <person xml:id="rohrdommel" sex="FEMALE">
-                  <persName>Rohrdommel</persName>
-               </person>
-               <person xml:id="kiesgraeber" sex="MALE">
-                  <persName>Kiesgräber</persName>
-               </person>
-               <person xml:id="dr_malkolm" sex="MALE">
-                  <persName>Dr. Malkolm</persName>
-               </person>
-               <person xml:id="spreizfuesschen" sex="FEMALE">
-                  <persName>Spreizfüßchen</persName>
-               </person>
-               <person xml:id="mausi" sex="FEMALE">
-                  <persName>Mausi</persName>
-               </person>
-               <person xml:id="kullmann" sex="MALE">
-                  <persName>Kullmann</persName>
-               </person>
-               <personGrp xml:id="chorus" sex="UNKNOWN">
-                  <name>Chorus</name>
-               </personGrp>
-               <person xml:id="laurus_bein" sex="MALE">
-                  <persName>Laurus Bein</persName>
-               </person>
-               <person xml:id="hagelmeier" sex="MALE">
-                  <persName>Hagelmeier</persName>
-               </person>
-               <person xml:id="karaminka" sex="FEMALE">
-                  <persName>Karaminka</persName>
-               </person>
-               <person xml:id="sophie" sex="FEMALE">
-                  <persName>Sophie</persName>
-               </person>
-               <person xml:id="lydia" sex="FEMALE">
-                  <persName>Lydia</persName>
-               </person>
-               <person xml:id="dirckens" sex="MALE">
-                  <persName>Dirckens</persName>
-               </person>
-               <person xml:id="pater" sex="MALE">
-                  <persName>Pater Emmeran</persName>
-               </person>
-               <person xml:id="herzogin" sex="FEMALE">
-                  <persName>Herzogin</persName>
-               </person>
-               <person xml:id="herzog" sex="MALE">
-                  <persName>Herzog</persName>
-               </person>
-               <person xml:id="gislind" sex="FEMALE">
-                  <persName>Gislind</persName>
-               </person>
-               <person xml:id="das_kind" sex="UNKNOWN">
-                  <persName>Das Kind</persName>
-               </person>
-               <person xml:id="der_hundekopf" sex="MALE">
-                  <persName>Der Hundekopf</persName>
-               </person>
-               <person xml:id="der_schweinekopf" sex="MALE">
-                  <persName>Der Schweinekopf</persName>
-               </person>
-               <person xml:id="polizeipraesident" sex="MALE">
-                  <persName>Polizeipräsident</persName>
-               </person>
-               <person xml:id="breitenbach" sex="MALE">
-                  <persName>Ralf Breitenbach</persName>
-               </person>
-               <person xml:id="fahrstuhl" sex="MALE">
-                  <persName>William Fahrstuhl</persName>
-               </person>
-               <person xml:id="regisseur" sex="MALE">
-                  <persName>Regisseur</persName>
-               </person>
-               <personGrp xml:id="die_maedchen" sex="FEMALE">
-                  <name>Die Mädchen</name>
-               </personGrp>
-               <person xml:id="hohenkemnath" sex="MALE">
-                  <persName>Hohenkemnath</persName>
-               </person>
-               <person xml:id="der_diener" sex="MALE">
-                  <persName>Der Diener</persName>
-               </person>
-               <person xml:id="dr_hornstein" sex="MALE">
-                  <persName>Dr. Hornstein</persName>
-               </person>
-               <person xml:id="veitralf" sex="MALE">
-                  <persName>Veitralf</persName>
-               </person>
-               <person xml:id="almer" sex="MALE">
-                  <persName>Karl Almer</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118629867">
+                        <forename>Frank</forename>
+                        <surname>Wedekind</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

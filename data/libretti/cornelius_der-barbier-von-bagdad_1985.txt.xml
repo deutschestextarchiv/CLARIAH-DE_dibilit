@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -158,10 +155,7 @@
                   <date type="firstPublication" subtype="clariah">1858</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1824"
-                        notAfter="1874"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1824" notAfter="1874"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d268e309">Komponiert von Peter Cornelius. Uraufführung am 15.12.1858, Großherzogliches Hofheater, Weimar.</note>
@@ -181,73 +175,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="diener_nureddins" sex="MALE">
-                  <name>Diener Nureddins/Chor der Diener</name>
-                  <name type="variant">Die Diener</name>
-                  <name type="variant">Nureddins Diener</name>
-                  <name type="variant">Chor</name>
-               </personGrp>
-               <person xml:id="nureddin" sex="MALE">
-                  <persName>Nureddin</persName>
-               </person>
-               <person xml:id="bostana" sex="FEMALE">
-                  <persName>Bostana</persName>
-               </person>
-               <person xml:id="abul" sex="MALE">
-                  <persName>Abul</persName>
-               </person>
-               <person xml:id="margiana" sex="FEMALE">
-                  <persName>Margiana</persName>
-               </person>
-               <person xml:id="kadi" sex="MALE">
-                  <persName>Kadi</persName>
-                  <persName type="variant">Der Kadi</persName>
-               </person>
-               <person xml:id="erster_muezzin" sex="MALE">
-                  <persName>Erster Muezzin</persName>
-               </person>
-               <person xml:id="zweiter_muezzin" sex="MALE">
-                  <persName>Zweiter Muezzin</persName>
-               </person>
-               <person xml:id="dritter_muezzin" sex="MALE">
-                  <persName>Dritter Muezzin</persName>
-               </person>
-               <person xml:id="stimme_eines_sklaven" sex="MALE">
-                  <persName>Stimme eines Sklaven</persName>
-                  <persName type="variant">Stimme des Sklaven</persName>
-               </person>
-               <personGrp xml:id="stimmen" sex="UNKNOWN">
-                  <name>Stimmen</name>
-               </personGrp>
-               <personGrp xml:id="freunde_des_kadi" sex="MALE">
-                  <name>Freunde des Kadi</name>
-                  <name type="variant">Seine Freunde</name>
-               </personGrp>
-               <personGrp xml:id="klagefrauen" sex="FEMALE">
-                  <name>Klagefrauen</name>
-                  <name type="variant">Frauen</name>
-               </personGrp>
-               <personGrp xml:id="bewohner_bagdads" sex="UNKNOWN">
-                  <name>Bewohner Bagdads</name>
-               </personGrp>
-               <personGrp xml:id="vier_bewaffnete" sex="MALE">
-                  <name>Vier Bewaffnete</name>
-               </personGrp>
-               <person xml:id="kalif" sex="MALE">
-                  <persName>Der Kalif</persName>
-               </person>
-               <personGrp xml:id="chor_alle" sex="UNKNOWN">
-                  <name>Chor/Alle</name>
-                  <name type="variant">Soli und Chor</name>
-               </personGrp>
-               <personGrp xml:id="maenner" sex="MALE">
-                  <name>Männer</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118522213">
+                        <forename>Peter</forename>
+                        <surname>Cornelius</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wilhelm</forename>
+                        <surname>Zentner</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

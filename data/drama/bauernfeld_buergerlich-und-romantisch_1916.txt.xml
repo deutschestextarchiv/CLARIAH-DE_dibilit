@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,50 +183,16 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="sittig" sex="MALE">
-                  <persName>Sittig</persName>
-               </person>
-               <person xml:id="rat" sex="MALE">
-                  <persName>Rat</persName>
-               </person>
-               <person xml:id="raetin" sex="FEMALE">
-                  <persName>Rätin</persName>
-               </person>
-               <person xml:id="caecilie" sex="FEMALE">
-                  <persName>Cäcilie</persName>
-               </person>
-               <person xml:id="fritz" sex="MALE">
-                  <persName>Fritz</persName>
-               </person>
-               <person xml:id="unruh" sex="MALE">
-                  <persName>Unruh</persName>
-               </person>
-               <person xml:id="katharine" sex="FEMALE">
-                  <persName>Katharine</persName>
-               </person>
-               <person xml:id="ernestine" sex="FEMALE">
-                  <persName>Ernestine</persName>
-               </person>
-               <person xml:id="baron" sex="MALE">
-                  <persName>Baron</persName>
-               </person>
-               <person xml:id="samuel" sex="MALE">
-                  <persName>Samuel</persName>
-               </person>
-               <person xml:id="babette" sex="FEMALE">
-                  <persName>Babette</persName>
-               </person>
-               <person xml:id="praesident" sex="MALE">
-                  <persName>Präsident</persName>
-               </person>
-               <person xml:id="kammerdiener" sex="MALE">
-                  <persName>Kammerdiener</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118507400">
+                        <forename>Eduard</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Bauernfeld</surname>
+                     </persName></person><person role="editor"><persName>
+                        <roleName>Dr.</roleName>
+                        <forename>Emil</forename>
+                        <surname>Horner</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

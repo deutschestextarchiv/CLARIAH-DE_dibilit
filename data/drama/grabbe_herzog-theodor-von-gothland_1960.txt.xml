@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -157,10 +154,7 @@
                   <date type="firstPublication" subtype="zeno">1827</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1827</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1818"
-                        notAfter="1822"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1818" notAfter="1822"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d506e441">Entstanden 1818–1822. Erstdruck in: »Christian Dietrich Grabbe: Dramatische Dichtungen«, erster Band, Frankfurt am Main (Hermann), 1827. Uraufführung am 07.02.1892, Deutsches Volkstheater, Wien.</note>
@@ -180,202 +174,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="bioern" sex="MALE">
-                  <persName>Biörn</persName>
-               </person>
-               <person xml:id="soldat_1-1" sex="MALE">
-                  <persName>Soldat (I/1)</persName>
-               </person>
-               <person xml:id="berdoa" sex="MALE">
-                  <persName>Berdoa</persName>
-               </person>
-               <personGrp xml:id="viele_stimmen_1-1" sex="MALE">
-                  <name>Viele Stimmen (I/1)</name>
-               </personGrp>
-               <person xml:id="usbek" sex="MALE">
-                  <persName>Usbek</persName>
-               </person>
-               <person xml:id="ein_finne_1-1" sex="MALE">
-                  <persName>Ein Finne</persName>
-                  <persName type="variant">Der Finne</persName>
-               </person>
-               <person xml:id="irnak" sex="MALE">
-                  <persName>Irnak</persName>
-               </person>
-               <personGrp xml:id="finnen_1-1" sex="MALE">
-                  <name>Die Finnen (I/1)</name>
-               </personGrp>
-               <person xml:id="rossan" sex="MALE">
-                  <persName>Rossan</persName>
-               </person>
-               <person xml:id="holm" sex="MALE">
-                  <persName>Holm</persName>
-               </person>
-               <person xml:id="erik" sex="MALE">
-                  <persName>Erik</persName>
-               </person>
-               <person xml:id="gothland" sex="MALE">
-                  <persName>Gothland</persName>
-               </person>
-               <person xml:id="rolf" sex="MALE">
-                  <persName>Rolf</persName>
-               </person>
-               <person xml:id="caecilia" sex="FEMALE">
-                  <persName>Cäcilia</persName>
-               </person>
-               <person xml:id="arboga" sex="MALE">
-                  <persName>Arboga</persName>
-               </person>
-               <person xml:id="kanzler" sex="MALE">
-                  <persName>Kanzler</persName>
-               </person>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>König</persName>
-               </person>
-               <personGrp xml:id="alle_andere_2-1" sex="MALE">
-                  <name>Alle/Andere (II/1)</name>
-               </personGrp>
-               <person xml:id="skiold" sex="MALE">
-                  <persName>Skiold</persName>
-               </person>
-               <personGrp xml:id="die_uebrigen_schwedischen_grossen" sex="MALE">
-                  <name>Die übrigen schwedischen Großen</name>
-               </personGrp>
-               <person xml:id="der_hauptmann_2-1" sex="MALE">
-                  <persName>Der Hauptmann (II/1)</persName>
-               </person>
-               <person xml:id="gustav" sex="MALE">
-                  <persName>Gustav</persName>
-               </person>
-               <personGrp xml:id="volk_auf_der_strasse" sex="MALE">
-                  <name>Volk auf der Straße</name>
-               </personGrp>
-               <person xml:id="der_alte_gothland" sex="MALE">
-                  <persName>Der alte Herzog von Gothland</persName>
-                  <persName type="variant">Der alte Gothland</persName>
-                  <persName type="variant">Die Stimme des alten Herzoges von Gothland</persName>
-               </person>
-               <personGrp xml:id="alle_2-2" sex="MALE">
-                  <name>Alle (II/2)</name>
-               </personGrp>
-               <personGrp xml:id="das_jammergeschrei_verwundeter_finnen" sex="MALE">
-                  <name>Das Jammergeschrei verwundeter Finnen</name>
-               </personGrp>
-               <personGrp xml:id="finnen_3-1" sex="MALE">
-                  <name>Die Finnen (III/1)</name>
-               </personGrp>
-               <personGrp xml:id="fluechtige_3-1" sex="MALE">
-                  <name>Flüchtige (III/1)</name>
-               </personGrp>
-               <person xml:id="ein_finne_3-1a" sex="MALE">
-                  <persName>Ein Finne (III/1)</persName>
-               </person>
-               <person xml:id="ein_finnischer_hauptmann" sex="MALE">
-                  <persName>Ein finnischer Hauptmann</persName>
-               </person>
-               <personGrp xml:id="einzelne_stimmen_3-1" sex="MALE">
-                  <name>Einzelne Stimmen</name>
-               </personGrp>
-               <person xml:id="ein_finne_3-1b" sex="MALE">
-                  <persName>Ein Finne (III/1)</persName>
-               </person>
-               <person xml:id="ein_finne_3-1c" sex="MALE">
-                  <persName>Ein Finne (III/1)</persName>
-               </person>
-               <person xml:id="ein_finne_3-1d" sex="MALE">
-                  <persName>Ein Finne (III/1)</persName>
-               </person>
-               <personGrp xml:id="stimmen_von_dem_meere_her" sex="MALE">
-                  <name>Stimmen von dem Meere her</name>
-               </personGrp>
-               <person xml:id="einer_der_schiffbruechigen" sex="MALE">
-                  <persName>Einer der Schiffbrüchigen</persName>
-               </person>
-               <person xml:id="herold" sex="MALE">
-                  <persName>Herold</persName>
-               </person>
-               <personGrp xml:id="die_anwesenden_krieger" sex="MALE">
-                  <name>Die anwesenden Krieger</name>
-               </personGrp>
-               <personGrp xml:id="chor" sex="MALE">
-                  <name>Chor</name>
-               </personGrp>
-               <person xml:id="eine_dirne" sex="FEMALE">
-                  <persName>Eine Dirne</persName>
-               </person>
-               <personGrp xml:id="mehrere_stimmen" sex="MALE">
-                  <name>Mehrere Stimmen</name>
-               </personGrp>
-               <person xml:id="eine_stimme_4-2a" sex="MALE">
-                  <persName>Eine Stimme</persName>
-               </person>
-               <personGrp xml:id="alle_4-2" sex="MALE">
-                  <name>Alle (IV/2)</name>
-               </personGrp>
-               <person xml:id="eine_stimme_4-2b" sex="MALE">
-                  <persName>Eine Stimme</persName>
-               </person>
-               <person xml:id="eine_andre_stimme" sex="MALE">
-                  <persName>Eine andre Stimme</persName>
-               </person>
-               <person xml:id="ein_finne_4-2" sex="MALE">
-                  <persName>Ein Finne (IV/2)</persName>
-               </person>
-               <personGrp xml:id="finnische_hauptleute_4-2" sex="MALE">
-                  <name>Die finnischen Hauptleute (IV/2)</name>
-                  <name type="variant">Die Finnenhauptleute</name>
-                  <name type="variant">Eintretende Hauptleute</name>
-                  <name type="variant">Andre</name>
-                  <name type="variant">Andere</name>
-               </personGrp>
-               <person xml:id="unteroffizier" sex="MALE">
-                  <persName>Unteroffizier</persName>
-               </person>
-               <person xml:id="tocke" sex="MALE">
-                  <persName>Tocke</persName>
-               </person>
-               <person xml:id="ein_schwedischer_hauptmann" sex="MALE">
-                  <persName>Ein schwedischer Hauptmann</persName>
-               </person>
-               <person xml:id="ein_schwedischer_soldat" sex="MALE">
-                  <persName>Ein schwedischer Soldat</persName>
-                  <persName type="variant">Der Soldat</persName>
-               </person>
-               <personGrp xml:id="finnische_hauptleute_5-3" sex="MALE">
-                  <name>Die finnischen Hauptleute (V/3)</name>
-               </personGrp>
-               <person xml:id="einer_der_finnischen_hauptleute" sex="MALE">
-                  <persName>Einer der finnischen Hauptleute</persName>
-               </person>
-               <person xml:id="ein_finne_5-4" sex="MALE">
-                  <persName>Ein Finne (V/4)</persName>
-               </person>
-               <personGrp xml:id="finnische_hauptleute_5-4" sex="MALE">
-                  <name>Die finnischen Hauptleute (V/4)</name>
-               </personGrp>
-               <person xml:id="erster_hauptmann" sex="MALE">
-                  <persName>Erster Hauptmann</persName>
-               </person>
-               <person xml:id="zweiter_hauptmann" sex="MALE">
-                  <persName>Zweiter Hauptmann</persName>
-               </person>
-               <person xml:id="der_hauptmann_5-5" sex="MALE">
-                  <persName>Der Hauptmann (V/5)</persName>
-               </person>
-               <personGrp xml:id="fluechtige_5-6" sex="MALE">
-                  <name>Flüchtige (V/6)</name>
-               </personGrp>
-               <personGrp xml:id="viele_stimmen_5-6" sex="MALE">
-                  <name>Viele Stimmen (V/6)</name>
-               </personGrp>
-               <person xml:id="der_hauptmann_5-6" sex="MALE">
-                  <persName>Der Hauptmann (V/6)</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118541102">
+                        <forename>Christian Dietrich</forename>
+                        <surname>Grabbe</surname>
+                     </persName></person><person role="editor"><persName>Akademie der Wissenschaften in Göttingen</persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

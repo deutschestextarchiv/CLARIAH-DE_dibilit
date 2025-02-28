@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -151,10 +148,7 @@
                   <date type="firstPublication" subtype="zeno">1867</date>
                   <date type="firstPublication" subtype="i5">1867</date>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1828"
-                        notAfter="1867"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1828" notAfter="1867"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2662e225">Erstdruck: Kopenhagen (Gyldendal) 1867. Uraufführung: Kristiania, 24.2. 1876. Hier in der Übers. v. Christian Morgenstern.</note>
@@ -174,7 +168,10 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118555286">
+                        <forename>Henrik</forename>
+                        <surname>Ibsen</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

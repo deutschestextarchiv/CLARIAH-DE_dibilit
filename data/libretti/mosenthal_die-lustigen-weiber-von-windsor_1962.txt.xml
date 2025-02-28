@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -170,10 +167,7 @@
                   <date type="firstPublication" subtype="clariah">1850</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1962</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1821"
-                        notAfter="1877"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1821" notAfter="1877"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d191e322">Komponiert von Otto Nicolai. Uraufführung am 09.03.1849, Königliches Opernhaus, Berlin.</note>
@@ -193,80 +187,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="frau_fluth" sex="FEMALE">
-                  <persName>Frau Fluth</persName>
-               </person>
-               <person xml:id="frau_reich" sex="FEMALE">
-                  <persName>Frau Reich</persName>
-               </person>
-               <person xml:id="fluth" sex="MALE">
-                  <persName>Fluth</persName>
-               </person>
-               <person xml:id="reich" sex="MALE">
-                  <persName>Reich (Jäger Herne)</persName>
-               </person>
-               <person xml:id="spaerlich" sex="MALE">
-                  <persName>Spärlich</persName>
-               </person>
-               <person xml:id="cajus" sex="MALE">
-                  <persName>Cajus</persName>
-               </person>
-               <person xml:id="fenton" sex="MALE">
-                  <persName>Fenton (Oberon)</persName>
-               </person>
-               <person xml:id="falstaff" sex="MALE">
-                  <persName>Falstaff</persName>
-               </person>
-               <personGrp xml:id="die_maenner_1-12" sex="MALE">
-                  <name>Die Männer (I/12)</name>
-               </personGrp>
-               <personGrp xml:id="alle_1-12" sex="UNKNOWN">
-                  <name>Alle (I/12)</name>
-                  <name type="variant">Die andern</name>
-                  <name type="variant">Alle andern</name>
-               </personGrp>
-               <person xml:id="kellner" sex="MALE">
-                  <persName>Kellner</persName>
-               </person>
-               <personGrp xml:id="stimmen_von_aussen" sex="UNKNOWN">
-                  <name>Stimmen von außen</name>
-               </personGrp>
-               <person xml:id="erster_buerger" sex="MALE">
-                  <persName>Erster Bürger</persName>
-               </person>
-               <person xml:id="zweiter_buerger" sex="MALE">
-                  <persName>Zweiter Bürger</persName>
-               </person>
-               <personGrp xml:id="einige-mehrere_buerger" sex="UNKNOWN">
-                  <name>Einige/mehrere Bürger</name>
-               </personGrp>
-               <personGrp xml:id="chor-alle_2-3" sex="UNKNOWN">
-                  <name>Chor/Alle (II/3)</name>
-               </personGrp>
-               <person xml:id="vierter_buerger" sex="MALE">
-                  <persName>Vierter Bürger</persName>
-               </person>
-               <person xml:id="dritter_buerger" sex="MALE">
-                  <persName>Dritter Bürger</persName>
-               </person>
-               <person xml:id="anna" sex="FEMALE">
-                  <persName>Anna (Titania)</persName>
-               </person>
-               <personGrp xml:id="chor_3-6" sex="UNKNOWN">
-                  <name>Chor (III/6)</name>
-               </personGrp>
-               <personGrp xml:id="elfen" sex="UNKNOWN">
-                  <name>Elfen</name>
-                  <name type="variant">Chor der Elfen</name>
-               </personGrp>
-               <personGrp xml:id="ganzer_chor-alle_3-12_bis_3-16" sex="UNKNOWN">
-                  <name>Alle/Ganzer Chor (III/12–16)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/101363184">
+                        <forename>Salomon Hermann</forename>
+                        <surname>Mosenthal</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/118587684">
+                        <forename>Otto</forename>
+                        <surname>Nicolai</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wilhelm</forename>
+                        <surname>Zentner</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

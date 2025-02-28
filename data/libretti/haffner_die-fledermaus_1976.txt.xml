@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -183,10 +180,7 @@
                   <date type="firstPublication" subtype="clariah">1875</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5">1976</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1804"
-                        notAfter="1876"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1804" notAfter="1876"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d170e352">Komponiert von Johann Strauß. Libretto in Zusammenarbeit mit Richard Genée. Uraufführung am 05.04.1874, Theater an der Wien, Wien.</note>
@@ -206,98 +200,20 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="alfred" sex="MALE">
-                  <persName>Alfred</persName>
-               </person>
-               <person xml:id="adele" sex="FEMALE">
-                  <persName>Adele</persName>
-               </person>
-               <person xml:id="rosalinde" sex="FEMALE">
-                  <persName>Rosalinde</persName>
-               </person>
-               <person xml:id="eisenstein" sex="MALE">
-                  <persName>Eisenstein</persName>
-               </person>
-               <person xml:id="blind" sex="MALE">
-                  <persName>Blind</persName>
-               </person>
-               <person xml:id="falke" sex="MALE">
-                  <persName>Falke</persName>
-               </person>
-               <person xml:id="frank" sex="MALE">
-                  <persName>Frank</persName>
-               </person>
-               <personGrp xml:id="chor_der_gaeste_alle" sex="UNKNOWN">
-                  <name>Chor der Gäste/Alle</name>
-               </personGrp>
-               <person xml:id="erster_diener" sex="MALE">
-                  <persName>Erster Diener</persName>
-               </person>
-               <person xml:id="melanie" sex="FEMALE">
-                  <persName>Melanie</persName>
-               </person>
-               <person xml:id="zweiter_diener" sex="MALE">
-                  <persName>Zweiter Diener</persName>
-               </person>
-               <person xml:id="faustine" sex="FEMALE">
-                  <persName>Faustine</persName>
-               </person>
-               <person xml:id="dritter_diener" sex="MALE">
-                  <persName>Dritter Diener</persName>
-               </person>
-               <person xml:id="felicitas" sex="FEMALE">
-                  <persName>Felicitas</persName>
-               </person>
-               <person xml:id="vierter_diener" sex="MALE">
-                  <persName>Vierter Diener</persName>
-               </person>
-               <person xml:id="minni" sex="FEMALE">
-                  <persName>Minni</persName>
-               </person>
-               <person xml:id="hermine" sex="FEMALE">
-                  <persName>Hermine</persName>
-               </person>
-               <person xml:id="natalie" sex="FEMALE">
-                  <persName>Natalie</persName>
-               </person>
-               <personGrp xml:id="mehrere_damen_alle_damen_die_damen" sex="FEMALE">
-                  <name>Mehrere Damen/Alle Damen/Die Damen</name>
-               </personGrp>
-               <personGrp xml:id="mehrere_herren_die_herren" sex="MALE">
-                  <name>Mehrere Herren/Die Herren</name>
-               </personGrp>
-               <person xml:id="ali_bey" sex="MALE">
-                  <persName>Ali Bey</persName>
-               </person>
-               <person xml:id="sidi" sex="FEMALE">
-                  <persName>Sidi</persName>
-               </person>
-               <person xml:id="ramusin" sex="MALE">
-                  <persName>Ramusin</persName>
-               </person>
-               <person xml:id="murray" sex="MALE">
-                  <persName>Murray</persName>
-               </person>
-               <person xml:id="carikoni" sex="MALE">
-                  <persName>Carikoni</persName>
-               </person>
-               <person xml:id="ida" sex="FEMALE">
-                  <persName>Ida</persName>
-               </person>
-               <person xml:id="orlofsky" sex="MALE">
-                  <persName>Orlofsky</persName>
-               </person>
-               <person xml:id="ivan" sex="MALE">
-                  <persName>Ivan</persName>
-               </person>
-               <person xml:id="frosch" sex="MALE">
-                  <persName>Frosch</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/120430231">
+                        <forename>Carl</forename>
+                        <surname>Haffner</surname>
+                     </persName></person><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/119312212">
+                        <forename>Richard</forename>
+                        <surname>Genée</surname>
+                     </persName></person><person role="author"><persName role="composer">
+                        <forename>Johann</forename>
+                        <surname>Strauß</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Wilhelm</forename>
+                        <surname>Zentner</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

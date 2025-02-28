@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -166,10 +163,7 @@
                   <date type="firstPublication" subtype="zeno">1818</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1818</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1787"
-                        notAfter="1818"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1787" notAfter="1818"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d702e314">Erstdruck: Heidelberg (Mohr) 1818. Uraufführung am 5.5.1818 in Hamburg.</note>
@@ -189,76 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="kunrad" sex="MALE">
-                  <persName>Kunrad</persName>
-               </person>
-               <person xml:id="heinrich" sex="MALE">
-                  <persName>Heinrich</persName>
-               </person>
-               <person xml:id="gisela" sex="FEMALE">
-                  <persName>Gisela</persName>
-               </person>
-               <person xml:id="ernst" sex="MALE">
-                  <persName>Ernst</persName>
-               </person>
-               <person xml:id="hermann" sex="MALE">
-                  <persName>Hermann</persName>
-               </person>
-               <person xml:id="mangold" sex="MALE">
-                  <persName>Mangold</persName>
-               </person>
-               <person xml:id="warmann" sex="MALE">
-                  <persName>Warmann</persName>
-               </person>
-               <personGrp xml:id="die_fürsten" sex="MALE">
-                  <name>Die Fürsten</name>
-               </personGrp>
-               <personGrp xml:id="die_bischoefe" sex="MALE">
-                  <name>Die Bischöfe</name>
-               </personGrp>
-               <person xml:id="hugo" sex="MALE">
-                  <persName>Hugo</persName>
-               </person>
-               <person xml:id="odo" sex="MALE">
-                  <persName>Odo</persName>
-               </person>
-               <person xml:id="werner" sex="MALE">
-                  <persName>Werner</persName>
-                  <persName type="variant">Ein Kriegsknecht</persName>
-               </person>
-               <person xml:id="pilger" sex="MALE">
-                  <persName>Pilger</persName>
-               </person>
-               <person xml:id="adalbert" sex="MALE">
-                  <persName>Adalbert</persName>
-               </person>
-               <person xml:id="warin" sex="MALE">
-                  <persName>Warin</persName>
-               </person>
-               <person xml:id="wache" sex="MALE">
-                  <persName>Wache</persName>
-               </person>
-               <personGrp xml:id="kriegsleute" sex="MALE">
-                  <name>Kriegsleute</name>
-                  <name type="variant">Die Andern</name>
-               </personGrp>
-               <person xml:id="ein_kriegsmann" sex="MALE">
-                  <persName>Ein Kriegsmann</persName>
-               </person>
-               <person xml:id="andrer_kriegsmann" sex="MALE">
-                  <persName>Andrer Kriegsmann</persName>
-               </person>
-               <person xml:id="dritter_kriegsmann" sex="MALE">
-                  <persName>Dritter Kriegsmann</persName>
-               </person>
-               <person xml:id="ein_ritter" sex="MALE">
-                  <persName>Ein Ritter</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118625063">
+                        <forename>Ludwig</forename>
+                        <surname>Uhland</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hartmut</forename>
+                        <surname>Fröschle</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Walter</forename>
+                        <surname>Scheffler</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

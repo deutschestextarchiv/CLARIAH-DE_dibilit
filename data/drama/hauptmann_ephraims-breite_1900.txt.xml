@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,97 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="baeuerin" sex="FEMALE">
-                  <persName>Bäuerin</persName>
-                  <persName type="variant">Der Bäuerin Stimme</persName>
-                  <persName type="variant">Die Bäuerin</persName>
-               </person>
-               <person xml:id="tine" sex="FEMALE">
-                  <persName>Tine</persName>
-               </person>
-               <person xml:id="bauer" sex="MALE">
-                  <persName>Bauer Ephraim</persName>
-               </person>
-               <person xml:id="viehhaendler_blumig" sex="MALE">
-                  <persName>Viehhändler Blumig</persName>
-               </person>
-               <person xml:id="breite" sex="FEMALE">
-                  <persName>Breite</persName>
-               </person>
-               <person xml:id="ernst" sex="MALE">
-                  <persName>Ernst</persName>
-                  <persName type="variant">Ernst's Stimme</persName>
-                  <persName type="variant">Ernsts Stimme</persName>
-               </person>
-               <person xml:id="joseph" sex="MALE">
-                  <persName>Joseph Schindler</persName>
-               </person>
-               <person xml:id="beckern" sex="FEMALE">
-                  <persName>Die Zottelbeckern</persName>
-               </person>
-               <person xml:id="wirtin" sex="FEMALE">
-                  <persName>Wirtin</persName>
-               </person>
-               <person xml:id="kretschmer" sex="MALE">
-                  <persName>Kretschmer</persName>
-               </person>
-               <person xml:id="huhndorf" sex="MALE">
-                  <persName>Huhndorf</persName>
-               </person>
-               <personGrp xml:id="die_beiden_arbeiter" sex="MALE">
-                  <name>Die beiden Arbeiter</name>
-                  <name type="variant">Die Arbeiter</name>
-               </personGrp>
-               <person xml:id="wirt" sex="MALE">
-                  <persName>Wirt</persName>
-               </person>
-               <person xml:id="schindlern" sex="FEMALE">
-                  <persName>Die alte Schindlern</persName>
-               </person>
-               <person xml:id="franzel" sex="FEMALE">
-                  <persName>Franzel</persName>
-               </person>
-               <person xml:id="hildebrandt" sex="MALE">
-                  <persName>Bauer Hildebrandt</persName>
-               </person>
-               <personGrp xml:id="einige_2-3" sex="UNKNOWN">
-                  <name>Einige (II/3)</name>
-               </personGrp>
-               <person xml:id="mattern" sex="FEMALE">
-                  <persName>Die alte Mattern</persName>
-               </person>
-               <person xml:id="junge" sex="MALE">
-                  <persName>Junge</persName>
-               </person>
-               <personGrp xml:id="einige_maedchen" sex="FEMALE">
-                  <name>Einige Mädchen</name>
-               </personGrp>
-               <person xml:id="ein_junger_bursche" sex="MALE">
-                  <persName>Ein junger Bursche</persName>
-               </person>
-               <personGrp xml:id="einige_andere" sex="UNKNOWN">
-                  <name>Einige/Andere</name>
-               </personGrp>
-               <person xml:id="frau_glumm" sex="FEMALE">
-                  <persName>Frau Glumm</persName>
-               </person>
-               <person xml:id="frau_kretschmer" sex="FEMALE">
-                  <persName>Frau Kretschmer</persName>
-               </person>
-               <personGrp xml:id="einige_burschen" sex="MALE">
-                  <name>Einige Burschen</name>
-               </personGrp>
-               <person xml:id="frau_hildebrandt" sex="FEMALE">
-                  <persName>Frau Hildebrandt</persName>
-               </person>
-               <person xml:id="vater_jakob" sex="MALE">
-                  <persName>Vater Jakob</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118546910">
+                        <forename>Carl</forename>
+                        <surname>Hauptmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1865</date>
                   <date type="firstPublication" subtype="i5">1865</date>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1800"
-                        notAfter="1863"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1800" notAfter="1863"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d282e291">Erstdruck: Leipzig (Philipp Reclam jun.) [1865]. Uraufführung: Berlin, Königliche Schauspiele, 4. Februar 1865. Der fehlerhafte Sprung von der ersten zur dritten Szene des zweiten Akts wurde beibehalten.</note>
@@ -177,66 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="gertrude" sex="FEMALE">
-                  <persName>Gertrude</persName>
-               </person>
-               <person xml:id="dore" sex="FEMALE">
-                  <persName>Dore</persName>
-                  <persName type="variant">Dorle</persName>
-               </person>
-               <person xml:id="peter" sex="MALE">
-                  <persName>Peter</persName>
-               </person>
-               <person xml:id="michel" sex="MALE">
-                  <persName>Michel</persName>
-               </person>
-               <person xml:id="lisbeth" sex="FEMALE">
-                  <persName>Lisbeth</persName>
-               </person>
-               <person xml:id="veit" sex="MALE">
-                  <persName>Veit</persName>
-               </person>
-               <person xml:id="graf" sex="MALE">
-                  <persName>Graf</persName>
-               </person>
-               <person xml:id="steffen" sex="MALE">
-                  <persName>Steffen</persName>
-               </person>
-               <person xml:id="bastian" sex="MALE">
-                  <persName>Bastian</persName>
-               </person>
-               <person xml:id="kathrin" sex="FEMALE">
-                  <persName>Kathrin</persName>
-               </person>
-               <person xml:id="charles" sex="MALE">
-                  <persName>Charles</persName>
-               </person>
-               <person xml:id="adolph" sex="MALE">
-                  <persName>Adolph</persName>
-               </person>
-               <person xml:id="denise" sex="FEFEMALE">
-                  <persName>Denise</persName>
-               </person>
-               <person xml:id="leblanc" sex="MALE">
-                  <persName>Leblanc</persName>
-               </person>
-               <person xml:id="diener" sex="MALE">
-                  <persName>Diener</persName>
-               </person>
-               <person xml:id="rose" sex="FEMALE">
-                  <persName>Rose</persName>
-               </person>
-               <person xml:id="amelie" sex="FEMALE">
-                  <persName>Amélie</persName>
-               </person>
-               <person xml:id="fleure" sex="FEMALE">
-                  <persName>Fleure</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/118658875">
+                        <forename>Charlotte</forename>
+                        <surname>Birch-Pfeiffer</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

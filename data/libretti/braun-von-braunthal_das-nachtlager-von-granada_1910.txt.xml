@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -170,10 +167,7 @@
                   <date type="firstPublication" subtype="clariah">1833</date>
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1802"
-                        notAfter="1866"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1802" notAfter="1866"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d289e283">Komponiert von Conradin Kreutzer. Uraufführung am 13.01.1834, Josephstädter Theater, Wien.</note>
@@ -193,44 +187,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="gabriele" sex="FEMALE">
-                  <persName>Gabriele</persName>
-               </person>
-               <person xml:id="gomez" sex="MALE">
-                  <persName>Gomez</persName>
-               </person>
-               <person xml:id="jaeger" sex="MALE">
-                  <persName>Jäger</persName>
-               </person>
-               <person xml:id="vasco" sex="MALE">
-                  <persName>Vasco</persName>
-               </person>
-               <person xml:id="pedro" sex="MALE">
-                  <persName>Pedro</persName>
-               </person>
-               <person xml:id="ambrosio" sex="MALE">
-                  <persName>Ambrosio</persName>
-               </person>
-               <personGrp xml:id="chor_der_hirten" sex="MALE">
-                  <name>Chor der Hirten</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_jaeger" sex="MALE">
-                  <name>Chor der Jäger</name>
-               </personGrp>
-               <person xml:id="otto" sex="MALE">
-                  <persName>Otto</persName>
-               </person>
-               <person xml:id="alkalde" sex="MALE">
-                  <persName>Alkalde</persName>
-               </person>
-               <personGrp xml:id="alle_2-11" sex="UNKNOWN">
-                  <name>Alle (II/11)</name>
-               </personGrp>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/116428384">
+                        <forename>Karl Johann</forename>
+                        <surname>Braun von Braunthal</surname>
+                     </persName></person><person role="author" sex="m"><persName role="composer" ref="http://d-nb.info/gnd/11871600X">
+                        <forename>Conradin</forename>
+                        <surname>Kreutzer</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Carl Friedrich</forename>
+                        <surname>Wittmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

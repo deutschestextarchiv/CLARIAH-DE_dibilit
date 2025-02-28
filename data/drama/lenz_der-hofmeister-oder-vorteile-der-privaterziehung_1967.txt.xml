@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -186,83 +183,17 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="laeuffer" sex="MALE">
-                  <persName>Läuffer</persName>
-               </person>
-               <person xml:id="major" sex="MALE">
-                  <persName>Major</persName>
-               </person>
-               <person xml:id="geheimer_rat" sex="MALE">
-                  <persName>Geheimer Rat</persName>
-               </person>
-               <person xml:id="majorin" sex="FEMALE">
-                  <persName>Majorin</persName>
-               </person>
-               <person xml:id="bedienter" sex="MALE">
-                  <persName>Bedienter</persName>
-               </person>
-               <person xml:id="graf_wermuth" sex="MALE">
-                  <persName>Graf Wermuth</persName>
-               </person>
-               <person xml:id="fritz" sex="MALE">
-                  <persName>Fritz</persName>
-               </person>
-               <person xml:id="gustchen" sex="FEMALE">
-                  <persName>Gustchen</persName>
-               </person>
-               <person xml:id="pastor" sex="MALE">
-                  <persName>Pastor</persName>
-               </person>
-               <person xml:id="paetus" sex="MALE">
-                  <persName>Pätus</persName>
-               </person>
-               <person xml:id="frau_blitzer" sex="FEMALE">
-                  <persName>Frau Blitzer</persName>
-               </person>
-               <person xml:id="bollwerk" sex="MALE">
-                  <persName>Bollwerk</persName>
-               </person>
-               <person xml:id="jungfer_knicks" sex="FEMALE">
-                  <persName>Jungfer Knicks</persName>
-               </person>
-               <person xml:id="frau_hamster" sex="FEMALE">
-                  <persName>Frau Hamster</persName>
-               </person>
-               <person xml:id="jungfer_hamster" sex="FEMALE">
-                  <persName>Jungfer Hamster</persName>
-               </person>
-               <person xml:id="hofmeister" sex="MALE">
-                  <persName>Hofmeister</persName>
-               </person>
-               <person xml:id="seiffenblase" sex="MALE">
-                  <persName>Herr von Seiffenblase</persName>
-               </person>
-               <person xml:id="wenzeslaus" sex="MALE">
-                  <persName>Wenzeslaus</persName>
-               </person>
-               <person xml:id="marthe" sex="FEMALE">
-                  <persName>Marthe</persName>
-               </person>
-               <person xml:id="schoepsen" sex="MALE">
-                  <persName>Schöpsen</persName>
-               </person>
-               <person xml:id="rehaar" sex="MALE">
-                  <persName>Rehaar</persName>
-               </person>
-               <person xml:id="jungfer_rehaar" sex="FEMALE">
-                  <persName>Jungfer Rehaar</persName>
-               </person>
-               <person xml:id="lise" sex="FEMALE">
-                  <persName>Lise</persName>
-               </person>
-               <person xml:id="der_alte_paetus" sex="MALE">
-                  <persName>Der alte Pätus</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118571656">
+                        <forename>Jakob Michael Reinhold</forename>
+                        <surname>Lenz</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Britta</forename>
+                        <surname>Titel</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Hellmut</forename>
+                        <surname>Haug</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

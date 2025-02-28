@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -175,78 +172,12 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="kaiser" sex="MALE">
-                  <persName>Kaiser</persName>
-               </person>
-               <person xml:id="kaiserin" sex="FEMALE">
-                  <persName>Kaiserin</persName>
-               </person>
-               <person xml:id="kasper" sex="MALE">
-                  <persName>Kasper</persName>
-                  <persName type="variant">Kaspers beide Hälften</persName>
-               </person>
-               <person xml:id="der_ritter" sex="MALE">
-                  <persName>Der Ritter</persName>
-               </person>
-               <personGrp xml:id="matrosen" sex="MALE">
-                  <name>Matrosen</name>
-               </personGrp>
-               <personGrp xml:id="chor_der_schlossgeister" sex="UNKNOWN">
-                  <name>Chor der Schloßgeister</name>
-               </personGrp>
-               <personGrp xml:id="menschen" sex="UNKNOWN">
-                  <name>Menschen</name>
-               </personGrp>
-               <person xml:id="der_teufel" sex="MALE">
-                  <persName>Der Teufel</persName>
-               </person>
-               <personGrp xml:id="thiere" sex="UNKNOWN">
-                  <name>Thiere</name>
-               </personGrp>
-               <person xml:id="krokodill" sex="UNKNOWN">
-                  <persName>Krokodill</persName>
-               </person>
-               <person xml:id="esel" sex="UNKNOWN">
-                  <persName>Esel</persName>
-               </person>
-               <person xml:id="affe" sex="UNKNOWN">
-                  <persName>Affe</persName>
-               </person>
-               <person xml:id="ochs" sex="UNKNOWN">
-                  <persName>Ochs</persName>
-               </person>
-               <person xml:id="biene" sex="UNKNOWN">
-                  <persName>Biene</persName>
-               </person>
-               <person xml:id="huhn" sex="UNKNOWN">
-                  <persName>Huhn</persName>
-               </person>
-               <person xml:id="weissfisch" sex="UNKNOWN">
-                  <persName>Weißfisch</persName>
-               </person>
-               <person xml:id="hirsch" sex="UNKNOWN">
-                  <persName>Hirsch</persName>
-               </person>
-               <person xml:id="hund" sex="UNKNOWN">
-                  <persName>Hund</persName>
-               </person>
-               <person xml:id="storch" sex="UNKNOWN">
-                  <persName>Storch</persName>
-               </person>
-               <person xml:id="pferd" sex="UNKNOWN">
-                  <persName>Pferd</persName>
-               </person>
-               <personGrp xml:id="die_engel" sex="UNKNOWN">
-                  <name>Die Engel</name>
-               </personGrp>
-               <person xml:id="matrose" sex="MALE">
-                  <persName>Matrose</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118504177">
+                        <forename>Achim</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Arnim</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

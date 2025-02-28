@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -180,79 +177,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="charon" sex="MALE">
-                  <persName>Charon</persName>
-               </person>
-               <person xml:id="pluto" sex="MALE">
-                  <persName>Pluto</persName>
-               </person>
-               <person xml:id="mephistopheles" sex="MALE">
-                  <persName>Mephistopheles</persName>
-               </person>
-               <person xml:id="faust" sex="MALE">
-                  <persName>Faust</persName>
-               </person>
-               <person xml:id="wagner" sex="MALE">
-                  <persName>Wagner</persName>
-               </person>
-               <person xml:id="hanswurst" sex="MALE">
-                  <persName>Hanswurst</persName>
-               </person>
-               <person xml:id="krumschal" sex="MALE">
-                  <persName>Krumschal</persName>
-               </person>
-               <person xml:id="bulla" sex="FEMALE">
-                  <persName>Bulla</persName>
-               </person>
-               <person xml:id="vater" sex="MALE">
-                  <persName>Faustens Vater</persName>
-                  <persName type="variant">Vater</persName>
-               </person>
-               <personGrp xml:id="viele_teufel_1-14" sex="UNKNOWN">
-                  <name>Viele Teufel (I/14)</name>
-               </personGrp>
-               <person xml:id="ein_teufel" sex="MALE">
-                  <persName>Ein Teufel</persName>
-               </person>
-               <person xml:id="koenigin" sex="FEMALE">
-                  <persName>Die Königin</persName>
-               </person>
-               <person xml:id="koenig" sex="MALE">
-                  <persName>Der König</persName>
-               </person>
-               <person xml:id="orestes" sex="MALE">
-                  <persName>Orestes</persName>
-               </person>
-               <person xml:id="der_erste_scherge" sex="MALE">
-                  <persName>Der erste Scherge</persName>
-                  <persName type="variant">Scherge</persName>
-               </person>
-               <person xml:id="der_zweite_scherge" sex="MALE">
-                  <persName>Der zweite Scherge</persName>
-               </person>
-               <person xml:id="krustl" sex="MALE">
-                  <persName>Krustl</persName>
-               </person>
-               <personGrp xml:id="die_studenten" sex="MALE">
-                  <name>Die Studenten</name>
-               </personGrp>
-               <person xml:id="mutter" sex="FEMALE">
-                  <persName>Mutter</persName>
-               </person>
-               <person xml:id="eine_stimme" sex="UNKNOWN">
-                  <persName>Eine mächtige Stimme</persName>
-               </person>
-               <personGrp xml:id="viele_stimmen" sex="UNKNOWN">
-                  <name>Viele Stimmen</name>
-               </personGrp>
-               <person xml:id="pfarrer" sex="MALE">
-                  <persName>Pfarrer</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/105488437">
+                        <forename>Bruno</forename>
+                        <surname>Ertler</surname>
+                     </persName></person><person role="editor"><persName>
+                        <roleName>Prof. Dr.</roleName>
+                        <forename>Emil</forename>
+                        <surname>Noack</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

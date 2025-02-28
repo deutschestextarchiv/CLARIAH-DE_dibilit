@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -151,10 +148,7 @@
                   <date type="firstPublication" subtype="clariah">1812</date>
                   <date type="firstPublication" subtype="zeno">1812</date>
                   <date type="firstPublication" subtype="i5">1812</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1775"
-                        notAfter="1812"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1775" notAfter="1812"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#Fouque-Caroline-d1e6660">Erstdruck: Berlin (Julius Eduard Hitzig) 1812.</note>
@@ -168,7 +162,11 @@
             <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
+      <profileDesc><particDesc><person role="author" sex="f"><persName ref="http://d-nb.info/gnd/118692321">
+                        <forename>Caroline</forename>
+                        <nameLink>de la</nameLink>
+                        <surname>Motte Fouqué</surname>
+                     </persName></person></particDesc>
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -154,10 +151,7 @@
                   <date type="firstPublication" subtype="zeno">1836</date>
                   <date type="firstPublication" subtype="i5">1836</date>
                   <date type="firstPublication" subtype="gerdracor">1836</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1801"
-                        notAfter="1846"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1801" notAfter="1846"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d3061e259">Erstdruck: Berlin (Sittenfeld), 1836. Uraufführung am 09.03.1880, Altona.</note>
@@ -177,35 +171,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="landrath" sex="MALE">
-                  <persName>Landrath</persName>
-               </person>
-               <person xml:id="ernestine" sex="FEMALE">
-                  <persName>Ernestine</persName>
-               </person>
-               <person xml:id="herr_von_kiel" sex="MALE">
-                  <persName>Herr von Kiel</persName>
-               </person>
-               <person xml:id="elise" sex="FEMALE">
-                  <persName>Elise</persName>
-               </person>
-               <person xml:id="kommerzienrath" sex="MALE">
-                  <persName>Kommerzienrath</persName>
-               </person>
-               <person xml:id="martin" sex="MALE">
-                  <persName>Martin</persName>
-               </person>
-               <person xml:id="reitknecht" sex="MALE">
-                  <persName>Reitknecht</persName>
-               </person>
-               <person xml:id="bauer" sex="MALE">
-                  <persName>Bauer</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118525042">
+                        <forename>Eduard</forename>
+                        <surname>Devrient</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

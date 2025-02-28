@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -185,41 +182,15 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="merkurius" sex="MALE">
-                  <persName>Merkurius</persName>
-               </person>
-               <person xml:id="charon" sex="MALE">
-                  <persName>Charon</persName>
-               </person>
-               <person xml:id="euripides" sex="MALE">
-                  <persName>Euripides</persName>
-               </person>
-               <person xml:id="literator" sex="MALE">
-                  <persName>Literator</persName>
-               </person>
-               <person xml:id="alceste" sex="FEMALE">
-                  <persName>Alceste</persName>
-               </person>
-               <person xml:id="admet" sex="MALE">
-                  <persName>Admet</persName>
-               </person>
-               <person xml:id="wieland" sex="MALE">
-                  <persName>Wieland</persName>
-               </person>
-               <person xml:id="das_maedchen" sex="FEMALE">
-                  <persName>Das Mädchen</persName>
-               </person>
-               <person xml:id="herkules" sex="MALE">
-                  <persName>Herkules</persName>
-               </person>
-               <person xml:id="pluto" sex="MALE">
-                  <persName>Pluto</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118540238">
+                        <forename>Johann Wolfgang</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Goethe</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Siegfried</forename>
+                        <surname>Seidel</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

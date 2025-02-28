@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -173,74 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="anton" sex="MALE">
-                  <persName>Anton</persName>
-               </person>
-               <person xml:id="joseph" sex="MALE">
-                  <persName>Joseph</persName>
-               </person>
-               <person xml:id="christian" sex="MALE">
-                  <persName>Christian</persName>
-               </person>
-               <person xml:id="gluthammer" sex="MALE">
-                  <persName>Gluthammer</persName>
-               </person>
-               <person xml:id="kathi" sex="FEMALE">
-                  <persName>Kathi</persName>
-               </person>
-               <person xml:id="stifler" sex="MALE">
-                  <persName>Stifler</persName>
-               </person>
-               <person xml:id="wixer" sex="MALE">
-                  <persName>Wixer</persName>
-               </person>
-               <person xml:id="lips" sex="MALE">
-                  <persName>Lips</persName>
-               </person>
-               <person xml:id="sporner" sex="MALE">
-                  <persName>Sporner</persName>
-               </person>
-               <person xml:id="madame_schleier" sex="FEMALE">
-                  <persName>Madame Schleier</persName>
-               </person>
-               <person xml:id="die_herren" sex="MALE">
-                  <persName>Die Herren</persName>
-               </person>
-               <person xml:id="krautkopf" sex="MALE">
-                  <persName>Krautkopf</persName>
-               </person>
-               <person xml:id="erster_knecht_2-1" sex="MALE">
-                  <persName>Erster Knecht (II/1)</persName>
-               </person>
-               <person xml:id="zweiter_knecht_2-1" sex="MALE">
-                  <persName>Zweiter Knecht (II/1)</persName>
-               </person>
-               <person xml:id="dritter_knecht_2-1" sex="MALE">
-                  <persName>Dritter Knecht (II/1)</persName>
-               </person>
-               <person xml:id="vierter_knecht_2-1" sex="MALE">
-                  <persName>Vierter Knecht (II/1)</persName>
-               </person>
-               <person xml:id="erster_knecht_2-4" sex="MALE">
-                  <persName>Erster Knecht (II/4)</persName>
-               </person>
-               <person xml:id="zweiter_knecht_2-4" sex="MALE">
-                  <persName>Zweiter Knecht (II/4)</persName>
-               </person>
-               <person xml:id="dritter_knecht_2-4" sex="MALE">
-                  <persName>Dritter Knecht (II/4)</persName>
-               </person>
-               <person xml:id="justitiaer" sex="MALE">
-                  <persName>Justitiär</persName>
-               </person>
-               <person xml:id="alle_3-11" sex="UNKNOWN">
-                  <persName>Alle (III/11)</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118587080">
+                        <forename>Johann</forename>
+                        <surname>Nestroy</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -153,10 +150,7 @@
                   <date type="firstPublication" subtype="zeno"/>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor"/>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1813"
-                        notAfter="1883"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1813" notAfter="1883"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2298e259">Komponiert von Richard Wagner. Uraufführung am 02.01.1843, Königlich-Sächsisches Opernhaus (Semperoper), Dresden.</note>
@@ -176,39 +170,11 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <personGrp xml:id="chor_der_norwegischen_matrosen" sex="MALE">
-                  <name>Chor der norwegischen Matrosen</name>
-                  <name type="variant">Matrosen</name>
-               </personGrp>
-               <person xml:id="daland" sex="MALE">
-                  <persName>Daland</persName>
-               </person>
-               <person xml:id="steuermann" sex="MALE">
-                  <persName>Steuermann</persName>
-               </person>
-               <person xml:id="hollaender" sex="MALE">
-                  <persName>Holländer</persName>
-               </person>
-               <personGrp xml:id="chor_der_mannschaft_des_fliegenden_hollaenders" sex="MALE">
-                  <name>Chor der Mannschaft des fliegenden Holländers</name>
-               </personGrp>
-               <personGrp xml:id="maedchen" sex="FEMALE">
-                  <name>(Chor der) Mädchen</name>
-               </personGrp>
-               <person xml:id="mary" sex="FEMALE">
-                  <persName>Mary</persName>
-               </person>
-               <person xml:id="senta" sex="FEMALE">
-                  <persName>Senta</persName>
-               </person>
-               <person xml:id="erik" sex="MALE">
-                  <persName>Erik</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118594117">
+                        <forename>Richard</forename>
+                        <surname>Wagner</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

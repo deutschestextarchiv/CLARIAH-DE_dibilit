@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -161,10 +158,7 @@
                   <date type="firstPublication" subtype="zeno">1890</date>
                   <date type="firstPublication" subtype="i5"/>
                   <date type="firstPublication" subtype="gerdracor">1890</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1863"
-                        notAfter="1929"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1863" notAfter="1929"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d800e254">Erstdruck: Berlin (Wilhelm Issleib [Gustav Schuhr]), 1890. Uraufführung am 7.4.1890 in Berlin (Freie Bühne).</note>
@@ -185,34 +179,7 @@
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="frau_selicke" sex="FEMALE">
-                  <persName>Frau Selicke</persName>
-               </person>
-               <person xml:id="walter" sex="MALE">
-                  <persName>Walter</persName>
-               </person>
-               <person xml:id="albert" sex="MALE">
-                  <persName>Albert</persName>
-               </person>
-               <person xml:id="kopelke" sex="MALE">
-                  <persName>Kopelke</persName>
-               </person>
-               <person xml:id="linchen" sex="FEMALE">
-                  <persName>Linchen</persName>
-               </person>
-               <person xml:id="wendt" sex="MALE">
-                  <persName>Gustav Wendt</persName>
-               </person>
-               <person xml:id="toni" sex="FEMALE">
-                  <persName>Toni</persName>
-               </person>
-               <person xml:id="selicke" sex="MALE">
-                  <persName>Eduard Selicke</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

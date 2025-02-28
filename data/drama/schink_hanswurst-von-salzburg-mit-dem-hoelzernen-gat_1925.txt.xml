@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -159,10 +156,7 @@
                   <date type="firstPublication" subtype="zeno">1778</date>
                   <date type="firstPublication" subtype="i5">1778</date>
                   <date type="firstPublication" subtype="gerdracor">1778</date>
-                  <date type="firstPublication"
-                        subtype="tgr2017"
-                        notBefore="1755"
-                        notAfter="1835"/>
+                  <date type="firstPublication" subtype="tgr2017" notBefore="1755" notAfter="1835"/>
                </publicationStmt>
                <notesStmt>
                   <note type="remarkDocument" corresp="#d2606e295">Erstdruck in: »Johann Heinrich Schink: Marionettentheater«, Wien, Berlin und Weimar (Himburg), 1778.</note>
@@ -182,65 +176,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="hanswurst" sex="MALE">
-                  <persName>Hanswurst</persName>
-               </person>
-               <person xml:id="stoffel_knips" sex="MALE">
-                  <persName>Stoffel Knips</persName>
-               </person>
-               <person xml:id="frau_knips" sex="FEMALE">
-                  <persName>Frau Knips</persName>
-               </person>
-               <person xml:id="der_erste_tuerke" sex="MALE">
-                  <persName>Der erste Türke</persName>
-               </person>
-               <person xml:id="der_zweite_tuerke" sex="MALE">
-                  <persName>Der zweite Türke</persName>
-               </person>
-               <person xml:id="erster_matrose" sex="MALE">
-                  <persName>Erster Matrose</persName>
-               </person>
-               <person xml:id="zweiter_matrose" sex="MALE">
-                  <persName>Zweiter Matrose</persName>
-               </person>
-               <person xml:id="das_maedel" sex="FEMALE">
-                  <persName>Das Mädel</persName>
-               </person>
-               <person xml:id="der_knabe" sex="MALE">
-                  <persName>Der Knabe</persName>
-               </person>
-               <person xml:id="der_matrose" sex="MALE">
-                  <persName>Der Matrose</persName>
-               </person>
-               <person xml:id="der_arzt" sex="MALE">
-                  <persName>Der Arzt</persName>
-               </person>
-               <person xml:id="der_sultan" sex="MALE">
-                  <persName>Der Sultan</persName>
-               </person>
-               <person xml:id="der_sklav" sex="MALE">
-                  <persName>Der Sklav</persName>
-               </person>
-               <person xml:id="die_dame" sex="FEMALE">
-                  <persName>Die Dame</persName>
-               </person>
-               <person xml:id="alt_muetterchen" sex="FEMALE">
-                  <persName>Ein alt Mütterchen</persName>
-               </person>
-               <person xml:id="der_schwarzrok" sex="MALE">
-                  <persName>Der Schwarzrok</persName>
-               </person>
-               <person xml:id="der_soufleur" sex="MALE">
-                  <persName>Der Soufleur</persName>
-               </person>
-               <person xml:id="hanswursts_schatten" sex="MALE">
-                  <persName>Hanswurst's Schatten</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118607774">
+                        <forename>Johann Friedrich</forename>
+                        <surname>Schink</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>K. W.</forename>
+                        <surname>Herrmann</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>

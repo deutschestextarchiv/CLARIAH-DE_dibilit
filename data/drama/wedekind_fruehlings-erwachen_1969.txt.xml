@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -180,119 +177,14 @@
                     DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="wendla" sex="FEMALE">
-                  <persName>Wendla</persName>
-               </person>
-               <person xml:id="frau_bergmann" sex="FEMALE">
-                  <persName>Frau Bergmann</persName>
-               </person>
-               <person xml:id="melchior" sex="MALE">
-                  <persName>Melchior</persName>
-               </person>
-               <person xml:id="otto" sex="MALE">
-                  <persName>Otto</persName>
-               </person>
-               <person xml:id="moritz" sex="MALE">
-                  <persName>Moritz Stiefel</persName>
-               </person>
-               <person xml:id="georg" sex="MALE">
-                  <persName>Georg</persName>
-               </person>
-               <person xml:id="robert" sex="MALE">
-                  <persName>Robert</persName>
-               </person>
-               <person xml:id="ernst" sex="MALE">
-                  <persName>Ernst</persName>
-               </person>
-               <person xml:id="martha" sex="FEMALE">
-                  <persName>Martha</persName>
-               </person>
-               <person xml:id="thea" sex="FEMALE">
-                  <persName>Thea</persName>
-               </person>
-               <person xml:id="laemmermeier" sex="MALE">
-                  <persName>Lämmermeier</persName>
-               </person>
-               <person xml:id="haenschen_rilow" sex="MALE">
-                  <persName>Hänschen Rilow</persName>
-               </person>
-               <person xml:id="knochenbruch" sex="MALE">
-                  <persName>Knochenbruch</persName>
-               </person>
-               <person xml:id="hungergurt" sex="MALE">
-                  <persName>Hungergurt</persName>
-               </person>
-               <person xml:id="frau_gabor" sex="FEMALE">
-                  <persName>Frau Gabor</persName>
-               </person>
-               <person xml:id="ilse" sex="FEMALE">
-                  <persName>Ilse</persName>
-               </person>
-               <person xml:id="sonnenstich" sex="MALE">
-                  <persName>Sonnenstich</persName>
-               </person>
-               <person xml:id="knueppeldick" sex="MALE">
-                  <persName>Knüppeldick</persName>
-               </person>
-               <person xml:id="zungenschlag" sex="MALE">
-                  <persName>Zungenschlag</persName>
-               </person>
-               <person xml:id="habebald" sex="MALE">
-                  <persName>Habebald</persName>
-               </person>
-               <person xml:id="fliegentod" sex="MALE">
-                  <persName>Fliegentod</persName>
-               </person>
-               <person xml:id="pastor_kahlbauch" sex="MALE">
-                  <persName>Pastor Kahlbauch</persName>
-               </person>
-               <person xml:id="rentier_stiefel" sex="MALE">
-                  <persName>Rentier Stiefel</persName>
-               </person>
-               <person xml:id="onkel_probst" sex="MALE">
-                  <persName>Onkel Probst</persName>
-               </person>
-               <person xml:id="freund_ziegenmelker" sex="MALE">
-                  <persName>Freund Ziegenmelker</persName>
-               </person>
-               <person xml:id="herr_gabor" sex="MALE">
-                  <persName>Herr Gabor</persName>
-               </person>
-               <person xml:id="diethelm" sex="MALE">
-                  <persName>Diethelm</persName>
-               </person>
-               <person xml:id="reinhold" sex="MALE">
-                  <persName>Reinhold</persName>
-               </person>
-               <person xml:id="ruprecht" sex="MALE">
-                  <persName>Ruprecht</persName>
-               </person>
-               <person xml:id="helmuth" sex="MALE">
-                  <persName>Helmuth</persName>
-               </person>
-               <person xml:id="gaston" sex="MALE">
-                  <persName>Gaston</persName>
-               </person>
-               <person xml:id="dr_prokrustes" sex="MALE">
-                  <persName>Dr. Prokrustes</persName>
-               </person>
-               <person xml:id="der_schlossermeister" sex="MALE">
-                  <persName>Der Schlossermeister</persName>
-               </person>
-               <person xml:id="dr_brausepulver" sex="MALE">
-                  <persName>Dr. von Brausepulver</persName>
-               </person>
-               <person xml:id="ina" sex="FEMALE">
-                  <persName>Ina</persName>
-               </person>
-               <person xml:id="der_vermummte_herr" sex="MALE">
-                  <persName>Der vermummte Herr</persName>
-               </person>
-            </listPerson>
-         </particDesc>
+      <profileDesc><particDesc><person role="author" sex="m"><persName ref="http://d-nb.info/gnd/118629867">
+                        <forename>Frank</forename>
+                        <surname>Wedekind</surname>
+                     </persName></person><person role="editor"><persName>
+                        <forename>Manfred</forename>
+                        <surname>Hahn</surname>
+                     </persName></person></particDesc>
+         
          <langUsage>
             <language ident="deu">German</language>
          </langUsage>
